@@ -155,7 +155,7 @@
             </tr>
             <tr>
               <th scope="row"><div>Last update:</div></th>
-              <td property="dcterms:description"><time property="dcterms:issued">2018-06-01</time></td>
+              <td property="dcterms:description"><time property="dcterms:issued">2018-11-23</time></td>
             </tr>
             <tr>
                 <th scope="row"><div>Description:</div></th>
@@ -268,12 +268,20 @@ Highcharts.chart('container', {
 
 
 <div id="contents">
-        <h2><span class="style3">Latest Release</span> (Version 2018-04) </h2>
-        <p>We are happy to announce a new release of EVENTS, we called it <span class="style5">EVENTSKG</span>. The new release is a <em><strong>Linked Dataset</strong></em> based on <a href="http://sda.tech/SEOontology/Documentation/SEO.html">SEO ontology</a> leading to richer and cleaner data.This release is a 
-specification of 40  top-prestigious events series in six computer science communities. 
+        <h2><span class="style3">Latest Release</span> (Version 2018-11) </h2>
+        <p>We are happy to announce a new release of EVENTSKG. The new release is a <em><strong>Linked Dataset</strong></em> based on the updated version of <a href="http://sda.tech/SEOontology/Documentation/SEO.html">SEO ontology</a> , as a reference ontology for event metadata representation, leading to richer and cleaner data.
+		Currently, EVENTSKG contains 73 event series ( i.e. 75% additional event series) belonging to eight CS communities identified using <a href="https://dl.acm.org/ccs/ccs.cfm">ACM Computing Classification System</a>:  Artificial Intelligence (AI), Software and its engineering (SE), world wide Web (WEB), Security and privacy (SEC), Information systems (IS), Computer systems organization (CSO), Human Centered Computing (HCC) and Theory of Computation (TOC) (two more communities have been added, i.e. HCC and TOC).
+		Events are linked by research fields, hosting country, and publishers.
+		
 The dataset is publicly available online in three different formats (i.e. <a href="CSV2.zip">CSV</a>, <a href="EVENTSKG-40.ttl">Turtle</a>, <a href="EVENTSKG-40.json">json</a> and <a href="EVENTSKG-40.rdf">RDF</a>).</p>
 </div>
- <div class="style4" id="previous">
+
+<div  id="previous">
+        <h2><span class="style3">Previous Releases</span> (Version 2018-01) </h2>
+  <p>This release of EVENTS, we called it <span class="style5">EVENTSKG</span>. This release is a <em><strong>Linked Dataset</strong></em> based on <a href="http://sda.tech/SEOontology/Documentation/SEO.html">SEO ontology</a> leading to richer and cleaner data.This release is a specification of 40  top-prestigious events series in six computer sc<span class="footer">ience </span>communities<span class="footer">.</span> The dataset is publicly available online in three different formats (i.e. <a href="CSV2.zip">CSV</a>, <a href="EVENTSKG-40.ttl">Turtle</a>, <a href="EVENTSKG-40.json">json</a> and <a href="EVENTSKG-40.rdf">RDF</a>).</p>
+</div>
+
+ <div  id="previous">
         <h2><span class="style3">Previous Releases</span> (Version 2018-01) </h2>
    <p>This release is a 
           specification of 25 top-prestigious events series in five computer science communities.<br>
@@ -283,16 +291,16 @@ The dataset is publicly available online in three different formats (i.e. <a hre
     <div id="H1">
         <h2>Description</h2>
         <div id="introduction2">
-            <p>EVENTS is a dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for 25 top-prestigious events series (718 editions in total) in five computer science communities. 
+            <p>EVENTS is a dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for  top-prestigious events series in computer science communities. 
               The dataset is publicly available online in three different formats (i.e. CSV, XML and RDF). 
-            It is of interest to the conference steering committees or program chairs to assess the progress of their event over time and compare it against other competing events in the same field, or by potential authors who look for events to publish their work.</p>
-            <p>We selected top-5 conferences in five CS communities derived from analysing the topics of each event series, then mapped to the ACM Computing Classification System (CCS): Information systems (IS), Security and privacy (SEC), Artificial intelligence (AI), Computer systems organization (CSO) and Software and its engineering (SE).<br>
+            It is of interest to the conference steering committees or program chairs to assess the progress of their event over time and compare it against other competing events in the same field, or by potential authors who look for events to publish their work. The main goal of EVENTSKG is to facilitate the meta-analysis of scholarly events metadata, by providing a comprehensive dataset which can to be queried using SPARQL through its SPARQL endpoint.<br>
+            We selected top-5 conferences in each CS communities derived from analysing the topics of each event series, then mapped to the ACM Computing Classification System (CCS): Information systems (IS), Security and privacy (SEC), Artificial intelligence (AI), Computer systems organization (CSO) and Software and its engineering (SE).<br>
               This dataset plug an important gap in analyzing the progress of a CS community in terms of submissions and publications over a long-term vision.<br>
               In addition, it measures some significant aspects of different computer science communities publications over time, how submissions change and distribution of prestigious events in each community over the world.<br>
               We believe that EVENTS dataset will have a great impact on scholarly communication community especially, for:<br>
               <br>
-              - events organizers -- to trace their events progress/impact, <br>
-              - authors -- identify prestigious events to publish their research work, <br>
+              - events organizers -- in order to measure the  impact of their events in the comparison with other prestigious events in their community or event prestigious events other communities by finding the success factors of them,  <br>
+              - authors --in order to know the characteristics of high-impact events to select to which events they should submit their work to, <br>
             - proceedings publishers --  to know the impact of the events they are publishing their proceedings.</p>
             <p>	&nbsp;&nbsp;&nbsp;	<br>
           </p>
