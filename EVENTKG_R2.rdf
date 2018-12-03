@@ -827,9 +827,9 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2016">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>aaai.org/Conferences/AAAI/aaai16.php</seo:EventWebpage>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>25.8%</seo:acceptanceRate>
         <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">549</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:city rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:city>Phoenix</seo:city>
         <seo:country>USA</seo:country>
@@ -848,8 +848,6 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2017">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-		<seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
-		<seo:hasPublisher>Springer</seo:hasPublisher>
         <seo:EventWebpage>aaai.org/Conferences/AAAI/aaai17.php</seo:EventWebpage>
         <seo:acceptanceRate>24.6%</seo:acceptanceRate>
         <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">638</seo:acceptedPapers>
@@ -857,6 +855,7 @@
         <seo:city>San Francisco</seo:city>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
+        <seo:hasPublisher>Springer</seo:hasPublisher>
         <seo:state>California</seo:state>
         <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2590</seo:submittedPapers>
         <conference-ontology:acronym>AAAI</conference-ontology:acronym>
@@ -15797,6 +15796,29 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-28T00:00:00.0000000Z</conference-ontology:endDate>
         <conference-ontology:startDate>2018</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-24T00:00:00.0000000Z</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/IAAI -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/IAAI">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/IAAI2017 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/IAAI2017">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <conference-ontology:acronym>IAAI2017</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-9T00:00:00.0000000Z</conference-ontology:endDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-6T00:00:00.0000000Z</conference-ontology:startDate>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/IAAI"/>
+        <seo:city>San Francisco</seo:city>
+        <seo:country>USA</seo:country>
+        <seo:field>Artificial Intellligence</seo:field>
     </owl:NamedIndividual>
     
 
