@@ -165,7 +165,7 @@ specification of   top-prestigious events series in several computer science com
             </tr>
             <tr>
               <th scope="row">License and use: </th>
-              <td property="dcterms:description">Found <a href="/EVENTS-Dataset/EVENTS_Licence.html">here</a>. </td>
+              <td property="dcterms:description">The data maintained by EVENTSKG  is licensed under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</a> (CC BY 3.0). </td>
             </tr>
             <tr>
               <th scope="row">API:</th>
@@ -185,10 +185,13 @@ specification of   top-prestigious events series in several computer science com
                 <li>
                   Fathalla, Said, and Christoph Lange. "EVENTSKG: A Knowledge Graph Representation for Top-Prestigious Computer Science Events Metadata." <em>International Conference on Computational Collective Intelligence</em>. Springer, Cham, 2018.                </li>
                 </ul>                
-                <p>For the first release: </p>
-                <ul>
+                For the first release: <ul>
                   <li>Fathalla, Said, and Christoph Lange. "EVENTS: a dataset on the history of top-prestigious events in five computer science communities." <em>International Workshop on Semantic, Analytics, Visualization. Springer, Heidelberg</em>. 2018.</li>
               </ul></td>
+            </tr>
+            <tr>
+              <th scope="row">Download: </th>
+              <td property="dcterms:description">The dataset is publicly available online in three different formats (i.e. <a href="CSV2.zip">CSV</a>, <a href="EVENTSKG-40.ttl">Turtle</a>, <a href="EVENTSKG-40.json">json</a> and <a href="http://kddste.sda.tech/EVENTSKG-Dataset/EVENTKG_R2.rdf">RDF</a>).</td>
             </tr>
         </tbody>
     </table>
@@ -276,9 +279,7 @@ Highcharts.chart('container', {
         <h2><span class="style3">Latest Release</span> (Version 2018-11) </h2>
         <p>We are happy to announce a new release of EVENTSKG. The new release is a <em><strong>Linked Dataset</strong></em> based on the updated version of <a href="http://sda.tech/SEOontology/Documentation/SEO.html">SEO ontology</a> , as a reference ontology for event metadata representation, leading to richer and cleaner data.
 		Currently, EVENTSKG contains 73 event series ( i.e. 75% additional event series) belonging to eight CS communities identified using <a href="https://dl.acm.org/ccs/ccs.cfm">ACM Computing Classification System</a>:  Artificial Intelligence (AI), Software and its engineering (SE), world wide Web (WEB), Security and privacy (SEC), Information systems (IS), Computer systems organization (CSO), Human Centered Computing (HCC) and Theory of Computation (TOC) (two more communities have been added, i.e. HCC and TOC).
-		Events are linked by research fields, hosting country, and publishers.
-		
-The dataset is publicly available online in three different formats (i.e. <a href="CSV2.zip">CSV</a>, <a href="EVENTSKG-40.ttl">Turtle</a>, <a href="EVENTSKG-40.json">json</a> and <a href="EVENTSKG-40.rdf">RDF</a>).</p>
+		Events are linked by research fields, hosting country, and publishers.</p>
 </div>
 
 <div  id="previous">
@@ -367,17 +368,17 @@ The dataset is publicly available online in three different formats (i.e. <a hre
 <h2>Sample data (RDF)</h2>
 <pre>
  <xmp>
- <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2017">
-    	<rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-	<seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
-	<seo:hasPublisher>Springer</seo:hasPublisher>
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2017">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>aaai.org/Conferences/AAAI/aaai17.php</seo:EventWebpage>
         <seo:acceptanceRate>24.6%</seo:acceptanceRate>
         <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">638</seo:acceptedPapers>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:city>San Francisco</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/IAAI2017"/>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
+        <seo:hasPublisher>Springer</seo:hasPublisher>
         <seo:state>California</seo:state>
         <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2590</seo:submittedPapers>
         <conference-ontology:acronym>AAAI</conference-ontology:acronym>

@@ -853,6 +853,7 @@
         <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">638</seo:acceptedPapers>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:city>San Francisco</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/IAAI2017"/>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
         <seo:hasPublisher>Springer</seo:hasPublisher>
@@ -15812,13 +15813,13 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/IAAI2017">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <conference-ontology:acronym>IAAI2017</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-9T00:00:00.0000000Z</conference-ontology:endDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-6T00:00:00.0000000Z</conference-ontology:startDate>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/IAAI"/>
         <seo:city>San Francisco</seo:city>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intellligence</seo:field>
+        <conference-ontology:acronym>IAAI2017</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-9T00:00:00.0000000Z</conference-ontology:endDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-6T00:00:00.0000000Z</conference-ontology:startDate>
     </owl:NamedIndividual>
     
 
@@ -32060,6 +32061,7 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD1991">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>dblp.uni-trier.de/db/conf/sigmod/sigmod91.html</seo:EventWebpage>
+		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1991"/>
         <seo:city>Denver</seo:city>
         <seo:country>USA</seo:country>
         <seo:field>Information systems</seo:field>
@@ -32080,6 +32082,7 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD1992">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>dblp.uni-trier.de/db/conf/sigmod/sigmod92.html</seo:EventWebpage>
+		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1992"/>
         <seo:city>San Diego</seo:city>
         <seo:country>USA</seo:country>
         <seo:field>Information systems</seo:field>
@@ -32099,6 +32102,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD1993">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1993"/>
         <seo:EventWebpage>dblp.uni-trier.de/db/conf/sigmod/sigmod93.html</seo:EventWebpage>
         <seo:acceptancerate>16.60%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</seo:acceptedpaper>
@@ -32122,6 +32126,7 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD1994">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>dblp.uni-trier.de/db/conf/sigmod/sigmod94.html</seo:EventWebpage>
+		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1994"/>
         <seo:acceptancerate>14.30%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</seo:acceptedpaper>
         <seo:city>Minneapolis</seo:city>
@@ -32144,6 +32149,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD1995">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1995"/>
         <seo:EventWebpage>dblp.uni-trier.de/db/conf/sigmod/sigmod95.html</seo:EventWebpage>
         <seo:acceptancerate>17.30%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</seo:acceptedpaper>
@@ -32168,6 +32174,7 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD1996">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>dblp.uni-trier.de/db/conf/sigmod/sigmod96.html</seo:EventWebpage>
+		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1996"/>
         <seo:acceptancerate>16.20%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</seo:acceptedpaper>
         <seo:city>Montreal</seo:city>
@@ -32189,6 +32196,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD1997">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1997"/>
         <seo:EventWebpage>dblp.uni-trier.de/db/conf/sigmod/sigmod97.html</seo:EventWebpage>
         <seo:acceptancerate>20.80%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</seo:acceptedpaper>
@@ -32212,6 +32220,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD1998">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1998"/>
         <seo:EventWebpage>dblp.uni-trier.de/db/conf/sigmod/sigmod98.html</seo:EventWebpage>
         <seo:acceptancerate>17.10%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</seo:acceptedpaper>
@@ -32235,6 +32244,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD1999">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1999"/>
         <seo:EventWebpage>dblp.uni-trier.de/db/conf/sigmod/sigmod99.html</seo:EventWebpage>
         <seo:acceptancerate>20.50%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</seo:acceptedpaper>
@@ -32487,6 +32497,7 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD2010">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>www.sigmod2010.org/</seo:EventWebpage>
+		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2010"/>
         <seo:acceptancerate>20.80%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</seo:acceptedpaper>
         <seo:city>Indianapolis</seo:city>
@@ -32511,6 +32522,7 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD2011">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>www.sigmod2011.org/</seo:EventWebpage>
+		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2011"/>
         <seo:acceptancerate>23.20%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</seo:acceptedpaper>
         <seo:city>Athens</seo:city>
@@ -32534,6 +32546,7 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD2012">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>www.sigmod.org/2012/</seo:EventWebpage>
+		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2012"/>
         <seo:acceptancerate>16.60%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</seo:acceptedpaper>
         <seo:city>Scottsdale</seo:city>
@@ -32557,6 +32570,7 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD2013">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>www.sigmod.org/2013/</seo:EventWebpage>
+		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2013"/>
         <seo:acceptancerate>20.40%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</seo:acceptedpaper>
         <seo:city>New York</seo:city>
@@ -32581,6 +32595,7 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD2014">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>www.sigmod2014.org/</seo:EventWebpage>
+		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2014"/>
         <seo:acceptancerate>25.40%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">107</seo:acceptedpaper>
         <seo:city>Snowbird</seo:city>
@@ -32604,6 +32619,7 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD2015">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>www.sigmod2015.org/</seo:EventWebpage>
+		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2015"/>
         <seo:acceptancerate>25.50%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</seo:acceptedpaper>
         <seo:city>Melbourne</seo:city>
@@ -32629,6 +32645,7 @@
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>www.sigmod2016.org/</seo:EventWebpage>
         <seo:acceptancerate>19.00%</seo:acceptancerate>
+		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2016"/>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">137</seo:acceptedpaper>
         <seo:city>San Francisco</seo:city>
         <seo:country>USA</seo:country>
@@ -32652,6 +32669,7 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD2017">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>sigmod2017.org/</seo:EventWebpage>
+		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2017"/>
         <seo:acceptancerate>20.00%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</seo:acceptedpaper>
         <seo:city>Raleigh</seo:city>
@@ -32676,6 +32694,7 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD2018">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>sigmod2018.org/</seo:EventWebpage>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2018"/>
         <seo:acceptancerate>19.50%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</seo:acceptedpaper>
         <seo:city>Houston</seo:city>
