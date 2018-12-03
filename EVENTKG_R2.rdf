@@ -827,9 +827,10 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2016">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>aaai.org/Conferences/AAAI/aaai16.php</seo:EventWebpage>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>25.8%</seo:acceptanceRate>
         <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">549</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
+        <seo:city rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:city>Phoenix</seo:city>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
@@ -847,6 +848,8 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2017">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+		<seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
+		<seo:hasPublisher>Springer</seo:hasPublisher>
         <seo:EventWebpage>aaai.org/Conferences/AAAI/aaai17.php</seo:EventWebpage>
         <seo:acceptanceRate>24.6%</seo:acceptanceRate>
         <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">638</seo:acceptedPapers>
@@ -1267,7 +1270,10 @@
     <!-- http://purl.org/eventskg/ACCV1995 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ACCV1995">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+    
+
+
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>https://dblp.org/db/conf/accv/index</seo:EventWebpage>
         <seo:acceptancerate></seo:acceptancerate>
         <seo:acceptedpaper></seo:acceptedpaper>
@@ -1315,7 +1321,10 @@
     <!-- http://purl.org/eventskg/ACCV2000 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ACCV2000">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+    
+
+
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>https://dblp.org/db/conf/accv/index</seo:EventWebpage>
         <seo:acceptancerate></seo:acceptancerate>
         <seo:acceptedpaper></seo:acceptedpaper>
@@ -1339,7 +1348,10 @@
     <!-- http://purl.org/eventskg/ACCV2002 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ACCV2002">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+    
+
+
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>https://trove.nla.gov.au/work/27771989?selectedversion=NBD24769420</seo:EventWebpage>
         <seo:acceptancerate></seo:acceptancerate>
         <seo:acceptedpaper></seo:acceptedpaper>
@@ -1363,7 +1375,10 @@
     <!-- http://purl.org/eventskg/ACCV2004 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ACCV2004">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+    
+
+
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>https://www.mica.edu.vn/perso/Tran-Thi-Thanh-Hai/Pdf/2004_ACCV.pdf</seo:EventWebpage>
         <seo:acceptancerate></seo:acceptancerate>
         <seo:acceptedpaper></seo:acceptedpaper>
@@ -1387,7 +1402,10 @@
     <!-- http://purl.org/eventskg/ACCV2006 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ACCV2006">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+    
+
+
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>https://link.springer.com/book/10.1007/11612032</seo:EventWebpage>
         <seo:acceptancerate></seo:acceptancerate>
         <seo:acceptedpaper></seo:acceptedpaper>
@@ -1555,7 +1573,10 @@
     <!-- http://purl.org/eventskg/ACCV2018 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ACCV2018">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+    
+
+
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>http://accv2018.net/</seo:EventWebpage>
         <seo:acceptancerate></seo:acceptancerate>
         <seo:acceptedpaper></seo:acceptedpaper>

@@ -122,6 +122,7 @@
     div.footer {
         clear: both;
         margin-top: 1em;
+		background: #f8f8f8;
     }
     .style1 {font-size: x-large}
     .style2 {color: #003333}
@@ -167,6 +168,10 @@ specification of   top-prestigious events series in several computer science com
               <td property="dcterms:description">Found <a href="/EVENTS-Dataset/EVENTS_Licence.html">here</a>. </td>
             </tr>
             <tr>
+              <th scope="row">API:</th>
+              <td property="dcterms:description">&nbsp;A Java API to update EVENTSKG dataset can be found <a href="https://github.com/saidfathalla/EVENTSKG_API">here.</a></td>
+            </tr>
+            <tr>
               <th scope="row">Issue Tracking </th>
               <td property="dcterms:description">Please create an issue <a href="https://github.com/saidfathalla/EVENTS-Dataset/issues/new">here</a>. </td>
             </tr>
@@ -207,11 +212,11 @@ Highcharts.chart('container', {
         type: 'bar'
     },
     title: {
-        text: 'EVENTSKG (formerly, EVENTS) statistics (current and previous releases)'
+        text: 'EVENTSKG statistics (current and previous release)'
     },
     subtitle: {
 <!--        text: 'Source: <a href="https://openresearch.org/">openresearch.org</a>'
-			  text: ' Go to documentation page:  <a href="https://saidfathalla.github.io/EVENTS-Dataset/EVENTS.html">here </a>'
+			  text: ' Go to EVENTSKG on Datahub:  <a href="https://datahub.ckan.io/dataset/eventskg">here </a>'
     },
     xAxis: {
         categories: ['Series', 'Editions', 'Entries', 'Communities'],
@@ -254,11 +259,11 @@ Highcharts.chart('container', {
         enabled: false
     },
     series: [{
-        name: 'EVENTS',
-        data: [25, 718, 9460, 5]
-    }, {
-        name: 'EVENTSKG',
+        name: 'Previous',
         data: [40, 1048, 13952, 6]
+    }, {
+        name: 'new',
+        data: [73, 1950, 28223, 8]
     }]
 });
 		</script>
@@ -315,27 +320,29 @@ The dataset is publicly available online in three different formats (i.e. <a hre
             <table border="1">
               <col>
               <tr>
-                <td>Title</td>
-                <td>year</td>
-                <td>Acronym</td>
-                <td>Series</td>
-                <td>Start date</td>
-                <td>End date</td>
-                <td>Submitted papers</td>
-                <td>Accepted papers</td>
-                <td>Submission Rate</td>
-                <td>City</td>
-                <td>State</td>
-                <td>Country</td>
-                <td>Field</td>
-                <td>Type</td>
-                <td>Homepage</td>
+                <td width="13%">Title</td>
+                <td width="2%">year</td>
+                <td width="5%">Acronym</td>
+                <td width="3%">Series</td>
+                <td width="5%">Start date</td>
+                <td width="5%">End date</td>
+                <td width="5%">Submitted papers</td>
+                <td width="5%">Accepted papers</td>
+                <td width="5%">Submission Rate</td>
+                <td width="4%">City</td>
+                <td width="4%">State</td>
+                <td width="4%">Country</td>
+                <td width="6%">Field</td>
+                <td width="6%">Type</td>
+                <td width="6%">Publisher</td>
+                <td width="5%">colocated with </td>
+                <td width="17%">Homepage</td>
               </tr>
         <tr>
           <td>31st Annual National Conference on    Artificial Intelligence</td>
           <td>2017</td>
-          <td>AAAI</td>
           <td>AAAI2017</td>
+          <td>AAAI</td>
           <td>4-Feb-17</td>
           <td>9-Feb-17</td>
           <td>2590</td>
@@ -346,6 +353,8 @@ The dataset is publicly available online in three different formats (i.e. <a hre
           <td>USA</td>
           <td>Artificial Intelligence</td>
           <td>Conference</td>
+          <td>AAAI digital library </td>
+          <td>IAAI17</td>
           <td>aaai.org/Conferences/AAAI/aaai17.php</td>
               </tr>
             </table>
@@ -355,49 +364,43 @@ The dataset is publicly available online in three different formats (i.e. <a hre
                  
 </div>
 
-<div id="H3">
-        <h2>Sample data (xml)</h2>
-        <p>&lt;Row ss:Height=&quot;13.8&quot;&gt;<br>
-&lt;Cell ss:StyleID=&quot;s64&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;31st Annual National Conference on Artificial Intelligence&lt;/Data&gt;&lt;/Cell&gt;<br>
-&lt;Cell ss:StyleID=&quot;s89&quot;&gt;&lt;Data ss:Type=&quot;Number&quot;&gt;2017&lt;/Data&gt;&lt;/Cell&gt;<br>
-&lt;Cell ss:StyleID=&quot;s64&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;AAAI&lt;/Data&gt;&lt;/Cell&gt;<br>
-&lt;Cell ss:StyleID=&quot;s64&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;AAAI2017&lt;/Data&gt;&lt;/Cell&gt;<br>
-&lt;Cell ss:StyleID=&quot;s90&quot;&gt;&lt;Data ss:Type=&quot;DateTime&quot;&gt;2017-02-04T00:00:00.000&lt;/Data&gt;&lt;/Cell&gt;<br>
-&lt;Cell ss:StyleID=&quot;s90&quot;&gt;&lt;Data ss:Type=&quot;DateTime&quot;&gt;2017-02-09T00:00:00.000&lt;/Data&gt;&lt;/Cell&gt;<br>
-&lt;Cell ss:StyleID=&quot;s89&quot;&gt;&lt;Data ss:Type=&quot;Number&quot;&gt;2590&lt;/Data&gt;&lt;/Cell&gt;<br>
-&lt;Cell ss:StyleID=&quot;s89&quot;&gt;&lt;Data ss:Type=&quot;Number&quot;&gt;638&lt;/Data&gt;&lt;/Cell&gt;<br>
-&lt;Cell ss:StyleID=&quot;s93&quot; ss:Formula=&quot;=RC[-1]/RC[-2]&quot;&gt;&lt;Data ss:Type=&quot;Number&quot;&gt;0.24633204633204633&lt;/Data&gt;&lt;/Cell&gt;<br>
-&lt;Cell ss:StyleID=&quot;s64&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;San Francisco&lt;/Data&gt;&lt;/Cell&gt;<br>
-&lt;Cell ss:StyleID=&quot;s64&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;California&lt;/Data&gt;&lt;/Cell&gt;<br>
-&lt;Cell ss:StyleID=&quot;s64&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;USA&lt;/Data&gt;&lt;/Cell&gt;<br>
-&lt;Cell ss:StyleID=&quot;s71&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;Artificial Intelligence&lt;/Data&gt;&lt;/Cell&gt;<br>
-&lt;Cell ss:StyleID=&quot;s64&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;Conference&lt;/Data&gt;&lt;/Cell&gt;<br>
-&lt;Cell ss:StyleID=&quot;s64&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;aaai.org/Conferences/AAAI/aaai17.php&lt;/Data&gt;&lt;/Cell&gt;<br>
-&lt;/Row&gt;</p>
-        <p>&nbsp;</p>
-</div>
 <h2>Sample data (RDF)</h2>
 <pre>
-    &lt;owl:NamedIndividual rdf:about="http://purl.org/eventskg/ICDE17">
-    &lt;seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">113 &lt;/seo:acceptedPapers>
-    &lt;conference-ontology:acronym>ICDE &lt; /conference-ontology:acronym>
-    &lt;seo:country>USA &lt;/seo:country>
-    &lt;conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">  2017-04-22T00:00:00.0000000Z &lt;/conference-ontology:endDate>
-    &lt;seo:field>Data Engineering &lt;/seo:field>
-    &lt;seo:belongsToSeries rdf:resource="http://purl.org/eventskg/ICDE"/>
-    &lt;conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"> 2017-04-19T00:00:00.0000000Z &lt;/conference-ontology:startDate>
-    &lt;seo:acceptanceRate>21.5% &lt;/seo:acceptanceRate>
-    &lt;seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">525 &lt;/seo:submittedPapers>
-    &lt;rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-  &lt;/owl:NamedIndividual>
+ <xmp>
+ <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2017">
+    	<rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+	<seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
+	<seo:hasPublisher>Springer</seo:hasPublisher>
+        <seo:EventWebpage>aaai.org/Conferences/AAAI/aaai17.php</seo:EventWebpage>
+        <seo:acceptanceRate>24.6%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">638</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
+        <seo:city>San Francisco</seo:city>
+        <seo:country>USA</seo:country>
+        <seo:field>Artificial Intelligence</seo:field>
+        <seo:state>California</seo:state>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2590</seo:submittedPapers>
+        <conference-ontology:acronym>AAAI</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-09T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2017</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-04T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+ </xmp>
+    
 </pre>	
 
 
 
     <!-- ******************* SECTION 2: CLASSES ******************* -->
     <!-- ******************* SECTION 3: PROPERTIES ******************* -->
-    <div class="footer">
-        <p><a href="file:///about/copyright/#copyright">Copyright</a> &copy; 2018. All Rights Reserved. </p>
-</div>
+    <footer id="footer">
+		<div class="footer">
+			<div class="row center">
+				<div class="col-sm-12">
+				   <div align="center"><img src="cc-by.png" width="20" /> The data maintained by EVENTSKG  is licensed under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</a> (CC BY 3.0)				</div>
+				</div>
+			</div>
+	  </div>
+	</footer>
 </body>
 </html>
