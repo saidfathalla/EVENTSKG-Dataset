@@ -27,7 +27,7 @@
     }
 
     table.border {
-        border-top: 1px solid #CCC;
+        border-top: 1px solid black;
         border-left: 1px solid #CCC;
         margin-bottom: 10px;
     }
@@ -133,6 +133,15 @@
 	font-style: italic;
 	font-weight: bold;
 }
+#tblContent {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#tblContent td,
+#tblContent th {
+  border: 1px solid black;
+}
     </style>
 </head>
 
@@ -142,8 +151,8 @@
     <table>
         <tbody>
             <tr>
-              <th width="11%"><div>Title:</div></th>
-                <td width="89%">A dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for  top-prestigious events series.</td>
+              <th ><div>Title:</div></th>
+                <td >A dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for  top-prestigious events series.</td>
             </tr>
             <tr>
                 <th scope="row"><div>Creator:</div></th>
@@ -282,12 +291,12 @@ Highcharts.chart('container', {
 		Events are linked by research fields, hosting country, and publishers.</p>
 </div>
 
-<div  id="previous">
+<div  id="previous2">
         <h2><span class="style3">Previous Releases</span> (Version 2018-01) </h2>
   <p>This release of EVENTS, we called it <span class="style5">EVENTSKG</span>. This release is a <em><strong>Linked Dataset</strong></em> based on <a href="http://sda.tech/SEOontology/Documentation/SEO.html">SEO ontology</a> leading to richer and cleaner data.This release is a specification of 40  top-prestigious events series in six computer sc<span class="footer">ience </span>communities<span class="footer">.</span> The dataset is publicly available online in three different formats (i.e. <a href="CSV2.zip">CSV</a>, <a href="EVENTSKG-40.ttl">Turtle</a>, <a href="EVENTSKG-40.json">json</a> and <a href="EVENTSKG-40.rdf">RDF</a>).</p>
 </div>
 
- <div  id="previous">
+ <div  id="previous1">
         <h2><span class="style3">Previous Releases</span> (Version 2018-01) </h2>
    <p>This release is a 
           specification of 25 top-prestigious events series in five computer science communities.<br>
@@ -318,28 +327,27 @@ Highcharts.chart('container', {
         <h2>Sample data (csv)</h2>
         <div id="list">
             <p>&nbsp;</p>
-            <table border="1">
-              <col>
-              <tr>
-                <td width="13%">Title</td>
-                <td width="2%">year</td>
-                <td width="5%">Acronym</td>
-                <td width="3%">Series</td>
-                <td width="5%">Start date</td>
-                <td width="5%">End date</td>
-                <td width="5%">Submitted papers</td>
-                <td width="5%">Accepted papers</td>
-                <td width="5%">Submission Rate</td>
-                <td width="4%">City</td>
-                <td width="4%">State</td>
-                <td width="4%">Country</td>
-                <td width="6%">Field</td>
-                <td width="6%">Type</td>
-                <td width="6%">Publisher</td>
-                <td width="5%">colocated with </td>
-                <td width="17%">Homepage</td>
+            <table id="tblContent" >
+          <tr >
+                <td >Title</td>
+                <td >year</td>
+                <td >Acronym</td>
+                <td >Series</td>
+                <td >Start date</td>
+                <td >End date</td>
+                <td >Submitted papers</td>
+                <td >Accepted papers</td>
+                <td >Submission Rate</td>
+                <td >City</td>
+                <td >State</td>
+                <td >Country</td>
+                <td >Field</td>
+                <td >Type</td>
+                <td >Publisher</td>
+                <td >colocated with </td>
+                <td >Homepage</td>
               </tr>
-        <tr>
+        <tr >
           <td>31st Annual National Conference on    Artificial Intelligence</td>
           <td>2017</td>
           <td>AAAI2017</td>
@@ -359,15 +367,14 @@ Highcharts.chart('container', {
           <td>aaai.org/Conferences/AAAI/aaai17.php</td>
               </tr>
             </table>
-            <p><br>
-            </p>
-        </div>
+            </div>
                  
 </div>
 
 <h2>Sample data (RDF)</h2>
-<pre>
- <xmp>
+
+
+<!-- <xmp>
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2017">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>aaai.org/Conferences/AAAI/aaai17.php</seo:EventWebpage>
@@ -387,21 +394,19 @@ Highcharts.chart('container', {
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-04T00:00:00.0000000+00:00</conference-ontology:startDate>
     </owl:NamedIndividual>
  </xmp>
-    
-</pre>	
+  -->
 
 
 
-    <!-- ******************* SECTION 2: CLASSES ******************* -->
-    <!-- ******************* SECTION 3: PROPERTIES ******************* -->
     <footer id="footer">
+		<p><img src="sample.JPG" alt="sample" width="1121" height="299"></p>
 		<div class="footer">
 			<div class="row center">
 				<div class="col-sm-12">
-				   <div align="center"><img src="cc-by.png" width="20" /> The data maintained by EVENTSKG  is licensed under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</a> (CC BY 3.0)				</div>
+				   <div align="center"><img src="cc-by.png" width="20" alt="CC By 3.0"/> The data maintained by EVENTSKG  is licensed under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</a> (CC BY 3.0)				</div>
 				</div>
 			</div>
 	  </div>
-	</footer>
+</footer>
 </body>
 </html>
