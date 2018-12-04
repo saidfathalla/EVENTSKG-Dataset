@@ -1,0 +1,53 @@
+Title,Event[Start date],Event[Acronym],Event[Series],Event[Start date],Event[End date],Event[Submitted paper],Event[Accepted paper],Event[submission Rate],Event[city],Event[state],Event[country],Event[Field],Event[Type],Event[Homepage],,,EVENT[PUBLISHER],Event[Sponsor]
+European Conference on Object-Oriented Programming,2018,ECOOP 2018,ECOOP,15-Jul-2018,21-Jul-2018,,,,Amsterdam,,Netherland,Object Oreinted Programming,Conference,https://2018.ecoop.org/,,,ACM,NSF
+European Conference on Object-Oriented Programming,2017,ECOOP 2017,ECOOP,18-Jun-2017,23-Jun-2017,81,27,33.3%,Barcelona,,Spain,Object Oreinted Programming,Conference,https://2017.ecoop.org/,,,ACM,Facebook
+European Conference on Object-Oriented Programming,2016,ECOOP 2016,ECOOP,18-Jul-2016,22-Jul-2016,79,25,31.6%,Rome,,Italy,Object Oreinted Programming,Conference,https://dblp.org/db/conf/ecoop/ecoop2016,,,ACM,Google
+European Conference on Object-Oriented Programming,2015,ECOOP 2015,ECOOP,5-Jul-2015,10-Jul-2015,136,31,22.8%,Prague,,Czech Republic,Object Oreinted Programming,Conference,https://2015.ecoop.org/,,,ACM,IBM
+European Conference on Object-Oriented Programming,2014,ECOOP 2014,ECOOP,28-Jul-2014,1-Aug-2014,101,27,26.7%,Uppsala,,Sweden,Object Oreinted Programming,Conference,http://ecoop14.it.uu.se/,,,ACM,SAP
+European Conference on Object-Oriented Programming,2013,ECOOP 2013,ECOOP,1-Jul-2013,5-Jul-2013,116,29,25.0%,Montpellier,,France,Object Oreinted Programming,Conference,http://www.lirmm.fr/ecoop13/,,,ACM,Google
+European Conference on Object-Oriented Programming,2012,ECOOP 2012,ECOOP,11-Jun-2012,16-Jun-2012,140,30,21.4%,Beijing,,China,Object Oreinted Programming,Conference,http://ecoop12.cs.purdue.edu/,,,ACM,IBM
+European Conference on Object-Oriented Programming,2011,ECOOP 2011,ECOOP,25-Jul-2011,29-Jul-2011,100,26,26.0%,Lancaster,,UK,Object Oreinted Programming,Conference,https://www.springer.com/gp/book/9783642226540,,,ACM,Google
+European Conference on Object-Oriented Programming,2010,ECOOP 2010,ECOOP,21-Jun-2010,25-Jun-2010,108,25,23.1%,Maribor,,Slovenia,Object Oreinted Programming,Conference,https://www.springer.com/de/book/9783642141065,,,ACM,Google
+European Conference on Object-Oriented Programming,2009,ECOOP 2009,ECOOP,6-Jul-2009,10-Jul-2009,117,25,21.4%,Genova,,Italy,Object Oreinted Programming,Conference,http://ecoop09.disi.unige.it/,,,ACM,Google
+European Conference on Object-Oriented Programming,2008,ECOOP 2008,ECOOP,7-Jul-2008,11-Jul-2008,138,27,19.6%,Paphos,,Cyprus,Object Oreinted Programming,Conference,https://www.springer.com/gp/book/9783540705918,,,ACM,
+European Conference on Object-Oriented Programming,2007,ECOOP 2007,ECOOP,30-Jul-2007,3-Aug-2007,160,25,15.6%,Berlin,,Germany,Object Oreinted Programming,Conference,https://dblp.org/db/conf/ecoop/ecoop2007,,,ACM,
+European Conference on Object-Oriented Programming,2006,ECOOP 2006,ECOOP,3-Jul-2006,7-Jul-2006,160,21,13.1%,Nantes,,France,Object Oreinted Programming,Conference,https://www.springer.com/de/book/9783540357261,,,ACM,
+European Conference on Object-Oriented Programming,2005,ECOOP 2005,ECOOP,25-Jul-2005,29-Jul-2005,172,24,14.0%,Glasgow,,UK,Object Oreinted Programming,Conference,https://www.springer.com/gp/book/9783540279921,,,ACM,
+European Conference on Object-Oriented Programming,2004,ECOOP 2004,ECOOP,14-Jun-2004,18-Jun-2004,132,25,18.9%,Olso,,Norway,Object Oreinted Programming,Conference,https://link.springer.com/book/10.1007/b98195,,,ACM,
+European Conference on Object-Oriented Programming,2003,ECOOP 2003,ECOOP,21-Jul-2003,25-Jul-2003,88,18,20.5%,Darmstadt,,Germany,Object Oreinted Programming,Conference,https://link.springer.com/book/10.1007/b11832,,,ACM,
+European Conference on Object-Oriented Programming,2002,ECOOP 2002,ECOOP,10-Jun-2002,14-Jun-2002,96,24,25.0%,Malaga,,Spain,Object Oreinted Programming,Conference,https://link.springer.com/book/10.1007/3-540-47993-7,,,ACM,
+European Conference on Object-Oriented Programming,2001,ECOOP 2001,ECOOP,18-Jun-2001,22-Jun-2001,108,18,16.7%,Budapest,,Hungary,Object Oreinted Programming,Conference,https://link.springer.com/book/10.1007/3-540-45337-7,,,ACM,
+European Conference on Object-Oriented Programming,2000,ECOOP 2000,ECOOP,12-Jun-2000,16-Jun-2000,109,20,18.3%,Cannes,,France,Object Oreinted Programming,Conference,https://link.springer.com/book/10.1007/3-540-45102-1,,,ACM,
+European Conference on Object-Oriented Programming,1999,ECOOP 1999,ECOOP,14-Jun-1999,18-Jun-1999,183,20,10.9%,Lisbon,,Portugual,Object Oreinted Programming,Conference,https://link.springer.com/book/10.1007/3-540-48743-3,,,ACM,
+European Conference on Object-Oriented Programming,1998,ECOOP 1998,ECOOP,20-Jul-1998,24-Jul-1998,124,24,19.4%,Brussels,,Belgium,Object Oreinted Programming,Conference,https://link.springer.com/book/10.1007/BFb0054083,,,ACM,
+European Conference on Object-Oriented Programming,1997,ECOOP 1997,ECOOP,9-Jun-1997,13-Jun-1997,103,20,19.4%,Jyväskylä,,Finland,Object Oreinted Programming,Conference,https://link.springer.com/book/10.1007/BFb0053371,,,ACM,
+European Conference on Object-Oriented Programming,1996,ECOOP 1996,ECOOP,8-Jul-1996,12-Jul-1996,173,21,12.1%,Linz,,Austria,Object Oreinted Programming,Conference,https://link.springer.com/book/10.1007/BFb0053051,,,ACM,
+European Conference on Object-Oriented Programming,1995,ECOOP 1995,ECOOP,7-Aug-1995,11-Aug-1995,90,18,20.0%,Aarhus,,Denmark,Object Oreinted Programming,Conference,https://link.springer.com/book/10.1007/3-540-49538-X,,,ACM,
+European Conference on Object-Oriented Programming,1994,ECOOP 1994,ECOOP,4-Jul-1994,8-Jul-1994,,,,Bologna,,Italy,Object Oreinted Programming,Conference,https://link.springer.com/book/10.1007/BFb0052172,,,ACM,
+European Conference on Object-Oriented Programming,1993,ECOOP 1993,ECOOP,26-Jul-1993,30-Jul-1993,,,,Kaiserslautern,,Germany,Object Oreinted Programming,Conference,https://link.springer.com/book/10.1007/3-540-47910-4,,,ACM,
+European Conference on Object-Oriented Programming,1992,ECOOP 1992,ECOOP,29-Jun-1992,3-Jul-1992,,,,Utrecht,,The Netherlands,Object Oreinted Programming,Conference,https://link.springer.com/book/10.1007/BFb0053026,,,ACM,
+European Conference on Object-Oriented Programming,1991,ECOOP 1991,ECOOP,15-Jul-1991,19-Jul-1991,,,,Geneva,,Switzerland,Object Oreinted Programming,Conference,https://link.springer.com/book/10.1007/BFb0057011,,,ACM,
+European Conference on Object-Oriented Programming,1988,ECOOP 1990,ECOOP,15-Aug-1988,17-Aug-1988,,,,Oslo,,Norway,Object Oreinted Programming,Conference,https://link.springer.com/book/10.1007/3-540-45910-3,,,ACM,
+European Conference on Object-Oriented Programming,1987,ECOOP 1987,ECOOP,15-Jun-1987,17-Jun-1987,,,,Paris,,France,Object Oreinted Programming,Conference,https://link.springer.com/book/10.1007/3-540-47891-4,,,ACM,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,

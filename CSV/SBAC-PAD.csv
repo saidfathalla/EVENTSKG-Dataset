@@ -1,0 +1,52 @@
+Title,Event[Start date],Event[Acronym],Event[Series],Event[Start date],Event[End date],Event[Submitted papers],Event[Accepted papers],Event[Submission Rate],Event[City],Event[State],Event[Country],Event[Field],Event[Type],Event[Homepage],,Event[Sponsors],Event[Publisher]
+International Symposium on Computer Architecture and High Performance Computing,2018,SBAC-PAD 2016,SBAC-PAD,24-Sep-2018,27-Sep-2018,,,,Lyon,,France,Computer Architecture and High Performance Computing,Symposium,http://www2.sbc.org.br/sbac/,,IEEE,IEEE
+International Symposium on Computer Architecture and High Performance Computing,2017,SBAC-PAD 2018,SBAC-PAD,17-Oct-2017,20-Oct-2017,73,23,32%,Campinas,,Brazil,Computer Architecture and High Performance Computing,Symposium,http://www2.sbc.org.br/sbac/2017/,,IEEE,IEEE
+International Symposium on Computer Architecture and High Performance Computing,2016,SBAC-PAD 2016,SBAC-PAD,26-Oct-2016,28-Oct-2016,77,27,35%,Los Angeles,,USA,Computer Architecture and High Performance Computing,Symposium,http://www2.sbc.org.br/sbac/2016/,,IEEE,IEEE
+International Symposium on Computer Architecture and High Performance Computing,2015,SBAC-PAD 2015,SBAC-PAD,18-Oct-2015,21-Oct-2015,102,26,25.50%,Florianopolis,,Brazil,Computer Architecture and High Performance Computing,Symposium,http://www2.sbc.org.br/sbac/2015/,,IEEE,IEEE
+International Symposium on Computer Architecture and High Performance Computing,2014,SBAC-PAD 2014,SBAC-PAD,22-Oct-2014,24-Oct-2014,132,43,32.60%,Paris ,,France,Computer Architecture and High Performance Computing,Symposium,http://sbac.lip6.fr/2014/,,IEEE,IEEE
+International Symposium on Computer Architecture and High Performance Computing,2013,SBAC-PAD 2013,SBAC-PAD,23-Oct-2013,26-Oct-2013,108,28,26%,Porto de Galinhas,,Brazil,Computer Architecture and High Performance Computing,Symposium,http://www2.sbc.org.br/sbac/2013/,,IEEE,IEEE
+International Symposium on Computer Architecture and High Performance Computing,2012,SBAC-PAD 2012,SBAC-PAD,24-Oct-2012,26-Oct-2012,128,36,28%,NewYork,,USA,Computer Architecture and High Performance Computing,Symposium,http://www2.sbc.org.br/sbac/2012/,,IEEE,IEEE
+International Symposium on Computer Architecture and High Performance Computing,2011,SBAC-PAD 2011,SBAC-PAD,26-Oct-2011,29-Oct-2011,76,26,34.2,Vitoria,,Brazil,Computer Architecture and High Performance Computing,Symposium,http://www2.sbc.org.br/sbac/2011/,,Capes,IEEE
+International Symposium on Computer Architecture and High Performance Computing,2010,SBAC-PAD 2010,SBAC-PAD,27-Oct-2010,30-Oct-2010,100,30,30%,Petropolis,,Brazil,Computer Architecture and High Performance Computing,Symposium,http://www2.sbc.org.br/sbac/2010/,,IEEE,IEEE
+International Symposium on Computer Architecture and High Performance Computing,2009,SBAC-PAD 2009,SBAC-PAD,28-Oct-2009,31-Oct-2009,60,21,35%,"São Paulo,",,Brazil,Computer Architecture and High Performance Computing,Symposium,http://www2.sbc.org.br/sbac/2009/,,IEEE,IEEE
+International Symposium on Computer Architecture and High Performance Computing,2008,SBAC-PAD 2008,SBAC-PAD,29-Nov-2008,1-Dec-2008,57,22,38.50%,"Campo Grande,",,Brazil,Computer Architecture and High Performance Computing,Symposium,http://www2.sbc.org.br/sbac/,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,2007,SBAC-PAD 2007,SBAC-PAD,24-Oct-2007,27-Oct-2007,107,32,29.90%,Gramado,,Brazil,Computer Architecture and High Performance Computing,Symposium,http://www2.sbc.org.br/sbac/2007/,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,2006,SBAC-PAD 2006,SBAC-PAD,17-Oct-2006,20-Oct-2006,71,23,32.40%,Ouro Preto,,Brazil,Computer Architecture and High Performance Computing,Symposium,http://www2.sbc.org.br/sbac/2006/,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,2005,SBAC-PAD 2005,SBAC-PAD,24-Oct-2005,27-Oct-2005,83,29,34.90%,"Rio de Janeiro,",,Brazil,Computer Architecture and High Performance Computing,Symposium,http://www2.sbc.org.br/sbac/2005/,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,2004,SBAC-PAD 2004,SBAC-PAD,27-Oct-2004,29-Oct-2004,93,32,34.40%,Foz do Iguaçu,,Brazil,Computer Architecture and High Performance Computing,Symposium,http://www2.sbc.org.br/sbac/2004/,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,2003,SBAC-PAD 2003,SBAC-PAD,10-Nov-2003,12-Nov-2003,103,31,30%,São Paulo,,Brazil,Computer Architecture and High Performance Computing,Symposium,http://www2.sbc.org.br/sbac/2003/,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,2002,SBAC-PAD 2002,SBAC-PAD,28-Oct-2002,30-Oct-2002,74,25,33.70%,Vitoria/,,Brazil,Computer Architecture and High Performance Computing,Symposium,http://www2.sbc.org.br/sbac/2002/,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,2001,SBAC-PAD 2001,SBAC-PAD,10-Sep-2001,12-Sep-2001,84,32,38.10%,Pirenópolis,,Brazil,Computer Architecture and High Performance Computing,Symposium,http://www2.sbc.org.br/sbac/2001/,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,2000,SBAC-PAD 2000,SBAC-PAD,,,70,41,58.50%,São Pedro,,Brazil,Computer Architecture and High Performance Computing,Symposium,http://www.dc.ufscar.br/sbac2000/,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,1999,SBAC-PAD 1999,SBAC-PAD,29-Sep-1999,2-Oct-1999,90,43,47.70%,Natal,,Brazil,Computer Architecture and High Performance Computing,Symposium,https://people.cs.kuleuven.be/~dirk.craeynest/ada-belgium/events/99/990929-sbac.html,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,1998,SBAC-PAD 1998,SBAC-PAD,28-Sep-1998,2-Oct-1998,,,,Rio de janeiro,,Brazil,Computer Architecture and High Performance Computing,Symposium,http://www.sbmac.org.br/bol/bol-2/informe/congressos/sbacpad.html,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,1997,SBAC-PAD 1997,SBAC-PAD,7-Oct-1997,10-Oct-1997,,,,Campos dp Jordão,,Brazil,Computer Architecture and High Performance Computing,Symposium,http://www.lbd.dcc.ufmg.br/colecoes/sbac-pad/1997/001.pdf,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,1996,SBAC-PAD 1996,SBAC-PAD,4-Aug-1996,9-Aug-1996,,,,,,,Computer Architecture and High Performance Computing,Symposium,http://www.lbd.dcc.ufmg.br/colecoes/sbac-pad/1996/001.pdf,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,1995,SBAC-PAD 1995,SBAC-PAD,,,,,,,,,Computer Architecture and High Performance Computing,Symposium,,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,1994,SBAC-PAD 1994,SBAC-PAD,,,,,,,,,Computer Architecture and High Performance Computing,Symposium,,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,1993,SBAC-PAD 1993,SBAC-PAD,,,,,,,,,Computer Architecture and High Performance Computing,Symposium,,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,1992,SBAC-PAD 1992,SBAC-PAD,,,,,,,,,Computer Architecture and High Performance Computing,Symposium,,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,1991,SBAC-PAD 1991,SBAC-PAD,,,,,,,,,Computer Architecture and High Performance Computing,Symposium,,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,1990,SBAC-PAD 1990,SBAC-PAD,,,,,,,,,Computer Architecture and High Performance Computing,Symposium,,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,1989,SBAC-PAD 1989,SBAC-PAD,,,,,,,,,Computer Architecture and High Performance Computing,Symposium,,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,1988,SBAC-PAD 1988,SBAC-PAD,,,,,,,,,Computer Architecture and High Performance Computing,Symposium,,,,IEEE
+International Symposium on Computer Architecture and High Performance Computing,1987,SBAC-PAD 1987,SBAC-PAD,,,,,,,,,Computer Architecture and High Performance Computing,Symposium,,,,IEEE
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,

@@ -1,0 +1,50 @@
+Title,Event[Start date],Event[Acronym],Event[Series],Event[Start date],Event[End date],Event[Submitted paper],Event[Accepted paper],Event[submission Rate],Event[city],Event[state],Event[country],Event[Field],Event[Type],Event[Homepage],EVENT[PUBLISHER],Event[Sponsor]
+Annual Computer Security Applications Conference,2018,ACSAC 2018,ACSAC,3-Dec-2018,7-Dec-2018,,,,San Juan,Puerto Rico,USA,Computer Security,Conference,http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=74941&copyownerid=50401,ACM,NSF
+Annual Computer Security Applications Conference,2017,ACSAC 2017,ACSAC,4-Dec-2017,8-Dec-2017,244,48,19.70%,San Juan,Puerto Rico,USA,Computer Security,Conference,http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=62861&copyownerid=89772,ACM,NSF
+Annual Computer Security Applications Conference,2016,ACSAC 2016,ACSAC,5-Dec-2016,9-Dec-2016,210,48,22.90%,Los Angeles,California,USA,Computer Security,Conference,http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=52168&copyownerid=85676,ACM,NSF
+Annual Computer Security Applications Conference,2015,ACSAC 2015,ACSAC,7-Dec-2015,11-Dec-2015,193,47,24.40%,Los Angeles,California,USA,Computer Security,Conference,https://www.acsac.org/2015/,ACM,ICPS
+Annual Computer Security Applications Conference,2014,ACSAC 2014,ACSAC,8-Dec-2014,12-Dec-2014,236,47,19.90%,New Orleans,Louisiana,USA,Computer Security,Conference,http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=36583&copyownerid=62279,ACM,NSF
+Annual Computer Security Applications Conference,2013,ACSAC 2013,ACSAC,9-Dec-2013,13-Dec-2013,171,34,19.90%,New Orleans,Louisiana,USA,Computer Security,Conference,http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=28538&copyownerid=1,ACM,NSF
+Annual Computer Security Applications Conference,2012,ACSAC 2012,ACSAC,3-Dec-2012,7-Dec-2012,231,44,19%,Orlando,Florida,USA,Computer Security,Conference,http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=21864&copyownerid=35737,ACM,NSF
+Annual Computer Security Applications Conference,2011,ACSAC 2011,ACSAC,5-Dec-2011,9-Dec-2011,195,39,20%,Orlando ,Florida,USA,Computer Security,Conference,http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=15885&copyownerid=17963,ACM,NSF
+Annual Computer Security Applications Conference,2010,ACSAC 2010,ACSAC,6-Dec-2010,10-Dec-2010,227,39,17.20%,Austin,Texas,USA,Computer Security,Conference,http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=9190&copyownerid=5111,ACM,ACSA
+Annual Computer Security Applications Conference,2009,ACSAC 2009,ACSAC,7-Dec-2009,11-Dec-2009,224,44,19.60%,Honolulu,Hawaii,USA,Computer Security,Conference,https://www.acsac.org/2009/,ACM,ACSA
+Annual Computer Security Applications Conference,2008,ACSAC 2026,ACSAC,8-Dec-2008,12-Dec-2008,173,42,24.30%,Anaheim,California,USA,Computer Security,Conference,https://www.acsac.org/2009/,ACM,
+Annual Computer Security Applications Conference,2007,ACSAC 2007,ACSAC,10-Dec-2007,14-Dec-2007,191,42,22%,Miami,Florida,USA,Computer Security,Conference,https://dblp.org/db/conf/acsac/acsac2007.html,ACM,
+Annual Computer Security Applications Conference,2006,ACSAC 2006,ACSAC,11-Dec-2006,15-Dec-2006,134,40,29.90%,Miami,Florida,USA,Computer Security,Conference,https://dblp.org/db/conf/acsac/acsac2006.html,ACM,
+Annual Computer Security Applications Conference,2005,ACSAC 2005,ACSAC,5-Dec-2005,9-Dec-2005,197,45,22.80%,Tucson,,USA,Computer Security,Conference,https://dblp.org/db/conf/acsac/acsac2005.html,ACM,
+Annual Computer Security Applications Conference,2004,ACSAC 2004,ACSAC,6-Dec-2004,10-Dec-2004,134,35,26.10%,Tucson,,USA,Computer Security,Conference,https://dblp.org/db/conf/acsac/acsac2004.html,ACM,
+Annual Computer Security Applications Conference,2003,ACSAC 2003,ACSAC,8-Dec-2003,12-Dec-2003,119,36,30.30%,Las Vegas,,USA,Computer Security,Conference,https://dblp.org/db/conf/acsac/acsac2003.html,ACM,
+Annual Computer Security Applications Conference,2002,ACSAC 2002,ACSAC,9-Dec-2002,13-Dec-2002,102,33,32.40%,Las Vegas,,USA,Computer Security,Conference,https://dblp.org/db/conf/acsac/acsac2002.html,ACM,
+Annual Computer Security Applications Conference,2001,ACSAC 2001,ACSAC,11-Dec-2001,14-Dec-2001,119,38,31.90%,New Orleans,Louisiana,USA,Computer Security,Conference,https://dblp.org/db/conf/acsac/acsac2001.html,ACM,
+Annual Computer Security Applications Conference,2000,ACSAC 2000,ACSAC,11-Dec-2000,15-Dec-2000,100,42,42%,New Orleans,Louisiana,USA,Computer Security,Conference,https://dblp.org/db/conf/acsac/acsac2000.html,ACM,
+Annual Computer Security Applications Conference,1999,ACSAC 1999,ACSAC,6-Dec-1999,1-Dec-1999,,,,Washington,,USA,Computer Security,Conference,https://dl.acm.org/citation.cfm?id=784590,ACM,
+Annual Computer Security Applications Conference,1998,ACSAC 1998,ACSAC,7-Dec-1998,11-Dec-1998,,,,Scottsdale,AZ,USA,Computer Security,Conference,https://dblp.uni-trier.de/db/conf/acsac/acsac1998.html,ACM,
+Annual Computer Security Applications Conference,1997,ACSAC 1997,ACSAC,8-Dec-1997,12-Dec-1997,,,,San Deigo,CA,USA,Computer Security,Conference,https://dblp.uni-trier.de/db/conf/acsac/acsac1997.html,ACM,
+Annual Computer Security Applications Conference,1996,ACSAC1996,ACSAC,9-Dec-1996,13-Dec-1996,,,,San Deigo,CA,USA,Computer Security,Conference,https://dblp.uni-trier.de/db/conf/acsac/,ACM,
+Annual Computer Security Applications Conference,1995,ACSAC 1995,ACSAC,11-Dec-1995,15-Dec-1995,,,,New Orleans,Louisiana,USA,Computer Security,Conference,https://dblp.uni-trier.de/db/conf/acsac/,ACM,
+Annual Computer Security Applications Conference,1994,ACSAC 1994,ACSAC,5-Dec-1994,9-Dec-1994,,,,Orlando,,USA,Computer Security,Conference,https://dblp.uni-trier.de/db/conf/acsac/,ACM,
+Annual Computer Security Applications Conference,1993,ACSAC 1993,ACSAC,6-Dec-1993,10-Dec-1993,,,,Orlando ,Florida,USA,Computer Security,Conference,https://dblp.uni-trier.de/db/conf/acsac/,ACM,
+Annual Computer Security Applications Conference,1992,ACSAC 1992,ACSAC,30-Nov-1992,4-Dec-1992,,,,San Antonio,Texas,USA,Computer Security,Conference,https://dblp.uni-trier.de/db/conf/acsac/,ACM,
+Annual Computer Security Applications Conference,1991,ACSAC 1991,ACSAC,2-Dec-1991,6-Dec-1991,,,,San Antonio,Texas,USA,Computer Security,Conference,https://dblp.uni-trier.de/db/conf/acsac/,ACM,
+Annual Computer Security Applications Conference,1990,ACSAC 1990,ACSAC,3-Dec-1990,7-Dec-1990,,,,Tucson,,USA,Computer Security,Conference,https://dblp.uni-trier.de/db/conf/acsac/,ACM,
+Annual Computer Security Applications Conference,1989,ACSAC 1989,ACSAC,4-Dec-1989,8-Dec-1989,,,,Tucson,,USA,Computer Security,Conference,https://dblp.uni-trier.de/db/conf/acsac/,ACM,
+Annual Computer Security Applications Conference,1988,ACSAC 1988,ACSAC,12-Dec-1988,16-Dec-1988,,,,Orlando,Florida,USA,Computer Security,Conference,https://dblp.uni-trier.de/db/conf/acsac/,ACM,
+Annual Computer Security Applications Conference,1987,ACSAC 1987,ACSAC,7-Dec-1987,11-Dec-1987,,,,Orlando,Florida,USA,Computer Security,Conference,https://www.acsac.org/pastconf/acsac03.html,ACM,
+Annual Computer Security Applications Conference,1986,ACSAC 1986,ACSAC,2-Dec-1986,4-Dec-1986,,,,Vienna,Virginia,USA,Computer Security,Conference,https://www.acsac.org/archive/,ACM,
+Annual Computer Security Applications Conference,1985,ACSAC 1985,ACSAC,,,,,,McLean,Virginia,USA,Computer Security,Conference,https://www.acsac.org/archive/,ACM,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,

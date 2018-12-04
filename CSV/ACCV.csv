@@ -1,0 +1,15 @@
+Title,Event[Start date],Event[Acronym],Event[Series],Event[start date],Event[End date],Event[submitted paper],Event[Accepted paper],Event[submission rate],Event[City],Event[state],Event[country],Event[Field],Event[Type],Event[Homepage],,,,Events[Sponsors],Event[Publisher]
+Asian Conference on Computer Vision,2018,ACCV 2018,ACCV,4-Dec-2018,6-Dec-2018,,,,Perth,,Australia,Computer Vision,Conference,http://accv2018.net/,,,,QualComm,Springer
+Asian Conference on Computer Vision,2016,ACCV 2016,ACCV,20-Nov-2016,24-Nov-2016,479,143,30%,Taipei,,Taiwan,Computer Vision,Conference,https://link.springer.com/book/10.1007/978-3-319-54187-7,,,,IEEE,Springer
+Asian Conference on Computer Vision,2014,ACCV 2014,ACCV,1-Nov-2014,5-Nov-2014,814,227,27.90%,Singapore,,Singapore,Computer Vision,Conference,https://www.springer.com/de/book/9783319168647,,,,Samsung,Springer
+Asian Conference on Computer Vision,2012,ACCV 2012,ACCV,5-Nov-2012,9-Nov-2012,869,226,26.01%,Daejeon,,Korea,Computer Vision,Conference,https://link.springer.com/book/10.1007/978-3-642-37331-2,,,,QualComm,Springer
+Asian Conference on Computer Vision,2010,ACCV 2010,ACCV,8-Nov-2010,12-Nov-2010,739,206,27.88%,Queenstown,,New zealand,Computer Vision,Conference,https://dblp.org/db/conf/accv/index,,,,AFCV,Springer
+Asian Conference on Computer Vision,2009,ACCV 2009,ACCV,23-Sep-2009,27-Sep-2009,670,166,24.78%,Xi' an,,China,Computer Vision,Conference,https://dblp.org/db/conf/accv/index,,,,Microsoft Research,Springer
+Asian Conference on Computer Vision,2007,ACCV 2007,ACCV,18-Nov-2007,22-Nov-2007,551,179,32.49%,Tokyo,,Japan,Computer Vision,Conference,https://dblp.org/db/conf/accv/index,,,,Microsoft Research,Springer
+Asian Conference on Computer Vision,2006,ACCV 2006,ACCV,13-Jan-2006,16-Jan-2006,500,192,38.40%,Hyderabad,,India,Computer Vision,Conference,https://link.springer.com/book/10.1007/11612032,,,,Springer,Springer
+Asian Conference on Computer Vision,2004,ACCV 2004,ACCV,27-Jan-2004,30-Jan-2004,,,,Jeju,,Korea,Computer Vision,Conference,https://www.mica.edu.vn/perso/Tran-Thi-Thanh-Hai/Pdf/2004_ACCV.pdf,,,,Samsung,Springer
+Asian Conference on Computer Vision,2002,ACCV 2002,ACCV,22-Jan-2002,25-Jan-2002,,,,Melbourne,,Australia,Computer Vision,Conference,https://trove.nla.gov.au/work/27771989?selectedversion=NBD24769420,,,,AFCV,Springer
+Asian Conference on Computer Vision,2000,ACCV 2000,ACCV,8-Jan-2000,11-Jan-2000,,,,Taipei,,Taiwan,Computer Vision,Conference,https://dblp.org/db/conf/accv/index,,,,IEEE,Springer
+Asian Conference on Computer Vision,1998,ACCV 1998,ACCV,8-Jan-1998,10-Jan-1998,300,58,19.33%,Hong kong,,China,Computer Vision,Conference,https://dblp.org/db/conf/accv/index,,,,IEEE,Springer
+Asian Conference on Computer Vision,1995,ACCV 1995,ACCV,5-Dec-1995,8-Dec-1995,,56,,,,Singapore,Computer Vision,Conference,https://dblp.org/db/conf/accv/index,,,,IAPR,Springer
+,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,48 @@
+Title,Event[Start date],Event[Acronym],Event[Series],Event[Start date],Event[End date],Event[Submitted paper],Event[Accepted paper],Event[submission Rate],Event[city],Event[state],Event[country],Event[Field],Event[Type],Event[Homepage],EVENT[PUBLISHER],Event[sponsor]
+IEEE Computer Security Foundations Symposium,2019,CSF 2019,CSF,24-Jun-2019,27-Jun-2019,,,,Hoboken,,,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,CBCC
+IEEE Computer Security Foundations Symposium,2018,CSF 2018,CSF,9-Jul-2018,12-Jul-2018,72,25,34.72%,Oxford,,UK,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,NSF
+IEEE Computer Security Foundations Symposium,2017,CSF  2017,CSF,22-Aug-2017,26-Aug-2017,94,32,34.04%,Santa Barabara,CA,USA,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,IEEE
+IEEE Computer Security Foundations Symposium,2016,CSF 2016,CSF,27-Jun-2016,1-Jul-2016,87,31,35.63%,Lisbon,,Portugual,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,IEEE
+IEEE Computer Security Foundations Symposium,2015,CSF 2015,CSF,13-Jul-2015,17-Jul-2015,102,35,34.31%,Verona,,Italy,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,IEEE
+IEEE Computer Security Foundations Symposium,2014,CSF 2014,CSF,19-Jul-2014,22-Jul-2014,83,29,34.94%,Vienna,,Austria,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,IEEE
+IEEE Computer Security Foundations Symposium,2013,CSF 2013,CSF,26-Jun-2013,28-Jun-2013,73,19,26.03%,New Orleans,,USA,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,IEEE
+IEEE Computer Security Foundations Symposium,2012,CSF 2012,CSF,25-Jun-2012,27-Jun-2012,101,25,24.75%,Cambridge,,USA,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,IEEE
+IEEE Computer Security Foundations Symposium,2011,CSF 2011,CSF,27-Jun-2011,29-Jun-2011,81,21,26%,Cernay,,France,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,intel
+IEEE Computer Security Foundations Symposium,2010,CSF 2010,CSF,17-Jul-2010,19-Jul-2010,81,23,28%,Edinburgh,,Scottland,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,IEEE
+IEEE Computer Security Foundations Symposium,2009,CSF 2009,CSF,8-Jul-2009,10-Jul-2009,93,22,23.70%,Port Jefferson,,USA,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,2008,CSF 2008,CSF,23-Jun-2008,25-Jun-2008,115,21,18.30%,Pittsburgh,PA,USA,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,2007,CSF 2007,CSF,6-Jul-2007,8-Jul-2007,101,25,24.80%,Venice,,Italy,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,2006,CSFW 2006,CSF,5-Jul-2006,7-Jul-2006,102,25,24.50%,Venice,,Italy,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,2005,CSFW 2005,CSF,20-Jun-2005,22-Jun-2005,96,20,20.80%,Aix-en-Provence,,France,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,2004,CSFW 2004,CSF,28-Jun-2004,30-Jun-2004,,20,,Pacific Grove,CA,USA,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,2003,CSFW 2003,CSF,30-Jun-2003,2-Jul-2003,,17,,Pacific Grove,CA,USA,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,2002,CSFW 2002,CSF,24-Jun-2002,26-Jun-2002,84,23,27.40%,Cape Breton,,Canada,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,2001,CSFW 2001,CSF,11-Jun-2001,13-Jun-2001,54,21,38.90%,Cape Breton,,Canada,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,2000,CSFW 2000,CSF,3-Jul-2000,5-Jul-2000,48,22,45.80%,Cambridge,England,UK,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,1999,CSFW 1999,CSF,28-Jun-1999,30-Jun-1999,47,19,40.40%,Mordano,,Italy,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,1998,CSFW 1998,CSF,9-Jun-1998,11-Jun-1998,,,,Rackport,,USA,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,1997,CSFW 1997,CSF,10-Jun-1997,12-Jun-1997,,,,Rackport,,USA,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,1996,CSFW 1996,CSF,10-Jun-1996,12-Jun-1996,,,,Kenmare,,Ireland,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,1995,CSFW 1995,CSF,13-Mar-1995,15-Mar-1995,,,,Kenmare,,Ireland,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,1994,CSFW 1994,CSF,14-Jun-1994,16-Jun-1994,,,,Franconia,,USA,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,1993,CSFW 1993,CSF,15-Jun-1993,17-Jun-1993,,,,Franconia,,USA,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,1992,CSFW 1992,CSF,16-Jun-1992,18-Jun-1992,,,,Franconia,,USA,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,1991,CSFW 1991,CSF,18-Jun-1991,20-Jun-1991,,,,Franconia,,USA,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,1990,CSFW 1990,CSF,12-Jun-1990,14-Jun-1990,,,,Franconia,,USA,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,1989,CSFW 1989,CSF,11-Jun-1989,14-Jun-1989,,,,Franconia,,USA,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+IEEE Computer Security Foundations Symposium,1988,CSFW 1988,CSF,12-Jun-1988,15-Jun-1988,,,,Franconia,,USA,Computer security ,Symposium,http://www.ieee-security.org/CSFWweb/past.html,IEEE,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
