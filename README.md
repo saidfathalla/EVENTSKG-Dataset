@@ -13,3 +13,5 @@ For exploring the dataset, you can follow these links:
   - GitHub Issue Tracker: [Bug report](https://github.com/saidfathalla/EVENTSKG-Dataset/issues/new?template=bug_report.md) or [Feature request](https://github.com/saidfathalla/EVENTSKG-Dataset/issues/new?template=feature_request.md)
   - [Documentation](http://kddste.sda.tech/EVENTSKG-Dataset/EVENTSKG_R2.html)
   - [Maintenance API](https://github.com/saidfathalla/EVENTSKG_API)
+
+Finally, any doubt you have with the Dataset, send me an e-mail to: fathalla [at] cs [dot] uni-bonn [dot] de or open an Issue.
