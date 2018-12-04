@@ -119,6 +119,12 @@
     
 
 
+    <!-- http://purl.org/seo/hasTrack -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/seo/hasTrack"/>
+    
+
+
     <!-- http://purl.org/seo/state -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/seo/state"/>
@@ -172,6 +178,66 @@
     
 
 
+    <!-- http://purl.org/seo/ChallengesTrack -->
+
+    <owl:Class rdf:about="http://purl.org/seo/ChallengesTrack"/>
+    
+
+
+    <!-- http://purl.org/seo/DemosTrack -->
+
+    <owl:Class rdf:about="http://purl.org/seo/DemosTrack"/>
+    
+
+
+    <!-- http://purl.org/seo/DoctoralConsortium -->
+
+    <owl:Class rdf:about="http://purl.org/seo/DoctoralConsortium"/>
+    
+
+
+    <!-- http://purl.org/seo/In-useTrack -->
+
+    <owl:Class rdf:about="http://purl.org/seo/In-useTrack"/>
+    
+
+
+    <!-- http://purl.org/seo/IndustryTrack -->
+
+    <owl:Class rdf:about="http://purl.org/seo/IndustryTrack"/>
+    
+
+
+    <!-- http://purl.org/seo/PHDSymposium -->
+
+    <owl:Class rdf:about="http://purl.org/seo/PHDSymposium"/>
+    
+
+
+    <!-- http://purl.org/seo/PanelsTrack -->
+
+    <owl:Class rdf:about="http://purl.org/seo/PanelsTrack"/>
+    
+
+
+    <!-- http://purl.org/seo/PostersTrack -->
+
+    <owl:Class rdf:about="http://purl.org/seo/PostersTrack"/>
+    
+
+
+    <!-- http://purl.org/seo/ResearchTrack -->
+
+    <owl:Class rdf:about="http://purl.org/seo/ResearchTrack"/>
+    
+
+
+    <!-- http://purl.org/seo/ResourceTrack -->
+
+    <owl:Class rdf:about="http://purl.org/seo/ResourceTrack"/>
+    
+
+
     <!-- http://purl.org/seo/Symposium -->
 
     <owl:Class rdf:about="http://purl.org/seo/Symposium"/>
@@ -181,6 +247,24 @@
     <!-- http://purl.org/seo/SymposiumSeries -->
 
     <owl:Class rdf:about="http://purl.org/seo/SymposiumSeries"/>
+    
+
+
+    <!-- http://purl.org/seo/Track -->
+
+    <owl:Class rdf:about="http://purl.org/seo/Track"/>
+    
+
+
+    <!-- http://purl.org/seo/TutorialProposals -->
+
+    <owl:Class rdf:about="http://purl.org/seo/TutorialProposals"/>
+    
+
+
+    <!-- http://purl.org/seo/WorkshopProposals -->
+
+    <owl:Class rdf:about="http://purl.org/seo/WorkshopProposals"/>
     
 
 
@@ -1270,10 +1354,7 @@
     <!-- http://purl.org/eventskg/ACCV1995 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ACCV1995">
-    
-
-
-    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>https://dblp.org/db/conf/accv/index</seo:EventWebpage>
         <seo:acceptancerate></seo:acceptancerate>
         <seo:acceptedpaper></seo:acceptedpaper>
@@ -1321,10 +1402,7 @@
     <!-- http://purl.org/eventskg/ACCV2000 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ACCV2000">
-    
-
-
-    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>https://dblp.org/db/conf/accv/index</seo:EventWebpage>
         <seo:acceptancerate></seo:acceptancerate>
         <seo:acceptedpaper></seo:acceptedpaper>
@@ -1348,10 +1426,7 @@
     <!-- http://purl.org/eventskg/ACCV2002 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ACCV2002">
-    
-
-
-    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>https://trove.nla.gov.au/work/27771989?selectedversion=NBD24769420</seo:EventWebpage>
         <seo:acceptancerate></seo:acceptancerate>
         <seo:acceptedpaper></seo:acceptedpaper>
@@ -1375,10 +1450,7 @@
     <!-- http://purl.org/eventskg/ACCV2004 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ACCV2004">
-    
-
-
-    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>https://www.mica.edu.vn/perso/Tran-Thi-Thanh-Hai/Pdf/2004_ACCV.pdf</seo:EventWebpage>
         <seo:acceptancerate></seo:acceptancerate>
         <seo:acceptedpaper></seo:acceptedpaper>
@@ -1402,10 +1474,7 @@
     <!-- http://purl.org/eventskg/ACCV2006 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ACCV2006">
-    
-
-
-    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>https://link.springer.com/book/10.1007/11612032</seo:EventWebpage>
         <seo:acceptancerate></seo:acceptancerate>
         <seo:acceptedpaper></seo:acceptedpaper>
@@ -1573,10 +1642,7 @@
     <!-- http://purl.org/eventskg/ACCV2018 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ACCV2018">
-    
-
-
-    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>http://accv2018.net/</seo:EventWebpage>
         <seo:acceptancerate></seo:acceptancerate>
         <seo:acceptedpaper></seo:acceptedpaper>
@@ -4606,6 +4672,10 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/CCS">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/PostersTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/ResearchTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/TutorialProposals"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/WorkshopProposals"/>
         <conference-ontology:acronym>CCS</conference-ontology:acronym>
         <conference-ontology:title>Conference on Computer and Communications Security</conference-ontology:title>
     </owl:NamedIndividual>
@@ -7709,6 +7779,10 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/CVPR">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/DemosTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/ResearchTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/TutorialProposals"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/WorkshopProposals"/>
         <conference-ontology:acronym>CVPR</conference-ontology:acronym>
         <conference-ontology:title xml:lang="en">IEEE Conference on Computer Vision and Pattern Recognition</conference-ontology:title>
     </owl:NamedIndividual>
@@ -8311,6 +8385,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/DCC">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/ResearchTrack"/>
         <conference-ontology:acronym>DCC</conference-ontology:acronym>
         <conference-ontology:title>Data Compression Conference
 </conference-ontology:title>
@@ -11590,6 +11665,15 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ESWC">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/ChallengesTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/DemosTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/In-useTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/IndustryTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/PHDSymposium"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/PostersTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/ResearchTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/ResourceTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/TutorialProposals"/>
         <conference-ontology:acronym>ESWC</conference-ontology:acronym>
         <conference-ontology:title>European Semantic Web Conference</conference-ontology:title>
     </owl:NamedIndividual>
@@ -17994,6 +18078,10 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ICSE">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/DemosTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/PostersTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/ResearchTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/WorkshopProposals"/>
         <conference-ontology:acronym>ICSE</conference-ontology:acronym>
         <conference-ontology:title>International Conference on Software Engineering</conference-ontology:title>
     </owl:NamedIndividual>
@@ -20205,6 +20293,9 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ISCA">
         <rdf:type rdf:resource="http://purl.org/seo/SymposiumSeries"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/ResearchTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/TutorialProposals"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/WorkshopProposals"/>
         <conference-ontology:acronym>ISCA</conference-ontology:acronym>
         <conference-ontology:title>International Symposium on Computer Architecture</conference-ontology:title>
     </owl:NamedIndividual>
@@ -20985,6 +21076,12 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ISMAR">
         <rdf:type rdf:resource="http://purl.org/seo/SymposiumSeries"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/DemosTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/DoctoralConsortium"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/PostersTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/ResearchTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/TutorialProposals"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/WorkshopProposals"/>
         <conference-ontology:acronym>ISMAR</conference-ontology:acronym>
         <conference-ontology:title>IEEE / ACM International Symposium on Mixed and Augmented Reality</conference-ontology:title>
     </owl:NamedIndividual>
@@ -22041,6 +22138,15 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ISWC">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/DemosTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/In-useTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/IndustryTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/PHDSymposium"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/PostersTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/ResearchTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/ResourceTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/TutorialProposals"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/WorkshopProposals"/>
         <conference-ontology:acronym>ISWC</conference-ontology:acronym>
         <conference-ontology:title>International Semantic Web Conference</conference-ontology:title>
     </owl:NamedIndividual>
@@ -32061,8 +32167,8 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD1991">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>dblp.uni-trier.de/db/conf/sigmod/sigmod91.html</seo:EventWebpage>
-		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1991"/>
         <seo:city>Denver</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1991"/>
         <seo:country>USA</seo:country>
         <seo:field>Information systems</seo:field>
         <seo:hasPublisher>ACM</seo:hasPublisher>
@@ -32082,8 +32188,8 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD1992">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>dblp.uni-trier.de/db/conf/sigmod/sigmod92.html</seo:EventWebpage>
-		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1992"/>
         <seo:city>San Diego</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1992"/>
         <seo:country>USA</seo:country>
         <seo:field>Information systems</seo:field>
         <seo:hasPublisher>ACM</seo:hasPublisher>
@@ -32102,11 +32208,11 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD1993">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1993"/>
         <seo:EventWebpage>dblp.uni-trier.de/db/conf/sigmod/sigmod93.html</seo:EventWebpage>
         <seo:acceptancerate>16.60%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</seo:acceptedpaper>
         <seo:city>Washington</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1993"/>
         <seo:country>USA</seo:country>
         <seo:field>Information systems</seo:field>
         <seo:hasPublisher>ACM</seo:hasPublisher>
@@ -32126,10 +32232,10 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD1994">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>dblp.uni-trier.de/db/conf/sigmod/sigmod94.html</seo:EventWebpage>
-		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1994"/>
         <seo:acceptancerate>14.30%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</seo:acceptedpaper>
         <seo:city>Minneapolis</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1994"/>
         <seo:country>USA</seo:country>
         <seo:field>Information systems</seo:field>
         <seo:hasPublisher>ACM</seo:hasPublisher>
@@ -32149,11 +32255,11 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD1995">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1995"/>
         <seo:EventWebpage>dblp.uni-trier.de/db/conf/sigmod/sigmod95.html</seo:EventWebpage>
         <seo:acceptancerate>17.30%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</seo:acceptedpaper>
         <seo:city>San Jose</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1995"/>
         <seo:country>USA</seo:country>
         <seo:field>Information systems</seo:field>
         <seo:hasPublisher>ACM</seo:hasPublisher>
@@ -32174,10 +32280,10 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD1996">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>dblp.uni-trier.de/db/conf/sigmod/sigmod96.html</seo:EventWebpage>
-		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1996"/>
         <seo:acceptancerate>16.20%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</seo:acceptedpaper>
         <seo:city>Montreal</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1996"/>
         <seo:country>Canada</seo:country>
         <seo:field>Information systems</seo:field>
         <seo:hasPublisher>ACM</seo:hasPublisher>
@@ -32196,11 +32302,11 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD1997">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1997"/>
         <seo:EventWebpage>dblp.uni-trier.de/db/conf/sigmod/sigmod97.html</seo:EventWebpage>
         <seo:acceptancerate>20.80%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</seo:acceptedpaper>
         <seo:city>Tucson</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1997"/>
         <seo:country>USA</seo:country>
         <seo:field>Information systems</seo:field>
         <seo:hasPublisher>ACM</seo:hasPublisher>
@@ -32220,11 +32326,11 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD1998">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1998"/>
         <seo:EventWebpage>dblp.uni-trier.de/db/conf/sigmod/sigmod98.html</seo:EventWebpage>
         <seo:acceptancerate>17.10%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</seo:acceptedpaper>
         <seo:city>Seattle</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1998"/>
         <seo:country>USA</seo:country>
         <seo:field>Information systems</seo:field>
         <seo:hasPublisher>ACM</seo:hasPublisher>
@@ -32244,11 +32350,11 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD1999">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1999"/>
         <seo:EventWebpage>dblp.uni-trier.de/db/conf/sigmod/sigmod99.html</seo:EventWebpage>
         <seo:acceptancerate>20.50%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</seo:acceptedpaper>
         <seo:city>Philadelphia</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS1999"/>
         <seo:country>USA</seo:country>
         <seo:field>Information systems</seo:field>
         <seo:hasPublisher>ACM</seo:hasPublisher>
@@ -32497,10 +32603,10 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD2010">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>www.sigmod2010.org/</seo:EventWebpage>
-		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2010"/>
         <seo:acceptancerate>20.80%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</seo:acceptedpaper>
         <seo:city>Indianapolis</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2010"/>
         <seo:country>USA</seo:country>
         <seo:field>Information systems</seo:field>
         <seo:hasPublisher>ACM</seo:hasPublisher>
@@ -32522,10 +32628,10 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD2011">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>www.sigmod2011.org/</seo:EventWebpage>
-		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2011"/>
         <seo:acceptancerate>23.20%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</seo:acceptedpaper>
         <seo:city>Athens</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2011"/>
         <seo:country>Greece</seo:country>
         <seo:field>Information systems</seo:field>
         <seo:hasPublisher>ACM</seo:hasPublisher>
@@ -32546,10 +32652,10 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD2012">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>www.sigmod.org/2012/</seo:EventWebpage>
-		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2012"/>
         <seo:acceptancerate>16.60%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</seo:acceptedpaper>
         <seo:city>Scottsdale</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2012"/>
         <seo:country>USA</seo:country>
         <seo:field>Information systems</seo:field>
         <seo:hasPublisher>ACM</seo:hasPublisher>
@@ -32570,10 +32676,10 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD2013">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>www.sigmod.org/2013/</seo:EventWebpage>
-		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2013"/>
         <seo:acceptancerate>20.40%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</seo:acceptedpaper>
         <seo:city>New York</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2013"/>
         <seo:country>USA</seo:country>
         <seo:field>Information systems</seo:field>
         <seo:hasPublisher>ACM</seo:hasPublisher>
@@ -32595,10 +32701,10 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD2014">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>www.sigmod2014.org/</seo:EventWebpage>
-		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2014"/>
         <seo:acceptancerate>25.40%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">107</seo:acceptedpaper>
         <seo:city>Snowbird</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2014"/>
         <seo:country>USA</seo:country>
         <seo:field>Information systems</seo:field>
         <seo:hasPublisher>ACM</seo:hasPublisher>
@@ -32619,10 +32725,10 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD2015">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>www.sigmod2015.org/</seo:EventWebpage>
-		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2015"/>
         <seo:acceptancerate>25.50%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</seo:acceptedpaper>
         <seo:city>Melbourne</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2015"/>
         <seo:country>Australia</seo:country>
         <seo:field>Information systems</seo:field>
         <seo:hasPublisher>ACM</seo:hasPublisher>
@@ -32645,9 +32751,9 @@
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>www.sigmod2016.org/</seo:EventWebpage>
         <seo:acceptancerate>19.00%</seo:acceptancerate>
-		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2016"/>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">137</seo:acceptedpaper>
         <seo:city>San Francisco</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2016"/>
         <seo:country>USA</seo:country>
         <seo:field>Information systems</seo:field>
         <seo:hasPublisher>ACM</seo:hasPublisher>
@@ -32669,10 +32775,10 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD2017">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>sigmod2017.org/</seo:EventWebpage>
-		<seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2017"/>
         <seo:acceptancerate>20.00%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</seo:acceptedpaper>
         <seo:city>Raleigh</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2017"/>
         <seo:country>USA</seo:country>
         <seo:field>Information systems</seo:field>
         <seo:hasPublisher>ACM</seo:hasPublisher>
@@ -32694,10 +32800,10 @@
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SIGMOD2018">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>sigmod2018.org/</seo:EventWebpage>
-        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2018"/>
         <seo:acceptancerate>19.50%</seo:acceptancerate>
         <seo:acceptedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</seo:acceptedpaper>
         <seo:city>Houston</seo:city>
+        <seo:colocatedWith rdf:resource="http://purl.org/eventskg/PODS2018"/>
         <seo:country>USA</seo:country>
         <seo:field>Information systems</seo:field>
         <seo:hasPublisher>ACM</seo:hasPublisher>
@@ -35379,6 +35485,531 @@
     
 
 
+    <!-- http://purl.org/eventskg/TheWeb -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/ChallengesTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/DemosTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/IndustryTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/PHDSymposium"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/PostersTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/ResearchTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/TutorialProposals"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/WorkshopProposals"/>
+        <conference-ontology:acronym>TheWeb</conference-ontology:acronym>
+        <conference-ontology:title>International Conference on World Wide Web</conference-ontology:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb1994 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb1994">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www94.web.cern.ch/TheWeb94/</seo:EventWebpage>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Cern</seo:city>
+        <seo:city>Chicago</seo:city>
+        <seo:country>Switzerland</seo:country>
+        <seo:country>USA</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:state>Illinois</seo:state>
+        <conference-ontology:acronym>TheWeb 1994</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-05-27T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>1994</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-05-25T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb1995 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb1995">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www.w3.org/Conferences/TheWeb5/</seo:EventWebpage>
+        <seo:acceptanceRate>31%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Boston</seo:city>
+        <seo:city>Darmstadt</seo:city>
+        <seo:country>Germany</seo:country>
+        <seo:country>USA</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:state>Massachusetts</seo:state>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">189</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb1995</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1995-12-14T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>1995</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1995-12-11T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb1996 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb1996">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www.w3.org/Conferences/TheWeb5/</seo:EventWebpage>
+        <seo:acceptanceRate>28%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Paris</seo:city>
+        <seo:country>France</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 1996</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-10T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>1996</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-06T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb1997 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb1997">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www6.wwwconference.org/</seo:EventWebpage>
+        <seo:acceptanceRate>22%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Santa Clara</seo:city>
+        <seo:country>USA</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:state>California</seo:state>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">276</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 1997</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1997-04-11T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>1997</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1997-04-07T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb1998 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb1998">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www7.wwwconference.org/00/index.htm</seo:EventWebpage>
+        <seo:acceptanceRate>22%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:country>Australia</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:state>Brisbane</seo:state>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 1998</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1998-04-18T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>1998</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1998-04-14T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb1999 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb1999">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www8.org/</seo:EventWebpage>
+        <seo:acceptanceRate>16%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Toronto</seo:city>
+        <seo:country>Canada</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">304</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 1999</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1999-05-14T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>1999</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1999-05-11T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb2000 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb2000">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www9.org/</seo:EventWebpage>
+        <seo:acceptanceRate>20%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Amsterdam</seo:city>
+        <seo:country>The Netherlands</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">280</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 2000</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2000-05-19T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2000</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2000-05-15T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb2001 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb2001">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www10.wwwconference.org/</seo:EventWebpage>
+        <seo:acceptanceRate>20%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Hong Kong</seo:city>
+        <seo:country>China</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">391</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 2001</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2001-05-05T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2001</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2001-05-01T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb2002 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb2002">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>wwwconference.org/proceedings/www2002/</seo:EventWebpage>
+        <seo:acceptanceRate>16%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Honolulu</seo:city>
+        <seo:country>USA</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:state>Hawaii</seo:state>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">454</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 2002</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-05-11T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2002</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-05-07T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb2003 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb2003">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www2003.org/</seo:EventWebpage>
+        <seo:acceptanceRate>13%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Budapest</seo:city>
+        <seo:country>Hungary</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">602</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 2003</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-05-24T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2003</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-05-20T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb2004 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb2004">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www2004.org/</seo:EventWebpage>
+        <seo:acceptanceRate>15%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Manhattan</seo:city>
+        <seo:country>USA</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:state>New York</seo:state>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">506</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 2004</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-22T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2004</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-17T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb2005 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb2005">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www2005.wwwconference.org/</seo:EventWebpage>
+        <seo:acceptanceRate>14%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Chiba</seo:city>
+        <seo:country>Jaban</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">550</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 2005</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-05-14T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2005</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-05-10T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb2006 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb2006">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www2006.org/</seo:EventWebpage>
+        <seo:acceptanceRate>11%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Edinburgh</seo:city>
+        <seo:country>UK</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:state>Scotland</seo:state>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">667</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 2006</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-05-25T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2006</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-05-23T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb2007 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb2007">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www.www2007.org/</seo:EventWebpage>
+        <seo:acceptanceRate>15%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Banff</seo:city>
+        <seo:country>Canada</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:state>Alberta</seo:state>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">753</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 2007</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-12T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2007</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-08T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb2008 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb2008">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>wwwconference.org/www2008/</seo:EventWebpage>
+        <seo:acceptanceRate>12%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Beijing</seo:city>
+        <seo:country>China</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">880</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 2008</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-25T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2008</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-21T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb2009 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb2009">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www2009.org/</seo:EventWebpage>
+        <seo:acceptanceRate>24%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">198</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Madrid</seo:city>
+        <seo:country>Spain</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">823</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 2009</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-24T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2009</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-20T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb2010 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb2010">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www2010.org/www/</seo:EventWebpage>
+        <seo:acceptanceRate>14%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Raleigh</seo:city>
+        <seo:country>USA</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:state>North Carolina</seo:state>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">754</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 2010</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-04-30T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2010</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-04-26T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb2011 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb2011">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www2011.wwwconference.org/</seo:EventWebpage>
+        <seo:acceptanceRate>12%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Hyderabad</seo:city>
+        <seo:country>India</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">658</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 2011</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-04-01T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2011</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-28T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb2012 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb2012">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www.wwwconference.org/www2012/</seo:EventWebpage>
+        <seo:acceptanceRate>12%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Lyon</seo:city>
+        <seo:country>France</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">885</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 2012</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-04-20T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2012</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-04-16T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb2013 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb2013">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www2013.org/</seo:EventWebpage>
+        <seo:acceptanceRate>15%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Rio de Janeiro</seo:city>
+        <seo:country>Brazil</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">831</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 2013</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-17T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2013</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-13T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb2014 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb2014">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www2014.wwwconference.org/</seo:EventWebpage>
+        <seo:acceptanceRate>13%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Seoul</seo:city>
+        <seo:country>Korea</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">645</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 2014</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-11T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2014</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-07T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb2015 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb2015">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www.www2015.it/</seo:EventWebpage>
+        <seo:acceptanceRate>14%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">131</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Florence</seo:city>
+        <seo:country>Italy</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">929</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 2015</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-22T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2015</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-18T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb2016 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb2016">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www2016.ca/</seo:EventWebpage>
+        <seo:acceptanceRate>16%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Montreal</seo:city>
+        <seo:country>Canada</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">727</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 2016</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2016</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-11T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb2017 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb2017">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>www.www2017.com.au/</seo:EventWebpage>
+        <seo:acceptanceRate>17%</seo:acceptanceRate>
+        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164</seo:acceptedPapers>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Perth</seo:city>
+        <seo:country>Australia</seo:country>
+        <seo:field>Web</seo:field>
+        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">966</seo:submittedPapers>
+        <conference-ontology:acronym>TheWeb 2017</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-07T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2017</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/eventskg/TheWeb2018 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/TheWeb2018">
+        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+        <seo:EventWebpage>https://www2018.thewebconf.org/</seo:EventWebpage>
+        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/TheWeb"/>
+        <seo:city>Lyon</seo:city>
+        <seo:country>France</seo:country>
+        <seo:field>Web</seo:field>
+        <conference-ontology:acronym>TheWeb 2018</conference-ontology:acronym>
+        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-27T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2018</conference-ontology:startDate>
+        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-23T00:00:00.0000000+00:00</conference-ontology:startDate>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/eventskg/UAI -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/UAI">
@@ -37794,6 +38425,12 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/eventskg/VLDB">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/DemosTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/IndustryTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/PanelsTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/ResearchTrack"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/TutorialProposals"/>
+        <seo:hasTrack rdf:resource="http://purl.org/seo/WorkshopProposals"/>
         <conference-ontology:acronym>VLDB</conference-ontology:acronym>
         <conference-ontology:title>International Conference on Very Large Databases</conference-ontology:title>
     </owl:NamedIndividual>
@@ -39184,523 +39821,6 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-02T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>2018</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-05T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <conference-ontology:acronym>WWW</conference-ontology:acronym>
-        <conference-ontology:title>International Conference on World Wide Web</conference-ontology:title>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW1994 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW1994">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www94.web.cern.ch/WWW94/</seo:EventWebpage>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Cern</seo:city>
-        <seo:city>Chicago</seo:city>
-        <seo:country>Switzerland</seo:country>
-        <seo:country>USA</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:state>Illinois</seo:state>
-        <conference-ontology:acronym>WWW 1994</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-05-27T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>1994</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-05-25T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW1995 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW1995">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www.w3.org/Conferences/WWW4/</seo:EventWebpage>
-        <seo:acceptanceRate>31%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Boston</seo:city>
-        <seo:city>Darmstadt</seo:city>
-        <seo:country>Germany</seo:country>
-        <seo:country>USA</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:state>Massachusetts</seo:state>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">189</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 1995</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1995-12-14T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>1995</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1995-12-11T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW1996 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW1996">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www.w3.org/Conferences/WWW5/</seo:EventWebpage>
-        <seo:acceptanceRate>28%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Paris</seo:city>
-        <seo:country>France</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 1996</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-10T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>1996</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-05-06T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW1997 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW1997">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www6.wwwconference.org/</seo:EventWebpage>
-        <seo:acceptanceRate>22%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Santa Clara</seo:city>
-        <seo:country>USA</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:state>California</seo:state>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">276</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 1997</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1997-04-11T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>1997</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1997-04-07T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW1998 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW1998">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www7.wwwconference.org/00/index.htm</seo:EventWebpage>
-        <seo:acceptanceRate>22%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:country>Australia</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:state>Brisbane</seo:state>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 1998</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1998-04-18T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>1998</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1998-04-14T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW1999 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW1999">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www8.org/</seo:EventWebpage>
-        <seo:acceptanceRate>16%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Toronto</seo:city>
-        <seo:country>Canada</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">304</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 1999</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1999-05-14T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>1999</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1999-05-11T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW2000 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW2000">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www9.org/</seo:EventWebpage>
-        <seo:acceptanceRate>20%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Amsterdam</seo:city>
-        <seo:country>The Netherlands</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">280</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 2000</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2000-05-19T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>2000</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2000-05-15T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW2001 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW2001">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www10.wwwconference.org/</seo:EventWebpage>
-        <seo:acceptanceRate>20%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Hong Kong</seo:city>
-        <seo:country>China</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">391</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 2001</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2001-05-05T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>2001</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2001-05-01T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW2002 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW2002">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>wwwconference.org/proceedings/www2002/</seo:EventWebpage>
-        <seo:acceptanceRate>16%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Honolulu</seo:city>
-        <seo:country>USA</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:state>Hawaii</seo:state>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">454</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 2002</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-05-11T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>2002</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-05-07T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW2003 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW2003">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www2003.org/</seo:EventWebpage>
-        <seo:acceptanceRate>13%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Budapest</seo:city>
-        <seo:country>Hungary</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">602</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 2003</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-05-24T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>2003</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-05-20T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW2004 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW2004">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www2004.org/</seo:EventWebpage>
-        <seo:acceptanceRate>15%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Manhattan</seo:city>
-        <seo:country>USA</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:state>New York</seo:state>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">506</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 2004</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-22T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>2004</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-17T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW2005 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW2005">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www2005.wwwconference.org/</seo:EventWebpage>
-        <seo:acceptanceRate>14%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Chiba</seo:city>
-        <seo:country>Jaban</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">550</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 2005</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-05-14T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>2005</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-05-10T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW2006 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW2006">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www2006.org/</seo:EventWebpage>
-        <seo:acceptanceRate>11%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Edinburgh</seo:city>
-        <seo:country>UK</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:state>Scotland</seo:state>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">667</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 2006</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-05-25T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>2006</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-05-23T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW2007 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW2007">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www.www2007.org/</seo:EventWebpage>
-        <seo:acceptanceRate>15%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Banff</seo:city>
-        <seo:country>Canada</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:state>Alberta</seo:state>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">753</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 2007</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-12T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>2007</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-08T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW2008 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW2008">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>wwwconference.org/www2008/</seo:EventWebpage>
-        <seo:acceptanceRate>12%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Beijing</seo:city>
-        <seo:country>China</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">880</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 2008</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-25T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>2008</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-21T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW2009 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW2009">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www2009.org/</seo:EventWebpage>
-        <seo:acceptanceRate>24%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">198</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Madrid</seo:city>
-        <seo:country>Spain</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">823</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 2009</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-24T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>2009</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-04-20T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW2010 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW2010">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www2010.org/www/</seo:EventWebpage>
-        <seo:acceptanceRate>14%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Raleigh</seo:city>
-        <seo:country>USA</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:state>North Carolina</seo:state>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">754</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 2010</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-04-30T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>2010</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-04-26T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW2011 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW2011">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www2011.wwwconference.org/</seo:EventWebpage>
-        <seo:acceptanceRate>12%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Hyderabad</seo:city>
-        <seo:country>India</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">658</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 2011</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-04-01T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>2011</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-28T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW2012 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW2012">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www.wwwconference.org/www2012/</seo:EventWebpage>
-        <seo:acceptanceRate>12%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Lyon</seo:city>
-        <seo:country>France</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">885</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 2012</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-04-20T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>2012</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-04-16T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW2013 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW2013">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www2013.org/</seo:EventWebpage>
-        <seo:acceptanceRate>15%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Rio de Janeiro</seo:city>
-        <seo:country>Brazil</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">831</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 2013</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-17T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>2013</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-13T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW2014 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW2014">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www2014.wwwconference.org/</seo:EventWebpage>
-        <seo:acceptanceRate>13%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Seoul</seo:city>
-        <seo:country>Korea</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">645</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 2014</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-11T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>2014</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-07T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW2015 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW2015">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www.www2015.it/</seo:EventWebpage>
-        <seo:acceptanceRate>14%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">131</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Florence</seo:city>
-        <seo:country>Italy</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">929</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 2015</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-22T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>2015</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-18T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW2016 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW2016">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www2016.ca/</seo:EventWebpage>
-        <seo:acceptanceRate>16%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Montreal</seo:city>
-        <seo:country>Canada</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">727</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 2016</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>2016</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-11T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW2017 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW2017">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>www.www2017.com.au/</seo:EventWebpage>
-        <seo:acceptanceRate>17%</seo:acceptanceRate>
-        <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164</seo:acceptedPapers>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Perth</seo:city>
-        <seo:country>Australia</seo:country>
-        <seo:field>Web</seo:field>
-        <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">966</seo:submittedPapers>
-        <conference-ontology:acronym>WWW 2017</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-07T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>2017</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-03T00:00:00.0000000+00:00</conference-ontology:startDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/eventskg/WWW2018 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW2018">
-        <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:EventWebpage>https://www2018.thewebconf.org/</seo:EventWebpage>
-        <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/WWW"/>
-        <seo:city>Lyon</seo:city>
-        <seo:country>France</seo:country>
-        <seo:field>Web</seo:field>
-        <conference-ontology:acronym>WWW 2018</conference-ontology:acronym>
-        <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-27T00:00:00.0000000+00:00</conference-ontology:endDate>
-        <conference-ontology:startDate>2018</conference-ontology:startDate>
-        <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-23T00:00:00.0000000+00:00</conference-ontology:startDate>
     </owl:NamedIndividual>
     
 
