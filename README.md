@@ -7,7 +7,7 @@ A dataset of scientific events, containing historical data about the publication
 
 For exploring the dataset, you can follow these links:
   - EVENTSKG dumps: [RDF/Turtle](http://kddste.sda.tech/EVENTSKG-Dataset/EVENTKG_R2.ttl), [JSON-LD](http://kddste.sda.tech/EVENTSKG-Dataset/EVENTKG_R2.json), or [RDF/XML](http://kddste.sda.tech/EVENTSKG-Dataset/EVENTKG_R2.rdf)
-  - [Statistics](https://docs.google.com/spreadsheets/d/e/2PACX-1vSfMJ2vDUR9YAG7CCQSZtiGmCMm8nSQdM33HE4zoa4j-uEXuYBcy8Kut_IanNAlwlo8pAiYuQDp8OEd/pubhtml?gid=0&single=true)
+  - [VoID Statistics](http://kddste.sda.tech/EVENTSKG-Dataset/VoID.nt)
   - [PURL Persistent Identifier](http://purl.org/events_ds)
   - [Datahub](https://datahub.ckan.io/dataset/eventskg)
   - [Linked data validation (using Vapour)](http://linkeddata.uriburner.com:8000/vapour?uri=http%3A%2F%2Fpurl.org%2Fevents_ds&acceptTurtle=1&defaultResponse=dontmind&userAgent=http%3A%2F%2Flinkeddata.uriburner.com%3A8000%2Fvapour%23this)
