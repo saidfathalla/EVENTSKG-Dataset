@@ -346,7 +346,7 @@
         <seo:field>Artificial Intelligence</seo:field>
         <seo:holdsInCountry rdf:resource="http://dbpedia.org/resource/United_States"/>
         <seo:state>California</seo:state>
-        <conference-ontology:acronym>AAAI</conference-ontology:acronym>
+        <conference-ontology:acronym>AAAI1980</conference-ontology:acronym>
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1980-08-21T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1980-08-18T00:00:00.0000000+00:00</conference-ontology:startDate>
     </owl:NamedIndividual>
@@ -362,7 +362,7 @@
         <seo:city>Pittsburgh</seo:city>
         <seo:field>Artificial Intelligence</seo:field>
         <seo:holdsInCountry rdf:resource="http://dbpedia.org/resource/United_States"/>
-        <conference-ontology:acronym>AAAI</conference-ontology:acronym>
+        <conference-ontology:acronym>AAAI1982</conference-ontology:acronym>
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1982-08-22T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1982-08-18T00:00:00.0000000+00:00</conference-ontology:startDate>
     </owl:NamedIndividual>
@@ -1328,10 +1328,7 @@
     <!-- http://purl.org/events_ds/ACCV1995 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/events_ds/ACCV1995">
-    
-
-
-    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+   <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:EventWebpage>https://dblp.org/db/conf/accv/index</seo:EventWebpage>
         <seo:acceptancerate></seo:acceptancerate>
         <seo:acceptedpaper></seo:acceptedpaper>
