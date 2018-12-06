@@ -16783,7 +16783,6 @@
         <seo:hasPublisher>Springer</seo:hasPublisher>
         <seo:holdsInCountry rdf:resource="http://dbpedia.org/resource/India"/>
         <seo:submittedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">470</seo:submittedpaper>
-        <conference-ontology:acronym>ICONIP</conference-ontology:acronym>
         <conference-ontology:acronym>ICONIP 2004</conference-ontology:acronym>
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-11-25T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>22-Nov-04</conference-ontology:startDate>
@@ -16801,7 +16800,6 @@
         <seo:field>Artificial Intelligence</seo:field>
         <seo:hasPublisher>Springer</seo:hasPublisher>
         <seo:holdsInCountry rdf:resource="http://dbpedia.org/resource/Taiwan"/>
-        <conference-ontology:acronym>ICONIP</conference-ontology:acronym>
         <conference-ontology:acronym>ICONIP 2005</conference-ontology:acronym>
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-11-02T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>30-Oct-05</conference-ontology:startDate>
@@ -16822,7 +16820,6 @@
         <seo:hasPublisher>Springer</seo:hasPublisher>
         <seo:holdsInCountry rdf:resource="http://dbpedia.org/resource/China"/>
         <seo:submittedpaper rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1175</seo:submittedpaper>
-        <conference-ontology:acronym>ICONIP</conference-ontology:acronym>
         <conference-ontology:acronym>ICONIP 2006</conference-ontology:acronym>
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-10-06T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>3-Oct-06</conference-ontology:startDate>
