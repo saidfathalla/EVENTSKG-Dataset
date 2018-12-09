@@ -23,10 +23,11 @@ a:hover {
 /* ID Styles */
 	
 #navigation a {
-	font:12px arial;
+	font:14px arial;
 	color: #ffffff;
 	text-decoration:none;
 	letter-spacing:.1em;
+	
 	}
 	
 #navigation a:hover {

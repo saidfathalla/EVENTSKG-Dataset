@@ -8,7 +8,9 @@
   <meta name="author" content="Said Fathalla">
     
     <title>EVENTSKG dataset</title>
-    <style type="text/css">
+  	<link rel="stylesheet" href="mm_lodging1.css" type="text/css" />
+  <style type="text/css">
+
     body {
         background: #FFF;
         color: #000;
@@ -23,7 +25,7 @@
         border-collapse: separate;
         border-spacing: 0px;
         border-color: grey;
-        width: 99%;
+        width: 100%;
     }
 
     table.border {
@@ -124,10 +126,8 @@
         margin-top: 1em;
 		background: #f8f8f8;
     }
-    .style1 {font-size: x-large}
     .style2 {color: #003333}
     .style3 {color: #28288C}
-    .style4 {color: #28288C}
     .style5 {
 	color: #003366;
 	font-style: italic;
@@ -142,74 +142,113 @@
 #tblContent th {
   border: 1px solid black;
 }
-    </style>
+    .style6 {font-size: 14px}
+  .style7 {font-size: xx-large}
+  .style9 {font-size: 16px; font-weight: bold; }
+  </style>
 </head>
 
 <body>
-	<a name="top"></a> 
-	<h1 class="style1">EVENTSKG dataset</h1>
     <table>
+	<tr bgcolor="#000000">
+	<td height="28" colspan="2" id="navigation" ><a href="http://kddste.sda.tech/SER-Service/" class="pageName style6">SER Ranking&nbsp;&nbsp;&nbsp;&nbsp; </a><a href="https://github.com/saidfathalla/EVENTSKG-Dataset/issues/new/choose">Issue Tracker&nbsp;&nbsp;&nbsp;&nbsp; </a><a href="http://kddste.sda.tech/SEOontology/Documentation/SEO.html">SEO Ontology &nbsp;&nbsp;&nbsp;&nbsp; </a><a href="http://kddste.sda.tech/sparql">SPARQL Endpoint</a>&nbsp;&nbsp;&nbsp;&nbsp; </a><a href="https://datahub.ckan.io/dataset/eventskg">Datahub</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td width="8">&nbsp;</td>
+	<td width="17">&nbsp;</td>
+	</tr>
         <tbody>
             <tr>
-              <th ><div>Title:</div></th>
-                <td >A dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for  top-prestigious events series.</td>
+              <th colspan="2" ><div align="left" class="style6">
+                <p align="left" class="style7">EVENTSKG dataset</p>
+                </div></th>
             </tr>
             <tr>
-                <th scope="row"><div>Creator:</div></th>
-                <td><a href="http://sda.cs.uni-bonn.de/people/said-fathalla/">Said Fathalla</a> and Christoph Lange</td>
+              <th width="136" ><div class="style6">
+                <div align="left">Title:</div>
+              </div></th>
+                <td width="1189" ><span class="style6">A dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for  top-prestigious events series.</span></td>
             </tr>
             <tr>
-                <th scope="row"><div>Date Issued:</div></th>
+              <th scope="row"><div align="left">PURL</div></th>
+              <td><a href="http://purl.org/events_ds" class="style6">http://purl.org/events_ds</a> </td>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left">Namespace</div></th>
+              <td><span class="style6">eventskg</span></td>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left">Repository</div></th>
+              <td><a href="https://github.com/saidfathalla/EVENTSKG-Dataset" class="style6">https://github.com/saidfathalla/EVENTSKG-Dataset </a></td>
+            </tr>
+            <tr>
+                <th scope="row"><div class="style6">
+                  <div align="left">Creator:</div>
+                </div></th>
+                <td><span class="style6"><a href="http://sda.cs.uni-bonn.de/people/said-fathalla/">Said Fathalla</a> and Christoph Lange</span></td>
+            </tr>
+            <tr>
+                <th scope="row"><div class="style6">
+                  <div align="left">Date Issued:</div>
+                </div></th>
                 <td>
-                    <time property="dcterms:issued">2018-01-01</time>                </td>
+                    <span class="style6">
+                    <time property="dcterms:issued">2018-01-01</time>
+                    </span> </td>
             </tr>
             <tr>
-              <th scope="row"><div>Last update:</div></th>
-              <td property="dcterms:description"><time property="dcterms:issued">2018-11-23</time></td>
+              <th scope="row"><div class="style6">
+                <div align="left">Last update:</div>
+              </div></th>
+              <td property="dcterms:description"><span class="style6">
+                <time property="dcterms:issued">2018-11-23</time>
+              </span></td>
             </tr>
             <tr>
-                <th scope="row"><div>Description:</div></th>
-              <td property="dcterms:description">This document is a 
-specification of   top-prestigious events series in several computer science communities.</td>
+                <th scope="row"><div class="style6">
+                  <div align="left">Description:</div>
+                </div></th>
+              <td property="dcterms:description"><span class="style6">This document is a 
+specification of   top-prestigious events series in several computer science communities.</span></td>
             </tr>
             <tr>
-              <th scope="row">License and use: </th>
-              <td property="dcterms:description">The data maintained by EVENTSKG  is licensed under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</a> (CC BY 3.0). </td>
+              <th scope="row"><div align="left"><span class="style6">License and use: </span></div></th>
+              <td property="dcterms:description"><span class="style6">The data maintained by EVENTSKG  is licensed under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</a> (CC BY 3.0). </span></td>
             </tr>
             <tr>
-              <th scope="row">API:</th>
-              <td property="dcterms:description">&nbsp;A Java API to update EVENTSKG dataset can be found <a href="https://github.com/saidfathalla/EVENTSKG_API">here.</a></td>
+              <th scope="row"><div align="left"><span class="style6">API:</span></div></th>
+              <td property="dcterms:description"><span class="style6">&nbsp;A Java API to update EVENTSKG dataset can be found <a href="https://github.com/saidfathalla/EVENTSKG_API">here.</a></span></td>
             </tr>
             <tr>
-              <th scope="row">Issue Tracking </th>
-              <td property="dcterms:description">Please create an issue <a href="https://github.com/saidfathalla/EVENTS-Dataset/issues/new">here</a>. </td>
+              <th scope="row"><div align="left"><span class="style6">Issue Tracking </span></div></th>
+              <td property="dcterms:description"><span class="style6">Please create an issue <a href="https://github.com/saidfathalla/EVENTS-Dataset/issues/new">here</a>. </span></td>
             </tr>
             <tr>
-              <th scope="row">Indexing</th>
-              <td property="dcterms:description"><a href="https://datahub.ckan.io/dataset/eventskg">https://datahub.ckan.io/dataset/eventskg </a></td>
+              <th scope="row"><div align="left"><span class="style6">Indexing</span></div></th>
+              <td property="dcterms:description"><a href="https://datahub.ckan.io/dataset/eventskg" class="style6">https://datahub.ckan.io/dataset/eventskg </a></td>
             </tr>
             <tr>
-              <th scope="row"><div>Citation: </div></th>
-              <td property="dcterms:description"><ul>
+              <th scope="row"><div class="style6">
+                <div align="left">Citation: </div>
+              </div></th>
+              <td property="dcterms:description"><ul class="style6">
                 <li>
                   Fathalla, Said, and Christoph Lange. "EVENTSKG: A Knowledge Graph Representation for Top-Prestigious Computer Science Events Metadata." <em>International Conference on Computational Collective Intelligence</em>. Springer, Cham, 2018.                </li>
                 </ul>                
-                For the first release: <ul>
+                <ul class="style6">
                   <li>Fathalla, Said, and Christoph Lange. "EVENTS: a dataset on the history of top-prestigious events in five computer science communities." <em>International Workshop on Semantic, Analytics, Visualization. Springer, Heidelberg</em>. 2018.</li>
               </ul></td>
             </tr>
             <tr>
-              <th scope="row">Download: </th>
-              <td property="dcterms:description">The dataset is publicly available online in three different formats (i.e. <a href="EVENTSKGR2-CSV.zip">CSV</a>, <a href="EVENTKG_R2.ttl">Turtle</a>, <a href="EVENTKG_R2.json">json</a> and <a href="EVENTKG_R2.rdf">RDF</a>).</td>
+              <th scope="row"><div align="left"><span class="style6">Download: </span></div></th>
+              <td property="dcterms:description"><span class="style6">The dataset is publicly available online in three different formats (i.e. <a href="EVENTSKGR2-CSV.zip">CSV</a>, <a href="EVENTKG_R2.ttl">Turtle</a>, <a href="EVENTKG_R2.json">json</a> and <a href="EVENTKG_R2.rdf">RDF</a>).</span></td>
             </tr>
             <tr>
-              <th scope="row">SPARQL endpoint </th>
-              <td property="dcterms:description">&nbsp;EVENTSKG can be queried using our SPARQL endpoint from <a href="http://kddste.sda.tech/sparql">here</a>. </td>
+              <th scope="row"><div align="left"><span class="style6">SPARQL endpoint </span></div></th>
+              <td property="dcterms:description"><span class="style6">&nbsp;EVENTSKG can be queried using our SPARQL endpoint from <a href="http://kddste.sda.tech/sparql">here</a>. </span></td>
             </tr>
         </tbody>
     </table>
 <div>
-        <h4 class="style2">You can find our latest EVENTS release below, as well as a number of previously released datasets.</h4>
+        <h4 class="style2"><a name="top"></a>You can find our latest EVENTS release below, as well as a number of previously released datasets.</h4>
 </div>
 
 
@@ -371,7 +410,7 @@ Highcharts.chart('container', {
           <td>aaai.org/Conferences/AAAI/aaai17.php</td>
               </tr>
             </table>
-            </div>
+  </div>
                  
 </div>
 
