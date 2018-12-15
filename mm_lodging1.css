@@ -29,6 +29,9 @@ a:hover {
 	letter-spacing:.1em;
 	
 	}
+#menu {
+background-color:#000000;
+}
 	
 #navigation a:hover {
 	
@@ -98,4 +101,8 @@ a:hover {
 	color:#333333;
 	}
 	
+#bigtitle{
+text-align:left;
+font:20px arial;
+}
 	
