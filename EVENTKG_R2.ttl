@@ -2338,7 +2338,7 @@ eventskg:ACCV2000 rdf:type owl:NamedIndividual ,
 ###  http://purl.org/events_ds#ACCV2002
 eventskg:ACCV2002 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
-                  seo:acceptedpaper "" ;
+                  seo:acceptedpaper 170 ;
                   seo:belongsToSeries eventskg:ACCV ;
                   seo:city <http://dbpedia.org/resource/Melbourne> ;
                   seo:eventWebsite "https://trove.nla.gov.au/work/27771989?selectedversion=NBD24769420" ;
@@ -2356,7 +2356,7 @@ eventskg:ACCV2002 rdf:type owl:NamedIndividual ,
 ###  http://purl.org/events_ds#ACCV2004
 eventskg:ACCV2004 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
-                  seo:acceptedpaper "" ;
+                  seo:acceptedpaper 172 ;
                   seo:belongsToSeries eventskg:ACCV ;
                   seo:city <http://dbpedia.org/resource/Jeju_City> ;
                   seo:eventWebsite "https://www.mica.edu.vn/perso/Tran-Thi-Thanh-Hai/Pdf/2004_ACCV.pdf" ;
@@ -2374,7 +2374,7 @@ eventskg:ACCV2004 rdf:type owl:NamedIndividual ,
 ###  http://purl.org/events_ds#ACCV2006
 eventskg:ACCV2006 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
-                  seo:acceptedpaper "" ;
+                  seo:acceptedpaper 175 ;
                   seo:belongsToSeries eventskg:ACCV ;
                   seo:city <http://dbpedia.org/resource/Hyderabad> ;
                   seo:eventWebsite "https://link.springer.com/book/10.1007/11612032" ;
@@ -28488,7 +28488,7 @@ eventskg:SPAA2009 rdf:type owl:NamedIndividual ,
 eventskg:SPAA2010 rdf:type owl:NamedIndividual ,
                            seo:Symposium ;
                   seo:acceptanceRate 0.32 ;
-                  seo:acceptedpaper "35" ;
+                  seo:acceptedpaper 35 ;
                   seo:city <http://dbpedia.org/resource/Santorini> ;
                   seo:eventWebsite "https://dl.acm.org/citation.cfm?id=1810479&picked=prox" ;
                   seo:field <http://purl.org/seo#TheoryOfComputations> ;
@@ -28525,7 +28525,7 @@ eventskg:SPAA2011 rdf:type owl:NamedIndividual ,
 eventskg:SPAA2012 rdf:type owl:NamedIndividual ,
                            seo:Symposium ;
                   seo:acceptanceRate 0.26 ;
-                  seo:acceptedpaper "31" ;
+                  seo:acceptedpaper 31 ;
                   seo:city <http://dbpedia.org/resource/Pittsburgh> ;
                   seo:eventWebsite "https://dl.acm.org/citation.cfm?id=2312005&picked=prox" ;
                   seo:field <http://purl.org/seo#TheoryOfComputations> ;
@@ -28544,7 +28544,7 @@ eventskg:SPAA2012 rdf:type owl:NamedIndividual ,
 eventskg:SPAA2013 rdf:type owl:NamedIndividual ,
                            seo:Symposium ;
                   seo:acceptanceRate 0.24 ;
-                  seo:acceptedpaper "31" ;
+                  seo:acceptedpaper 31 ;
                   seo:city <http://dbpedia.org/resource/Montreal> ;
                   seo:eventWebsite "https://dl.acm.org/citation.cfm?id=2486159&picked=prox" ;
                   seo:field <http://purl.org/seo#TheoryOfComputations> ;
@@ -28562,7 +28562,7 @@ eventskg:SPAA2013 rdf:type owl:NamedIndividual ,
 eventskg:SPAA2014 rdf:type owl:NamedIndividual ,
                            seo:Symposium ;
                   seo:acceptanceRate 0.25 ;
-                  seo:acceptedpaper "30" ;
+                  seo:acceptedpaper 30 ;
                   seo:city <http://dbpedia.org/resource/Prague> ;
                   seo:eventWebsite "https://dl.acm.org/citation.cfm?id=2612669&picked=prox" ;
                   seo:field <http://purl.org/seo#TheoryOfComputations> ;
@@ -28580,7 +28580,7 @@ eventskg:SPAA2014 rdf:type owl:NamedIndividual ,
 eventskg:SPAA2015 rdf:type owl:NamedIndividual ,
                            seo:Symposium ;
                   seo:acceptanceRate 0.24 ;
-                  seo:acceptedpaper "31" ;
+                  seo:acceptedpaper 31 ;
                   seo:city <http://dbpedia.org/resource/Portland,_Oregon> ;
                   seo:eventWebsite "https://dl.acm.org/citation.cfm?id=2755573&picked=prox" ;
                   seo:field <http://purl.org/seo#TheoryOfComputations> ;
@@ -28599,7 +28599,7 @@ eventskg:SPAA2015 rdf:type owl:NamedIndividual ,
 eventskg:SPAA2016 rdf:type owl:NamedIndividual ,
                            seo:Symposium ;
                   seo:acceptanceRate 0.24 ;
-                  seo:acceptedpaper "38" ;
+                  seo:acceptedpaper 38 ;
                   seo:city <http://dbpedia.org/resource/Pacific_Grove,_California> ;
                   seo:eventWebsite "https://dl.acm.org/citation.cfm?id=2935764&picked=prox&preflayout=flat" ;
                   seo:field <http://purl.org/seo#TheoryOfComputations> ;
@@ -28617,7 +28617,7 @@ eventskg:SPAA2016 rdf:type owl:NamedIndividual ,
 eventskg:SPAA2017 rdf:type owl:NamedIndividual ,
                            seo:Symposium ;
                   seo:acceptanceRate 0.25 ;
-                  seo:acceptedpaper "31" ;
+                  seo:acceptedpaper 31 ;
                   seo:city <http://dbpedia.org/resource/Washington,_D.C.> ;
                   seo:eventWebsite "https://dl.acm.org/citation.cfm?id=3087556" ;
                   seo:field <http://purl.org/seo#TheoryOfComputations> ;
@@ -28635,7 +28635,7 @@ eventskg:SPAA2017 rdf:type owl:NamedIndividual ,
 eventskg:SPAA2018 rdf:type owl:NamedIndividual ,
                            seo:Symposium ;
                   seo:acceptanceRate 0.3 ;
-                  seo:acceptedpaper "36" ;
+                  seo:acceptedpaper 36 ;
                   seo:city <http://dbpedia.org/resource/Vienna> ;
                   seo:eventWebsite "https://dl.acm.org/citation.cfm?id=3210377&picked=prox" ;
                   seo:field <http://purl.org/seo#TheoryOfComputations> ;
