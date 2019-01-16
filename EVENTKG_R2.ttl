@@ -1,4 +1,4 @@
-@prefix : <http://purl.org/events_ds/> .
+@prefix : <http://purl.org/events_ds#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -17,14 +17,14 @@
 <http://purl.org/events_ds> rdf:type owl:Ontology ;
                              owl:versionIRI eventskg: ;
                              terms:modified "2018-12-10"^^xsd:date ;
-                             terms:license <http://creativecommons.org/licenses/by/4.0/> ;
+                             vann:preferredNamespaceUri "http://purl.org/events_ds#" ;
                              dc:title "EVENTSKG, Scientific Events Knowledge Graph."@en ;
+                             terms:license <http://creativecommons.org/licenses/by/4.0/> ;
                              owl:versionInfo 2 ;
                              dc:creator "Said Fathalla" ;
                              terms:created "2018-04-01" ;
                              vann:preferredNamespacePrefix "eventskg" ;
-                             dc:description "A dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for top-prestigious events series." ;
-                             vann:preferredNamespaceUri "http://purl.org/events_ds" .
+                             dc:description "A dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for top-prestigious events series." .
 
 #################################################################
 #    Annotation properties
@@ -926,16 +926,8 @@ conference-ontology:WorkshopSeries rdf:type owl:Class .
 #    Individuals
 #################################################################
 
-###  http://creativecommons.org/licenses/by/3.0/
-<http://creativecommons.org/licenses/by/3.0/> rdf:type owl:NamedIndividual .
-
-
 ###  http://creativecommons.org/licenses/by/4.0/
 <http://creativecommons.org/licenses/by/4.0/> rdf:type owl:NamedIndividual .
-
-
-###  http://purl.org/events_ds
-<http://purl.org/events_ds> rdf:type owl:NamedIndividual .
 
 
 ###  http://purl.org/dc/aboutdcmi#DCMI
@@ -1423,8 +1415,7 @@ eventskg: rdf:type owl:NamedIndividual ,
           void:properties 39 ;
           void:sparqlEndpoint <http://kddste.sda.tech/sparql> ;
           void:triples 28375 ;
-          rdfs:label "EVENTSKG, A dataset of scientific events" ;
-          rdfs:seeAlso <http://purl.org/events_ds> .
+          rdfs:label "EVENTSKG, A dataset of scientific events" .
 
 
 ###  http://purl.org/events_ds#AAAI
@@ -2176,7 +2167,7 @@ eventskg:AAMAS2013 rdf:type owl:NamedIndividual ,
                    seo:heldInCountry <http://dbpedia.org/resource/United_States> ;
                    seo:submittedpaper 599 ;
                    conference-ontology:acronym "AAMAS 2013" ;
-                   conference-ontology:endDate "2013-05-10T00:00:00.0000000+00:00 "^^xsd:dateTime;
+                   conference-ontology:endDate "2013-05-10T00:00:00.0000000+00:00 "^^xsd:dateTime ;
                    conference-ontology:startDate "2013-05-06T00:00:00.0000000+00:00"^^xsd:dateTime ;
                    conference-ontology:title "International Conference on Autonomous Agents and Multiagent Systems" .
 
@@ -2212,7 +2203,7 @@ eventskg:AAMAS2015 rdf:type owl:NamedIndividual ,
                    seo:heldInCountry <http://dbpedia.org/resource/Turkey> ;
                    seo:submittedpaper 709 ;
                    conference-ontology:acronym "AAMAS 2015" ;
-                   conference-ontology:endDate "2015-05-08T00:00:00.0000000+00:00"^^xsd:dateTime;
+                   conference-ontology:endDate "2015-05-08T00:00:00.0000000+00:00"^^xsd:dateTime ;
                    conference-ontology:startDate "2015-05-04T00:00:00.0000000+00:00"^^xsd:dateTime ;
                    conference-ontology:title "International Conference on Autonomous Agents and Multiagent Systems" .
 
@@ -3446,8 +3437,8 @@ eventskg:AISTATS2018 rdf:type owl:NamedIndividual ,
 eventskg:ASE rdf:type owl:NamedIndividual ,
                       conference-ontology:ConferenceSeries ;
              conference-ontology:acronym "ASE" ;
-             conference-ontology:title "IEEE/ACM International Conference on Automated Software Engineering
-" .
+             conference-ontology:title """IEEE/ACM International Conference on Automated Software Engineering
+""" .
 
 
 ###  http://purl.org/events_ds#ASE1991
@@ -5360,7 +5351,7 @@ eventskg:CHI1986 rdf:type owl:NamedIndividual ,
                  seo:submittedpaper 122 ;
                  conference-ontology:acronym "CHI 1986" ,
                                              "WSDM" ;
-                 conference-ontology:endDate "1986-04-17T00:00:00.0000000+00:00"^^xsd:dateTime  ;
+                 conference-ontology:endDate "1986-04-17T00:00:00.0000000+00:00"^^xsd:dateTime ;
                  conference-ontology:startDate "1986-04-13T00:00:00.0000000+00:00"^^xsd:dateTime .
 
 
@@ -5545,7 +5536,7 @@ eventskg:CHI1998 rdf:type owl:NamedIndividual ,
                  seo:heldInCountry <http://dbpedia.org/resource/United_States> ;
                  seo:submittedpaper 351 ;
                  conference-ontology:acronym "CHI 1998" ;
-                 conference-ontology:endDate "1998-04-23T00:00:00.0000000+00:00"^^xsd:dateTime  ;
+                 conference-ontology:endDate "1998-04-23T00:00:00.0000000+00:00"^^xsd:dateTime ;
                  conference-ontology:startDate "1998-04-18T00:00:00.0000000+00:00"^^xsd:dateTime .
 
 
@@ -5739,7 +5730,7 @@ eventskg:CHI2010 rdf:type owl:NamedIndividual ,
                  seo:heldInCountry <http://dbpedia.org/resource/United_States> ;
                  seo:submittedpaper 1346 ;
                  conference-ontology:acronym "CHI 2010" ;
-                 conference-ontology:endDate "2010-04-15T00:00:00.0000000+00:00"^^xsd:dateTime;
+                 conference-ontology:endDate "2010-04-15T00:00:00.0000000+00:00"^^xsd:dateTime ;
                  conference-ontology:startDate "2010-04-10T00:00:00.0000000+00:00"^^xsd:dateTime .
 
 
@@ -7253,7 +7244,7 @@ eventskg:CSF2019 rdf:type owl:NamedIndividual ,
                  seo:hasSponsor "IEEE" ;
                  conference-ontology:acronym "CSF 2019" ;
                  conference-ontology:endDate "2019-06-27T00:00:00.0000000+00:00"^^xsd:dateTime ;
-                 conference-ontology:startDate  "2019-06-24T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                 conference-ontology:startDate "2019-06-24T00:00:00.0000000+00:00"^^xsd:dateTime ;
                  conference-ontology:title "IEEE Computer Security Foundations Symposium" .
 
 
@@ -7734,7 +7725,7 @@ eventskg:CVPR2018 rdf:type owl:NamedIndividual ,
                   seo:state <http://dbpedia.org/resource/Utah> ;
                   conference-ontology:acronym "CVPR 2018" ;
                   conference-ontology:endDate "2018-06-22T00:00:00.0000000Z"^^xsd:dateTime ;
-                  conference-ontology:startDate  "2018-06-18T00:00:00.0000000Z"^^xsd:dateTime .
+                  conference-ontology:startDate "2018-06-18T00:00:00.0000000Z"^^xsd:dateTime .
 
 
 ###  http://purl.org/events_ds#DCC
@@ -7742,8 +7733,8 @@ eventskg:DCC rdf:type owl:NamedIndividual ,
                       conference-ontology:ConferenceSeries ;
              seo:hasTrack seo:ResearchTrack ;
              conference-ontology:acronym "DCC" ;
-             conference-ontology:title "Data Compression Conference
-" .
+             conference-ontology:title """Data Compression Conference
+""" .
 
 
 ###  http://purl.org/events_ds#DCC1991
@@ -8045,7 +8036,7 @@ eventskg:DCC2010 rdf:type owl:NamedIndividual ,
                  seo:state <http://dbpedia.org/resource/Utah> ;
                  conference-ontology:acronym "DCC 2010" ;
                  conference-ontology:endDate "2010-03-26T00:00:00.0000000+00:00"^^xsd:dateTime ;
-                 conference-ontology:startDate "2010-03-24T00:00:00.0000000+00:00"^^xsd:dateTime  ;
+                 conference-ontology:startDate "2010-03-24T00:00:00.0000000+00:00"^^xsd:dateTime ;
                  conference-ontology:title "Data Compression Conference" .
 
 
@@ -8551,7 +8542,7 @@ eventskg:ECAI1992 rdf:type owl:NamedIndividual ,
                   seo:field <http://purl.org/seo#ArtificialIntelligence> ;
                   seo:heldInCountry <http://dbpedia.org/resource/Austria> ;
                   conference-ontology:acronym "ECAI 1992" ;
-                  conference-ontology:endDate "1992-08-07T00:00:00.0000000+00:00"^^xsd:dateTime  ;
+                  conference-ontology:endDate "1992-08-07T00:00:00.0000000+00:00"^^xsd:dateTime ;
                   conference-ontology:startDate "1992-08-03T00:00:00.0000000+00:00"^^xsd:dateTime ;
                   conference-ontology:title "European Conference on Artificial Intelligence" .
 
@@ -8567,7 +8558,7 @@ eventskg:ECAI1994 rdf:type owl:NamedIndividual ,
                   seo:heldInCountry <http://dbpedia.org/resource/Netherlands> ;
                   seo:submittedpaper 450 ;
                   conference-ontology:acronym "ECAI 1994" ;
-                  conference-ontology:endDate "1994-08-12T00:00:00.000000+00:00"^^xsd:dateTime  ;
+                  conference-ontology:endDate "1994-08-12T00:00:00.000000+00:00"^^xsd:dateTime ;
                   conference-ontology:startDate "1994-08-08T00:00:00.0000000+00:00"^^xsd:dateTime ;
                   conference-ontology:title "European Conference on Artificial Intelligence" .
 
@@ -8617,7 +8608,7 @@ eventskg:ECAI2000 rdf:type owl:NamedIndividual ,
                   seo:heldInCountry <http://dbpedia.org/resource/Germany> ;
                   seo:submittedpaper 443 ;
                   conference-ontology:acronym "ECAI 2000" ;
-                  conference-ontology:endDate "2000-08-25T00:00:00.0000000+00:00"^^xsd:dateTime  ;
+                  conference-ontology:endDate "2000-08-25T00:00:00.0000000+00:00"^^xsd:dateTime ;
                   conference-ontology:startDate "2000-08-20T00:00:00.0000000+00:00"^^xsd:dateTime ;
                   conference-ontology:title "European Conference on Artificial Intelligence" .
 
@@ -9063,8 +9054,8 @@ eventskg:ECCV2018 rdf:type owl:NamedIndividual ,
 eventskg:ECOOP rdf:type owl:NamedIndividual ,
                         conference-ontology:ConferenceSeries ;
                conference-ontology:acronym "ECOOP" ;
-               conference-ontology:title "European Conference on Object-Oriented Programming
-" .
+               conference-ontology:title """European Conference on Object-Oriented Programming
+""" .
 
 
 ###  http://purl.org/events_ds#ECOOP1987
@@ -9905,8 +9896,8 @@ eventskg:EDBT2018 rdf:type owl:NamedIndividual ,
 eventskg:ESORICS rdf:type owl:NamedIndividual ,
                           seo:SymposiumSeries ;
                  conference-ontology:acronym "ESORICS" ;
-                 conference-ontology:title "European Symposium on Research in Computer Security
-" .
+                 conference-ontology:title """European Symposium on Research in Computer Security
+""" .
 
 
 ###  http://purl.org/events_ds#ESORICS1992
@@ -10106,7 +10097,7 @@ eventskg:ESORICS2008 rdf:type owl:NamedIndividual ,
                      seo:heldInCountry <http://dbpedia.org/resource/Spain> ;
                      seo:submittedpaper 168 ;
                      conference-ontology:acronym "ESORICS 2008" ;
-                     conference-ontology:endDate "8-0ct-2008" ;
+                     conference-ontology:endDate "2008-10-08T00:00:00.0000000+00:00"^^xsd:dateTime ;
                      conference-ontology:startDate "2008-10-06T00:00:00.0000000+00:00"^^xsd:dateTime ;
                      conference-ontology:title "European Symposium on Research in Computer Security" .
 
@@ -10335,7 +10326,7 @@ eventskg:ESWC2005 rdf:type owl:NamedIndividual ,
                   seo:submittedPapers 148 ;
                   conference-ontology:acronym "ESWC 2005" ;
                   conference-ontology:endDate "2005-06-01T00:00:00.0000000+00:00"^^xsd:dateTime ;
-                  conference-ontology:startDate "2005-29-05T00:00:00.0000000+00:00"^^xsd:dateTime .
+                  conference-ontology:startDate "2005-05-29T00:00:00.0000000+00:00"^^xsd:dateTime .
 
 
 ###  http://purl.org/events_ds#ESWC2006
@@ -10351,7 +10342,7 @@ eventskg:ESWC2006 rdf:type owl:NamedIndividual ,
                   seo:state <http://dbpedia.org/resource/Montenegro> ;
                   seo:submittedPapers 181 ;
                   conference-ontology:acronym "ESWC 2006" ;
-                  conference-ontology:endDate "2006-06-14T00:00:00.0000000+00:00"^^xsd:dateTime  ;
+                  conference-ontology:endDate "2006-06-14T00:00:00.0000000+00:00"^^xsd:dateTime ;
                   conference-ontology:startDate "2006-06-11T00:00:00.0000000+00:00"^^xsd:dateTime .
 
 
@@ -10522,13 +10513,13 @@ eventskg:ESWC2016 rdf:type owl:NamedIndividual ,
 eventskg:ESWC2017 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.31 ;
-                  seo:acceptedPapers "61"^^xsd:int ;
+                  seo:acceptedPapers 61  ;
                   seo:belongsToSeries eventskg:ESWC ;
                   seo:city <http://dbpedia.org/resource/Portorož> ;
                   seo:eventWebsite "2017.eswc-conferences.org/" ;
                   seo:field <http://purl.org/seo#WorldWideWeb> ;
                   seo:heldInCountry <http://dbpedia.org/resource/Greece> ;
-                  seo:submittedPapers "197"^^xsd:int ;
+                  seo:submittedPapers 197 ;
                   conference-ontology:acronym "ESWC 2017" ;
                   conference-ontology:endDate "2017-06-01T00:00:00.0000000+00:00"^^xsd:dateTime ;
                   conference-ontology:startDate "2017-05-28T00:00:00.0000000+00:00"^^xsd:dateTime .
@@ -10599,8 +10590,8 @@ eventskg:EUROGP2010 rdf:type owl:NamedIndividual ,
                     seo:heldInCountry <http://dbpedia.org/resource/Turkey> ;
                     seo:submittedpaper 48 ;
                     conference-ontology:acronym "EuroGp 2010" ;
-                    conference-ontology:endDate "2010-04-09T00:00:00.0000000+00:00"^^xsd:dateTime;
-                    conference-ontology:startDate "2010-04-07T00:00:00.0000000+00:00"^^xsd:dateTime;
+                    conference-ontology:endDate "2010-04-09T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                    conference-ontology:startDate "2010-04-07T00:00:00.0000000+00:00"^^xsd:dateTime ;
                     conference-ontology:title "European Conference on Genetic Programming," .
 
 
@@ -11720,8 +11711,8 @@ eventskg:Eurosys2018 rdf:type owl:NamedIndividual ,
 eventskg:FASE rdf:type owl:NamedIndividual ,
                        conference-ontology:ConferenceSeries ;
               conference-ontology:acronym "FASE" ;
-              conference-ontology:title "Fundamental Approaches to Software Engineering
-" .
+              conference-ontology:title """Fundamental Approaches to Software Engineering
+""" .
 
 
 ###  http://purl.org/events_ds#FASE1998
@@ -12746,8 +12737,8 @@ eventskg:FOGA2017 rdf:type owl:NamedIndividual ,
 eventskg:FSE rdf:type owl:NamedIndividual ,
                       seo:Symposium ;
              conference-ontology:acronym "FSE" ;
-             conference-ontology:title "International Symposium on the Foundations of Software Engineering
-" .
+             conference-ontology:title """International Symposium on the Foundations of Software Engineering
+""" .
 
 
 ###  http://purl.org/events_ds#FSE1993
@@ -13613,8 +13604,8 @@ eventskg:IAAI2017 rdf:type owl:NamedIndividual ,
                   seo:field <http://purl.org/seo#ArtificialIntelligence> ;
                   seo:heldInCountry <http://dbpedia.org/resource/United_States> ;
                   conference-ontology:acronym "IAAI2017" ;
-                  conference-ontology:endDate "2017-02-9T00:00:00.0000000Z"^^xsd:dateTime ;
-                  conference-ontology:startDate "2017-02-6T00:00:00.0000000Z"^^xsd:dateTime .
+                  conference-ontology:endDate "2017-02-09T00:00:00.0000000Z"^^xsd:dateTime ;
+                  conference-ontology:startDate "2017-02-06T00:00:00.0000000Z"^^xsd:dateTime .
 
 
 ###  http://purl.org/events_ds#ICCV
@@ -13889,7 +13880,7 @@ eventskg:ICCV2019 rdf:type owl:NamedIndividual ,
                   seo:heldInCountry <http://dbpedia.org/resource/Korea> ;
                   conference-ontology:acronym "ICCV 2019" ;
                   conference-ontology:endDate "2019-10-26T00:00:00.0000000Z"^^xsd:dateTime ;
-                  conference-ontology:startDate  "2019-10-20T00:00:00.0000000Z"^^xsd:dateTime .
+                  conference-ontology:startDate "2019-10-20T00:00:00.0000000Z"^^xsd:dateTime .
 
 
 ###  http://purl.org/events_ds#ICDE
@@ -14352,8 +14343,8 @@ eventskg:ICDE2018 rdf:type owl:NamedIndividual ,
 eventskg:ICFP rdf:type owl:NamedIndividual ,
                        conference-ontology:ConferenceSeries ;
               conference-ontology:acronym "ICFP" ;
-              conference-ontology:title "International Conference on Functional Programming
-" .
+              conference-ontology:title """International Conference on Functional Programming
+""" .
 
 
 ###  http://purl.org/events_ds#ICFP1996
@@ -15089,7 +15080,7 @@ eventskg:ICONIP2016 rdf:type owl:NamedIndividual ,
                     seo:submittedpaper 431 ;
                     conference-ontology:acronym "ICONIP 2016" ;
                     conference-ontology:endDate "2016-10-21T00:00:00.0000000+00:00"^^xsd:dateTime ;
-                    conference-ontology:startDate "2016-10-16T00:00:00.0000000+00:00"^^xsd:dateTime  ;
+                    conference-ontology:startDate "2016-10-16T00:00:00.0000000+00:00"^^xsd:dateTime ;
                     conference-ontology:title "International Conference on Neural Information Processing" .
 
 
@@ -21849,7 +21840,7 @@ eventskg:PKDD2001 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.357 ;
                   seo:acceptedPapers 50 ;
-                  seo:belongsToSeries "ECML PKDD" ;
+                  seo:belongsToSeries eventskg:PKDD ;
                   seo:city <http://dbpedia.org/resource/Freiburg_im_Breisgau> ;
                   seo:eventWebsite <ttp://dblp.org/db/conf/pkdd/pkdd2001.html> ;
                   seo:field <http://purl.org/seo#InformationSystems> ;
@@ -21865,7 +21856,7 @@ eventskg:PKDD2002 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.557 ;
                   seo:acceptedPapers 39 ;
-                  seo:belongsToSeries "ECML PKDD" ;
+                  seo:belongsToSeries eventskg:PKDD ;
                   seo:city <http://dbpedia.org/resource/Helsinki> ;
                   seo:eventWebsite "www.cs.helsinki.fi/events/ecmlpkdd/" ;
                   seo:field <http://purl.org/seo#InformationSystems> ;
@@ -21881,7 +21872,7 @@ eventskg:PKDD2003 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.12 ;
                   seo:acceptedPapers 40 ;
-                  seo:belongsToSeries "ECML PKDD" ;
+                  seo:belongsToSeries eventskg:PKDD ;
                   seo:city <http://dbpedia.org/resource/Cavtat> ;
                   seo:eventWebsite "dblp.org/db/conf/pkdd/pkdd2003.html" ;
                   seo:field <http://purl.org/seo#InformationSystems> ;
@@ -21897,7 +21888,7 @@ eventskg:PKDD2004 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.145 ;
                   seo:acceptedPapers 39 ;
-                  seo:belongsToSeries "ECML PKDD" ;
+                  seo:belongsToSeries eventskg:PKDD ;
                   seo:city <http://dbpedia.org/resource/Pisa> ;
                   seo:eventWebsite "www.ecmlpkdd.org/2004/" ;
                   seo:field <http://purl.org/seo#InformationSystems> ;
@@ -21913,7 +21904,7 @@ eventskg:PKDD2005 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.159 ;
                   seo:acceptedPapers 35 ;
-                  seo:belongsToSeries "ECML PKDD" ;
+                  seo:belongsToSeries eventskg:PKDD ;
                   seo:city <http://dbpedia.org/resource/Porto> ;
                   seo:eventWebsite "www.ecmlpkdd.org/2005/" ;
                   seo:field <http://purl.org/seo#InformationSystems> ;
@@ -21929,7 +21920,7 @@ eventskg:PKDD2006 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.154 ;
                   seo:acceptedPapers 87 ;
-                  seo:belongsToSeries "ECML PKDD" ;
+                  seo:belongsToSeries eventskg:PKDD ;
                   seo:city <http://dbpedia.org/resource/Berlin> ;
                   seo:eventWebsite "www.ecmlpkdd.org/2006/" ;
                   seo:field <http://purl.org/seo#InformationSystems> ;
@@ -21945,7 +21936,7 @@ eventskg:PKDD2007 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.139 ;
                   seo:acceptedPapers 82 ;
-                  seo:belongsToSeries "ECML PKDD" ;
+                  seo:belongsToSeries eventskg:PKDD ;
                   seo:city <http://dbpedia.org/resource/Warsaw> ;
                   seo:eventWebsite "dblp.org/db/conf/pkdd/pkdd2007.html" ;
                   seo:field <http://purl.org/seo#InformationSystems> ;
@@ -21961,7 +21952,7 @@ eventskg:PKDD2008 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.192 ;
                   seo:acceptedPapers 100 ;
-                  seo:belongsToSeries "ECML PKDD" ;
+                  seo:belongsToSeries eventskg:PKDD ;
                   seo:city <http://dbpedia.org/resource/Antwerp> ;
                   seo:eventWebsite "www.ecmlpkdd.org/2008/" ;
                   seo:field <http://purl.org/seo#InformationSystems> ;
@@ -21977,7 +21968,7 @@ eventskg:PKDD2009 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.251 ;
                   seo:acceptedPapers 106 ;
-                  seo:belongsToSeries "ECML PKDD" ;
+                  seo:belongsToSeries eventskg:PKDD ;
                   seo:city <http://dbpedia.org/resource/Lake_Bled> ;
                   seo:eventWebsite "www1.ecmlpkdd2009.net/" ;
                   seo:field <http://purl.org/seo#InformationSystems> ;
@@ -21993,7 +21984,7 @@ eventskg:PKDD2010 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.188 ;
                   seo:acceptedPapers 124 ;
-                  seo:belongsToSeries "ECML PKDD" ;
+                  seo:belongsToSeries eventskg:PKDD ;
                   seo:city <http://dbpedia.org/resource/Barcelona> ;
                   seo:eventWebsite "www.ecmlpkdd2010.org/" ;
                   seo:field <http://purl.org/seo#InformationSystems> ;
@@ -22009,7 +22000,7 @@ eventskg:PKDD2011 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.237 ;
                   seo:acceptedPapers 142 ;
-                  seo:belongsToSeries "ECML PKDD" ;
+                  seo:belongsToSeries eventskg:PKDD ;
                   seo:city <http://dbpedia.org/resource/Classical_Athens> ;
                   seo:eventWebsite "www.ecmlpkdd2011.org/" ;
                   seo:field <http://purl.org/seo#InformationSystems> ;
@@ -22025,7 +22016,7 @@ eventskg:PKDD2012 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.28 ;
                   seo:acceptedPapers 124 ;
-                  seo:belongsToSeries "ECML PKDD" ;
+                  seo:belongsToSeries eventskg:PKDD ;
                   seo:city <http://dbpedia.org/resource/Bristol> ;
                   seo:eventWebsite "www.ecmlpkdd2012.net/" ;
                   seo:field <http://purl.org/seo#InformationSystems> ;
@@ -22041,7 +22032,7 @@ eventskg:PKDD2013 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.248 ;
                   seo:acceptedPapers 111 ;
-                  seo:belongsToSeries "ECML PKDD" ;
+                  seo:belongsToSeries eventskg:PKDD ;
                   seo:city <http://dbpedia.org/resource/Prague> ;
                   seo:eventWebsite "www.ecmlpkdd2013.org/" ;
                   seo:field <http://purl.org/seo#InformationSystems> ;
@@ -22057,7 +22048,7 @@ eventskg:PKDD2014 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.265 ;
                   seo:acceptedPapers 146 ;
-                  seo:belongsToSeries "ECML PKDD" ;
+                  seo:belongsToSeries eventskg:PKDD ;
                   seo:city <http://dbpedia.org/resource/Nancy,_France> ;
                   seo:eventWebsite "www.ecmlpkdd2014.org/" ;
                   seo:field <http://purl.org/seo#InformationSystems> ;
@@ -22073,7 +22064,7 @@ eventskg:PKDD2015 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.232 ;
                   seo:acceptedPapers 131 ;
-                  seo:belongsToSeries "ECML PKDD" ;
+                  seo:belongsToSeries eventskg:PKDD ;
                   seo:city <http://dbpedia.org/resource/Porto> ;
                   seo:eventWebsite "www.ecmlpkdd2015.org/" ;
                   seo:field <http://purl.org/seo#InformationSystems> ;
@@ -22089,7 +22080,7 @@ eventskg:PKDD2016 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.302 ;
                   seo:acceptedPapers 139 ;
-                  seo:belongsToSeries "ECML PKDD" ;
+                  seo:belongsToSeries eventskg:PKDD ;
                   seo:city <http://it.dbpedia.org/resource/Riva_del_Garda> ;
                   seo:eventWebsite "www.ecmlpkdd2016.org/" ;
                   seo:field <http://purl.org/seo#InformationSystems> ;
@@ -22105,7 +22096,7 @@ eventskg:PKDD2017 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.135 ;
                   seo:acceptedPapers 104 ;
-                  seo:belongsToSeries "ECML PKDD" ;
+                  seo:belongsToSeries eventskg:PKDD ;
                   seo:city <http://dbpedia.org/resource/Skopje> ;
                   seo:eventWebsite "ecmlpkdd2017.ijs.si/" ;
                   seo:field <http://purl.org/seo#InformationSystems> ;
@@ -22119,7 +22110,7 @@ eventskg:PKDD2017 rdf:type owl:NamedIndividual ,
 ###  http://purl.org/events_ds#PKDD2018
 eventskg:PKDD2018 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
-                  seo:belongsToSeries "ECML PKDD" ;
+                  seo:belongsToSeries eventskg:PKDD ;
                   seo:city <http://dbpedia.org/resource/Dublin> ;
                   seo:eventWebsite "www.ecmlpkdd2018.org/" ;
                   seo:field <http://purl.org/seo#InformationSystems> ;
@@ -31739,7 +31730,7 @@ eventskg:USENIX2019 rdf:type owl:NamedIndividual ,
                     conference-ontology:acronym "USENIX" ,
                                                 "USENIX 2019" ;
                     conference-ontology:endDate "2019-08-16T00:00:00.0000000+00:00"^^xsd:dateTime ;
-                    conference-ontology:startDate  "2019-08-14T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                    conference-ontology:startDate "2019-08-14T00:00:00.0000000+00:00"^^xsd:dateTime ;
                     conference-ontology:title "28th Usenix Security Symposium" .
 
 
@@ -32730,7 +32721,7 @@ eventskg:WSDM2010 rdf:type owl:NamedIndividual ,
 eventskg:WSDM2011 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.22 ;
-                  seo:acceptedPapers 83;
+                  seo:acceptedPapers 83 ;
                   seo:belongsToSeries eventskg:WSDM ;
                   seo:city <http://dbpedia.org/resource/Hong_Kong> ;
                   seo:eventWebsite "www.wsdm2011.org/" ;
@@ -32763,7 +32754,7 @@ eventskg:WSDM2012 rdf:type owl:NamedIndividual ,
 eventskg:WSDM2013 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.18 ;
-                  seo:acceptedPapers 73;
+                  seo:acceptedPapers 73 ;
                   seo:belongsToSeries eventskg:WSDM ;
                   seo:city <http://dbpedia.org/resource/Rome> ;
                   seo:eventWebsite "www.wsdm2013.org/" ;
@@ -32787,7 +32778,7 @@ eventskg:WSDM2014 rdf:type owl:NamedIndividual ,
                   seo:heldInCountry <http://dbpedia.org/resource/United_States> ;
                   seo:submittedPapers 355 ;
                   conference-ontology:acronym "WSDM 2014" ;
-                  conference-ontology:endDate "2014-02-28T00:00:00.0000000+00:00"^^xsd:dateTime;
+                  conference-ontology:endDate "2014-02-28T00:00:00.0000000+00:00"^^xsd:dateTime ;
                   conference-ontology:startDate "2014-02-24T00:00:00.0000000+00:00"^^xsd:dateTime .
 
 
@@ -32852,13 +32843,6 @@ eventskg:WSDM2018 rdf:type owl:NamedIndividual ,
                   conference-ontology:acronym "WSDM 2018" ;
                   conference-ontology:endDate "2018-08-02T00:00:00.0000000+00:00"^^xsd:dateTime ;
                   conference-ontology:startDate "2018-02-05T00:00:00.0000000+00:00"^^xsd:dateTime .
-
-
-###  http://purl.org/events_ds#/
-<http://purl.org/events_ds#/> rdf:type owl:NamedIndividual ;
-                              terms:available "2018-12-01" ;
-                              terms:created "2018-01-01"@en ;
-                              terms:license <http://creativecommons.org/licenses/by/3.0/> .
 
 
 #################################################################
