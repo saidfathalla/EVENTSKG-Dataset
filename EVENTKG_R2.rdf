@@ -38898,7 +38898,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/events_ds#VR1993">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-        <seo:belongsToSeries>VRAIS</seo:belongsToSeries>
+        <seo:belongsToSeries rdf:resource="http://purl.org/events_ds#VR"/>
         <seo:city rdf:resource="http://dbpedia.org/resource/seattle"/>
         <seo:field rdf:resource="http://purl.org/seo#HumanCenteredComputing"/>
         <seo:heldInCountry rdf:resource="http://dbpedia.org/resource/United_States"/>
@@ -38914,7 +38914,7 @@
     <owl:NamedIndividual rdf:about="http://purl.org/events_ds#VR1995">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</seo:acceptedPapers>
-        <seo:belongsToSeries>VRAIS</seo:belongsToSeries>
+        <seo:belongsToSeries rdf:resource="http://purl.org/events_ds#VR"/>
         <seo:field rdf:resource="http://purl.org/seo#HumanCenteredComputing"/>
         <seo:heldInCountry rdf:resource="http://dbpedia.org/resource/United_States"/>
         <conference-ontology:acronym>VRAIS 1995</conference-ontology:acronym>
@@ -38930,7 +38930,7 @@
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:acceptanceRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.349</seo:acceptanceRate>
         <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</seo:acceptedPapers>
-        <seo:belongsToSeries>VRAIS</seo:belongsToSeries>
+        <seo:belongsToSeries rdf:resource="http://purl.org/events_ds#VR"/>
         <seo:city rdf:resource="http://dbpedia.org/resource/Santa_Clara,_California"/>
         <seo:field rdf:resource="http://purl.org/seo#HumanCenteredComputing"/>
         <seo:heldInCountry rdf:resource="http://dbpedia.org/resource/United_States"/>
@@ -38948,7 +38948,7 @@
     <owl:NamedIndividual rdf:about="http://purl.org/events_ds#VR1997">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</seo:acceptedPapers>
-        <seo:belongsToSeries>VRAIS</seo:belongsToSeries>
+        <seo:belongsToSeries rdf:resource="http://purl.org/events_ds#VR"/>
         <seo:city rdf:resource="http://dbpedia.org/resource/Albuquerque,_New_Mexico"/>
         <seo:field rdf:resource="http://purl.org/seo#HumanCenteredComputing"/>
         <seo:heldInCountry rdf:resource="http://dbpedia.org/resource/United_States"/>
@@ -38964,7 +38964,7 @@
     <owl:NamedIndividual rdf:about="http://purl.org/events_ds#VR1998">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</seo:acceptedPapers>
-        <seo:belongsToSeries>VRAIS</seo:belongsToSeries>
+        <seo:belongsToSeries rdf:resource="http://purl.org/events_ds#VR"/>
         <seo:city rdf:resource="http://dbpedia.org/resource/Atlanta"/>
         <seo:field rdf:resource="http://purl.org/seo#HumanCenteredComputing"/>
         <seo:heldInCountry rdf:resource="http://dbpedia.org/resource/United_States"/>
