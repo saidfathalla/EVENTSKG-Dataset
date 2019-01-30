@@ -1,4 +1,4 @@
-@prefix : <http://purl.org/events_ds#> .
+@prefix : <http://purl.org/events_ds> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -19,7 +19,6 @@
                              terms:modified "2018-12-10"^^xsd:date ;
                              vann:preferredNamespaceUri "http://purl.org/events_ds#" ;
                              dc:title "EVENTSKG, Scientific Events Knowledge Graph."@en ;
-                             terms:license <http://creativecommons.org/licenses/by/4.0/> ;
                              owl:versionInfo 2 ;
                              dc:creator "Said Fathalla" ;
                              terms:created "2018-04-01" ;
@@ -928,6 +927,11 @@ conference-ontology:WorkshopSeries rdf:type owl:Class .
 
 ###  http://creativecommons.org/licenses/by/4.0/
 <http://creativecommons.org/licenses/by/4.0/> rdf:type owl:NamedIndividual .
+
+
+###  http://purl.org/events_ds
+<http://purl.org/events_ds> rdf:type owl:NamedIndividual ;
+                            terms:license <http://creativecommons.org/licenses/by/4.0/> .
 
 
 ###  http://purl.org/dc/aboutdcmi#DCMI
@@ -10513,7 +10517,7 @@ eventskg:ESWC2016 rdf:type owl:NamedIndividual ,
 eventskg:ESWC2017 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:acceptanceRate 0.31 ;
-                  seo:acceptedPapers 61  ;
+                  seo:acceptedPapers 61 ;
                   seo:belongsToSeries eventskg:ESWC ;
                   seo:city <http://dbpedia.org/resource/Portorož> ;
                   seo:eventWebsite "2017.eswc-conferences.org/" ;
@@ -19205,6 +19209,257 @@ eventskg:Infovis2018 rdf:type owl:NamedIndividual ,
                      conference-ontology:endDate "2018-10-26T00:00:00.0000000+00:00"^^xsd:dateTime ;
                      conference-ontology:startDate "2018-10-21T00:00:00.0000000+00:00"^^xsd:dateTime ;
                      conference-ontology:title "IEEE Symposium on Information Visualization" .
+
+
+###  http://purl.org/events_ds#JCDL
+eventskg:JCDL rdf:type owl:NamedIndividual ,
+                       conference-ontology:ConferenceSeries ;
+              conference-ontology:acronym "JCDL" ;
+              conference-ontology:title "ACM/IEEE-CS Joint Conference on Digital Libraries" .
+
+
+###  http://purl.org/events_ds#JCDL2019
+eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+                           conference-ontology:Conference ;
+                  seo:Country <http://dbpedia.org/resource/United_States> ;
+                  seo:belongsToSeries eventskg:JCDL ;
+                  seo:city <http://dbpedia.org/resource/Illinois> ;
+                  seo:eventWebsite "https://2019.jcdl.org/" ;
+                  conference-ontology:endDate "2019-06-06T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                  conference-ontology:startDate "2019-06-02T00:00:00.0000000+00:00"^^xsd:dateTime .
+				  
+###  http://purl.org/events_ds#JCDL2018
+eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+                           conference-ontology:Conference ;
+                  seo:Country <http://dbpedia.org/resource/United_States> ;
+                  seo:belongsToSeries eventskg:JCDL ;
+                  seo:city <http://dbpedia.org/resource/Fort_Worth,_Texas> ;
+                  seo:eventWebsite "https://2018.jcdl.org/" ;
+                  conference-ontology:endDate "2018-06-06T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                  conference-ontology:startDate "2018-06-03T00:00:00.0000000+00:00"^^xsd:dateTime .				  
+
+###  http://purl.org/events_ds#JCDL2017
+eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+                           conference-ontology:Conference ;
+                  seo:Country <http://dbpedia.org/resource/United_States> ;
+                  seo:belongsToSeries eventskg:JCDL ;
+                  seo:city <http://dbpedia.org/resource/Newark,_New_Jersey> ;
+                  seo:eventWebsite "https://2017.jcdl.org/" ;
+                  conference-ontology:endDate "2017-06-23T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                  conference-ontology:startDate "2017-06-19T00:00:00.0000000+00:00"^^xsd:dateTime .
+
+
+###  http://purl.org/events_ds#JCDL2016
+eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+                           conference-ontology:Conference ;
+						    seo:acceptanceRate 0.29 ;
+                  seo:acceptedPapers 15 ;		
+                  seo:submittedPapers 52 ; 
+                  seo:Country <http://dbpedia.org/resource/Canada> ;
+                  seo:belongsToSeries eventskg:JCDL ;
+                  seo:city <http://dbpedia.org/resource/Toronto> ;
+                  seo:eventWebsite "https://2016.jcdl.org/" ;
+                  conference-ontology:endDate "2016-06-23T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                  conference-ontology:startDate "2016-06-19T00:00:00.0000000+00:00"^^xsd:dateTime .
+
+###  http://purl.org/events_ds#JCDL2015
+eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+                           conference-ontology:Conference ;
+						    seo:acceptanceRate 0.30 ;
+                  seo:acceptedPapers 18 ;		
+                  seo:submittedPapers 60 ; 
+                  seo:Country <http://dbpedia.org/resource/United_States> ;
+                  seo:belongsToSeries eventskg:JCDL ;
+                  seo:city <http://dbpedia.org/resource/Knoxville,_Tennessee> ;
+                  seo:eventWebsite "https://2015.jcdl.org/www.jcdl2015.org/index.html" ;
+                  conference-ontology:endDate "2015-06-25T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                  conference-ontology:startDate "2015-06-21T00:00:00.0000000+00:00"^^xsd:dateTime .
+				  
+				  
+###  http://purl.org/events_ds#JCDL2014
+eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+                           conference-ontology:Conference ;
+                  seo:Country <http://dbpedia.org/resource/United_Kingdom> ;
+                  seo:belongsToSeries eventskg:JCDL ;
+                  seo:city <http://dbpedia.org/resource/London> ;
+                  seo:eventWebsite "http://www.jcdl.org/archived-conf-sites/dl2014/www.city.ac.uk/digital-libraries-2014.html" ;
+                  conference-ontology:endDate "2014-09-12T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                  conference-ontology:startDate "2014-09-08T00:00:00.0000000+00:00"^^xsd:dateTime .
+				  
+###  http://purl.org/events_ds#JCDL2013
+eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+                           conference-ontology:Conference ;
+	    		 seo:acceptanceRate 0.29 ;
+                  seo:acceptedPapers 28 ;		
+                  seo:submittedPapers 95 ;   
+                  seo:Country <http://dbpedia.org/resource/United_States> ;
+                  seo:belongsToSeries eventskg:JCDL ;
+                  seo:city <http://dbpedia.org/resource/Indianapolis> ;
+                  seo:eventWebsite "www.jcdl.org/archived-conf-sites/jcdl2013/" ;
+                  conference-ontology:endDate "2013-07-26T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                  conference-ontology:startDate "2013-07-22T00:00:00.0000000+00:00"^^xsd:dateTime .
+
+###  http://purl.org/events_ds#JCDL2012
+eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+                           conference-ontology:Conference ;
+	    		 seo:acceptanceRate 0.27 ;
+                  seo:acceptedPapers 25 ;		
+                  seo:submittedPapers 91 ;   
+                  seo:Country <http://dbpedia.org/resource/United_States> ;
+                  seo:belongsToSeries eventskg:JCDL ;
+                  seo:city <http://dbpedia.org/resource/Washington> ;
+                  seo:eventWebsite "www.jcdl.org/archived-conf-sites/jcdl2012/" ;
+                  conference-ontology:endDate "2012-06-14T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                  conference-ontology:startDate "2012-06-10T00:00:00.0000000+00:00"^^xsd:dateTime .
+
+###  http://purl.org/events_ds#JCDL2011
+eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+                           conference-ontology:Conference ;
+	    		 seo:acceptanceRate 0.23 ;
+                  seo:acceptedPapers 57 ;		
+                  seo:submittedPapers 243 ;   
+                  seo:Country <http://dbpedia.org/resource/Canada> ;
+                  seo:belongsToSeries eventskg:JCDL ;
+                  seo:city <http://dbpedia.org/resource/Ottawa> ;
+                  seo:eventWebsite "www.jcdl.org/archived-conf-sites/jcdl2011/" ;
+                  conference-ontology:endDate "2011-06-17T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                  conference-ontology:startDate "2011-06-13T00:00:00.0000000+00:00"^^xsd:dateTime .				  
+
+###  http://purl.org/events_ds#JCDL2010
+eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+                           conference-ontology:Conference ;
+	    		 seo:acceptanceRate 0.29 ;
+                  seo:acceptedPapers 32 ;		
+                  seo:submittedPapers 110 ;   
+                  seo:Country <http://dbpedia.org/resource/Australia> ;
+                  seo:belongsToSeries eventskg:JCDL ;
+                  seo:city <http://dbpedia.org/resource/Queensland> ;
+                  seo:eventWebsite "www.jcdl.org/archived-conf-sites/jcdl2010/" ;
+                  conference-ontology:endDate "2010-06-25T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                  conference-ontology:startDate "2010-06-21T00:00:00.0000000+00:00"^^xsd:dateTime .				  
+
+
+###  http://purl.org/events_ds#JCDL2009
+eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+                           conference-ontology:Conference ;
+	    		 seo:acceptanceRate 0.28 ;
+                  seo:acceptedPapers 29 ;		
+                  seo:submittedPapers 102 ;   
+                  seo:Country <http://dbpedia.org/resource/United_States> ;
+                  seo:belongsToSeries eventskg:JCDL ;
+                  seo:city <http://dbpedia.org/resource/Austin,_Texas> ;
+                  seo:eventWebsite "www.jcdl.org/archived-conf-sites/jcdl2009/" ;
+                  conference-ontology:endDate "2009-06-19T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                  conference-ontology:startDate "2009-06-15T00:00:00.0000000+00:00"^^xsd:dateTime .
+
+
+###  http://purl.org/events_ds#JCDL2008
+eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+                           conference-ontology:Conference ;
+	    		 seo:acceptanceRate 0.28 ;
+                  seo:acceptedPapers 33 ;		
+                  seo:submittedPapers 117 ;   
+                  seo:Country <http://dbpedia.org/resource/United_States> ;
+                  seo:belongsToSeries eventskg:JCDL ;
+                  seo:city <http://dbpedia.org/resource/Pittsburgh> ;
+                  seo:eventWebsite "www.jcdl.org/archived-conf-sites/jcdl2008/" ;
+                  conference-ontology:endDate "2008-06-20T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                  conference-ontology:startDate "2008-06-16T00:00:00.0000000+00:00"^^xsd:dateTime .
+
+###  http://purl.org/events_ds#JCDL2007
+eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+                           conference-ontology:Conference ;
+	    		 seo:acceptanceRate 0.36 ;
+                  seo:acceptedPapers 43 ;		
+                  seo:submittedPapers 119 ;   
+                  seo:Country <http://dbpedia.org/resource/Canada> ;
+                  seo:belongsToSeries eventskg:JCDL ;
+                  seo:city <http://dbpedia.org/resource/Vancouver> ;
+                  seo:eventWebsite "www.jcdl.org/archived-conf-sites/jcdl2007/" ;
+                  conference-ontology:endDate "2007-06-23T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                  conference-ontology:startDate "2007-06-18T00:00:00.0000000+00:00"^^xsd:dateTime .
+
+
+###  http://purl.org/events_ds#JCDL2006
+eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+                           conference-ontology:Conference ;
+	    		 seo:acceptanceRate 0.23 ;
+                  seo:acceptedPapers 57 ;		
+                  seo:submittedPapers 248 ;   
+                  seo:Country <http://dbpedia.org/resource/United_States> ;
+                  seo:belongsToSeries eventskg:JCDL ;
+                  seo:city <http://dbpedia.org/resource/Chapel_Hill,_North_Carolina> ;
+                  seo:eventWebsite "www.jcdl.org/archived-conf-sites/jcdl2006/" ;
+                  conference-ontology:endDate "2006-06-15T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                  conference-ontology:startDate "2006-06-11T00:00:00.0000000+00:00"^^xsd:dateTime .
+
+
+###  http://purl.org/events_ds#JCDL2005
+eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+                           conference-ontology:Conference ;
+	    		 seo:acceptanceRate 0.22 ;
+                  seo:acceptedPapers 59 ;		
+                  seo:submittedPapers 270 ;   
+                  seo:Country <http://dbpedia.org/resource/United_States> ;
+                  seo:belongsToSeries eventskg:JCDL ;
+                  seo:city <http://dbpedia.org/resource/Denver> ;
+                  seo:eventWebsite "www.jcdl.org/archived-conf-sites/jcdl2005/" ;
+                  conference-ontology:endDate "2005-06-11T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                  conference-ontology:startDate "2005-06-07T00:00:00.0000000+00:00"^^xsd:dateTime .
+
+###  http://purl.org/events_ds#JCDL2004
+eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+                           conference-ontology:Conference ;
+	    		 seo:acceptanceRate 0.24 ;
+                  seo:acceptedPapers 61 ;		
+                  seo:submittedPapers 249 ;   
+                  seo:Country <http://dbpedia.org/resource/United_States> ;
+                  seo:belongsToSeries eventskg:JCDL ;
+                  seo:city <http://dbpedia.org/resource/Tucson,_Arizona> ;
+                  seo:eventWebsite "www.jcdl.org/archived-conf-sites/jcdl2004/" ;
+                  conference-ontology:endDate "2004-06-11T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                  conference-ontology:startDate "2004-06-07T00:00:00.0000000+00:00"^^xsd:dateTime .
+
+###  http://purl.org/events_ds#JCDL2003
+eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+                           conference-ontology:Conference ;
+	    		 seo:acceptanceRate 0.25 ;
+                  seo:acceptedPapers 54 ;		
+                  seo:submittedPapers 216 ;   
+                  seo:Country <http://dbpedia.org/resource/United_States> ;
+                  seo:belongsToSeries eventskg:JCDL ;
+                  seo:city <http://dbpedia.org/resource/Houston> ;
+                  seo:eventWebsite "www.jcdl.org/archived-conf-sites/jcdl2003/" ;
+                  conference-ontology:endDate "2003-05-31T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                  conference-ontology:startDate "2003-05-27T00:00:00.0000000+00:00"^^xsd:dateTime .
+
+###  http://purl.org/events_ds#JCDL2002
+eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+                           conference-ontology:Conference ;
+	    		 seo:acceptanceRate 0.29 ;
+                  seo:acceptedPapers 69 ;		
+                  seo:submittedPapers 240 ;   
+                  seo:Country <http://dbpedia.org/resource/United_States> ;
+                  seo:belongsToSeries eventskg:JCDL ;
+                  seo:city <http://dbpedia.org/resource/Portland,_Orego> ;
+                  seo:eventWebsite "www.jcdl.org/archived-conf-sites/jcdl2002/" ;
+                  conference-ontology:endDate "2002-06-18T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                  conference-ontology:startDate "2002-06-14T00:00:00.0000000+00:00"^^xsd:dateTime .
+
+###  http://purl.org/events_ds#JCDL2001
+eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+                           conference-ontology:Conference ;
+	    		 seo:acceptanceRate 0.30 ;
+                  seo:acceptedPapers 76 ;		
+                  seo:submittedPapers 250 ;   
+                  seo:Country <http://dbpedia.org/resource/United_States> ;
+                  seo:belongsToSeries eventskg:JCDL ;
+                  seo:city <http://dbpedia.org/resource/Roanoke,_Virgini> ;
+                  seo:eventWebsite "www.jcdl.org/archived-conf-sites/jcdl2001/" ;
+                  conference-ontology:endDate "2001-06-28T00:00:00.0000000+00:00"^^xsd:dateTime ;
+                  conference-ontology:startDate "2001-06-24T00:00:00.0000000+00:00"^^xsd:dateTime .
+
+
 
 
 ###  http://purl.org/events_ds#KR
