@@ -31,12 +31,14 @@ a:hover {
 	}
 #menu {
 background-color:#000000;
+font-weight:bold;
 }
 	
 #navigation a:hover {
 	
 	text-decoration:underline;
-	text-decoration:strong;
+	font-weight:bold;
+
 	}
 
 #padding {
