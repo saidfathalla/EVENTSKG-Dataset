@@ -10304,7 +10304,7 @@ eventskg:ESWC rdf:type owl:NamedIndividual ,
 ###  http://purl.org/events_ds#ESWC2004
 eventskg:ESWC2004 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
-                  seo:belongsToSeries "ESWS" ;
+                  seo:belongsToSeries eventskg:ESWC ;
                   seo:city <http://dbpedia.org/resource/Heraklion> ;
                   seo:eventWebsite "http://esws2004.sti2.org/" ;
                   seo:field <http://purl.org/seo#WorldWideWeb> ;
@@ -32535,7 +32535,7 @@ eventskg:VR rdf:type owl:NamedIndividual ,
 ###  http://purl.org/events_ds#VR1993
 eventskg:VR1993 rdf:type owl:NamedIndividual ,
                          conference-ontology:Conference ;
-                seo:belongsToSeries "VRAIS" ;
+                seo:belongsToSeries eventskg:VR ;
                 seo:city <http://dbpedia.org/resource/seattle> ;
                 seo:field <http://purl.org/seo#HumanCenteredComputing> ;
                 seo:heldInCountry <http://dbpedia.org/resource/United_States> ;
@@ -32548,7 +32548,7 @@ eventskg:VR1993 rdf:type owl:NamedIndividual ,
 eventskg:VR1995 rdf:type owl:NamedIndividual ,
                          conference-ontology:Conference ;
                 seo:acceptedPapers 27 ;
-                seo:belongsToSeries "VRAIS" ;
+                seo:belongsToSeries eventskg:VR ;
                 seo:field <http://purl.org/seo#HumanCenteredComputing> ;
                 seo:heldInCountry <http://dbpedia.org/resource/United_States> ;
                 conference-ontology:acronym "VRAIS 1995" ;
@@ -32561,7 +32561,7 @@ eventskg:VR1996 rdf:type owl:NamedIndividual ,
                          conference-ontology:Conference ;
                 seo:acceptanceRate 0.349 ;
                 seo:acceptedPapers 30 ;
-                seo:belongsToSeries "VRAIS" ;
+                seo:belongsToSeries eventskg:VR ;
                 seo:city <http://dbpedia.org/resource/Santa_Clara,_California> ;
                 seo:field <http://purl.org/seo#HumanCenteredComputing> ;
                 seo:heldInCountry <http://dbpedia.org/resource/United_States> ;
@@ -32576,7 +32576,7 @@ eventskg:VR1996 rdf:type owl:NamedIndividual ,
 eventskg:VR1997 rdf:type owl:NamedIndividual ,
                          conference-ontology:Conference ;
                 seo:acceptedPapers 25 ;
-                seo:belongsToSeries "VRAIS" ;
+                seo:belongsToSeries eventskg:VR ;
                 seo:city <http://dbpedia.org/resource/Albuquerque,_New_Mexico> ;
                 seo:field <http://purl.org/seo#HumanCenteredComputing> ;
                 seo:heldInCountry <http://dbpedia.org/resource/United_States> ;
@@ -32589,7 +32589,7 @@ eventskg:VR1997 rdf:type owl:NamedIndividual ,
 eventskg:VR1998 rdf:type owl:NamedIndividual ,
                          conference-ontology:Conference ;
                 seo:acceptedPapers 36 ;
-                seo:belongsToSeries "VRAIS" ;
+                seo:belongsToSeries eventskg:VR ;
                 seo:city <http://dbpedia.org/resource/Atlanta> ;
                 seo:field <http://purl.org/seo#HumanCenteredComputing> ;
                 seo:heldInCountry <http://dbpedia.org/resource/United_States> ;
