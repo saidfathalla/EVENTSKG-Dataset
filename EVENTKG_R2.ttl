@@ -19229,7 +19229,7 @@ eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
                   conference-ontology:startDate "2019-06-02T00:00:00.0000000+00:00"^^xsd:dateTime .
 				  
 ###  http://purl.org/events_ds#JCDL2018
-eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+eventskg:JCDL2018 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:Country <http://dbpedia.org/resource/United_States> ;
                   seo:belongsToSeries eventskg:JCDL ;
@@ -19239,7 +19239,7 @@ eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
                   conference-ontology:startDate "2018-06-03T00:00:00.0000000+00:00"^^xsd:dateTime .				  
 
 ###  http://purl.org/events_ds#JCDL2017
-eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+eventskg:JCDL2017 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:Country <http://dbpedia.org/resource/United_States> ;
                   seo:belongsToSeries eventskg:JCDL ;
@@ -19250,7 +19250,7 @@ eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
 
 
 ###  http://purl.org/events_ds#JCDL2016
-eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+eventskg:JCDL2016 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
 						    seo:acceptanceRate 0.29 ;
                   seo:acceptedPapers 15 ;		
@@ -19263,7 +19263,7 @@ eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
                   conference-ontology:startDate "2016-06-19T00:00:00.0000000+00:00"^^xsd:dateTime .
 
 ###  http://purl.org/events_ds#JCDL2015
-eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+eventskg:JCDL2015 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
 						    seo:acceptanceRate 0.30 ;
                   seo:acceptedPapers 18 ;		
@@ -19277,7 +19277,7 @@ eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
 				  
 				  
 ###  http://purl.org/events_ds#JCDL2014
-eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+eventskg:JCDL2014 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:Country <http://dbpedia.org/resource/United_Kingdom> ;
                   seo:belongsToSeries eventskg:JCDL ;
@@ -19287,7 +19287,7 @@ eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
                   conference-ontology:startDate "2014-09-08T00:00:00.0000000+00:00"^^xsd:dateTime .
 				  
 ###  http://purl.org/events_ds#JCDL2013
-eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+eventskg:JCDL2013 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
 	    		 seo:acceptanceRate 0.29 ;
                   seo:acceptedPapers 28 ;		
@@ -19300,7 +19300,7 @@ eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
                   conference-ontology:startDate "2013-07-22T00:00:00.0000000+00:00"^^xsd:dateTime .
 
 ###  http://purl.org/events_ds#JCDL2012
-eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+eventskg:JCDL2012 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
 	    		 seo:acceptanceRate 0.27 ;
                   seo:acceptedPapers 25 ;		
@@ -19313,7 +19313,7 @@ eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
                   conference-ontology:startDate "2012-06-10T00:00:00.0000000+00:00"^^xsd:dateTime .
 
 ###  http://purl.org/events_ds#JCDL2011
-eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+eventskg:JCDL2011 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
 	    		 seo:acceptanceRate 0.23 ;
                   seo:acceptedPapers 57 ;		
@@ -19326,7 +19326,7 @@ eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
                   conference-ontology:startDate "2011-06-13T00:00:00.0000000+00:00"^^xsd:dateTime .				  
 
 ###  http://purl.org/events_ds#JCDL2010
-eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+eventskg:JCDL2010 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
 	    		 seo:acceptanceRate 0.29 ;
                   seo:acceptedPapers 32 ;		
@@ -19340,7 +19340,7 @@ eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
 
 
 ###  http://purl.org/events_ds#JCDL2009
-eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+eventskg:JCDL2009 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
 	    		 seo:acceptanceRate 0.28 ;
                   seo:acceptedPapers 29 ;		
@@ -19354,7 +19354,7 @@ eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
 
 
 ###  http://purl.org/events_ds#JCDL2008
-eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+eventskg:JCDL2008 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
 	    		 seo:acceptanceRate 0.28 ;
                   seo:acceptedPapers 33 ;		
@@ -19367,7 +19367,7 @@ eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
                   conference-ontology:startDate "2008-06-16T00:00:00.0000000+00:00"^^xsd:dateTime .
 
 ###  http://purl.org/events_ds#JCDL2007
-eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+eventskg:JCDL2007 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
 	    		 seo:acceptanceRate 0.36 ;
                   seo:acceptedPapers 43 ;		
@@ -19381,7 +19381,7 @@ eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
 
 
 ###  http://purl.org/events_ds#JCDL2006
-eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+eventskg:JCDL2006 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
 	    		 seo:acceptanceRate 0.23 ;
                   seo:acceptedPapers 57 ;		
@@ -19395,7 +19395,7 @@ eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
 
 
 ###  http://purl.org/events_ds#JCDL2005
-eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+eventskg:JCDL2005 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
 	    		 seo:acceptanceRate 0.22 ;
                   seo:acceptedPapers 59 ;		
@@ -19408,7 +19408,7 @@ eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
                   conference-ontology:startDate "2005-06-07T00:00:00.0000000+00:00"^^xsd:dateTime .
 
 ###  http://purl.org/events_ds#JCDL2004
-eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+eventskg:JCDL2004 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
 	    		 seo:acceptanceRate 0.24 ;
                   seo:acceptedPapers 61 ;		
@@ -19421,7 +19421,7 @@ eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
                   conference-ontology:startDate "2004-06-07T00:00:00.0000000+00:00"^^xsd:dateTime .
 
 ###  http://purl.org/events_ds#JCDL2003
-eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+eventskg:JCDL2003 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
 	    		 seo:acceptanceRate 0.25 ;
                   seo:acceptedPapers 54 ;		
@@ -19434,7 +19434,7 @@ eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
                   conference-ontology:startDate "2003-05-27T00:00:00.0000000+00:00"^^xsd:dateTime .
 
 ###  http://purl.org/events_ds#JCDL2002
-eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+eventskg:JCDL2002 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
 	    		 seo:acceptanceRate 0.29 ;
                   seo:acceptedPapers 69 ;		
@@ -19447,7 +19447,7 @@ eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
                   conference-ontology:startDate "2002-06-14T00:00:00.0000000+00:00"^^xsd:dateTime .
 
 ###  http://purl.org/events_ds#JCDL2001
-eventskg:JCDL2019 rdf:type owl:NamedIndividual ,
+eventskg:JCDL2001 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
 	    		 seo:acceptanceRate 0.30 ;
                   seo:acceptedPapers 76 ;		
