@@ -5435,7 +5435,7 @@ eventskg:CHI rdf:type owl:NamedIndividual ,
 eventskg:CHI1982 rdf:type owl:NamedIndividual ,
                           conference-ontology:Conference ;
                  seo:belongsToSeries eventskg:CHI ;
-				 seo:acceptanceRate 0.005 ;
+				 seo:acceptanceRate 0.45 ;
                  seo:acceptedpaper 75 ;
                  seo:city <http://dbpedia.org/resource/Gaithersburg,_Maryland> ;
                  seo:field <http://purl.org/seo#HumanCenteredComputing> ;
@@ -16609,7 +16609,7 @@ eventskg:ICWE2013 rdf:type owl:NamedIndividual ,
 eventskg:ICWE2014 rdf:type owl:NamedIndividual ,
                            conference-ontology:Conference ;
                   seo:belongsToSeries eventskg:ICWE ;
-				  seo:acceptanceRate 0.002 ;
+				  seo:acceptanceRate 0.2 ;
                   seo:acceptedpaper 20 ;
                   seo:city <http://dbpedia.org/resource/County_of_Toulouse> ;
                   seo:eventWebsite "https://link.springer.com/conference/icwe" ;
@@ -18562,7 +18562,7 @@ eventskg:ISSAC1995 rdf:type owl:NamedIndividual ,
 eventskg:ISSAC1996 rdf:type owl:NamedIndividual ,
                             conference-ontology:Conference ;
                    seo:belongsToSeries eventskg:ISSAC ;
-				   seo:acceptanceRate 0.003 ;
+				   seo:acceptanceRate 0.34 ;
                    seo:acceptedpaper 41 ;
                    seo:city <http://dbpedia.org/resource/Zürich> ;
                    seo:eventWebsite "dblp2.uni-trier.de/db/conf/issac/issac96.html" ;
@@ -26203,7 +26203,7 @@ eventskg:SIGGRAPH1977 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH1978 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.005 ;
+					  seo:acceptanceRate 0.53 ;
                       seo:acceptedpaper 64 ;
                       seo:city <http://dbpedia.org/resource/Atlanta> ;
                       seo:eventWebsite "dblp2.uni-trier.de/db/conf/siggraph/siggraph1978.html" ;
@@ -26222,7 +26222,7 @@ eventskg:SIGGRAPH1978 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH1979 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.004 ;
+		 	seo:acceptanceRate 0.39 ;
                       seo:acceptedpaper 43 ;
                       seo:city <http://dbpedia.org/resource/Chicago> ;
                       seo:eventWebsite "dblp2.uni-trier.de/db/conf/siggraph/siggraph1979.html" ;
@@ -26241,7 +26241,7 @@ eventskg:SIGGRAPH1979 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH1980 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.004 ;
+			seo:acceptanceRate 0.37 ;
                       seo:acceptedpaper 52 ;
                       seo:city <http://dbpedia.org/resource/seattle> ;
                       seo:eventWebsite "dblp2.uni-trier.de/db/conf/siggraph/siggraph1980.html" ;
@@ -26260,7 +26260,7 @@ eventskg:SIGGRAPH1980 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH1981 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.003 ;
+			seo:acceptanceRate 0.29 ;
                       seo:acceptedpaper 38 ;
                       seo:city <http://dbpedia.org/resource/Dallas> ;
                       seo:eventWebsite "dblp2.uni-trier.de/db/conf/siggraph/siggraph1981.html" ;
@@ -26311,7 +26311,7 @@ eventskg:SIGGRAPH1983 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH1984 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.003 ;
+			seo:acceptanceRate 0.35 ;
                       seo:acceptedpaper 41 ;
                       seo:city <http://dbpedia.org/resource/Minneapolis> ;
                       seo:eventWebsite "dblp2.uni-trier.de/db/conf/siggraph/siggraph1984.html" ;
@@ -26330,7 +26330,7 @@ eventskg:SIGGRAPH1984 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH1985 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+			seo:acceptanceRate 0.2 ;
                       seo:acceptedpaper 35 ;
                       seo:city <http://dbpedia.org/resource/San_Francisco> ;
                       seo:eventWebsite "dblp2.uni-trier.de/db/conf/siggraph/siggraph1985.html" ;
@@ -26365,7 +26365,7 @@ eventskg:SIGGRAPH1986 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH1987 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.24 ;
                       seo:acceptedpaper 33 ;
                       seo:city <http://dbpedia.org/resource/Anaheim,_California> ;
                       seo:eventWebsite "dblp2.uni-trier.de/db/conf/siggraph/siggraph1987.html" ;
@@ -26384,7 +26384,7 @@ eventskg:SIGGRAPH1987 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH1988 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.21 ;
                       seo:acceptedpaper 34 ;
                       seo:city <http://dbpedia.org/resource/Atlanta> ;
                       seo:eventWebsite "dblp2.uni-trier.de/db/conf/siggraph/siggraph1988.html" ;
@@ -26403,7 +26403,7 @@ eventskg:SIGGRAPH1988 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH1989 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.2 ;
                       seo:acceptedpaper 38 ;
                       seo:city <http://dbpedia.org/resource/Boston,_Georgia> ;
                       seo:eventWebsite "dblp2.uni-trier.de/db/conf/siggraph/siggraph1989.html" ;
@@ -26422,7 +26422,7 @@ eventskg:SIGGRAPH1989 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH1990 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.21 ;
                       seo:acceptedpaper 43 ;
                       seo:city <http://dbpedia.org/resource/Dallas> ;
                       seo:eventWebsite "dblp2.uni-trier.de/db/conf/siggraph/siggraph1990.html" ;
@@ -26457,7 +26457,7 @@ eventskg:SIGGRAPH1991 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH1992 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.21 ;
                       seo:acceptedpaper 45 ;
                       seo:city <http://dbpedia.org/resource/Chicago> ;
                       seo:eventWebsite "dblp2.uni-trier.de/db/conf/siggraph/siggraph1992.html" ;
@@ -26476,7 +26476,7 @@ eventskg:SIGGRAPH1992 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH1993 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.2 ;
                       seo:acceptedpaper 46 ;
                       seo:city <http://dbpedia.org/resource/Anaheim,_California> ;
                       seo:eventWebsite "dblp2.uni-trier.de/db/conf/siggraph/siggraph1993.html" ;
@@ -26495,7 +26495,7 @@ eventskg:SIGGRAPH1993 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH1994 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.24 ;
                       seo:acceptedpaper 57 ;
                       seo:city <http://dbpedia.org/resource/Orlando,_Florida> ;
                       seo:eventWebsite "dblp2.uni-trier.de/db/conf/siggraph/siggraph1994.html" ;
@@ -26514,7 +26514,7 @@ eventskg:SIGGRAPH1994 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH1995 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.22 ;
                       seo:acceptedpaper 56 ;
                       seo:city <http://dbpedia.org/resource/Los_Angeles> ;
                       seo:eventWebsite "www.siggraph.org/s95/" ;
@@ -26533,7 +26533,7 @@ eventskg:SIGGRAPH1995 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH1996 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.21 ;
                       seo:acceptedpaper 52 ;
                       seo:city <http://dbpedia.org/resource/Orleans,_Iowa> ;
                       seo:eventWebsite "www.siggraph.org/conferences/siggraph96/" ;
@@ -26552,7 +26552,7 @@ eventskg:SIGGRAPH1996 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH1997 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.18 ;
                       seo:acceptedpaper 48 ;
                       seo:city <http://dbpedia.org/resource/Los_Angeles> ;
                       seo:eventWebsite "www.siggraph.org/s97/" ;
@@ -26571,7 +26571,7 @@ eventskg:SIGGRAPH1997 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH1998 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.001 ;
+					  seo:acceptanceRate 0.15 ;
                       seo:acceptedpaper 45 ;
                       seo:city <http://dbpedia.org/resource/Orlando,_Florida> ;
                       seo:eventWebsite "www.siggraph.org/s98/" ;
@@ -26590,7 +26590,7 @@ eventskg:SIGGRAPH1998 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH1999 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.16 ;
                       seo:acceptedpaper 52 ;
                       seo:city <http://dbpedia.org/resource/Los_Angeles> ;
                       seo:eventWebsite "www.siggraph.org/s99/" ;
@@ -26609,7 +26609,7 @@ eventskg:SIGGRAPH1999 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH2000 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.19 ;
                       seo:acceptedpaper 59 ;
                       seo:city <http://dbpedia.org/resource/Orleans,_Iowa> ;
                       seo:eventWebsite "www.siggraph.org/s2000/" ;
@@ -26628,7 +26628,7 @@ eventskg:SIGGRAPH2000 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH2001 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.22 ;
                       seo:acceptedpaper 65 ;
                       seo:city <http://dbpedia.org/resource/Los_Angeles> ;
                       seo:eventWebsite "www.siggraph.org/s2001/" ;
@@ -26647,7 +26647,7 @@ eventskg:SIGGRAPH2001 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH2002 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.19 ;
                       seo:acceptedpaper 67 ;
                       seo:city <http://dbpedia.org/resource/San_Antonio> ;
                       seo:eventWebsite "www.siggraph.org/s2002/" ;
@@ -26666,7 +26666,7 @@ eventskg:SIGGRAPH2002 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH2003 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.19 ;
                       seo:acceptedpaper 81 ;
                       seo:city <http://dbpedia.org/resource/San_Diego> ;
                       seo:eventWebsite "www.siggraph.org/s2003/" ;
@@ -26685,7 +26685,7 @@ eventskg:SIGGRAPH2003 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH2004 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.17 ;
                       seo:acceptedpaper 83 ;
                       seo:city <http://dbpedia.org/resource/Los_Angeles> ;
                       seo:eventWebsite "www.siggraph.org/s2004/" ;
@@ -26704,7 +26704,7 @@ eventskg:SIGGRAPH2004 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH2005 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.21 ;
                       seo:acceptedpaper 98 ;
                       seo:city <http://dbpedia.org/resource/Los_Angeles> ;
                       seo:eventWebsite "www.siggraph.org/s2005/" ;
@@ -26723,7 +26723,7 @@ eventskg:SIGGRAPH2005 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH2006 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.18 ;
                       seo:acceptedpaper 86 ;
                       seo:city <http://dbpedia.org/resource/Boston,_Georgia> ;
                       seo:eventWebsite "www.siggraph.org/s2006/" ;
@@ -26742,7 +26742,7 @@ eventskg:SIGGRAPH2006 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH2007 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.24 ;
                       seo:acceptedpaper 108 ;
                       seo:city <http://dbpedia.org/resource/San_Diego> ;
                       seo:eventWebsite "www.siggraph.org/s2007/" ;
@@ -26761,7 +26761,7 @@ eventskg:SIGGRAPH2007 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH2008 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.17 ;
                       seo:acceptedpaper 90 ;
                       seo:city <http://dbpedia.org/resource/Los_Angeles> ;
                       seo:eventWebsite "www.siggraph.org/s2008/" ;
@@ -26780,7 +26780,7 @@ eventskg:SIGGRAPH2008 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH2009 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.18 ;
                       seo:acceptedpaper 78 ;
                       seo:city <http://dbpedia.org/resource/Orleans,_Iowa> ;
                       seo:eventWebsite "www.siggraph.org/s2009/" ;
@@ -26800,7 +26800,7 @@ eventskg:SIGGRAPH2009 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH2010 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.003 ;
+					  seo:acceptanceRate 0.26 ;
                       seo:acceptedpaper 103 ;
                       seo:city <http://dbpedia.org/resource/Los_Angeles> ;
                       seo:eventWebsite "www.siggraph.org/s2010/" ;
@@ -26820,7 +26820,7 @@ eventskg:SIGGRAPH2010 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH2011 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.19 ;
                       seo:acceptedpaper 82 ;
                       seo:city <http://dbpedia.org/resource/Colony_of_Vancouver_Island> ;
                       seo:eventWebsite "www.siggraph.org/s2011/" ;
@@ -26839,7 +26839,7 @@ eventskg:SIGGRAPH2011 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH2012 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.21 ;
                       seo:acceptedpaper 94 ;
                       seo:city <http://dbpedia.org/resource/Los_Angeles> ;
                       seo:eventWebsite "s2012.siggraph.org/" ;
@@ -26859,7 +26859,7 @@ eventskg:SIGGRAPH2012 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH2013 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.002 ;
+					  seo:acceptanceRate 0.24 ;
                       seo:acceptedpaper 115 ;
                       seo:city <http://dbpedia.org/resource/Anaheim,_California> ;
                       seo:eventWebsite "s2013.siggraph.org/" ;
@@ -26879,7 +26879,7 @@ eventskg:SIGGRAPH2013 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH2014 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.003 ;
+					  seo:acceptanceRate 0.25 ;
                       seo:acceptedpaper 127 ;
                       seo:city <http://dbpedia.org/resource/Colony_of_Vancouver_Island> ;
                       seo:eventWebsite "s2014.siggraph.org/" ;
@@ -26898,7 +26898,7 @@ eventskg:SIGGRAPH2014 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH2015 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.003 ;
+					  seo:acceptanceRate 0.26 ;
                       seo:acceptedpaper 118 ;
                       seo:city <http://dbpedia.org/resource/Los_Angeles> ;
                       seo:eventWebsite "s2015.siggraph.org/" ;
@@ -26918,7 +26918,7 @@ eventskg:SIGGRAPH2015 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH2016 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.003 ;
+					  seo:acceptanceRate 0.26 ;
                       seo:acceptedpaper 119 ;
                       seo:city <http://dbpedia.org/resource/Anaheim,_California> ;
                       seo:eventWebsite "s2016.siggraph.org/" ;
@@ -26938,7 +26938,7 @@ eventskg:SIGGRAPH2016 rdf:type owl:NamedIndividual ,
 eventskg:SIGGRAPH2017 rdf:type owl:NamedIndividual ,
                                conference-ontology:Conference ;
                       seo:belongsToSeries eventskg:SIGGRAPH ;
-					  seo:acceptanceRate 0.003 ;
+					  seo:acceptanceRate 0.29 ;
                       seo:acceptedpaper 127 ;
                       seo:city <http://dbpedia.org/resource/Los_Angeles> ;
                       seo:eventWebsite "s2017.siggraph.org/" ;
