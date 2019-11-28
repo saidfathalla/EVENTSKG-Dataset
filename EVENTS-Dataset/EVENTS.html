@@ -1,10 +1,9 @@
 
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    
-    <title>EVENTSKG dataset</title>
+    <meta charset="utf-8">
+    <title>EVENTS dataset</title>
     <style type="text/css">
     body {
         background: #FFF;
@@ -123,71 +122,50 @@
     .style1 {font-size: x-large}
     .style2 {color: #003333}
     .style3 {color: #28288C}
-    .style4 {color: #28288C}
-    .style5 {
-	color: #003366;
-	font-style: italic;
-	font-weight: bold;
-}
+    .style4 {color: #000#28288C}
     </style>
 </head>
 
 <body>
 	<a name="top"></a> 
-	<h1 class="style1">EVENTSKG   dataset</h1>
+	<h1 class="style1">EVENTS   dataset</h1>
     <table>
         <tbody>
             <tr>
-              <th width="11%"><div>Title:</div></th>
-                <td width="89%">A dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for  top-prestigious events series.</td>
+                <th width="9%" scope="row"><div align="left">Title:</div></th>
+                <td width="91%" property="dcterms:Title">A dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for 25 top-prestigious events series.</td>
             </tr>
             <tr>
-                <th scope="row"><div>Creator:</div></th>
-                <td><a href="http://sda.cs.uni-bonn.de/people/said-fathalla/">Said Fathalla</a> and Christoph Lange</td>
+                <th scope="row"><div align="left">Creator:</div></th>
+                <td property="dcterms:creator" label="UBONN, ARC">Said Fathalla and Christoph Lange</td>
             </tr>
             <tr>
-                <th scope="row"><div>Date Issued:</div></th>
+                <th scope="row"><div align="left">Date Issued:</div></th>
                 <td>
                     <time property="dcterms:issued">2018-01-01</time>                </td>
             </tr>
             <tr>
-              <th scope="row"><div>Last update:</div></th>
-              <td property="dcterms:description"><time property="dcterms:issued">2018-06-01</time></td>
+              <th scope="row"><div align="left">Last update:</div></th>
+              <td property="dcterms:description"><time property="dcterms:issued">2018-04-01</time></td>
             </tr>
             <tr>
-                <th scope="row"><div>Description:</div></th>
+                <th scope="row"><div align="left">Description:</div></th>
               <td property="dcterms:description">This document is a 
 specification of   top-prestigious events series in several computer science communities.</td>
             </tr>
             <tr>
               <th scope="row">License and use: </th>
-              <td property="dcterms:description">Found <a href="/EVENTS-Dataset/EVENTS_Licence.html">here</a>. </td>
+              <td property="dcterms:description">Found <a href="/EVENTS-Dataset/EVENTS_Licence.html">here</a> </td>
             </tr>
             <tr>
-              <th scope="row">Issue Tracking </th>
-              <td property="dcterms:description">Please create an issue <a href="https://github.com/saidfathalla/EVENTS-Dataset/issues/new">here</a>. </td>
-            </tr>
-            <tr>
-              <th scope="row">Indexing</th>
-              <td property="dcterms:description"><a href="https://datahub.ckan.io/dataset/eventskg">https://datahub.ckan.io/dataset/eventskg </a></td>
-            </tr>
-            <tr>
-              <th scope="row"><div>Citation: </div></th>
-              <td property="dcterms:description"><ul>
-                <li>
-                  Fathalla, Said, and Christoph Lange. "EVENTSKG: A Knowledge Graph Representation for Top-Prestigious Computer Science Events Metadata." <em>International Conference on Computational Collective Intelligence</em>. Springer, Cham, 2018.                </li>
-                </ul>                
-                <p>For the first release: </p>
-                <ul>
-                  <li>Fathalla, Said, and Christoph Lange. "EVENTS: a dataset on the history of top-prestigious events in five computer science communities." <em>International Workshop on Semantic, Analytics, Visualization. Springer, Heidelberg</em>. 2018.</li>
-              </ul></td>
+              <th scope="row"><div align="left">Citation: </div></th>
+              <td property="dcterms:description">-</td>
             </tr>
         </tbody>
     </table>
-<div>
+<div id="text enjoy">
         <h4 class="style2">You can find our latest EVENTS release below, as well as a number of previously released datasets.</h4>
 </div>
-
 
 
 <script src="highcharts.js"></script>
@@ -197,14 +175,14 @@ specification of   top-prestigious events series in several computer science com
 
 
 
-		<script>
+		<script type="text/javascript">
 
 Highcharts.chart('container', {
     chart: {
         type: 'bar'
     },
     title: {
-        text: 'EVENTSKG (formerly, EVENTS) statistics (current and previous releases)'
+        text: 'EVENTS statistics (current and previous releases)'
     },
     subtitle: {
 <!--        text: 'Source: <a href="https://openresearch.org/">openresearch.org</a>'
@@ -266,7 +244,7 @@ Highcharts.chart('container', {
 
 <div id="contents">
         <h2><span class="style3">Latest Release</span> (Version 2018-04) </h2>
-        <p>We are happy to announce a new release of EVENTS, we called it <span class="style5">EVENTSKG</span>. The new release is a <em><strong>Linked Dataset</strong></em> based on <a href="http://sda.tech/SEOontology/Documentation/SEO.html">SEO ontology</a> leading to richer and cleaner data.This release is a 
+        <p>We are happy to announce a new release of EVENTS. The new release is based on <a href="http://sda.tech/SEOontology/Documentation/SEO.html">SEO ontology</a> leading to richer and cleaner data.This release is a 
 specification of 40  top-prestigious events series in six computer science communities. 
 The dataset is publicly available online in three different formats (i.e. <a href="CSV2.zip">CSV</a>, <a href="EVENTSKG-40.ttl">Turtle</a>, <a href="EVENTSKG-40.json">json</a> and <a href="EVENTSKG-40.rdf">RDF</a>).</p>
 </div>
@@ -279,7 +257,7 @@ The dataset is publicly available online in three different formats (i.e. <a hre
 <h2>&nbsp;</h2>
     <div id="H1">
         <h2>Description</h2>
-        <div id="introduction2">
+        <div id="introduction">
             <p>EVENTS is a dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for 25 top-prestigious events series (718 editions in total) in five computer science communities. 
               The dataset is publicly available online in three different formats (i.e. CSV, XML and RDF). 
             It is of interest to the conference steering committees or program chairs to assess the progress of their event over time and compare it against other competing events in the same field, or by potential authors who look for events to publish their work.</p>
@@ -299,43 +277,43 @@ The dataset is publicly available online in three different formats (i.e. <a hre
 
 <div id="H2">
         <h2>Sample data (csv)</h2>
-        <div id="list">
+        <div id="introduction">
             <p>&nbsp;</p>
-            <table border="1">
-              <col>
-              <tr>
-                <td>Title</td>
-                <td>year</td>
-                <td>Acronym</td>
-                <td>Series</td>
-                <td>Start date</td>
-                <td>End date</td>
-                <td>Submitted papers</td>
-                <td>Accepted papers</td>
-                <td>Submission Rate</td>
-                <td>City</td>
-                <td>State</td>
-                <td>Country</td>
-                <td>Field</td>
-                <td>Type</td>
-                <td>Homepage</td>
+            <table border="1" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF">
+              <col width="64" span="15">
+              <tr height="19">
+                <td width="64" height="19" bordercolor="#CCCCCC">Title</td>
+                <td width="64" bordercolor="#CCCCCC">year</td>
+                <td width="64" bordercolor="#CCCCCC">Acronym</td>
+                <td width="64" bordercolor="#CCCCCC">Series</td>
+                <td width="64" bordercolor="#CCCCCC">Start date</td>
+                <td width="64" bordercolor="#CCCCCC">End date</td>
+                <td width="64" bordercolor="#CCCCCC">Submitted papers</td>
+                <td width="64" bordercolor="#CCCCCC">Accepted papers</td>
+                <td width="64" bordercolor="#CCCCCC">Submission Rate</td>
+                <td width="64" bordercolor="#CCCCCC">City</td>
+                <td width="64" bordercolor="#CCCCCC">State</td>
+                <td width="64" bordercolor="#CCCCCC">Country</td>
+                <td width="64" bordercolor="#CCCCCC">Field</td>
+                <td width="64" bordercolor="#CCCCCC">Type</td>
+                <td width="64" bordercolor="#CCCCCC">Homepage</td>
               </tr>
-        <tr>
-          <td>31st Annual National Conference on    Artificial Intelligence</td>
-          <td>2017</td>
-          <td>AAAI</td>
-          <td>AAAI2017</td>
-          <td>4-Feb-17</td>
-          <td>9-Feb-17</td>
-          <td>2590</td>
-          <td>638</td>
-          <td>24.60%</td>
-          <td>San Francisco</td>
-          <td>California</td>
-          <td>USA</td>
-          <td>Artificial Intelligence</td>
-          <td>Conference</td>
-          <td>aaai.org/Conferences/AAAI/aaai17.php</td>
+        <tr height="19">
+          <td height="19" bordercolor="#CCCCCC">31st Annual National Conference on    Artificial Intelligence</td>
+          <td align="right" bordercolor="#CCCCCC">2017</td>
+          <td bordercolor="#CCCCCC">AAAI</td>
+          <td bordercolor="#CCCCCC">AAAI2017</td>
+          <td align="right" bordercolor="#CCCCCC">4-Feb-17</td>
+          <td align="right" bordercolor="#CCCCCC">9-Feb-17</td>
+          <td align="right" bordercolor="#CCCCCC">2590</td>
+          <td align="right" bordercolor="#CCCCCC">638</td>
+          <td align="right" bordercolor="#CCCCCC">24.60%</td>
+          <td bordercolor="#CCCCCC">San Francisco</td>
+          <td bordercolor="#CCCCCC">California</td>
+          <td bordercolor="#CCCCCC">USA</td>
+          <td bordercolor="#CCCCCC">Artificial Intelligence</td>
+          <td bordercolor="#CCCCCC">Conference</td>
+          <td bordercolor="#CCCCCC">aaai.org/Conferences/AAAI/aaai17.php</td>
               </tr>
             </table>
             <p><br>
@@ -363,24 +341,37 @@ The dataset is publicly available online in three different formats (i.e. <a hre
 &lt;Cell ss:StyleID=&quot;s64&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;Conference&lt;/Data&gt;&lt;/Cell&gt;<br>
 &lt;Cell ss:StyleID=&quot;s64&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;aaai.org/Conferences/AAAI/aaai17.php&lt;/Data&gt;&lt;/Cell&gt;<br>
 &lt;/Row&gt;</p>
-        <p>&nbsp;</p>
-</div>
-<h2>Sample data (RDF)</h2>
-<pre>
-    &lt;owl:NamedIndividual rdf:about="http://purl.org/eventskg/ICDE17">
-    &lt;seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">113 &lt;/seo:acceptedPapers>
-    &lt;conference-ontology:acronym>ICDE &lt; /conference-ontology:acronym>
-    &lt;seo:country>USA &lt;/seo:country>
-    &lt;conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">  2017-04-22T00:00:00.0000000Z &lt;/conference-ontology:endDate>
-    &lt;seo:field>Data Engineering &lt;/seo:field>
-    &lt;seo:belongsToSeries rdf:resource="http://purl.org/eventskg/ICDE"/>
-    &lt;conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"> 2017-04-19T00:00:00.0000000Z &lt;/conference-ontology:startDate>
-    &lt;seo:acceptanceRate>21.5% &lt;/seo:acceptanceRate>
-    &lt;seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">525 &lt;/seo:submittedPapers>
-    &lt;rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
-  &lt;/owl:NamedIndividual>
-</pre>	
+        <div id="introduction">
 
+      </div>
+                 
+</div>
+
+<div id="H4">
+        <h2>Sample data (rdf)</h2>
+        <p>&nbsp;</p>
+        <div id="introduction">
+
+<xmp>
+         
+ <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ICDE17">
+    <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">113</seo:acceptedPapers>
+    <conference-ontology:acronym>ICDE</conference-ontology:acronym>
+    <seo:country>USA</seo:country>
+    <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">
+    2017-04-22T00:00:00.0000000Z</conference-ontology:endDate>
+    <seo:field>Data Engineering</seo:field>
+    <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/ICDE"/>
+    <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">
+    2017-04-19T00:00:00.0000000Z</conference-ontology:startDate>
+    <seo:acceptanceRate>21.5%</seo:acceptanceRate>
+    <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">525</seo:submittedPapers>
+    <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
+  </owl:NamedIndividual>
+</xmp>		
+      </div>
+                 
+</div>
 
 
     <!-- ******************* SECTION 2: CLASSES ******************* -->
@@ -388,5 +379,4 @@ The dataset is publicly available online in three different formats (i.e. <a hre
     <div class="footer">
         <p><a href="file:///about/copyright/#copyright">Copyright</a> &copy; 2018. All Rights Reserved. </p>
 </div>
-</body>
-</html>
+</body></html>
