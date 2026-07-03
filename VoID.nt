@@ -9,7 +9,7 @@
  rdfs:seeAlso <http://purl.org/events_ds> ; 
  rdfs:label "EVENTSKG, A dataset of scientific events" ; 
  void:sparqlEndpoint <http://kddste.sda.tech/sparql> ; 
- void:triples 28375 ; 
+ void:triples 27329 ; 
  void:classes 11 ; 
  void:entities 2036 ; 
  void:distinctSubjects 2036 ; 

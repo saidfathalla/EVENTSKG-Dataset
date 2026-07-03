@@ -1,0 +1,14 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Environments
+venv/
+.env
+
+
+# OS metadata
+.DS_Store
+
+# Ignore all programmatic pipeline outputs
+env/
