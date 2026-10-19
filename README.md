@@ -8,7 +8,7 @@
 
 ---
 
-## 🚀 What's New in Release 2 (R2)
+## What's New in Release 2 (R2)
 
 We are pleased to announce the second release (**R2**) of EVENTSKG! This version delivers significantly richer, cleaner, and fully harmonized semantic data.
 
@@ -19,7 +19,7 @@ Key updates include:
 
 ---
 
-## 📦 Dataset Access & Dumps
+## Dataset Access & Dumps
 
 The complete dataset dumps can be directly downloaded in your preferred format:
 
@@ -31,7 +31,7 @@ The complete dataset dumps can be directly downloaded in your preferred format:
 
 ---
 
-## 🌐 Linked Data Resources & Links
+## Linked Data Resources & Links
 
 Explore and validate the dataset using the following linked data endpoints and documentation:
 
@@ -41,7 +41,26 @@ Explore and validate the dataset using the following linked data endpoints and d
 * **Datahub Entry**: [datahub.ckan.io/dataset/eventskg](https://datahub.ckan.io/dataset/eventskg)
 ---
 
-## 🛠️ Contribution & Support
+## Example SPARQL Queries
+
+You can query the dataset using standard SPARQL endpoints. Below are basic examples to help you get started:
+
+### Query 1: Get all event editions with their location and start/end dates
+```sparql
+PREFIX seo: [http://sda.tech/SEOontology/SEO/](http://sda.tech/SEOontology/SEO/)
+PREFIX rdfs: [http://www.w3.org/2000/01/rdf-schema#](http://www.w3.org/2000/01/rdf-schema#)
+
+SELECT ?eventLabel ?location ?startDate ?endDate WHERE {
+  ?event a seo:Event ;
+         rdfs:label ?eventLabel ;
+         seo:hasLocation ?location ;
+         seo:hasStartDate ?startDate ;
+         seo:hasEndDate ?endDate .
+}
+LIMIT 50
+```
+
+## Contribution & Support
 
 If you encounter any issues, find bugs, or wish to request new features, please submit an issue via our Issue Tracker:
 
@@ -49,3 +68,18 @@ If you encounter any issues, find bugs, or wish to request new features, please 
 * 💡 [Request a Feature](https://github.com/saidfathalla/EVENTSKG-Dataset/issues/new?template=feature_request.md)
 
 For questions, feedback, or collaboration inquiries, feel free to create an issue.
+
+##  Citation
+If you use EVENTSKG in your research or project, please cite the paper as follows:
+
+```bibtex
+@inproceedings{fathalla2020eventskg,
+  title     = {EVENTSKG: A Knowledge Graph of Scientific Events},
+  author    = {Fathalla, Said and Vahdati, Sahar and Lange, Christoph and Auer, S{\"o}ren},
+  booktitle = {International Conference on Web Engineering (ICWE)},
+  pages     = {315--323},
+  year      = {2020},
+  publisher = {Springer},
+  doi       = {10.1007/978-3-030-21348-0_28}
+}
+```
