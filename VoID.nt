@@ -3,12 +3,11 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-@prefix eventskg: <http://purl.org/events_ds#> .
+@prefix eventskg: <http://w3id.org/EVENTSKG-Dataset/ekg#> .
 
-<http://purl.org/events_ds#> a void:Dataset ; 
- rdfs:seeAlso <http://purl.org/events_ds> ; 
+<http://w3id.org/EVENTSKG-Dataset/ekg#> a void:Dataset ; 
+ rdfs:seeAlso <http://w3id.org/EVENTSKG-Dataset/ekg#> ; 
  rdfs:label "EVENTSKG, A dataset of scientific events" ; 
- void:sparqlEndpoint <http://kddste.sda.tech/sparql> ; 
  void:triples 27329 ; 
  void:classes 11 ; 
  void:entities 2036 ; 
