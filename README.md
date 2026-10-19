@@ -44,17 +44,6 @@ This repository uses **GitHub Actions** workflows to automatically maintain data
 * **Link Checking (`link-check.yml`)**: A weekly automated check verifies that all external links, dataset dumps, SPARQL endpoints, and PURL IRIs remain online and accessible.
 * **Pages Deployment (`pages-build-deployment.yml`)**: Automatically deploys the latest version of the repository documentation to GitHub Pages.
 
----
-
-## Dataset Access & Dumps
-
-The complete dataset dumps can be directly downloaded in your preferred format:
-
-| Format | Direct Download Link |
-| :--- | :--- |
-| **RDF / Turtle (`.ttl`)** | [Download EVENTKG_R2.ttl](EVENTSKG.ttl) |
-| **JSON-LD (`.json`)** | [Download EVENTKG_R2.json](docs/EVENTKG_R2.json) |
-| **RDF / XML (`.rdf`)** | [Download EVENTKG_R2.rdf](docs/EVENTKG_R2.rdf) |
 
 ---
 
