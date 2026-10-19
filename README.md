@@ -45,20 +45,36 @@ Explore and validate the dataset using the following linked data endpoints and d
 
 You can query the dataset using standard SPARQL endpoints. Below are basic examples to help you get started:
 
-### Query 1: Get all event editions with their location and start/end dates
+### Query 1: Get  the top 5 countries that hosted the most Security and Privacy events in the past decade.
 ```sparql
-PREFIX seo: [http://sda.tech/SEOontology/SEO/](http://sda.tech/SEOontology/SEO/)
+PREFIX seo: [https://w3id.org/seo#](https://w3id.org/seo#)
 PREFIX rdfs: [http://www.w3.org/2000/01/rdf-schema#](http://www.w3.org/2000/01/rdf-schema#)
 
-SELECT ?eventLabel ?location ?startDate ?endDate WHERE {
-  ?event a seo:Event ;
-         rdfs:label ?eventLabel ;
-         seo:hasLocation ?location ;
-         seo:hasStartDate ?startDate ;
-         seo:hasEndDate ?endDate .
+SELECT ?country (count(?country) as ?numOfEvents)
+WHERE{
+  ?e seo:heldInCountry ?country.
+  ?e seo:field <https://w3id.org/seo#SecurityAndPrivacy>.
+  ?e conference-ontology:startDate ?sd.
+  FILTER(?sd >="2009-01-01T00:00:00.0000000+00:00"^^xsd:dateTime)
 }
-LIMIT 50
+GROUP BY(?country)
+ORDER BY DESC(?numOfEvents)
+LIMIT 5
 ```
+
+### Query 2: Comparing the popularity of the CS communities.
+```sparql
+SELECT ?field (SUM(?sub) AS ?numOfSubmissions)
+WHERE{
+  ?e seo:field ?field.
+  ?e conference-ontology:startDate ?d.
+  FILTER (?d >="2009-01-01T00:00:00.0000000+00:00"^^xsd:dateTime)
+  ?e seo:submittedPapers ?sub.
+}
+ORDER BY DESC(?numOfSubmissions)
+```
+
+
 
 ## Contribution & Support
 
