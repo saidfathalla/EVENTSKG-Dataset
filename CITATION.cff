@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use the EVENTSKG dataset in your work or research, please cite it as below."
+title: "EVENTSKG: A 5-Star Dataset of Top-Ranked Events in Eight Computer Science Communities"
+abstract: "EVENTSKG (formerly EVENTS) is a 5-star Linked Open Dataset representing comprehensive semantic descriptions of top-tier scientific events in computer science. It encompasses detailed information regarding event series, individual editions, publications, submissions, key dates, locations, and official homepages across 73 conference series."
+authors:
+  - family-names: "Fathalla"
+    given-names: "Said"
+    orcid: "https://orcid.org/0000-0002-2818-5890"
+    email: "sm_fathalla@alex-sci.edu.eg"
+    affiliation: "University of Alexandria, Egypt"
+  - family-names: "Lange"
+    given-names: "Christoph"
+    affiliation: "Fraunhofer IAIS & University of Bonn, Germany"
+  - family-names: "Auer"
+    given-names: "Sören"
+    affiliation: "TIB Leibniz Information Centre for Science and Technology & L3S Research Center, Germany"
+type: dataset
+repository-code: "https://github.com/saidfathalla/EVENTSKG-Dataset"
+url: "https://w3id.org/EVENTSKG-Dataset/ekg#"
+license: CC-BY-4.0
+keywords:
+  - knowledge-graph
+  - linked-data
+  - rdf
+  - sparql
+  - scholarly-data
+  - scientific-events
+  - computer-science
+preferred-citation:
+  type: conference-paper
+  title: "EVENTSKG: A 5-Star Dataset of Top-Ranked Events in Eight Computer Science Communities"
+  authors:
+    - family-names: "Fathalla"
+      given-names: "Said"
+    - family-names: "Lange"
+      given-names: "Christoph"
+    - family-names: "Auer"
+      given-names: "Sören"
+  collection-title: "The Semantic Web -- ESWC 2019"
+  publisher:
+    name: "Springer, Cham"
+  series: "Lecture Notes in Computer Science"
+  volume: 11503
+  start: 427
+  end: 442
+  year: 2019
+  doi: "10.1007/978-3-030-21348-0_28"
