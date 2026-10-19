@@ -69,6 +69,13 @@ If you encounter any issues, find bugs, or wish to request new features, please 
 
 For questions, feedback, or collaboration inquiries, feel free to create an issue.
 
+## License
+This dataset and its associated metadata are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material for any purpose, even commercially) under the condition that you give appropriate credit to the authors and provide a link to the license.
+
+For the full legal text, see the LICENSE file in this repository or visit https://creativecommons.org/licenses/by/4.0/.
+
 ##  Citation
 If you use EVENTSKG in your research or project, please cite the paper as follows:
 
