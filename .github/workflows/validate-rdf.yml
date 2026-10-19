@@ -1,0 +1,41 @@
+name: Validate RDF Data
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  rdf-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install RDFLib
+        run: pip install rdflib
+
+      - name: Validate RDF Syntax
+        run: |
+          python -c "
+          import glob
+          from rdflib import Graph
+
+          files = glob.glob('**/*.ttl', recursive=True) + glob.glob('**/*.rdf', recursive=True)
+          if not files:
+              print('No RDF files found to validate.')
+          for f in files:
+              try:
+                  g = Graph()
+                  g.parse(f)
+                  print(f'✅ {f} is valid ({len(g)} triples)')
+              except Exception as e:
+                  print(f'❌ Syntax error in {f}: {e}')
+                  exit(1)
+          "
