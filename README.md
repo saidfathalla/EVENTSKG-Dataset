@@ -36,6 +36,15 @@ We are pleased to present the second release (**R2**) of EVENTSKG as a Linked Op
 * **Multi-Format Availability**: Publicly available in Turtle, JSON-LD, RDF/XML, and CSV formats.
 * **SPARQL Endpoint & Maintenance API**: Queryable via a Virtuoso SPARQL endpoint and coupled with a Java API for easy data maintenance.
 ---
+## Automation & Quality Control
+
+This repository uses **GitHub Actions** workflows to automatically maintain data quality, syntax correctness, and link stability:
+
+* **RDF Syntax Validation (`validate-rdf.yml`)**: On every push and pull request, RDF files (`.ttl`, `.rdf`) are automatically parsed and validated using `RDFLib` to catch syntax or formatting errors.
+* **Link Checking (`link-check.yml`)**: A weekly automated check verifies that all external links, dataset dumps, SPARQL endpoints, and PURL IRIs remain online and accessible.
+* **Pages Deployment (`pages-build-deployment.yml`)**: Automatically deploys the latest version of the repository documentation to GitHub Pages.
+
+---
 
 ## Dataset Access & Dumps
 
