@@ -2,7 +2,6 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![FAIR Principles](https://img.shields.io/badge/FAIR-Data%20Findable%20Accessible%20Interoperable%20Reusable-blueviolet.svg)](https://www.go-fair.org/fair-principles/)
-[![Format: RDF/Turtle/JSON-LD](https://img.shields.io/badge/Format-RDF%20%7C%20Turtle%20%7C%20JSON--LD-orange.svg)](http://kddste.sda.tech/EVENTSKG-Dataset/)
 [![5-Star Open Data](https://img.shields.io/badge/Open%20Data-5%E2%9B%85-gold.svg)](https://5stardata.info/en/)
 
 <!-- Academic & Citation -->
@@ -54,7 +53,6 @@ Explore and validate the dataset using the following linked data endpoints and d
 * **Persistent URI (PURL)**: [http://w3id.org/EVENTSKG-Dataset/ekg#](http://w3id.org/EVENTSKG-Dataset/ekg#)
 * **VoID Statistics**: [VoID Metadata Description (N-Triples)](VoID.nt)
 * **Documentation**: [EVENTSKG R2 Documentation](https://saidfathalla.github.io/EVENTSKG-Dataset/docs/EVENTSKG_R2.html)
-* **Datahub Entry**: [datahub.ckan.io/dataset/eventskg](https://datahub.ckan.io/dataset/eventskg)
 ---
 
 ## Example SPARQL Queries
