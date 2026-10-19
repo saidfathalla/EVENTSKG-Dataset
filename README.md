@@ -1,22 +1,40 @@
-# EVENTSKG: A Knowledge Graph of Scientific Events
+# EVENTSKG: A 5-Star Dataset of Top-Ranked Events in Eight Computer Science Communities
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Ontology: SEO](https://img.shields.io/badge/Ontology-SEO-green.svg)](http://sda.tech/SEOontology/Documentation/SEO.html)
-[![Issue Tracker](https://img.shields.io/badge/Issues-Open-brightgreen.svg)](https://github.com/saidfathalla/EVENTSKG-Dataset/issues)
+[![FAIR Principles](https://img.shields.io/badge/FAIR-Data%20Findable%20Accessible%20Interoperable%20Reusable-blueviolet.svg)](https://www.go-fair.org/fair-principles/)
+[![Format: RDF/Turtle/JSON-LD](https://img.shields.io/badge/Format-RDF%20%7C%20Turtle%20%7C%20JSON--LD-orange.svg)](http://kddste.sda.tech/EVENTSKG-Dataset/)
+[![5-Star Open Data](https://img.shields.io/badge/Open%20Data-5%E2%9B%85-gold.svg)](https://5stardata.info/en/)
 
-**EVENTSKG** (formerly *EVENTS*) is a comprehensive Linked Dataset representing historical data about top-tier scientific events. It encompasses detailed information regarding event series, individual editions, publications, submissions, key dates (start and end dates), locations, and official homepages across prestigious Computer Science conferences.
+<!-- Academic & Citation -->
+[![DOI: 10.1007/978-3-030-21348-0_28](https://img.shields.io/badge/DOI-10.1007%2F978--3--030--21348--0__28-blue.svg)](https://doi.org/10.1007/978-3-030-21348-0_28)
+[![Paper: ESWC 2019](https://img.shields.io/badge/Paper-ESWC%202019-red.svg)](https://link.springer.com/chapter/10.1007/978-3-030-21348-0_28)
+
+<!-- Repository Maintenance & Health -->
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/saidfathalla/EVENTSKG-Dataset.svg)](https://github.com/saidfathalla/EVENTSKG-Dataset/commits/master)
+[![Maintenance API](https://img.shields.io/badge/API-EVENTSKG__API-informational.svg)](https://github.com/saidfathalla/EVENTSKG_API)
+
+EVENTSKG (formerly EVENTS) is a 5-star Linked Open Dataset representing comprehensive semantic descriptions of scientific events. It covers historical metadata about top-ranked event series, individual editions, publications, submissions, acceptance rates, start/end dates, locations, and official homepages across prestigious Computer Science conferences.
 
 ---
 
-## What's New in Release 2 (R2)
+## 🚀 Key Features & What's New in Release 2 (R2)
 
-We are pleased to announce the second release (**R2**) of EVENTSKG! This version delivers significantly richer, cleaner, and fully harmonized semantic data.
+We are pleased to present the second release (**R2**) of EVENTSKG as a Linked Open Dataset:
 
-Key updates include:
-* **Reference Ontology**: Full alignment with the updated [Scientific Events Ontology (SEO)](http://sda.tech/SEOontology/Documentation/SEO.html) for robust event metadata representation.
-* **Scope**: Metadata coverage for **73 top-tier event series** spanning six distinct Computer Science research communities.
-* **Multi-Format Availability**: Data is available in multiple serialization formats, including Turtle, JSON-LD, RDF/XML, and CSV.
-
+* **Expanded Community Coverage**: Covers **73 top-ranked event series** (representing **1,951 events** established over the last five decades with **29,255 triples**) across **8 Computer Science communities**:
+  1. Artificial Intelligence (AI)
+  2. Software and its Engineering (SE)
+  3. World Wide Web (WEB)
+  4. Security and Privacy (SEC)
+  5. Information Systems (IS)
+  6. Computer Systems Organization (CSO)
+  7. Human-Centered Computing (HCC) *(New in R2)*
+  8. Theory of Computation (TOC) *(New in R2)*
+* **Reference Ontology**: Full alignment with the updated **Scientific Events Ontology (SEO)** (`https://w3id.org/seo#`).
+* **Unified Ranking**: Integrates rankings from CORE, QUALIS, ERA, and GGS through the Scientific Events Ranking (SER) weighted framework.
+* **Linked Data (5-Star LOD)**: Entities are linked to DBpedia (for countries/cities) and SEO terms, featuring dereferenceable IRIs under persistent URLs (`w3id.org`).
+* **Multi-Format Availability**: Publicly available in Turtle, JSON-LD, RDF/XML, and CSV formats.
+* **SPARQL Endpoint & Maintenance API**: Queryable via a Virtuoso SPARQL endpoint and coupled with a Java API for easy data maintenance.
 ---
 
 ## Dataset Access & Dumps
