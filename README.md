@@ -1,18 +1,51 @@
-# EVENTSKG-Dataset
-A dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for top-prestigious events series.
+# EVENTSKG: A Knowledge Graph of Scientific Events
 
-  We are happy to announce a new release of EVENTSKG (formarly EVENTS). The new release is a Linked Dataset leading to richer and cleaner data. 
-   A notable feature of this release is the use of the updated version of the Scientific Events Ontology (SEO) http://sda.tech/SEOontology/Documentation/SEO.html as a reference ontology for event metadata representation. 
-  This release is a specification of 73 top-prestigious events series in six computer science communities. The dataset is publicly available online in three different formats (i.e. CSV, Turtle, json and XML/RDF).
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Ontology: SEO](https://img.shields.io/badge/Ontology-SEO-green.svg)](http://sda.tech/SEOontology/Documentation/SEO.html)
+[![Issue Tracker](https://img.shields.io/badge/Issues-Open-brightgreen.svg)](https://github.com/saidfathalla/EVENTSKG-Dataset/issues)
 
-For exploring the dataset, you can follow these links:
-  - EVENTSKG dumps: [RDF/Turtle](http://kddste.sda.tech/EVENTSKG-Dataset/EVENTKG_R2.ttl), [JSON-LD](http://kddste.sda.tech/EVENTSKG-Dataset/EVENTKG_R2.json), or [RDF/XML](http://kddste.sda.tech/EVENTSKG-Dataset/EVENTKG_R2.rdf)
-  - [VoID Statistics](http://kddste.sda.tech/EVENTSKG-Dataset/VoID.nt)
-  - [PURL Persistent Identifier](http://purl.org/events_ds)
-  - [Datahub](https://datahub.ckan.io/dataset/eventskg)
-  - [Linked data validation (using Vapour)](http://linkeddata.uriburner.com:8000/vapour?uri=http%3A%2F%2Fpurl.org%2Fevents_ds&acceptTurtle=1&defaultResponse=dontmind&userAgent=http%3A%2F%2Flinkeddata.uriburner.com%3A8000%2Fvapour%23this)
-  - GitHub Issue Tracker: [Bug report](https://github.com/saidfathalla/EVENTSKG-Dataset/issues/new?template=bug_report.md) or [Feature request](https://github.com/saidfathalla/EVENTSKG-Dataset/issues/new?template=feature_request.md)
-  - [Documentation](http://kddste.sda.tech/EVENTSKG-Dataset/EVENTSKG_R2.html)
-  - [Maintenance API](https://github.com/saidfathalla/EVENTSKG_API)
+**EVENTSKG** (formerly *EVENTS*) is a comprehensive Linked Dataset representing historical data about top-tier scientific events. It encompasses detailed information regarding event series, individual editions, publications, submissions, key dates (start and end dates), locations, and official homepages across prestigious Computer Science conferences.
 
-Finally, any doubt you have with the Dataset, send me an e-mail to: fathalla [at] cs [dot] uni-bonn [dot] de or open an Issue.
+---
+
+## 🚀 What's New in Release 2 (R2)
+
+We are pleased to announce the second release (**R2**) of EVENTSKG! This version delivers significantly richer, cleaner, and fully harmonized semantic data.
+
+Key updates include:
+* **Reference Ontology**: Full alignment with the updated [Scientific Events Ontology (SEO)](http://sda.tech/SEOontology/Documentation/SEO.html) for robust event metadata representation.
+* **Scope**: Metadata coverage for **73 top-tier event series** spanning six distinct Computer Science research communities.
+* **Multi-Format Availability**: Data is available in multiple serialization formats, including Turtle, JSON-LD, RDF/XML, and CSV.
+
+---
+
+## 📦 Dataset Access & Dumps
+
+The complete dataset dumps can be directly downloaded in your preferred format:
+
+| Format | Direct Download Link |
+| :--- | :--- |
+| **RDF / Turtle (`.ttl`)** | [Download EVENTKG_R2.ttl](EVENTSKG.ttl) |
+| **JSON-LD (`.json`)** | [Download EVENTKG_R2.json](docs/EVENTKG_R2.json) |
+| **RDF / XML (`.rdf`)** | [Download EVENTKG_R2.rdf](docs/EVENTKG_R2.rdf) |
+
+---
+
+## 🌐 Linked Data Resources & Links
+
+Explore and validate the dataset using the following linked data endpoints and documentation:
+
+* **Persistent URI (PURL)**: [http://w3id.org/EVENTSKG-Dataset/ekg#](http://w3id.org/EVENTSKG-Dataset/ekg#)
+* **VoID Statistics**: [VoID Metadata Description (N-Triples)](VoID.nt)
+* **Documentation**: [EVENTSKG R2 Documentation](https://saidfathalla.github.io/EVENTSKG-Dataset/docs/EVENTSKG_R2.html)
+* **Datahub Entry**: [datahub.ckan.io/dataset/eventskg](https://datahub.ckan.io/dataset/eventskg)
+---
+
+## 🛠️ Contribution & Support
+
+If you encounter any issues, find bugs, or wish to request new features, please submit an issue via our Issue Tracker:
+
+* 🐛 [Report a Bug](https://github.com/saidfathalla/EVENTSKG-Dataset/issues/new?template=bug_report.md)
+* 💡 [Request a Feature](https://github.com/saidfathalla/EVENTSKG-Dataset/issues/new?template=feature_request.md)
+
+For questions, feedback, or collaboration inquiries, feel free to create an issue.
