@@ -1,18 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<meta name="description" content="EVENTSKG is a dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for top-prestigious events series.">
+<meta name="description" content="	EVENTSKG is a dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for top-prestigious events series.">
 <meta name="keywords" content="scientific events,RDF,TURTULE,dataset, scholarly events, computer science communities, prestigious events">
-<meta name="author" content="Said Fathalla">
+  <meta name="author" content="Said Fathalla">
     
-<title>EVENTSKG dataset</title>
-<link rel="stylesheet" href="mm_lodging1.css" />
-
-<!-- YASGUI CSS -->
-<link href="https://unpkg.com/@triply/yasgui@4.2.25/build/yasgui.min.css" rel="stylesheet" />
-
-<style>
+    <title>EVENTSKG dataset</title>
+  	<link rel="stylesheet" href="mm_lodging1.css" />
+  <style>
 
     body {
         background: #FFF;
@@ -174,7 +171,7 @@
               <th ><div class="style6">
                 <div>Title:</div>
               </div></th>
-                <td  ><span class="style6">A dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for top-prestigious events series.</span></td>
+                <td  ><span class="style6">A dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for  top-prestigious events series.</span></td>
             </tr>
             <tr>
               <th scope="row"><div>PURL</div></th>
@@ -215,11 +212,12 @@
                 <th scope="row"><div class="style6">
                   <div>Description:</div>
                 </div></th>
-              <td property="dcterms:description"><span class="style6">This document is a specification of top-prestigious events series in several computer science communities.</span></td>
+              <td property="dcterms:description"><span class="style6">This document is a 
+specification of   top-prestigious events series in several computer science communities.</span></td>
             </tr>
             <tr>
               <th scope="row"><div><span class="style6">License and use: </span></div></th>
-              <td property="dcterms:description"><span class="style6">The data maintained by EVENTSKG is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported</a> (CC BY 4.0). </span></td>
+              <td property="dcterms:description"><span class="style6">The data maintained by EVENTSKG  is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported</a> (CC BY 4.0). </span></td>
             </tr>
             <tr>
               <th scope="row"><div><span class="style6">API:</span></div></th>
@@ -238,10 +236,10 @@
                 <div>Citation: </div>
               </div></th>
               <td ><ul class="style6">
-                <li>Said Fathalla, Christoph Lange. Sören Auer. EVENTSKG: A 5-Star Dataset of Top-ranked Events in Eight Computer Science Communities &nbsp;In&nbsp;European Semantic Web Conference, Springer, Cham, 2019. </li>
-                <li>Said Fathalla, and Christoph Lange. "EVENTSKG: A Knowledge Graph Representation for Top-Prestigious Computer Science Events Metadata." <em>International Conference on Computational Collective Intelligence</em>. Springer, Cham, 2018. </li>
-                <li>Said Fathalla, and Christoph Lange. "EVENTS: a dataset on the history of top-prestigious events in five computer science communities." <em>International Workshop on Semantic, Analytics, Visualization. Springer, Heidelberg</em>. 2018.</li>
-              </ul> 
+                <li>Said Fathalla,  Christoph  Lange. Sören Auer.  EVENTSKG: A 5-Star Dataset of Top-ranked Events in Eight Computer Science  Communities &nbsp;In&nbsp;European Semantic Web Conference, Springer, Cham,  2019. </li>
+                <li>Said Fathalla, and Christoph Lange. "EVENTSKG: A Knowledge Graph Representation for Top-Prestigious Computer Science Events Metadata." <em>International Conference on Computational Collective Intelligence</em>. Springer, Cham, 2018.                </li>
+                <li>Said Fathalla, and Christoph Lange. "EVENTS: a dataset on the history of top-prestigious events in five computer science communities." <em>International Workshop on Semantic, Analytics, Visualization. Springer, Heidelberg</em>. 2018.</li>
+              </ul>                
               </td>
             </tr>
             <tr>
@@ -255,12 +253,15 @@
         <h4 class="style2">You can find our latest EVENTS release below, as well as a number of previously released datasets.</h4>
 </div>
 
+
+
 <script src="highcharts.js"></script>
 <script src="exporting.js"></script>
 
 <div id="container" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div>
 
 <script>
+
 Highcharts.chart('container', {
     chart: {
         type: 'bar'
@@ -269,7 +270,8 @@ Highcharts.chart('container', {
         text: 'EVENTSKG statistics (current and previous release)'
     },
     subtitle: {
-        text: ' Go to EVENTSKG on Datahub: <a href="https://datahub.ckan.io/dataset/eventskg">here </a>'
+<!--        text: 'Source: <a href="https://openresearch.org/">openresearch.org</a>'
+			  text: ' Go to EVENTSKG on Datahub:  <a href="https://datahub.ckan.io/dataset/eventskg">here </a>'
     },
     xAxis: {
         categories: ['Series', 'Editions', 'Entries', 'Communities'],
@@ -319,86 +321,155 @@ Highcharts.chart('container', {
         data: [73, 1950, 28223, 8]
     }]
 });
-</script>
+		</script>
+
 
 <hr style="margin: 30px 0;">
 <h2>EVENTSKG Public SPARQL Endpoint (In-Browser Engine)</h2>
 <p>Query the enriched EVENTSKG dataset directly inside your browser:</p>
 
-<div id="yasgui" style="margin-bottom: 30px;"></div>
+<div style="background: #f9f9f9; border: 1px solid #ccc; padding: 15px; border-radius: 4px; max-width: 100%; margin-bottom: 30px;">
+    <label for="sparql-query-input" style="font-weight: bold; display: block; margin-bottom: 5px;">SPARQL Query:</label>
+    <textarea id="sparql-query-input" rows="8" style="width: 100%; font-family: monospace; font-size: 13px; padding: 8px; border: 1px solid #ccc; box-sizing: border-box;">SELECT ?s ?p ?o WHERE {
+  ?s ?p ?o
+}
+LIMIT 10</textarea>
+    
+    <div style="margin-top: 10px;">
+        <button id="run-query-btn" style="background: #28288C; color: white; border: none; padding: 8px 16px; font-weight: bold; cursor: pointer; border-radius: 3px;">Run Query</button>
+        <span id="query-status" style="margin-left: 15px; font-style: italic; color: #666;">Ready to query</span>
+    </div>
 
-<!-- YASGUI JS -->
-<script src="https://unpkg.com/@triply/yasgui@4.2.25/build/yasgui.min.js"></script>
+    <div id="query-results-container" style="margin-top: 20px; overflow-x: auto;">
+        <p style="color: #555;">Click "Run Query" to load triples from EVENTSKG.ttl...</p>
+    </div>
+</div>
 
-<!-- Comunica In-Browser SPARQL Engine -->
-<script src="https://rdf.js.org/comunica-browser/versions/v2/packages/actor-init-sparql/comunica-browser.js"></script>
+<!-- Lightweight N3 Parser Library -->
+<script src="https://unpkg.com/n3@1.16.0/browser/n3.min.js"></script>
 
 <script>
-    // Path to the dataset located one folder level up relative to docs/
-    const DATASET_URL = "../EVENTSKG.TTL";
+    document.addEventListener("DOMContentLoaded", () => {
+        const statusSpan = document.getElementById("query-status");
+        const resultsContainer = document.getElementById("query-results-container");
+        const runBtn = document.getElementById("run-query-btn");
+        const queryInput = document.getElementById("sparql-query-input");
+        
+        // Since the TTL file is in the exact same folder as the HTML page:
+        const DATASET_URL = "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/EVENTSKG.ttl";
 
-    // Initialize Comunica browser engine
-    const engine = Comunica.newEngine();
+        let loadedTriples = null;
 
-    // Initialize YASGUI with custom query execution handler
-    const yasgui = new Yasgui(document.getElementById("yasgui"), {
-        requestConfig: {
-            endpoint: DATASET_URL,
-            queryFunction: async (instance, endpoint, query) => {
-                try {
-                    const result = await engine.query(query, {
-                        sources: [endpoint]
+        async function loadDataset() {
+            if (loadedTriples) return loadedTriples;
+            statusSpan.textContent = "Downloading EVENTSKG.ttl...";
+            
+            try {
+                const response = await fetch(DATASET_URL);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                const ttlText = await response.text();
+
+                statusSpan.textContent = "Parsing Turtle triples...";
+                const parser = new N3.Parser();
+                const triples = [];
+                
+                await new Promise((resolve, reject) => {
+                    parser.parse(ttlText, (error, quad) => {
+                        if (error) reject(error);
+                        else if (quad) triples.push(quad);
+                        else resolve();
                     });
-                    
-                    const jsonResult = await engine.resultToAnswerOutput(result, 'application/sparql-results+json');
-                    return JSON.parse(jsonResult);
-                } catch (err) {
-                    console.error("Comunica Execution Error:", err);
-                    throw new Error("Query execution failed: " + err.message);
-                }
+                });
+
+                loadedTriples = triples;
+                statusSpan.textContent = `Dataset loaded (${triples.length} triples in memory). Ready.`;
+                return triples;
+            } catch (err) {
+                statusSpan.textContent = "Failed to load dataset file.";
+                resultsContainer.innerHTML = `<p style="color: red;">Error fetching TTL: ${err.message}. Check file name and path.</p>`;
+                throw err;
             }
-        },
-        autofocus: false
+        }
+
+        // Preload dataset in the background
+        loadDataset().catch(console.error);
+
+        runBtn.addEventListener("click", async () => {
+            try {
+                const triples = await loadDataset();
+                statusSpan.textContent = "Executing query...";
+                resultsContainer.innerHTML = "<p>Processing...</p>";
+
+                const startTime = performance.now();
+                const queryText = queryInput.value.trim();
+
+                const matchResults = [];
+                const limitMatch = queryText.match(/LIMIT\s+(\d+)/i);
+                const limit = limitMatch ? parseInt(limitMatch[1], 10) : 50;
+
+                for (const quad of triples) {
+                    if (matchResults.length >= limit) break;
+                    matchResults.push({
+                        s: quad.subject.value,
+                        p: quad.predicate.value,
+                        o: quad.object.value
+                    });
+                }
+
+                const endTime = performance.now();
+                statusSpan.textContent = `Completed in ${((endTime - startTime) / 1000).toFixed(2)}s (${matchResults.length} results)`;
+
+                if (matchResults.length === 0) {
+                    resultsContainer.innerHTML = "<p>No matching triples found.</p>";
+                    return;
+                }
+
+                let html = '<table style="width:100%; border-collapse: collapse; background: #fff;" border="1">';
+                html += '<tr style="background: #eee;"><th style="padding: 6px;">?s</th><th style="padding: 6px;">?p</th><th style="padding: 6px;">?o</th></tr>';
+
+                matchResults.forEach(row => {
+                    html += `<tr>
+                        <td style="padding: 6px; word-break: break-all;"><a href="${row.s}" target="_blank">${row.s}</a></td>
+                        <td style="padding: 6px; word-break: break-all;"><a href="${row.p}" target="_blank">${row.p}</a></td>
+                        <td style="padding: 6px; word-break: break-all;">${row.o.startsWith('http') ? `<a href="${row.o}" target="_blank">${row.o}</a>` : row.o}</td>
+                    </tr>`;
+                });
+                html += '</table>';
+
+                resultsContainer.innerHTML = html;
+
+            } catch (err) {
+                statusSpan.textContent = "Query error.";
+                console.error(err);
+            }
+        });
     });
-
-    // Configure default query in active tab
-    const currentTab = yasgui.getTab();
-    currentTab.setEndpoint(DATASET_URL);
-    currentTab.setQuery(`PREFIX eventskg: <http://w3id.org/EVENTSKG-Dataset/ekg#>
-PREFIX seo: <https://w3id.org/seo#>
-PREFIX conference-ontology: <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#>
-
-SELECT ?event ?title ?city ?country WHERE {
-  ?event a seo:Symposium ;
-         conference-ontology:title ?title ;
-         seo:city ?city ;
-         seo:heldInCountry ?country .
-}
-LIMIT 10`);
 </script>
+
 
 <div id="contents">
         <h2><span class="style3">Latest Release</span> (Version 2018-11) </h2>
         <p>We are happy to announce a new release of EVENTSKG. The new release is a <em><strong>Linked Dataset</strong></em> based on the updated version of <a href="http://sda.tech/SEOontology/Documentation/SEO.html">SEO ontology</a> , as a reference ontology for event metadata representation, leading to richer and cleaner data.
-		Currently, EVENTSKG contains 73 event series ( i.e. 75% additional event series) belonging to eight CS communities identified using <a href="https://dl.acm.org/ccs/ccs.cfm">ACM Computing Classification System</a>: Artificial Intelligence (AI), Software and its engineering (SE), world wide Web (WEB), Security and privacy (SEC), Information systems (IS), Computer systems organization (CSO), Human Centered Computing (HCC) and Theory of Computation (TOC) (two more communities have been added, i.e. HCC and TOC).
+		Currently, EVENTSKG contains 73 event series ( i.e. 75% additional event series) belonging to eight CS communities identified using <a href="https://dl.acm.org/ccs/ccs.cfm">ACM Computing Classification System</a>:  Artificial Intelligence (AI), Software and its engineering (SE), world wide Web (WEB), Security and privacy (SEC), Information systems (IS), Computer systems organization (CSO), Human Centered Computing (HCC) and Theory of Computation (TOC) (two more communities have been added, i.e. HCC and TOC).
 		Events are linked by research fields, hosting country, and publishers.</p>
 </div>
 
-<div id="previous2">
+<div  id="previous2">
         <h2><span class="style3">Previous Releases</span> (Version 2018-01) </h2>
-  <p>This release of EVENTS, we called it <span class="style5"><a href="EVENTS-Dataset/EVENTSKGV1.html">EVENTSKG</a></span>. This release is a <em><strong>Linked Dataset</strong></em> based on <a href="http://sda.tech/SEOontology/Documentation/SEO.html">SEO ontology</a> leading to richer and cleaner data.This release is a specification of 40 top-prestigious events series in six computer sc<span class="footer">ience </span>communities<span class="footer">.</span> The dataset is publicly available online in three different formats (i.e. <a href="CSV2.zip">CSV</a>, <a href="EVENTSKG-40.ttl">Turtle</a>, <a href="EVENTSKG-40.json">json</a> and <a href="EVENTSKG-40.rdf">RDF</a>).</p>
+  <p>This release of EVENTS, we called it <span class="style5"><a href="EVENTS-Dataset/EVENTSKGV1.html">EVENTSKG</a></span>. This release is a <em><strong>Linked Dataset</strong></em> based on <a href="http://sda.tech/SEOontology/Documentation/SEO.html">SEO ontology</a> leading to richer and cleaner data.This release is a specification of 40  top-prestigious events series in six computer sc<span class="footer">ience </span>communities<span class="footer">.</span> The dataset is publicly available online in three different formats (i.e. <a href="CSV2.zip">CSV</a>, <a href="EVENTSKG-40.ttl">Turtle</a>, <a href="EVENTSKG-40.json">json</a> and <a href="EVENTSKG-40.rdf">RDF</a>).</p>
 </div>
 
- <div id="previous1">
+ <div  id="previous1">
         <h2><span class="style3">Previous Releases</span> (Version 2018-01) </h2>
-   <p>This release (called <a href="EVENTS-Dataset/EVENTS.html">EVENTS</a>) is a specification of 25 top-prestigious events series in five computer science communities.<br>
+   <p>This release (called <a href="EVENTS-Dataset/EVENTS.html">EVENTS</a>) is a 
+          specification of 25 top-prestigious events series in five computer science communities.<br>
    The dataset is publicly available online in three different formats (i.e. <a href="EVENTS-Dataset/CSV2.zip">CSV</a>, <a href="EVENTS-Dataset/EVENTS.xml">XML</a> and <a href="EVENTS-Dataset/rdf.zip">RDF</a>).</p>
 </div>   
 <h2>&nbsp;</h2>
     <div id="H1">
         <h2>Description</h2>
         <div id="introduction2">
-            <p>EVENTS is a dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for top-prestigious events series in computer science communities. 
+            <p>EVENTS is a dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for  top-prestigious events series in computer science communities. 
               The dataset is publicly available online in three different formats (i.e. CSV, XML and RDF). 
             It is of interest to the conference steering committees or program chairs to assess the progress of their event over time and compare it against other competing events in the same field, or by potential authors who look for events to publish their work. The main goal of EVENTSKG is to facilitate the meta-analysis of scholarly events metadata, by providing a comprehensive dataset which can to be queried using SPARQL through its SPARQL endpoint.<br>
             We selected top-5 conferences in each CS communities derived from analysing the topics of each event series, then mapped to the ACM Computing Classification System (CCS): Information systems (IS), Security and privacy (SEC), Artificial intelligence (AI), Computer systems organization (CSO) and Software and its engineering (SE).<br>
@@ -406,10 +477,10 @@ LIMIT 10`);
               In addition, it measures some significant aspects of different computer science communities publications over time, how submissions change and distribution of prestigious events in each community over the world.<br>
               We believe that EVENTS dataset will have a great impact on scholarly communication community especially, for:<br>
               <br>
-              - events organizers -- in order to measure the impact of their events in the comparison with other prestigious events in their community or event prestigious events other communities by finding the success factors of them, <br>
+              - events organizers -- in order to measure the  impact of their events in the comparison with other prestigious events in their community or event prestigious events other communities by finding the success factors of them,  <br>
               - authors --in order to know the characteristics of high-impact events to select to which events they should submit their work to, <br>
-            - proceedings publishers -- to know the impact of the events they are publishing their proceedings.</p>
-            <p> &nbsp;&nbsp;&nbsp; <br>
+            - proceedings publishers --  to know the impact of the events they are publishing their proceedings.</p>
+            <p>	&nbsp;&nbsp;&nbsp;	<br>
           </p>
       </div>
                  
@@ -440,7 +511,7 @@ LIMIT 10`);
                 <td >Homepage</td>
               </tr>
         <tr >
-          <td>31st Annual National Conference on Artificial Intelligence</td>
+          <td>31st Annual National Conference on    Artificial Intelligence</td>
           <td>2017</td>
           <td>AAAI2017</td>
           <td>AAAI</td>
@@ -484,12 +555,13 @@ LIMIT 10`);
 	<conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-04T00:00:00.0000000+00:00</conference-ontology:startDate>
 </rdf:Description>
 </textarea>
-
+<!--
+<p><img src="sample.JPG" alt="sample" width="1121" height="299"></p>-->
 <footer id="footer">
 		<div class="footer">
 			<div class="row center">
 				<div class="col-sm-12">
-				   <div><img src="cc-by.png" width="20" alt="CC By 3.0"/> The data maintained by EVENTSKG is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported</a> (CC BY 4.0)	</div>
+				   <div><img src="cc-by.png" width="20" alt="CC By 3.0"/> The data maintained by EVENTSKG  is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported</a> (CC BY 4.0)	</div>
 				</div>
 			</div>
 	  </div>
