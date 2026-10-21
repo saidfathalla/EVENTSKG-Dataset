@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +8,8 @@
     
     <title>EVENTSKG dataset</title>
   	<link rel="stylesheet" href="mm_lodging1.css" />
+    <!-- Include YASGUI CSS -->
+    <link href="https://unpkg.com/@triply/yasgui@4.2.25/build/yasgui.min.css" rel="stylesheet" />
   <style>
 
     body {
@@ -237,8 +238,8 @@ specification of   top-prestigious events series in several computer science com
               </div></th>
               <td ><ul class="style6">
                 <li>Said Fathalla,  Christoph  Lange. Sören Auer.  EVENTSKG: A 5-Star Dataset of Top-ranked Events in Eight Computer Science  Communities &nbsp;In&nbsp;European Semantic Web Conference, Springer, Cham,  2019. </li>
-                <li>Said Fathalla, and Christoph Lange. "EVENTSKG: A Knowledge Graph Representation for Top-Prestigious Computer Science Events Metadata." <em>International Conference on Computational Collective Intelligence</em>. Springer, Cham, 2018.                </li>
-                <li>Said Fathalla, and Christoph Lange. "EVENTS: a dataset on the history of top-prestigious events in five computer science communities." <em>International Workshop on Semantic, Analytics, Visualization. Springer, Heidelberg</em>. 2018.</li>
+                <li>Said Fathalla, and Christoph Lange. "EVENTSKG: A Knowledge Graph Representation for Top-Prestigious Computer Science Events Metadata." <em>International Conference on Computational Collective Intelligence</em>. Springer, Cham, 2018.                </li>
+                <li>Said Fathalla, and Christoph Lange. "EVENTS: a dataset on the history of top-prestigious events in five computer science communities." <em>International Workshop on Semantic, Analytics, Visualization. Springer, Heidelberg</em>. 2018.</li>
               </ul>                
               </td>
             </tr>
@@ -270,7 +271,7 @@ Highcharts.chart('container', {
         text: 'EVENTSKG statistics (current and previous release)'
     },
     subtitle: {
-<!--        text: 'Source: <a href="https://openresearch.org/">openresearch.org</a>'
+<!--        text: 'Source: <a href="https://openresearch.org/">openresearch.org</a>' -->
 			  text: ' Go to EVENTSKG on Datahub:  <a href="https://datahub.ckan.io/dataset/eventskg">here </a>'
     },
     xAxis: {
@@ -322,6 +323,92 @@ Highcharts.chart('container', {
     }]
 });
 		</script>
+
+
+
+
+
+<hr style="margin: 30px 0;">
+<h2>EVENTSKG Public SPARQL Endpoint (In-Browser Engine)</h2>
+<p>Query the enriched EVENTSKG dataset directly inside your browser:</p>
+
+<div id="yasgui" style="margin-bottom: 30px;"></div>
+
+<!-- 1. YASGUI CSS & JS -->
+<link href="https://unpkg.com/@triply/yasgui@4.2.25/build/yasgui.min.css" rel="stylesheet" />
+<script src="https://unpkg.com/@triply/yasgui@4.2.25/build/yasgui.min.js"></script>
+
+<!-- 2. Comunica In-Browser SPARQL Engine -->
+<!-- Comunica Global Browser Bundle -->
+<script src="https://unpkg.com/@comunica/actor-init-sparql@2.11.0/engine-browser.js"></script>
+<script>
+    // Relative path to your dataset served natively via GitHub Pages
+    const DATASET_URL = "EVENTSKG.ttl";
+
+    // Initialize YASGUI
+    const yasgui = new Yasgui(document.getElementById("yasgui"), {
+        autofocus: false
+    });
+
+    // Configure tab endpoint to display dataset path
+    const currentTab = yasgui.getTab();
+    currentTab.setEndpoint(DATASET_URL);
+
+    // Set sample SPARQL query
+    currentTab.setQuery(`PREFIX eventskg: <http://w3id.org/EVENTSKG-Dataset/ekg#>
+PREFIX seo: <https://w3id.org/seo#>
+PREFIX conference-ontology: <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#>
+
+SELECT ?event ?title ?city ?country WHERE {
+  ?event a seo:Symposium ;
+         conference-ontology:title ?title ;
+         seo:city ?city ;
+         seo:heldInCountry ?country .
+}
+LIMIT 10`);
+
+    // Create Comunica engine instance
+    const engine = Comunica.newEngine();
+
+    // INTERCEPT QUERY EXECUTION: Prevent YASGUI HTTP POST request & execute via Comunica
+    yasgui.on("query", (instance, tab) => {
+        const query = tab.getQuery();
+        
+        // Execute SPARQL query locally in browser
+        engine.query(query, {
+            sources: [DATASET_URL]
+        }).then(async (result) => {
+            // Convert Comunica query result stream directly into SPARQL-JSON format
+            const jsonResult = await engine.resultToAnswerOutput(result, 'application/sparql-results+json');
+            
+            // Render results in YASGUI results table
+            tab.setResponse({
+                body: JSON.parse(jsonResult),
+                contentType: 'application/sparql-results+json'
+            });
+        }).catch(err => {
+            console.error("Comunica Query Execution Error:", err);
+            tab.setResponse({
+                body: "Error loading or querying dataset: " + err.message,
+                contentType: 'text/plain'
+            });
+        });
+
+        // Prevent YASGUI from executing its default HTTP POST request
+        return false;
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
