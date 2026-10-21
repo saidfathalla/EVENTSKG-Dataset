@@ -228,7 +228,7 @@
                 </tr>
                 <tr>
                     <th>Creator</th>
-                    <td><a href="http://sda.cs.uni-bonn.de/people/said-fathalla/">Said Fathalla</a> and Christoph Lange</td>
+                    <td><a href="https://github.com/saidfathalla">Said Fathalla</a></td>
                 </tr>
                 <tr>
                     <th>Date Issued / Updated</th>
@@ -247,16 +247,12 @@
                     <td>Java API available <a href="https://github.com/saidfathalla/EVENTSKG_API">here</a>.</td>
                 </tr>
                 <tr>
-                    <th>Indexing</th>
-                    <td><a href="https://datahub.ckan.io/dataset/eventskg">Datahub CKAN</a></td>
-                </tr>
-                <tr>
                     <th>Citation</th>
                     <td>
                         <ul>
-                            <li>Said Fathalla, Christoph Lange, Sören Auer. EVENTSKG: A 5-Star Dataset of Top-ranked Events in Eight Computer Science Communities. ESWC 2019.</li>
-                            <li>Said Fathalla, Christoph Lange. EVENTSKG: A Knowledge Graph Representation... ICCCI 2018.</li>
-                            <li>Said Fathalla, Christoph Lange. EVENTS: a dataset on the history of top-prestigious events... SAV 2018.</li>
+                            <li>Said Fathalla, Christoph Lange. Sören Auer. EVENTSKG: A 5-Star Dataset of Top-ranked Events in Eight Computer Science Communities  In European Semantic Web Conference, Springer, Cham, 2019.</li>
+                            <li>Said Fathalla, and Christoph Lange. "EVENTSKG: A Knowledge Graph Representation for Top-Prestigious Computer Science Events Metadata." International Conference on Computational Collective Intelligence. Springer, Cham, 2018.</li>
+                            <li>Said Fathalla, and Christoph Lange. "EVENTS: a dataset on the history of top-prestigious events in five computer science communities." International Workshop on Semantic, Analytics, Visualization. Springer, Heidelberg. 2018.</li>
                         </ul>
                     </td>
                 </tr>
@@ -301,14 +297,27 @@
                 </table>
             </div>
 
-            <h2 style="margin-top: 2rem;">Sample Data (RDF / Turtle)</h2>
-            <textarea rows="12" readonly>&lt;rdf:Description rdf:about="http://purl.org/events_ds#AAAI2017"&gt;
-	&lt;rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/&gt;
-	&lt;rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/&gt;
-	&lt;seo:acceptanceRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"&gt;0.246&lt;/seo:acceptanceRate&gt;
-	&lt;seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"&gt;638&lt;/seo:acceptedPapers&gt;
-	&lt;conference-ontology:acronym&gt;AAAI2017&lt;/conference-ontology:acronym&gt;
-&lt;/rdf:Description&gt;</textarea>
+            <h2 style="margin-top: 2rem;">Sample Data (Turtle / TTL)</h2>
+            <textarea rows="14" readonly>@prefix seo: &lt;https://w3id.org/seo#&gt; .
+@prefix conference-ontology: &lt;https://w3id.org/scholarlydata/ontology/conference-ontology.owl#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+&lt;http://purl.org/events_ds#AAAI2017&gt;
+    a conference-ontology:Conference ;
+    seo:acceptanceRate "0.246"^^xsd:decimal ;
+    seo:acceptedPapers 638 ;
+    seo:belongsToSeries &lt;http://purl.org/events_ds/AAAI&gt; ;
+    seo:city &lt;http://dbpedia.org/resource/San_Francisco&gt; ;
+    seo:colocatedWith &lt;http://purl.org/events_ds/IAAI2017&gt; ;
+    seo:eventWebsite "aaai.org/Conferences/AAAI/aaai17.php" ;
+    seo:field &lt;http://purl.org/seo#ArtificialIntelligence&gt; ;
+    seo:hasPublisher "Springer" ;
+    seo:heldInCountry &lt;http://dbpedia.org/resource/United_States&gt; ;
+    seo:state &lt;http://dbpedia.org/resource/California&gt; ;
+    seo:submittedPapers 2590 ;
+    conference-ontology:acronym "AAAI2017" ;
+    conference-ontology:endDate "2017-02-09T00:00:00.0000000+00:00"^^xsd:dateTime ;
+    conference-ontology:startDate "2017-02-04T00:00:00.0000000+00:00"^^xsd:dateTime .</textarea>
         </div>
 
         <footer>
