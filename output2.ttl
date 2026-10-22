@@ -1,0 +1,63 @@
+@prefix conference-ontology: <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix eventskg: <http://w3id.org/EVENTSKG-Dataset/ekg#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix seo: <https://w3id.org/seo#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+eventskg:ESORICS1992 a owl:NamedIndividual,
+        seo:Symposium ;
+    conference-ontology:acronym "ESORICS 1992" ;
+    conference-ontology:endDate "1992-11-25T00:00:00+00:00"^^xsd:dateTime ;
+    conference-ontology:startDate "1992-11-23T00:00:00+00:00"^^xsd:dateTime ;
+    conference-ontology:title "European Symposium on Research in Computer Security" ;
+    seo:ResearchField seo:SecurityAndPrivacy ;
+    seo:belongsToSeries eventskg:ESORIC,
+        eventskg:ESORICS ;
+    seo:city <http://dbpedia.org/resource/Toulouse> ;
+    seo:eventWebsite "https://link.springer.com/conference/esorics" ;
+    seo:hasPublisher <https://ror.org/00pjede26> ;
+    seo:hasSponsor <https://ror.org/02wnbr922> ;
+    seo:heldInCountry <http://dbpedia.org/resource/France> .
+
+<https://w3id.org/eventskg> a schema1:Dataset,
+        dcat:Dataset ;
+    dcterms:created "2026-10-20"^^xsd:date ;
+    dcterms:description "A FAIR-aligned knowledge graph of scholarly events enriched with DBpedia, Wikidata, and geospatial metadata."@en ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:title "EVENTSKG: Enriched Knowledge Graph of Scholarly Events"@en ;
+    owl:versionInfo "2.0.0" .
+
+<http://dbpedia.org/resource/France> a schema1:Country,
+        schema1:Place ;
+    schema1:addressCountry "+33" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q142> ;
+    geo1:lat "48.84999847412109"^^xsd:float ;
+    geo1:long "2.349999904632568"^^xsd:float ;
+    foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/France> .
+
+<http://dbpedia.org/resource/Toulouse> a schema1:Place ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7880> ;
+    geo1:lat "43.60449981689453"^^xsd:float ;
+    geo1:long "1.444000005722046"^^xsd:float ;
+    foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Toulouse> .
+
+eventskg:ESORIC a owl:NamedIndividual,
+        conference-ontology:ConferenceSeries ;
+    rdfs:label "ESORIC Conference Series"@en .
+
+eventskg:ESORICS a owl:NamedIndividual,
+        conference-ontology:ConferenceSeries ;
+    rdfs:label "ESORICS Conference Series"@en .
+
+<https://ror.org/00pjede26> a schema1:Organization ;
+    rdfs:label "Friede Springer Stiftung"@en .
+
+<https://ror.org/02wnbr922> a schema1:Organization ;
+    rdfs:label "IBM (France)"@en .
+

@@ -1,0 +1,2 @@
+(.venv) said@ibg300:~/Sciebo/FZJ-work/GitRepos/EVENTSKG-Dataset$ python enricher.py EVENTSKG-sample.ttl -o output2.ttl
+
