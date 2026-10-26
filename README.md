@@ -52,7 +52,7 @@ Explore and validate the dataset using the following linked data endpoints and d
 
 * **Persistent URI (PURL)**: [http://w3id.org/EVENTSKG-Dataset/ekg#](http://w3id.org/EVENTSKG-Dataset/ekg#)
 * **VoID Statistics**: [VoID Metadata Description (N-Triples)](VoID.nt)
-* **Documentation**: [EVENTSKG R2 Documentation](https://saidfathalla.github.io/EVENTSKG-Dataset/docs/EVENTSKG_R2.html)
+* **Documentation**: [EVENTSKG R2 Documentation](https://saidfathalla.github.io/EVENTSKG-Dataset/docs)
 ---
 
 ## Example SPARQL Queries
