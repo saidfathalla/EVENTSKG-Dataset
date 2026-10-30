@@ -3,12 +3,14 @@ __pycache__/
 *.py[cod]
 
 # Environments
-venv/
+.venv/
 .env
 
 
 # OS metadata
 .DS_Store
+.enrich_cache.json
 
 # Ignore all programmatic pipeline outputs
 env/
+how-to-run.txt

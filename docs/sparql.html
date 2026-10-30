@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Browser-based SPARQL query interface for EVENTSKG 3.0 (generated and enriched editions)">
+<meta name="author" content="Said Fathalla">
+<title>EVENTSKG SPARQL Explorer</title>
+<style>
+:root{--primary:#2563eb;--primary-dark:#1d4ed8;--bg:#f8fafc;--card:#fff;--text:#172033;--muted:#64748b;--border:#dbe3ee;--success:#15803d;--error:#b91c1c}
+*{box-sizing:border-box}body{margin:0;padding:24px 16px;background:var(--bg);color:var(--text);font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+.container{max-width:1180px;margin:auto}nav,.card{background:var(--card);border:1px solid var(--border);border-radius:12px;box-shadow:0 3px 12px #0f172a08}
+nav{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 18px;margin-bottom:20px;flex-wrap:wrap}a{color:var(--primary);overflow-wrap:anywhere}nav a{text-decoration:none;font-weight:600}.card{padding:24px;margin-bottom:20px}h1{font-size:1.7rem;line-height:1.2;margin:0 0 8px}h2{font-size:1.1rem;margin:22px 0 8px}p{color:var(--muted);margin:0 0 16px}.templates{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 18px}.template-btn,.secondary-btn{border:1px solid var(--border);border-radius:7px;padding:8px 11px;background:#f1f5f9;color:var(--text);cursor:pointer;font-weight:600}.template-btn:hover,.secondary-btn:hover{background:#e2e8f0}label{display:block;font-weight:650;margin:12px 0 6px}textarea,input,select{font:inherit;color:var(--text);border:1px solid var(--border);border-radius:8px;padding:10px;background:#fff;max-width:100%}textarea{width:100%;font:13px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;resize:vertical;min-height:190px}textarea:focus,input:focus,select:focus{outline:3px solid #2563eb20;border-color:var(--primary)}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:12px}.toolbar-left,.toolbar-right{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.primary-btn{background:var(--primary);color:white;border:0;border-radius:7px;padding:10px 16px;font-weight:700;cursor:pointer}.primary-btn:hover{background:var(--primary-dark)}button:disabled{opacity:.55;cursor:wait}#query-status{font-size:.9rem;color:var(--muted)}.status-error{color:var(--error)!important}.status-success{color:var(--success)!important}.options{display:flex;gap:16px;flex-wrap:wrap;margin-top:12px}.options label{font-weight:400;margin:0;display:flex;align-items:center;gap:6px}.options input{width:auto}.results-meta{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:.9rem;margin:14px 0 8px}.table-wrap{overflow:auto;border:1px solid var(--border);border-radius:8px}table{border-collapse:collapse;width:100%;background:#fff;font-size:.88rem}th,td{text-align:left;vertical-align:top;padding:9px 11px;border-bottom:1px solid var(--border);min-width:90px;max-width:440px;overflow-wrap:anywhere}th{position:sticky;top:0;background:#f1f5f9;white-space:nowrap}tr:last-child td{border-bottom:0}.empty,.notice{background:#f8fafc;border:1px solid var(--border);padding:14px;border-radius:8px;color:var(--muted)}.error-box{background:#fef2f2;border:1px solid #fecaca;padding:14px;border-radius:8px;color:var(--error);white-space:pre-wrap;overflow-wrap:anywhere}.small{font-size:.85rem;color:var(--muted)}footer{text-align:center;padding:20px;color:var(--muted);font-size:.85rem}
+@media(max-width:640px){body{padding:12px 8px}.card{padding:16px}h1{font-size:1.4rem}.toolbar{align-items:flex-start}}
+.hint{font-size:.85rem;color:var(--muted);margin-top:6px}
+</style>
+</head>
+<body>
+<div class="container">
+<nav><a href="index.html">← Back to Dataset Home</a><span id="dataset-stats">Dataset not loaded</span></nav>
+<main class="card">
+<h1>EVENTSKG SPARQL Explorer</h1>
+<p>Run SPARQL 1.1 queries against EVENTSKG 3.0 directly in your browser. The dataset is downloaded once and queried locally with the <a href="https://github.com/oxigraph/oxigraph">Oxigraph</a> engine, so FILTER, OPTIONAL, UNION, aggregates (COUNT, AVG, …), GROUP BY, ORDER BY, subqueries and property paths all work. The <strong>enriched edition</strong> adds types and labels for all resources and Wikidata links for all places; the <strong>generated edition</strong> contains only the curated facts.</p>
+<label for="edition-select">Edition</label>
+<select id="edition-select"><option value="enriched" selected>Enriched edition (recommended)</option><option value="generated">Generated edition</option><option value="r21">Release 2.1 (archive, for comparison)</option></select>
+<label>Query templates</label>
+<div class="templates">
+<button class="template-btn" data-query="all">All triples (10)</button>
+<button class="template-btn" data-query="series">Editions of a series</button>
+<button class="template-btn" data-query="countries">Top host countries</button>
+<button class="template-btn" data-query="rate">Acceptance rate per community</button>
+<button class="template-btn" data-query="growth">Submissions per year</button>
+<button class="template-btn" data-query="covid">Attendance mode 2019–2023</button>
+<button class="template-btn" data-query="status">Event status</button>
+<button class="template-btn" data-query="wikidata">Places and Wikidata items (enriched)</button>
+<button class="template-btn" data-query="dataset">Dataset description</button>
+</div>
+<label for="sparql-query-input">SPARQL query</label>
+<textarea id="sparql-query-input" spellcheck="false" aria-label="SPARQL query editor"></textarea>
+<p class="hint">Common prefixes are predeclared: rdf, rdfs, owl, xsd, skos, schema, seo, eventskg, conference-ontology, dbpedia-owl, dbo, dbr, wd, dcterms, void, prov. Press Ctrl+Enter to run.</p>
+<div class="options">
+<label>Rows shown <select id="default-limit"><option value="50">50</option><option value="100" selected>100</option><option value="500">500</option><option value="1000">1,000</option><option value="0">All</option></select></label>
+</div>
+<div class="toolbar">
+<div class="toolbar-left"><button id="run-query-btn" class="primary-btn">Run query</button><button id="clear-btn" class="secondary-btn">Clear results</button><span id="query-status" role="status" aria-live="polite">Loading…</span></div>
+<div class="toolbar-right"><button id="copy-query-btn" class="secondary-btn">Copy query</button><button id="export-csv-btn" class="secondary-btn" hidden>Download CSV</button><button id="export-json-btn" class="secondary-btn" hidden>Download JSON</button></div>
+</div>
+<div id="query-results-container" aria-live="polite"><div class="notice">Loading the query engine and the dataset…</div></div>
+<h2>Supported queries</h2>
+<p class="small">SELECT, ASK, CONSTRUCT and DESCRIBE queries in SPARQL 1.1, including FILTER, OPTIONAL, UNION, MINUS, BIND, VALUES, aggregates, GROUP BY, HAVING, ORDER BY, subqueries and property paths. The data are queried in your browser; SERVICE calls to remote endpoints and updates are not available.</p>
+</main>
+<footer>EVENTSKG 3.0 SPARQL Explorer &middot; data under CC BY 4.0</footer>
+</div>
+<script type="module">
+import init, * as oxigraph from "https://cdn.jsdelivr.net/npm/oxigraph@0.5.10/web.js";
+
+// Raw URLs of the editions. Release 3.0 keeps its Turtle files in the repository root, earlier releases in archive/.
+const DATASET_BASE = "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/";
+const EDITIONS = {
+ enriched: {label: "enriched edition", url: DATASET_BASE + "EVENTSKG-enriched.ttl"},
+ generated: {label: "generated edition", url: DATASET_BASE + "EVENTSKG.ttl"},
+ r21: {label: "release 2.1 (archive)", url: DATASET_BASE + "archive/R2.1/EVENTSKG.ttl", archive: true}
+};
+const PREFIXES = {
+ rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+ rdfs: "http://www.w3.org/2000/01/rdf-schema#",
+ owl: "http://www.w3.org/2002/07/owl#",
+ xsd: "http://www.w3.org/2001/XMLSchema#",
+ skos: "http://www.w3.org/2004/02/skos/core#",
+ schema: "http://schema.org/",
+ seo: "https://w3id.org/seo#",
+ eventskg: "http://w3id.org/EVENTSKG-Dataset/ekg#",
+ "conference-ontology": "https://w3id.org/scholarlydata/ontology/conference-ontology.owl#",
+ "dbpedia-owl": "http://dbpedia.org/ontology/",
+ dbo: "http://dbpedia.org/ontology/",
+ dbr: "http://dbpedia.org/resource/",
+ wd: "http://www.wikidata.org/entity/",
+ dcterms: "http://purl.org/dc/terms/",
+ void: "http://rdfs.org/ns/void#",
+ prov: "http://www.w3.org/ns/prov#"
+};
+// Predeclared prefixes are put in front of the query; a PREFIX in the query itself overrides them.
+const PROLOGUE = Object.entries(PREFIXES).map(([p, iri]) => `PREFIX ${p}: <${iri}>`).join("\n") + "\n";
+
+const templates = {
+ all: `SELECT ?s ?p ?o WHERE {\n  ?s ?p ?o .\n}\nLIMIT 10`,
+ series: `# All editions of the AAAI series\nSELECT ?event ?acronym ?start ?city WHERE {\n  ?event seo:belongsToSeries eventskg:AAAI ;\n         conference-ontology:acronym ?acronym ;\n         conference-ontology:startDate ?start .\n  OPTIONAL { ?event seo:city ?city . }\n}\nORDER BY ?start`,
+ countries: `# Countries hosting the most Security and Privacy events since 2009\nSELECT ?country (COUNT(?e) AS ?numOfEvents) WHERE {\n  ?e seo:heldInCountry ?country ;\n     seo:ResearchField seo:SecurityAndPrivacy ;\n     conference-ontology:startDate ?sd .\n  FILTER(?sd >= "2009-01-01T00:00:00+00:00"^^xsd:dateTime)\n}\nGROUP BY ?country\nORDER BY DESC(?numOfEvents)\nLIMIT 5`,
+ rate: `# Average acceptance rate per community, 2020-2025\nSELECT ?field (ROUND(AVG(?rate) * 1000) / 10 AS ?avgRatePercent) (COUNT(?e) AS ?events) WHERE {\n  ?e seo:ResearchField ?field ;\n     seo:acceptanceRate ?rate ;\n     conference-ontology:startDate ?sd .\n  FILTER(YEAR(?sd) >= 2020 && YEAR(?sd) <= 2025)\n}\nGROUP BY ?field\nORDER BY ?avgRatePercent`,
+ growth: `# Submitted papers per year, summed over all events that report them\nSELECT ?year (SUM(?submitted) AS ?submissions) (COUNT(?e) AS ?events) WHERE {\n  ?e seo:submittedPapers ?submitted ;\n     conference-ontology:startDate ?sd .\n  BIND(YEAR(?sd) AS ?year)\n  FILTER(?year >= 2005)\n}\nGROUP BY ?year\nORDER BY ?year`,
+ covid: `# Attendance mode of the editions held from 2019 to 2023\nSELECT ?year ?mode (COUNT(?e) AS ?events) WHERE {\n  ?e conference-ontology:startDate ?sd .\n  BIND(YEAR(?sd) AS ?year)\n  FILTER(?year >= 2019 && ?year <= 2023)\n  OPTIONAL { ?e schema:eventAttendanceMode ?m . }\n  BIND(COALESCE(STRAFTER(STR(?m), "schema.org/"), "not recorded") AS ?mode)\n}\nGROUP BY ?year ?mode\nORDER BY ?year ?mode`,
+ status: `# Events with a recorded status (cancelled, postponed, scheduled ...)\nSELECT ?event ?acronym ?status WHERE {\n  ?event schema:eventStatus ?status ;\n         conference-ontology:acronym ?acronym .\n}\nORDER BY ?status ?acronym`,
+ wikidata: `# Places with their name, type and Wikidata item (enriched edition only)\nSELECT ?place ?name ?type ?wikidata WHERE {\n  ?place owl:sameAs ?wikidata .\n  OPTIONAL { ?place rdfs:label ?name . }\n  OPTIONAL { ?place a ?type . }\n}\nORDER BY ?name\nLIMIT 100`,
+ dataset: `# The dataset description and its VoID statistics\nSELECT ?p ?o WHERE {\n  ?dataset a void:Dataset ;\n           ?p ?o .\n}`
+};
+
+const $ = id => document.getElementById(id);
+const queryInput = $("sparql-query-input"), status = $("query-status"), stats = $("dataset-stats");
+const resultsContainer = $("query-results-container"), runButton = $("run-query-btn"), editionSelect = $("edition-select");
+let store = null, loading = null, notice = "", loadedKey = null, lastResults = [], lastVariables = [];
+const enginePromise = init();
+
+function setStatus(message, kind = "") { status.textContent = message; status.className = kind ? `status-${kind}` : ""; }
+function escapeHTML(value) { return String(value).replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch])); }
+function termDisplay(term) {
+ if (!term) return "";
+ if (term.termType === "NamedNode") return term.value;
+ if (term.termType === "BlankNode") return `_:${term.value}`;
+ if (term.termType === "Literal") {
+  if (term.language) return `${term.value}@${term.language}`;
+  const dt = term.datatype?.value || "";
+  const plain = ["http://www.w3.org/2001/XMLSchema#string", "http://www.w3.org/2001/XMLSchema#integer", "http://www.w3.org/2001/XMLSchema#decimal", "http://www.w3.org/2001/XMLSchema#double"];
+  return plain.includes(dt) || !dt ? term.value : `${term.value}^^${dt.replace("http://www.w3.org/2001/XMLSchema#", "xsd:")}`;
+ }
+ return term.value ?? "";
+}
+
+async function fetchEdition(edition) {
+ const response = await fetch(edition.url, {cache: "no-cache"});
+ return response;
+}
+function loadDataset() {
+ if (store) return Promise.resolve(store);
+ if (loading) return loading;
+ loading = (async () => {
+  notice = "";
+  setStatus("Loading the query engine…");
+  await enginePromise;
+  let key = editionSelect.value, edition = EDITIONS[key];
+  setStatus(`Downloading the ${edition.label}…`);
+  let response = await fetchEdition(edition);
+  if (response.status === 404 && key === "enriched") {
+   // The enriched edition is not published (yet): fall back to the generated edition.
+   const otherKey = "generated";
+   const fallback = await fetchEdition(EDITIONS[otherKey]);
+   if (fallback.ok) {
+    editionSelect.querySelector(`option[value="${key}"]`).disabled = true;
+    editionSelect.value = otherKey;
+    notice = `The ${edition.label} was not found at ${edition.url}, so the ${EDITIONS[otherKey].label} was loaded instead.`;
+    key = otherKey; edition = EDITIONS[otherKey]; response = fallback;
+   }
+  }
+  if (!response.ok) throw new Error(`Dataset request failed (HTTP ${response.status}) for ${edition.url}. Check that the file exists in the repository and that the URL is public.`);
+  const turtle = await response.text();
+  if (!turtle.trim()) throw new Error("The dataset download was empty.");
+  setStatus("Parsing Turtle…");
+  const s = new oxigraph.Store();
+  s.load(turtle, {format: "text/turtle", base_iri: edition.url});
+  store = s; loadedKey = key;
+  // Show the version stated in the file's own dataset description, so an outdated upload is easy to spot.
+  let version = "";
+  try {
+   const v = s.query("SELECT ?v WHERE { ?d a <http://rdfs.org/ns/void#Dataset> ; <http://www.w3.org/2002/07/owl#versionInfo> ?v } LIMIT 1");
+   if (v.length) version = v[0].get("v").value;
+  } catch (e) { /* no version information */ }
+  stats.textContent = `EVENTSKG${version ? " " + version : ""}, ${edition.label}: ${s.size.toLocaleString()} triples`;
+  if (version && !version.startsWith("3") && !edition.archive) notice = (notice ? notice + " " : "") + `The file at ${edition.url} is version ${version}, not release 3.0. Upload the release 3.0 files to the repository to query the new data.`;
+  setStatus("Dataset ready", "success");
+  resultsContainer.innerHTML = (notice ? `<div class="notice">${escapeHTML(notice)}</div>` : "") +
+   '<div class="notice">Dataset loaded. Choose a template or enter a query, then select <strong>Run query</strong>.</div>';
+  return store;
+ })().catch(error => {
+  loading = null;
+  setStatus("Dataset load failed", "error");
+  stats.textContent = "Dataset unavailable";
+  resultsContainer.innerHTML = `<div class="error-box">${escapeHTML(error.message)}</div>`;
+  throw error;
+ });
+ return loading;
+}
+
+function runQuery(source) {
+ const result = store.query(PROLOGUE + source);
+ if (typeof result === "boolean") return {kind: "ask", value: result};
+ if (!Array.isArray(result)) return {kind: "text", value: String(result)};
+ if (result.length && "subject" in result[0]) {
+  const variables = ["subject", "predicate", "object"];
+  return {kind: "rows", variables, rows: result.map(q => ({subject: q.subject, predicate: q.predicate, object: q.object}))};
+ }
+ // Column order: as the variables appear in the SELECT clause (aliases by their "AS ?name"), then in the query.
+ const seen = new Set();
+ for (const row of result) for (const k of row.keys()) seen.add(k);
+ const clause = (source.match(/SELECT([\s\S]*?)(?:WHERE\b|\{)/i) || [, ""])[1];
+ const position = v => {
+  const esc = v.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const alias = clause.search(new RegExp(`AS\\s+\\?${esc}\\b`, "i"));
+  if (alias >= 0) return alias;
+  const plain = clause.search(new RegExp(`\\?${esc}\\b`));
+  return plain >= 0 ? plain : 1e6 + source.search(new RegExp(`\\?${esc}\\b`));
+ };
+ const vars = [...seen].sort((a, b) => position(a) - position(b));
+ const rows = result.map(b => Object.fromEntries(vars.map(v => [v, b.get(v) || null])));
+ return {kind: "rows", variables: vars, rows};
+}
+
+function renderResults(result, elapsed) {
+ $("export-csv-btn").hidden = true; $("export-json-btn").hidden = true;
+ if (result.kind === "ask") { lastResults = []; resultsContainer.innerHTML = `<div class="notice">ASK result: <strong>${result.value}</strong></div>`; return; }
+ if (result.kind === "text") { lastResults = []; resultsContainer.innerHTML = `<pre>${escapeHTML(result.value)}</pre>`; return; }
+ lastVariables = result.variables; lastResults = result.rows;
+ if (!result.rows.length) {
+  const needsEnriched = /owl:sameAs|rdfs:label|wikidata|dbpedia-owl:(Settlement|Country|Region|AdministrativeRegion)|dbo:/i.test(queryInput.value);
+  resultsContainer.innerHTML = loadedKey === "generated" && needsEnriched
+   ? '<div class="error-box">No rows: this query uses labels, place types or Wikidata links, which exist only in the enriched edition, but the generated edition is loaded' + (editionSelect.querySelector('option[value="enriched"]').disabled ? ' because EVENTSKG-enriched.ttl was not found in the repository. Upload it to make the enriched edition available.' : '. Select the enriched edition above.') + '</div>'
+   : '<div class="empty">The query ran successfully but returned no rows. Check the property names (e.g. seo:ResearchField) and the namespaces.</div>';
+  return;
+ }
+ $("export-csv-btn").hidden = false; $("export-json-btn").hidden = false;
+ const shown = Number($("default-limit").value) > 0 ? result.rows.slice(0, Number($("default-limit").value)) : result.rows;
+ const table = document.createElement("table");
+ const thead = document.createElement("thead"), header = document.createElement("tr");
+ result.variables.forEach(v => { const th = document.createElement("th"); th.textContent = "?" + v; header.appendChild(th); });
+ thead.appendChild(header); table.appendChild(thead);
+ const tbody = document.createElement("tbody");
+ for (const row of shown) {
+  const tr = document.createElement("tr");
+  result.variables.forEach(v => {
+   const td = document.createElement("td"), term = row[v], value = termDisplay(term);
+   if (term?.termType === "NamedNode") { const a = document.createElement("a"); a.href = term.value; a.target = "_blank"; a.rel = "noopener noreferrer"; a.textContent = value; td.appendChild(a); }
+   else td.textContent = value;
+   td.title = value; tr.appendChild(td);
+  });
+  tbody.appendChild(tr);
+ }
+ table.appendChild(tbody);
+ const meta = document.createElement("div"); meta.className = "results-meta";
+ const count = document.createElement("span");
+ count.textContent = shown.length < result.rows.length ? `Showing ${shown.length.toLocaleString()} of ${result.rows.length.toLocaleString()} rows (downloads contain all rows)` : `${result.rows.length.toLocaleString()} row(s)`;
+ const timing = document.createElement("span"); timing.textContent = `Executed in ${elapsed.toFixed(1)} ms`;
+ meta.append(count, timing);
+ const wrap = document.createElement("div"); wrap.className = "table-wrap"; wrap.appendChild(table);
+ resultsContainer.replaceChildren(meta, wrap);
+}
+
+function downloadFile(content, mime, filename) {
+ const blob = new Blob([content], {type: mime}), url = URL.createObjectURL(blob), a = document.createElement("a");
+ a.href = url; a.download = filename; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+}
+const csvCell = term => `"${termDisplay(term).replace(/"/g, '""')}"`;
+
+async function run() {
+ runButton.disabled = true;
+ try {
+  await loadDataset();
+  const source = queryInput.value.trim();
+  if (!source) throw new Error("Enter a SPARQL query first.");
+  if (/^\s*(INSERT|DELETE|LOAD|CLEAR|CREATE|DROP|COPY|MOVE|ADD)\b/im.test(source.replace(/#[^\n]*/g, "").replace(/PREFIX[^\n]*/gi, ""))) throw new Error("Updates are not available in this explorer; use SELECT, ASK, CONSTRUCT or DESCRIBE.");
+  setStatus("Executing query…");
+  await new Promise(r => setTimeout(r, 0));
+  const start = performance.now(), result = runQuery(source), elapsed = performance.now() - start;
+  renderResults(result, elapsed);
+  setStatus(result.kind === "rows" ? `Completed: ${result.rows.length.toLocaleString()} row(s)` : "Completed", "success");
+ } catch (error) {
+  setStatus("Query failed", "error");
+  // Line numbers refer to the query as typed, not to the predeclared prefixes added in front of it.
+  const offset = PROLOGUE.split("\n").length - 1;
+  const message = String(error.message || error).replace(/error at (\d+):(\d+)/, (m, l, c) => `Syntax error at line ${Math.max(1, l - offset)}, column ${c}`);
+  resultsContainer.innerHTML = `<div class="error-box">${escapeHTML(message)}</div>`;
+ } finally { runButton.disabled = false; }
+}
+
+document.querySelectorAll("[data-query]").forEach(button => button.addEventListener("click", () => {
+ queryInput.value = templates[button.dataset.query];
+ setStatus(`Template selected: ${button.textContent}`);
+ queryInput.focus();
+}));
+runButton.addEventListener("click", run);
+queryInput.addEventListener("keydown", e => { if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) { e.preventDefault(); run(); } });
+$("clear-btn").addEventListener("click", () => {
+ lastResults = []; lastVariables = []; resultsContainer.innerHTML = '<div class="empty">Results cleared.</div>';
+ $("export-csv-btn").hidden = true; $("export-json-btn").hidden = true; setStatus("Ready");
+});
+$("copy-query-btn").addEventListener("click", async () => {
+ try { await navigator.clipboard.writeText(queryInput.value); setStatus("Query copied", "success"); }
+ catch { queryInput.select(); setStatus("Clipboard access unavailable; query selected for copying."); }
+});
+$("export-csv-btn").addEventListener("click", () => {
+ const lines = [lastVariables.map(v => `"${v.replace(/"/g, '""')}"`).join(","), ...lastResults.map(row => lastVariables.map(v => csvCell(row[v])).join(","))];
+ downloadFile("﻿" + lines.join("\r\n"), "text/csv;charset=utf-8", "eventskg_query_results.csv");
+});
+$("export-json-btn").addEventListener("click", () => {
+ const rows = lastResults.map(row => Object.fromEntries(lastVariables.map(v => [v, row[v] ? {value: row[v].value, termType: row[v].termType, datatype: row[v].datatype?.value || null, language: row[v].language || null} : null])));
+ downloadFile(JSON.stringify({variables: lastVariables, results: rows}, null, 2), "application/json;charset=utf-8", "eventskg_query_results.json");
+});
+editionSelect.addEventListener("change", () => {
+ store = null; loading = null; lastResults = []; lastVariables = [];
+ $("export-csv-btn").hidden = true; $("export-json-btn").hidden = true;
+ resultsContainer.innerHTML = '<div class="notice">Loading the selected edition…</div>';
+ loadDataset().catch(error => console.error("Dataset initialization failed:", error));
+});
+queryInput.value = templates.countries;
+loadDataset().catch(error => console.error("Dataset initialization failed:", error));
+</script>
+</body>
+</html>

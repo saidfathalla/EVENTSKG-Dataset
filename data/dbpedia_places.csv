@@ -1,0 +1,834 @@
+place_type,name,state,country,iri
+country,Argentina,,,http://dbpedia.org/resource/Argentina
+country,Australia,,,http://dbpedia.org/resource/Australia
+country,Austria,,,http://dbpedia.org/resource/Austria
+country,Belgium,,,http://dbpedia.org/resource/Belgium
+country,Brazil,,,http://dbpedia.org/resource/Brazil
+country,Bulgaria,,,http://dbpedia.org/resource/Bulgaria
+country,Cambodia,,,http://dbpedia.org/resource/Cambodia
+country,Canada,,,http://dbpedia.org/resource/Canada
+country,Chile,,,http://dbpedia.org/resource/Chile
+country,China,,,http://dbpedia.org/resource/China
+country,Costa Rica,,,http://dbpedia.org/resource/Costa_Rica
+country,Croatia,,,http://dbpedia.org/resource/Croatia
+country,Cyprus,,,http://dbpedia.org/resource/Cyprus
+country,Czech Republic,,,http://dbpedia.org/resource/Czech_Republic
+country,Denmark,,,http://dbpedia.org/resource/Denmark
+country,Egypt,,,http://dbpedia.org/resource/Egypt
+country,Estonia,,,http://dbpedia.org/resource/Estonia
+country,Finland,,,http://dbpedia.org/resource/Finland
+country,France,,,http://dbpedia.org/resource/France
+country,Georgia,,,http://dbpedia.org/resource/Georgia_(country)
+country,Germany,,,http://dbpedia.org/resource/Germany
+country,Greece,,,http://dbpedia.org/resource/Greece
+country,Hungary,,,http://dbpedia.org/resource/Hungary
+country,Iceland,,,http://dbpedia.org/resource/Iceland
+country,India,,,http://dbpedia.org/resource/India
+country,Indonesia,,,http://dbpedia.org/resource/Indonesia
+country,Ireland,,,http://dbpedia.org/resource/Ireland
+country,Israel,,,http://dbpedia.org/resource/Israel
+country,Italy,,,http://dbpedia.org/resource/Italy
+country,Japan,,,http://dbpedia.org/resource/Japan
+country,Latvia,,,http://dbpedia.org/resource/Latvia
+country,Lithuania,,,http://dbpedia.org/resource/Lithuania
+country,Luxembourg,,,http://dbpedia.org/resource/Luxembourg
+country,Malaysia,,,http://dbpedia.org/resource/Malaysia
+country,Mexico,,,http://dbpedia.org/resource/Mexico
+country,Montenegro,,,http://dbpedia.org/resource/Montenegro
+country,Morocco,,,http://dbpedia.org/resource/Morocco
+country,Netherlands,,,http://dbpedia.org/resource/Netherlands
+country,New Zealand,,,http://dbpedia.org/resource/New_Zealand
+country,North Macedonia,,,http://dbpedia.org/resource/North_Macedonia
+country,Norway,,,http://dbpedia.org/resource/Norway
+country,Poland,,,http://dbpedia.org/resource/Poland
+country,Portugal,,,http://dbpedia.org/resource/Portugal
+country,Qatar,,,http://dbpedia.org/resource/Qatar
+country,Russia,,,http://dbpedia.org/resource/Russia
+country,Serbia,,,http://dbpedia.org/resource/Serbia
+country,Singapore,,,http://dbpedia.org/resource/Singapore
+country,Slovenia,,,http://dbpedia.org/resource/Slovenia
+country,South Africa,,,http://dbpedia.org/resource/South_Africa
+country,South Korea,,,http://dbpedia.org/resource/South_Korea
+country,Spain,,,http://dbpedia.org/resource/Spain
+country,Sweden,,,http://dbpedia.org/resource/Sweden
+country,Switzerland,,,http://dbpedia.org/resource/Switzerland
+country,Taiwan,,,http://dbpedia.org/resource/Taiwan
+country,Thailand,,,http://dbpedia.org/resource/Thailand
+country,Turkey,,,http://dbpedia.org/resource/Turkey
+country,UK,,,http://dbpedia.org/resource/United_Kingdom
+country,USA,,,http://dbpedia.org/resource/United_States
+country,Ukraine,,,http://dbpedia.org/resource/Ukraine
+country,United Arab Emirates,,,http://dbpedia.org/resource/United_Arab_Emirates
+country,Vietnam,,,http://dbpedia.org/resource/Vietnam
+state,Alaska,,USA,http://dbpedia.org/resource/Alaska
+state,Alberta,,Canada,http://dbpedia.org/resource/Alberta
+state,Andalusia,,Spain,http://dbpedia.org/resource/Andalusia
+state,Arizona,,USA,http://dbpedia.org/resource/Arizona
+state,Baden-Württemberg,,Germany,http://dbpedia.org/resource/Baden-Württemberg
+state,Bali,,Indonesia,http://dbpedia.org/resource/Bali
+state,Brandenburg,,Germany,http://dbpedia.org/resource/Brandenburg
+state,British Columbia,,Canada,http://dbpedia.org/resource/British_Columbia
+state,California,,Canada,http://dbpedia.org/resource/California
+state,California,,Finland,http://dbpedia.org/resource/California
+state,California,,USA,http://dbpedia.org/resource/California
+state,Campania,,Italy,http://dbpedia.org/resource/Campania
+state,Canary Islands,,Spain,http://dbpedia.org/resource/Canary_Islands
+state,Capital Region,,Denmark,http://dbpedia.org/resource/Capital_Region_of_Denmark
+state,Catalonia,,Spain,http://dbpedia.org/resource/Catalonia
+state,Central Hungary,,Hungary,http://dbpedia.org/resource/Central_Hungary
+state,Colorado,,USA,http://dbpedia.org/resource/Colorado
+state,Community of Madrid,,Spain,http://dbpedia.org/resource/Community_of_Madrid
+state,Crete,,Greece,http://dbpedia.org/resource/Crete
+state,Delhi,,India,http://dbpedia.org/resource/Delhi
+state,Dodecanese,,Greece,http://dbpedia.org/resource/Dodecanese
+state,Emilia-Romagna,,Italy,http://dbpedia.org/resource/Emilia-Romagna
+state,England,,UK,http://dbpedia.org/resource/England
+state,Florida,,USA,http://dbpedia.org/resource/Florida
+state,Friuli Venezia Giulia,,Italy,http://dbpedia.org/resource/Friuli_Venezia_Giulia
+state,Georgia,,USA,http://dbpedia.org/resource/Georgia_(U.S._state)
+state,Guangdong,,China,http://dbpedia.org/resource/Guangdong
+state,Hawaii,,USA,http://dbpedia.org/resource/Hawaii
+state,Hubei,,China,http://dbpedia.org/resource/Hubei
+state,Hunan,,China,http://dbpedia.org/resource/Hunan
+state,Idaho,,USA,http://dbpedia.org/resource/Idaho
+state,Illinois,,Switzerland,http://dbpedia.org/resource/Illinois
+state,Illinois,,USA,http://dbpedia.org/resource/Illinois
+state,Indiana,,USA,http://dbpedia.org/resource/Indiana
+state,Kanagawa,,Japan,http://dbpedia.org/resource/Kanagawa
+state,Karnataka,,India,http://dbpedia.org/resource/Karnataka
+state,Lombardy,,Italy,http://dbpedia.org/resource/Lombardy
+state,Louisiana,,USA,http://dbpedia.org/resource/Louisiana
+state,Manitoba,,Canada,http://dbpedia.org/resource/Manitoba
+state,Marmara,,Turkey,http://dbpedia.org/resource/Marmara_Region
+state,Maryland,,USA,http://dbpedia.org/resource/Maryland
+state,Massachusetts,,Canada,http://dbpedia.org/resource/Massachusetts
+state,Massachusetts,,England,http://dbpedia.org/resource/Massachusetts
+state,Massachusetts,,Germany,http://dbpedia.org/resource/Massachusetts
+state,Massachusetts,,USA,http://dbpedia.org/resource/Massachusetts
+state,Michigan,,USA,http://dbpedia.org/resource/Michigan
+state,Minas Gerais,,Brazil,http://dbpedia.org/resource/Minas_Gerais
+state,Minnesota,,USA,http://dbpedia.org/resource/Minnesota
+state,Missouri,,USA,http://dbpedia.org/resource/Missouri
+state,Nebraska,,USA,http://dbpedia.org/resource/Nebraska
+state,Nevada,,USA,http://dbpedia.org/resource/Nevada
+state,New Jersey,,USA,http://dbpedia.org/resource/New_Jersey
+state,New Mexico,,USA,http://dbpedia.org/resource/New_Mexico
+state,New South Wales,,Australia,http://dbpedia.org/resource/New_South_Wales
+state,New York,,USA,http://dbpedia.org/resource/New_York_(state)
+state,Newfoundland and Labrador,,Canada,http://dbpedia.org/resource/Newfoundland_and_Labrador
+state,North Carolina,,USA,http://dbpedia.org/resource/North_Carolina
+state,North Holland,,Netherlands,http://dbpedia.org/resource/North_Holland
+state,Occitanie,,France,http://dbpedia.org/resource/Occitania_(administrative_region)
+state,Ohio,,USA,http://dbpedia.org/resource/Ohio
+state,Okinawa,,Japan,http://dbpedia.org/resource/Okinawa_Prefecture
+state,Oklahoma,,USA,http://dbpedia.org/resource/Oklahoma
+state,Ontario,,Canada,http://dbpedia.org/resource/Ontario
+state,Oregon,,USA,http://dbpedia.org/resource/Oregon
+state,Pennsylvania,,USA,http://dbpedia.org/resource/Pennsylvania
+state,Pernambuco,,Brazil,http://dbpedia.org/resource/Pernambuco
+state,Piedmont,,Italy,http://dbpedia.org/resource/Piedmont
+state,Puerto Rico,,USA,http://dbpedia.org/resource/Puerto_Rico
+state,Quebec,,Canada,http://dbpedia.org/resource/Quebec
+state,Queensland,,Australia,http://dbpedia.org/resource/Queensland
+state,Rhode Island,,USA,http://dbpedia.org/resource/Rhode_Island
+state,Rio Grande do Sul,,Brazil,http://dbpedia.org/resource/Rio_Grande_do_Sul
+state,Rio de Janeiro,,Brazil,http://dbpedia.org/resource/Rio_de_Janeiro_(state)
+state,Santa Catarina,,Brazil,http://dbpedia.org/resource/Santa_Catarina_(state)
+state,Sardinia,,Italy,http://dbpedia.org/resource/Sardinia
+state,Saxony,,Germany,http://dbpedia.org/resource/Saxony
+state,Scotland,,England,http://dbpedia.org/resource/Scotland
+state,Scotland,,UK,http://dbpedia.org/resource/Scotland
+state,Sicily,,Italy,http://dbpedia.org/resource/Sicily
+state,South Carolina,,USA,http://dbpedia.org/resource/South_Carolina
+state,South Holland,,Netherlands,http://dbpedia.org/resource/South_Holland
+state,South Moravian,,Czech Republic,http://dbpedia.org/resource/South_Moravian_Region
+state,São Paulo,,Brazil,http://dbpedia.org/resource/São_Paulo_(state)
+state,Tennessee,,USA,http://dbpedia.org/resource/Tennessee
+state,Texas,,USA,http://dbpedia.org/resource/Texas
+state,Trentino,,Italy,http://dbpedia.org/resource/Trentino
+state,Utah,,USA,http://dbpedia.org/resource/Utah
+state,Valencian Community,,Spain,http://dbpedia.org/resource/Valencian_Community
+state,Vaud,,Switzerland,http://dbpedia.org/resource/Vaud
+state,Victoria,,Australia,http://dbpedia.org/resource/Victoria_(state)
+state,Virginia,,USA,http://dbpedia.org/resource/Virginia
+state,Vorarlberg,,Austria,http://dbpedia.org/resource/Vorarlberg
+state,Västra Götaland,,Sweden,http://dbpedia.org/resource/Västra_Götaland_County
+state,Wales,,UK,http://dbpedia.org/resource/Wales
+state,Washington,,USA,http://dbpedia.org/resource/Washington_(state)
+state,Wisconsin,,USA,http://dbpedia.org/resource/Wisconsin
+state,Île-de-France,,France,http://dbpedia.org/resource/Île-de-France
+city,Aalborg,,Denmark,http://dbpedia.org/resource/Aalborg
+city,Aarhus,,Denmark,http://dbpedia.org/resource/Aarhus
+city,Aberystwyth,,England,http://dbpedia.org/resource/Aberystwyth
+city,Aberystwyth,Wales,UK,http://dbpedia.org/resource/Aberystwyth
+city,Acapulco,,Mexico,http://dbpedia.org/resource/Acapulco
+city,Adelaide,,Australia,http://dbpedia.org/resource/Adelaide
+city,Aix-en-Provence,,France,http://dbpedia.org/resource/Aix-en-Provence
+city,Aizu-Wakamatsu,,Japan,http://dbpedia.org/resource/Aizu-Wakamatsu
+city,Albuquerque,,USA,"http://dbpedia.org/resource/Albuquerque,_New_Mexico"
+city,Albuquerque,New Mexico,USA,"http://dbpedia.org/resource/Albuquerque,_New_Mexico"
+city,Alexandria,,USA,"http://dbpedia.org/resource/Alexandria,_Virginia"
+city,Alexandria,Virginia,USA,"http://dbpedia.org/resource/Alexandria,_Virginia"
+city,Alicante,,Spain,http://dbpedia.org/resource/Alicante
+city,Amherst,Massachusetts,USA,"http://dbpedia.org/resource/Amherst,_Massachusetts"
+city,Amsterdam,,Netherlands,http://dbpedia.org/resource/Amsterdam
+city,Amsterdam,North Holland,Netherlands,http://dbpedia.org/resource/Amsterdam
+city,Anaheim,,USA,"http://dbpedia.org/resource/Anaheim,_California"
+city,Anaheim,California,USA,"http://dbpedia.org/resource/Anaheim,_California"
+city,Anchorage,,USA,"http://dbpedia.org/resource/Anchorage,_Alaska"
+city,Anchorage,Alaska,USA,"http://dbpedia.org/resource/Anchorage,_Alaska"
+city,Anissaras,Crete,Greece,http://dbpedia.org/resource/Anissaras
+city,Ann Arbor,,USA,"http://dbpedia.org/resource/Ann_Arbor,_Michigan"
+city,Ann Arbor,Michigan,USA,"http://dbpedia.org/resource/Ann_Arbor,_Michigan"
+city,Antibes,,France,http://dbpedia.org/resource/Antibes
+city,Antwerp,,Belgium,http://dbpedia.org/resource/Antwerp
+city,Arles,,France,http://dbpedia.org/resource/Arles
+city,Arlington,Virginia,USA,"http://dbpedia.org/resource/Arlington_County,_Virginia"
+city,Asheville,North Carolina,USA,"http://dbpedia.org/resource/Asheville,_North_Carolina"
+city,Athens,,Greece,http://dbpedia.org/resource/Athens
+city,Athens,Georgia,USA,"http://dbpedia.org/resource/Athens,_Georgia"
+city,Atlanta,,Kingdom of Georgia,http://dbpedia.org/resource/Atlanta
+city,Atlanta,,USA,http://dbpedia.org/resource/Atlanta
+city,Atlanta,Georgia,USA,http://dbpedia.org/resource/Atlanta
+city,Atlantic City,,USA,"http://dbpedia.org/resource/Atlantic_City,_New_Jersey"
+city,Atlantic City,New Jersey,USA,"http://dbpedia.org/resource/Atlantic_City,_New_Jersey"
+city,Auckland,,New Zealand,http://dbpedia.org/resource/Auckland
+city,Austin,,USA,"http://dbpedia.org/resource/Austin,_Texas"
+city,Austin,Texas,USA,"http://dbpedia.org/resource/Austin,_Texas"
+city,Avignon,,France,http://dbpedia.org/resource/Avignon
+city,Balatonfüred,,Hungary,http://dbpedia.org/resource/Balatonfüred
+city,Baltimore,,USA,http://dbpedia.org/resource/Baltimore
+city,Baltimore,Maryland,USA,http://dbpedia.org/resource/Baltimore
+city,Banff,,Canada,"http://dbpedia.org/resource/Banff,_Alberta"
+city,Banff,Alberta,Canada,"http://dbpedia.org/resource/Banff,_Alberta"
+city,Bangkok,,Thailand,http://dbpedia.org/resource/Bangkok
+city,Bar Harbor,,USA,"http://dbpedia.org/resource/Bar_Harbor,_Maine"
+city,Barcelona,,Italy,http://dbpedia.org/resource/Barcelona
+city,Barcelona,,Spain,http://dbpedia.org/resource/Barcelona
+city,Barcelona,Catalonia,Spain,http://dbpedia.org/resource/Barcelona
+city,Bari,,Italy,http://dbpedia.org/resource/Bari
+city,Basel,,Switzerland,http://dbpedia.org/resource/Basel
+city,Bath,,England,"http://dbpedia.org/resource/Bath,_Somerset"
+city,Bath,,UK,"http://dbpedia.org/resource/Bath,_Somerset"
+city,Beijing,,China,http://dbpedia.org/resource/Beijing
+city,Belgrade,,Serbia,http://dbpedia.org/resource/Belgrade
+city,Bellevue,,USA,"http://dbpedia.org/resource/Bellevue,_Washington"
+city,Bellevue,Washington,USA,"http://dbpedia.org/resource/Bellevue,_Washington"
+city,Belo Horizonte,,Brazil,http://dbpedia.org/resource/Belo_Horizonte
+city,Bend,Oregon,USA,"http://dbpedia.org/resource/Bend,_Oregon"
+city,Bengaluru,,India,http://dbpedia.org/resource/Bengaluru
+city,Bengaluru,Karnataka,India,http://dbpedia.org/resource/Bengaluru
+city,Bergamo,,Italy,http://dbpedia.org/resource/Bergamo
+city,Bergen,,Norway,http://dbpedia.org/resource/Bergen
+city,Berkeley,,USA,"http://dbpedia.org/resource/Berkeley,_California"
+city,Berkeley,California,USA,"http://dbpedia.org/resource/Berkeley,_California"
+city,Berlin,,Germany,http://dbpedia.org/resource/Berlin
+city,Bern,,Switzerland,http://dbpedia.org/resource/Bern
+city,Bertinoro,,Italy,http://dbpedia.org/resource/Bertinoro
+city,Bethesda,,USA,"http://dbpedia.org/resource/Bethesda,_Maryland"
+city,Bethesda,Maryland,USA,"http://dbpedia.org/resource/Bethesda,_Maryland"
+city,Bethlehem,Pennsylvania,USA,"http://dbpedia.org/resource/Bethlehem,_Pennsylvania"
+city,Biarritz,,France,http://dbpedia.org/resource/Biarritz
+city,Bled,,Slovenia,http://dbpedia.org/resource/Bled
+city,Bloomington,Indiana,USA,"http://dbpedia.org/resource/Bloomington,_Indiana"
+city,Boise,Idaho,USA,"http://dbpedia.org/resource/Boise,_Idaho"
+city,Bologna,,Italy,http://dbpedia.org/resource/Bologna
+city,Bonito,,Brazil,"http://dbpedia.org/resource/Bonito,_Mato_Grosso_do_Sul"
+city,Bonn,,Germany,http://dbpedia.org/resource/Bonn
+city,Bordeaux,,France,http://dbpedia.org/resource/Bordeaux
+city,Boston,,USA,http://dbpedia.org/resource/Boston
+city,Boston,Massachusetts,USA,http://dbpedia.org/resource/Boston
+city,Boulder,Colorado,USA,"http://dbpedia.org/resource/Boulder,_Colorado"
+city,Bowling Green,Ohio,USA,"http://dbpedia.org/resource/Bowling_Green,_Ohio"
+city,Braga,,Portugal,http://dbpedia.org/resource/Braga
+city,Breckenridge,Colorado,USA,"http://dbpedia.org/resource/Breckenridge,_Colorado"
+city,Bremen,,Germany,http://dbpedia.org/resource/Bremen
+city,Brighton,,England,http://dbpedia.org/resource/Brighton
+city,Brighton,,UK,http://dbpedia.org/resource/Brighton
+city,Brighton,England,UK,http://dbpedia.org/resource/Brighton
+city,Brisbane,,Australia,http://dbpedia.org/resource/Brisbane
+city,Brisbane,Queensland,Australia,http://dbpedia.org/resource/Brisbane
+city,Bristol,,England,http://dbpedia.org/resource/Bristol
+city,Bristol,,UK,http://dbpedia.org/resource/Bristol
+city,Brno,South Moravian,Czech Republic,http://dbpedia.org/resource/Brno
+city,Broomfield,,USA,"http://dbpedia.org/resource/Broomfield,_Colorado"
+city,Bruges,,Belgium,http://dbpedia.org/resource/Bruges
+city,Brussels,,Australia,http://dbpedia.org/resource/Brussels
+city,Brussels,,Belgium,http://dbpedia.org/resource/Brussels
+city,Budapest,,Hungary,http://dbpedia.org/resource/Budapest
+city,Budapest,Central Hungary,Hungary,http://dbpedia.org/resource/Budapest
+city,Budva,Montenegro,Greece,http://dbpedia.org/resource/Budva
+city,Budva,,Montenegro,http://dbpedia.org/resource/Budva
+city,Buenos Aires,,Argentina,http://dbpedia.org/resource/Buenos_Aires
+city,Buffalo,,USA,"http://dbpedia.org/resource/Buffalo,_New_York"
+city,Burg Feuerstein,,Germany,http://dbpedia.org/resource/Ebermannstadt
+city,Burlingame,California,USA,"http://dbpedia.org/resource/Burlingame,_California"
+city,Burlington,,USA,"http://dbpedia.org/resource/Burlington,_Vermont"
+city,Busan,,Korea,http://dbpedia.org/resource/Busan
+city,Busan,,South Korea,http://dbpedia.org/resource/Busan
+city,Bydgoszcz,,Poland,http://dbpedia.org/resource/Bydgoszcz
+city,Cadiz,,Spain,http://dbpedia.org/resource/Cádiz
+city,Cairo,,Egypt,http://dbpedia.org/resource/Cairo
+city,Calgary,Alberta,Canada,http://dbpedia.org/resource/Calgary
+city,Cambridge,,Canada,http://dbpedia.org/resource/Cambridge
+city,Cambridge,,England,http://dbpedia.org/resource/Cambridge
+city,Cambridge,,UK,http://dbpedia.org/resource/Cambridge
+city,Cambridge,England,UK,http://dbpedia.org/resource/Cambridge
+city,Cambridge,,USA,"http://dbpedia.org/resource/Cambridge,_Massachusetts"
+city,Cambridge,Massachusetts,USA,"http://dbpedia.org/resource/Cambridge,_Massachusetts"
+city,Campinas,,Brazil,http://dbpedia.org/resource/Campinas
+city,Campo Grande,,Brazil,http://dbpedia.org/resource/Campo_Grande
+city,Campos do Jordão,São Paulo,Brazil,http://dbpedia.org/resource/Campos_do_Jordão
+city,Cancun,,Mexico,http://dbpedia.org/resource/Cancún
+city,Canela,Rio Grande do Sul,Brazil,"http://dbpedia.org/resource/Canela,_Rio_Grande_do_Sul"
+city,Cannes,,France,http://dbpedia.org/resource/Cannes
+city,Cape Breton,,Canada,http://dbpedia.org/resource/Cape_Breton_Island
+city,Cape May,New Jersey,USA,"http://dbpedia.org/resource/Cape_May,_New_Jersey"
+city,Cape Town,,South Africa,http://dbpedia.org/resource/Cape_Town
+city,Carlsbad,California,USA,"http://dbpedia.org/resource/Carlsbad,_California"
+city,Cary,North Carolina,USA,"http://dbpedia.org/resource/Cary,_North_Carolina"
+city,Cascais,,Portugal,http://dbpedia.org/resource/Cascais
+city,Catalina Island,,USA,http://dbpedia.org/resource/Santa_Catalina_Island_(California)
+city,Catalina Island,California,USA,http://dbpedia.org/resource/Santa_Catalina_Island_(California)
+city,Cavtat,,Croatia,http://dbpedia.org/resource/Cavtat
+city,Caxambu,Minas Gerais,Brazil,http://dbpedia.org/resource/Caxambu
+city,Cernay,,France,http://dbpedia.org/resource/Cernay-la-Ville
+city,Chambéry,,France,http://dbpedia.org/resource/Chambéry
+city,Champaign,Illinois,USA,"http://dbpedia.org/resource/Champaign,_Illinois"
+city,Changsha,Hunan,China,http://dbpedia.org/resource/Changsha
+city,Chantilly,,USA,"http://dbpedia.org/resource/Chantilly,_Virginia"
+city,Chapel Hill,North Carolina,USA,"http://dbpedia.org/resource/Chapel_Hill,_North_Carolina"
+city,Charleston,South Carolina,USA,"http://dbpedia.org/resource/Charleston,_South_Carolina"
+city,Charlotte,,USA,"http://dbpedia.org/resource/Charlotte,_North_Carolina"
+city,Charlotte,North Carolina,USA,"http://dbpedia.org/resource/Charlotte,_North_Carolina"
+city,Charlottesville,,USA,"http://dbpedia.org/resource/Charlottesville,_Virginia"
+city,Charlottesville,Virginia,USA,"http://dbpedia.org/resource/Charlottesville,_Virginia"
+city,Chia,Sardinia,Italy,"http://dbpedia.org/resource/Chia,_Sardinia"
+city,Chiba,,Japan,http://dbpedia.org/resource/Chiba_(city)
+city,Chicago,,USA,http://dbpedia.org/resource/Chicago
+city,Chicago,Illinois,USA,http://dbpedia.org/resource/Chicago
+city,Christchurch,,New Zealand,http://dbpedia.org/resource/Christchurch
+city,Clearwater,,USA,"http://dbpedia.org/resource/Clearwater,_Florida"
+city,Cocoa Beach,Florida,USA,"http://dbpedia.org/resource/Cocoa_Beach,_Florida"
+city,Coimbra,,Portugal,http://dbpedia.org/resource/Coimbra
+city,Colchester,,UK,http://dbpedia.org/resource/Colchester
+city,College Park,Maryland,USA,"http://dbpedia.org/resource/College_Park,_Maryland"
+city,Cologne,,Germany,http://dbpedia.org/resource/Cologne
+city,Colorado Springs,,USA,"http://dbpedia.org/resource/Colorado_Springs,_Colorado"
+city,Colorado Springs,Colorado,USA,"http://dbpedia.org/resource/Colorado_Springs,_Colorado"
+city,Columbus,,USA,"http://dbpedia.org/resource/Columbus,_Ohio"
+city,Columbus,Ohio,USA,"http://dbpedia.org/resource/Columbus,_Ohio"
+city,Como,,Italy,http://dbpedia.org/resource/Como
+city,Como,Lombardy,Italy,http://dbpedia.org/resource/Como
+city,Copenhagen,,Denmark,http://dbpedia.org/resource/Copenhagen
+city,Copenhagen,Capital Region,Denmark,http://dbpedia.org/resource/Copenhagen
+city,Corfu,,Greece,http://dbpedia.org/resource/Corfu
+city,Cork,,Ireland,http://dbpedia.org/resource/Cork
+city,Crete,,Greece,http://dbpedia.org/resource/Crete
+city,Cáceres,,Spain,http://dbpedia.org/resource/Cáceres
+city,Daegu,,Korea,http://dbpedia.org/resource/Daegu
+city,Daegu,,South Korea,http://dbpedia.org/resource/Daegu
+city,Daejeon,,Korea,http://dbpedia.org/resource/Daejeon
+city,Daejeon,,South Korea,http://dbpedia.org/resource/Daejeon
+city,Dallas,,USA,http://dbpedia.org/resource/Dallas
+city,Dallas,Texas,USA,http://dbpedia.org/resource/Dallas
+city,Darmstadt,,Germany,http://dbpedia.org/resource/Darmstadt
+city,Davos,,Switzerland,http://dbpedia.org/resource/Davos
+city,DeKalb,Illinois,USA,"http://dbpedia.org/resource/DeKalb,_Illinois"
+city,Delft,,Netherlands,http://dbpedia.org/resource/Delft
+city,Denton,Texas,USA,"http://dbpedia.org/resource/Denton,_Texas"
+city,Denver,,USA,http://dbpedia.org/resource/Denver
+city,Denver,Colorado,USA,http://dbpedia.org/resource/Denver
+city,Desenzano del Garda,,Italy,http://dbpedia.org/resource/Desenzano_del_Garda
+city,Detroit,Michigan,USA,http://dbpedia.org/resource/Detroit
+city,Doha,,Qatar,http://dbpedia.org/resource/Doha
+city,Donostia-San Sebastián,,Spain,http://dbpedia.org/resource/Donostia-San_Sebastián
+city,Dornbirn,Vorarlberg,Austria,http://dbpedia.org/resource/Dornbirn
+city,Dresden,,Germany,http://dbpedia.org/resource/Dresden
+city,Dubai,,United Arab Emirates,http://dbpedia.org/resource/Dubai
+city,Dublin,,Ireland,http://dbpedia.org/resource/Dublin
+city,Dubrovnik,,Croatia,http://dbpedia.org/resource/Dubrovnik
+city,Dunedin,,New Zealand,http://dbpedia.org/resource/Dunedin
+city,Durham,,USA,"http://dbpedia.org/resource/Durham,_North_Carolina"
+city,Durham,North Carolina,USA,"http://dbpedia.org/resource/Durham,_North_Carolina"
+city,Edinburgh,,England,http://dbpedia.org/resource/Edinburgh
+city,Edinburgh,,Kingdom of Scotland,http://dbpedia.org/resource/Edinburgh
+city,Edinburgh,,Scotland,http://dbpedia.org/resource/Edinburgh
+city,Edinburgh,,UK,http://dbpedia.org/resource/Edinburgh
+city,Edinburgh,Scotland,UK,http://dbpedia.org/resource/Edinburgh
+city,Edmonton,,Canada,http://dbpedia.org/resource/Edmonton
+city,Edmonton,Alberta,Canada,http://dbpedia.org/resource/Edmonton
+city,Egham,,UK,http://dbpedia.org/resource/Egham
+city,Eindhoven,,Netherlands,http://dbpedia.org/resource/Eindhoven
+city,El Paso,Texas,USA,"http://dbpedia.org/resource/El_Paso,_Texas"
+city,Enschede,,Netherlands,http://dbpedia.org/resource/Enschede
+city,Espoo,,Finland,http://dbpedia.org/resource/Espoo
+city,Essen,,Germany,http://dbpedia.org/resource/Essen
+city,Estes Park,Colorado,USA,"http://dbpedia.org/resource/Estes_Park,_Colorado"
+city,Estoril,,Portugal,http://dbpedia.org/resource/Estoril
+city,Eugene,Oregon,USA,"http://dbpedia.org/resource/Eugene,_Oregon"
+city,Fairfax,Virginia,USA,"http://dbpedia.org/resource/Fairfax,_Virginia"
+city,Florence,,Italy,http://dbpedia.org/resource/Florence
+city,Florianópolis,,Brazil,http://dbpedia.org/resource/Florianópolis
+city,Florianópolis,Santa Catarina,Brazil,http://dbpedia.org/resource/Florianópolis
+city,Fort Collins,Colorado,USA,"http://dbpedia.org/resource/Fort_Collins,_Colorado"
+city,Fort Lauderdale,,USA,"http://dbpedia.org/resource/Fort_Lauderdale,_Florida"
+city,Fort Lauderdale,Florida,USA,"http://dbpedia.org/resource/Fort_Lauderdale,_Florida"
+city,Fort Worth,Texas,USA,"http://dbpedia.org/resource/Fort_Worth,_Texas"
+city,Foster,California,USA,"http://dbpedia.org/resource/Foster,_California"
+city,Foz do Iguaçu,,Brazil,http://dbpedia.org/resource/Foz_do_Iguaçu
+city,Framingham,,USA,"http://dbpedia.org/resource/Framingham,_Massachusetts"
+city,Franconia,,USA,"http://dbpedia.org/resource/Franconia,_New_Hampshire"
+city,Freiburg,,Germany,http://dbpedia.org/resource/Freiburg_im_Breisgau
+city,French Riviera,,France,http://dbpedia.org/resource/French_Riviera
+city,Fukuoka,,Japan,http://dbpedia.org/resource/Fukuoka
+city,Gaithersburg,,USA,"http://dbpedia.org/resource/Gaithersburg,_Maryland"
+city,Galveston,Texas,USA,"http://dbpedia.org/resource/Galveston,_Texas"
+city,Galway,,Ireland,http://dbpedia.org/resource/Galway
+city,Geneva,,Switzerland,http://dbpedia.org/resource/Geneva
+city,Genoa,,Italy,http://dbpedia.org/resource/Genoa
+city,Ghent,,Belgium,http://dbpedia.org/resource/Ghent
+city,Gjøvik,,Norway,http://dbpedia.org/resource/Gjøvik
+city,Glasgow,,England,http://dbpedia.org/resource/Glasgow
+city,Glasgow,,Scotland,http://dbpedia.org/resource/Glasgow
+city,Glasgow,,UK,http://dbpedia.org/resource/Glasgow
+city,Glasgow,Scotland,UK,http://dbpedia.org/resource/Glasgow
+city,Gold Coast,Queensland,Australia,"http://dbpedia.org/resource/Gold_Coast,_Queensland"
+city,Gothenburg,,Sweden,http://dbpedia.org/resource/Gothenburg
+city,Gothenburg,Västra Götaland,Sweden,http://dbpedia.org/resource/Gothenburg
+city,Gramado,,Brazil,http://dbpedia.org/resource/Gramado
+city,Gramado,Rio Grande do Sul,Brazil,http://dbpedia.org/resource/Gramado
+city,Granada,,Spain,http://dbpedia.org/resource/Granada
+city,Granada,Andalusia,Spain,http://dbpedia.org/resource/Granada
+city,Graz,,Austria,http://dbpedia.org/resource/Graz
+city,Greenville,South Carolina,USA,"http://dbpedia.org/resource/Greenville,_South_Carolina"
+city,Grenoble,,France,http://dbpedia.org/resource/Grenoble
+city,Guanajuato,,Mexico,http://dbpedia.org/resource/Guanajuato
+city,Guangzhou,,China,http://dbpedia.org/resource/Guangzhou
+city,Guangzhou,Guangdong,China,http://dbpedia.org/resource/Guangzhou
+city,Hagenberg,,Austria,http://dbpedia.org/resource/Hagenberg_im_Mühlkreis
+city,Haifa,,Israel,http://dbpedia.org/resource/Haifa
+city,Hakodate,,Japan,http://dbpedia.org/resource/Hakodate
+city,Hamburg,,Germany,http://dbpedia.org/resource/Hamburg
+city,Hamilton,Ontario,Canada,"http://dbpedia.org/resource/Hamilton,_Ontario"
+city,Hangzhou,,China,http://dbpedia.org/resource/Hangzhou
+city,Hanoi,,Vietnam,http://dbpedia.org/resource/Hanoi
+city,Hanover,Maryland,USA,"http://dbpedia.org/resource/Hanover,_Maryland"
+city,Heidelberg,,Germany,http://dbpedia.org/resource/Heidelberg
+city,Helsinki,,Finland,http://dbpedia.org/resource/Helsinki
+city,Heraklion,,Greece,http://dbpedia.org/resource/Heraklion
+city,Heraklion,Crete,Greece,http://dbpedia.org/resource/Heraklion
+city,Hershey,Pennsylvania,USA,"http://dbpedia.org/resource/Hershey,_Pennsylvania"
+city,Hersonissos,,Greece,http://dbpedia.org/resource/Hersonissos
+city,Hilo,Hawaii,USA,"http://dbpedia.org/resource/Hilo,_Hawaii"
+city,Hilton Head,,USA,"http://dbpedia.org/resource/Hilton_Head_Island,_South_Carolina"
+city,Hilton Head,South Carolina,USA,"http://dbpedia.org/resource/Hilton_Head_Island,_South_Carolina"
+city,Hilton Head Island,South Carolina,USA,"http://dbpedia.org/resource/Hilton_Head_Island,_South_Carolina"
+city,Hiroshima,,Japan,http://dbpedia.org/resource/Hiroshima
+city,Hoboken,New Jersey,USA,"http://dbpedia.org/resource/Hoboken,_New_Jersey"
+city,Hollywood,California,USA,"http://dbpedia.org/resource/Hollywood,_Los_Angeles"
+city,Hong Kong,,China,http://dbpedia.org/resource/Hong_Kong
+city,Honolulu,,USA,http://dbpedia.org/resource/Honolulu
+city,Honolulu,Hawaii,USA,http://dbpedia.org/resource/Honolulu
+city,Houston,,USA,http://dbpedia.org/resource/Houston
+city,Houston,Texas,USA,http://dbpedia.org/resource/Houston
+city,Houthalen,,Belgium,http://dbpedia.org/resource/Houthalen-Helchteren
+city,Hyderabad,,India,http://dbpedia.org/resource/Hyderabad
+city,Incline Village,,USA,"http://dbpedia.org/resource/Incline_Village,_Nevada"
+city,Indianapolis,,USA,http://dbpedia.org/resource/Indianapolis
+city,Indianapolis,Indiana,USA,http://dbpedia.org/resource/Indianapolis
+city,Innsbruck,,Austria,http://dbpedia.org/resource/Innsbruck
+city,Interlaken,,Switzerland,http://dbpedia.org/resource/Interlaken
+city,Ioannina,,Greece,http://dbpedia.org/resource/Ioannina
+city,Irvine,California,USA,"http://dbpedia.org/resource/Irvine,_California"
+city,Istanbul,,Turkey,http://dbpedia.org/resource/Istanbul
+city,Istanbul,Marmara,Turkey,http://dbpedia.org/resource/Istanbul
+city,Ithaca,,USA,"http://dbpedia.org/resource/Ithaca,_New_York"
+city,Ithaca,New York,USA,"http://dbpedia.org/resource/Ithaca,_New_York"
+city,Jeju,,Korea,http://dbpedia.org/resource/Jeju_City
+city,Jeju,,South Korea,http://dbpedia.org/resource/Jeju_City
+city,Jersey City,New Jersey,USA,"http://dbpedia.org/resource/Jersey_City,_New_Jersey"
+city,Jerusalem,,Israel,http://dbpedia.org/resource/Jerusalem
+city,Jyväskylä,,Finland,http://dbpedia.org/resource/Jyväskylä
+city,Kailua-Kona,Hawaii,USA,"http://dbpedia.org/resource/Kailua,_Hawaii_County,_Hawaii"
+city,Kaiserslautern,,Germany,http://dbpedia.org/resource/Kaiserslautern
+city,Kalamata,,Greece,http://dbpedia.org/resource/Kalamata
+city,Karlsruhe,,Germany,http://dbpedia.org/resource/Karlsruhe
+city,Kauai,Hawaii,USA,http://dbpedia.org/resource/Kauai
+city,Kauai Island,,USA,http://dbpedia.org/resource/Kauai
+city,Kenmare,,Ireland,http://dbpedia.org/resource/Kenmare
+city,Key West,Florida,USA,"http://dbpedia.org/resource/Key_West,_Florida"
+city,Kinsale,,Ireland,http://dbpedia.org/resource/Kinsale
+city,Kitakyushu,,Japan,http://dbpedia.org/resource/Kitakyushu
+city,Knoxville,,USA,"http://dbpedia.org/resource/Knoxville,_Tennessee"
+city,Knoxville,Tennessee,USA,"http://dbpedia.org/resource/Knoxville,_Tennessee"
+city,Kobe,,Japan,http://dbpedia.org/resource/Kobe
+city,Kohala Coast,Hawaii,USA,"http://dbpedia.org/resource/Kohala,_Hawaii"
+city,Kolkata,,India,http://dbpedia.org/resource/Kolkata
+city,Konstanz,,Germany,http://dbpedia.org/resource/Konstanz
+city,Kraków,,Poland,http://dbpedia.org/resource/Kraków
+city,Kuching,,Malaysia,http://dbpedia.org/resource/Kuching
+city,Kyiv,,Ukraine,http://dbpedia.org/resource/Kyiv
+city,Kyoto,,Japan,http://dbpedia.org/resource/Kyoto
+city,La Jolla,California,USA,http://dbpedia.org/resource/La_Jolla
+city,La Palma,,Kingdom of the Canary Islands,http://dbpedia.org/resource/La_Palma
+city,La Palma,Canary Islands,Spain,http://dbpedia.org/resource/La_Palma
+city,Lafayette,Louisiana,USA,"http://dbpedia.org/resource/Lafayette,_Louisiana"
+city,Laguna Hills,California,USA,"http://dbpedia.org/resource/Laguna_Hills,_California"
+city,Lahaina,Hawaii,USA,"http://dbpedia.org/resource/Lahaina,_Hawaii"
+city,Lake Buena Vista,Florida,USA,"http://dbpedia.org/resource/Lake_Buena_Vista,_Florida"
+city,Lake District,,UK,http://dbpedia.org/resource/Lake_District
+city,Lake Tahoe,Nevada,USA,http://dbpedia.org/resource/Lake_Tahoe
+city,Lancaster,,England,"http://dbpedia.org/resource/Lancaster,_Lancashire"
+city,Lancaster,,UK,"http://dbpedia.org/resource/Lancaster,_Lancashire"
+city,Lanzarote,Canary Islands,Spain,http://dbpedia.org/resource/Lanzarote
+city,Las Vegas,,USA,http://dbpedia.org/resource/Las_Vegas
+city,Las Vegas,Nevada,USA,http://dbpedia.org/resource/Las_Vegas
+city,Lausanne,,Switzerland,http://dbpedia.org/resource/Lausanne
+city,Lausanne,Vaud,Switzerland,http://dbpedia.org/resource/Lausanne
+city,Lawrence,,USA,"http://dbpedia.org/resource/Lawrence,_Kansas"
+city,Leiden,South Holland,Netherlands,http://dbpedia.org/resource/Leiden
+city,Leipzig,,Germany,http://dbpedia.org/resource/Leipzig
+city,Leipzig,Saxony,Germany,http://dbpedia.org/resource/Leipzig
+city,Leuven,,Belgium,http://dbpedia.org/resource/Leuven
+city,Lille,,France,http://dbpedia.org/resource/Lille
+city,Limerick,,Ireland,http://dbpedia.org/resource/Limerick
+city,Lincoln,Nebraska,USA,"http://dbpedia.org/resource/Lincoln,_Nebraska"
+city,Linköping,,Sweden,http://dbpedia.org/resource/Linköping
+city,Linz,,Austria,http://dbpedia.org/resource/Linz
+city,Lisbon,,Portugal,http://dbpedia.org/resource/Lisbon
+city,Ljubljana,,Slovenia,http://dbpedia.org/resource/Ljubljana
+city,Lofthus,,Norway,"http://dbpedia.org/resource/Lofthus,_Ullensvang"
+city,London,Ontario,Canada,"http://dbpedia.org/resource/London,_Ontario"
+city,London,,UK,http://dbpedia.org/resource/London
+city,Long Beach,California,USA,"http://dbpedia.org/resource/Long_Beach,_California"
+city,Los Angeles,,USA,http://dbpedia.org/resource/Los_Angeles
+city,Los Angeles,California,USA,http://dbpedia.org/resource/Los_Angeles
+city,Los Cabos,,Mexico,http://dbpedia.org/resource/Los_Cabos_Municipality
+city,Louvain-la-Neuve,,Belgium,http://dbpedia.org/resource/Louvain-la-Neuve
+city,Lugano,,Switzerland,http://dbpedia.org/resource/Lugano
+city,Luxembourg,,Luxembourg,http://dbpedia.org/resource/Luxembourg_City
+city,Luxembourg City,,Luxembourg,http://dbpedia.org/resource/Luxembourg_City
+city,Lyon,,France,http://dbpedia.org/resource/Lyon
+city,Macao,,China,http://dbpedia.org/resource/Macau
+city,Madeira,,Portugal,http://dbpedia.org/resource/Madeira
+city,Madison,,USA,"http://dbpedia.org/resource/Madison,_Wisconsin"
+city,Madison,Wisconsin,USA,"http://dbpedia.org/resource/Madison,_Wisconsin"
+city,Madrid,,Spain,http://dbpedia.org/resource/Madrid
+city,Madrid,Community of Madrid,Spain,http://dbpedia.org/resource/Madrid
+city,Malaga,,Spain,http://dbpedia.org/resource/Málaga
+city,Malaga,Andalusia,Spain,http://dbpedia.org/resource/Málaga
+city,Malmö,,Sweden,http://dbpedia.org/resource/Malmö
+city,Manchester,,England,http://dbpedia.org/resource/Manchester
+city,Manchester,,UK,http://dbpedia.org/resource/Manchester
+city,Manhattan,New York,USA,http://dbpedia.org/resource/Manhattan
+city,Mannheim,,Germany,http://dbpedia.org/resource/Mannheim
+city,Maribor,,Slovenia,http://dbpedia.org/resource/Maribor
+city,Marina del Rey,California,USA,"http://dbpedia.org/resource/Marina_del_Rey,_California"
+city,Marseille,,France,http://dbpedia.org/resource/Marseille
+city,Maui,Hawaii,USA,http://dbpedia.org/resource/Maui
+city,McLean,,USA,"http://dbpedia.org/resource/McLean,_Virginia"
+city,McLean,Virginia,USA,"http://dbpedia.org/resource/McLean,_Virginia"
+city,Melbourne,,Australia,http://dbpedia.org/resource/Melbourne
+city,Melbourne,Victoria,Australia,http://dbpedia.org/resource/Melbourne
+city,Melbourne,,Belgium,http://dbpedia.org/resource/Melbourne
+city,Mexico City,,Mexico,http://dbpedia.org/resource/Mexico_City
+city,Miami,Florida,USA,http://dbpedia.org/resource/Miami
+city,Miami Beach,Florida,USA,"http://dbpedia.org/resource/Miami_Beach,_Florida"
+city,Milan,,Italy,http://dbpedia.org/resource/Milan
+city,Milwaukee,,USA,http://dbpedia.org/resource/Milwaukee
+city,Milwaukee,Wisconsin,USA,http://dbpedia.org/resource/Milwaukee
+city,Minaki,Ontario,Canada,"http://dbpedia.org/resource/Minaki,_Ontario"
+city,Minneapolis,,USA,http://dbpedia.org/resource/Minneapolis
+city,Minneapolis,Minnesota,USA,http://dbpedia.org/resource/Minneapolis
+city,Monterey,,USA,"http://dbpedia.org/resource/Monterey,_California"
+city,Monterey,California,USA,"http://dbpedia.org/resource/Monterey,_California"
+city,Monterrey,,Mexico,http://dbpedia.org/resource/Monterrey
+city,Montpellier,,France,http://dbpedia.org/resource/Montpellier
+city,Montreal,,Canada,http://dbpedia.org/resource/Montreal
+city,Montreal,Quebec,Canada,http://dbpedia.org/resource/Montreal
+city,Montreal,,USA,http://dbpedia.org/resource/Montreal
+city,Montreux,,Switzerland,http://dbpedia.org/resource/Montreux
+city,Mordano,,Italy,http://dbpedia.org/resource/Mordano
+city,Mumbai,,India,http://dbpedia.org/resource/Mumbai
+city,Munich,,Germany,http://dbpedia.org/resource/Munich
+city,Murray Hill,New Jersey,USA,"http://dbpedia.org/resource/Murray_Hill,_New_Jersey"
+city,Mérida,,Mexico,"http://dbpedia.org/resource/Mérida,_Yucatán"
+city,Nagoya,,Japan,http://dbpedia.org/resource/Nagoya
+city,Naha,Okinawa,Japan,http://dbpedia.org/resource/Naha
+city,Nancy,,France,"http://dbpedia.org/resource/Nancy,_France"
+city,Nantes,,France,http://dbpedia.org/resource/Nantes
+city,Naples,,Italy,http://dbpedia.org/resource/Naples
+city,Naples,Campania,Italy,http://dbpedia.org/resource/Naples
+city,Nara,,Japan,"http://dbpedia.org/resource/Nara,_Nara"
+city,Nashville,,USA,"http://dbpedia.org/resource/Nashville,_Tennessee"
+city,Nashville,Tennessee,USA,"http://dbpedia.org/resource/Nashville,_Tennessee"
+city,Natal,,Brazil,"http://dbpedia.org/resource/Natal,_Rio_Grande_do_Norte"
+city,New Brunswick,,USA,"http://dbpedia.org/resource/New_Brunswick,_New_Jersey"
+city,New Brunswick,New Jersey,USA,"http://dbpedia.org/resource/New_Brunswick,_New_Jersey"
+city,New Delhi,,India,http://dbpedia.org/resource/New_Delhi
+city,New Delhi,Delhi,India,http://dbpedia.org/resource/New_Delhi
+city,New Orleans,,USA,http://dbpedia.org/resource/New_Orleans
+city,New Orleans,Louisiana,USA,http://dbpedia.org/resource/New_Orleans
+city,New York City,New York,USA,http://dbpedia.org/resource/New_York_City
+city,Newark,,USA,"http://dbpedia.org/resource/Newark,_New_Jersey"
+city,Newark,New Jersey,USA,"http://dbpedia.org/resource/Newark,_New_Jersey"
+city,Newport,Rhode Island,USA,"http://dbpedia.org/resource/Newport,_Rhode_Island"
+city,Newport Beach,,USA,"http://dbpedia.org/resource/Newport_Beach,_California"
+city,Newport Beach,California,USA,"http://dbpedia.org/resource/Newport_Beach,_California"
+city,Nice,,France,http://dbpedia.org/resource/Nice
+city,Nicosia,,Cyprus,http://dbpedia.org/resource/Nicosia
+city,Northampton,Massachusetts,USA,"http://dbpedia.org/resource/Northampton,_Massachusetts"
+city,Nottingham,,England,http://dbpedia.org/resource/Nottingham
+city,Nottingham,England,UK,http://dbpedia.org/resource/Nottingham
+city,Nuremberg,,Germany,http://dbpedia.org/resource/Nuremberg
+city,Oakland,California,USA,"http://dbpedia.org/resource/Oakland,_California"
+city,Okinawa,,Japan,http://dbpedia.org/resource/Okinawa_Prefecture
+city,Oklahoma City,Oklahoma,USA,http://dbpedia.org/resource/Oklahoma_City
+city,Oldenburg,,Germany,http://dbpedia.org/resource/Oldenburg
+city,Orange County,California,USA,"http://dbpedia.org/resource/Orange_County,_California"
+city,Orlando,,USA,"http://dbpedia.org/resource/Orlando,_Florida"
+city,Orlando,Florida,USA,"http://dbpedia.org/resource/Orlando,_Florida"
+city,Orsay,,France,http://dbpedia.org/resource/Orsay
+city,Osaka,,Japan,http://dbpedia.org/resource/Osaka
+city,Oslo,,Norway,http://dbpedia.org/resource/Oslo
+city,Ottawa,,Canada,http://dbpedia.org/resource/Ottawa
+city,Ottawa,Ontario,Canada,http://dbpedia.org/resource/Ottawa
+city,Ouro Preto,,Brazil,http://dbpedia.org/resource/Ouro_Preto
+city,Oviedo,,Spain,http://dbpedia.org/resource/Oviedo
+city,Oxford,,England,http://dbpedia.org/resource/Oxford
+city,Oxford,,UK,http://dbpedia.org/resource/Oxford
+city,Pacific Grove,California,USA,"http://dbpedia.org/resource/Pacific_Grove,_California"
+city,Paderborn,,Germany,http://dbpedia.org/resource/Paderborn
+city,Padua,,Italy,http://dbpedia.org/resource/Padua
+city,Paestum,,Italy,http://dbpedia.org/resource/Paestum
+city,Palermo,,Italy,http://dbpedia.org/resource/Palermo
+city,Palermo,Sicily,Italy,http://dbpedia.org/resource/Palermo
+city,Palm Springs,California,USA,"http://dbpedia.org/resource/Palm_Springs,_California"
+city,Palo Alto,California,USA,"http://dbpedia.org/resource/Palo_Alto,_California"
+city,Paphos,,Cyprus,http://dbpedia.org/resource/Paphos
+city,Paris,,France,http://dbpedia.org/resource/Paris
+city,Paris,Île-de-France,France,http://dbpedia.org/resource/Paris
+city,Paris,,Turkey,http://dbpedia.org/resource/Paris
+city,Parma,Emilia-Romagna,Italy,http://dbpedia.org/resource/Parma
+city,Pasadena,California,USA,"http://dbpedia.org/resource/Pasadena,_California"
+city,Patras,,Greece,http://dbpedia.org/resource/Patras
+city,Perth,,Australia,http://dbpedia.org/resource/Perth
+city,Perugia,,Italy,http://dbpedia.org/resource/Perugia
+city,Petersburg,,Republics of Russia,"http://dbpedia.org/resource/St._Petersburg,_Florida"
+city,Petersburg,Florida,USA,"http://dbpedia.org/resource/St._Petersburg,_Florida"
+city,Petrópolis,,Brazil,http://dbpedia.org/resource/Petrópolis
+city,Philadelphia,,USA,http://dbpedia.org/resource/Philadelphia
+city,Philadelphia,Pennsylvania,USA,http://dbpedia.org/resource/Philadelphia
+city,Phoenix,,USA,"http://dbpedia.org/resource/Phoenix,_Arizona"
+city,Phoenix,Arizona,USA,"http://dbpedia.org/resource/Phoenix,_Arizona"
+city,Phuket,,Thailand,http://dbpedia.org/resource/Phuket
+city,Pirenópolis,,Brazil,http://dbpedia.org/resource/Pirenópolis
+city,Pisa,,Italy,http://dbpedia.org/resource/Pisa
+city,Pittsburgh,,Frame of Government of Pennsylvania,http://dbpedia.org/resource/Pittsburgh
+city,Pittsburgh,,USA,http://dbpedia.org/resource/Pittsburgh
+city,Pittsburgh,Pennsylvania,USA,http://dbpedia.org/resource/Pittsburgh
+city,Port Jefferson,,USA,"http://dbpedia.org/resource/Port_Jefferson,_New_York"
+city,Port Jefferson,New York,USA,"http://dbpedia.org/resource/Port_Jefferson,_New_York"
+city,Portland,,Provisional Government of Oregon,"http://dbpedia.org/resource/Portland,_Oregon"
+city,Portland,,USA,"http://dbpedia.org/resource/Portland,_Oregon"
+city,Portland,Oregon,USA,"http://dbpedia.org/resource/Portland,_Oregon"
+city,Porto,,Portugal,http://dbpedia.org/resource/Porto
+city,Porto Alegre,,Brazil,http://dbpedia.org/resource/Porto_Alegre
+city,Porto de Galinhas,,Brazil,http://dbpedia.org/resource/Porto_de_Galinhas
+city,Portoroz,,Greece,http://dbpedia.org/resource/Portorož
+city,Portoroz,,Slovenia,http://dbpedia.org/resource/Portorož
+city,Potsdam,Brandenburg,Germany,http://dbpedia.org/resource/Potsdam
+city,Prague,,Czech Republic,http://dbpedia.org/resource/Prague
+city,Princeton,,USA,"http://dbpedia.org/resource/Princeton,_New_Jersey"
+city,Providence,,USA,"http://dbpedia.org/resource/Providence,_Rhode_Island"
+city,Providence,Rhode Island,USA,"http://dbpedia.org/resource/Providence,_Rhode_Island"
+city,Puerto Vallarta,,Mexico,http://dbpedia.org/resource/Puerto_Vallarta
+city,Quebec,Quebec,Canada,http://dbpedia.org/resource/Quebec_City
+city,Quebec City,,Canada,http://dbpedia.org/resource/Quebec_City
+city,Queenstown,,New Zealand,"http://dbpedia.org/resource/Queenstown,_New_Zealand"
+city,Raleigh,,USA,"http://dbpedia.org/resource/Raleigh,_North_Carolina"
+city,Raleigh,North Carolina,USA,"http://dbpedia.org/resource/Raleigh,_North_Carolina"
+city,Recife,Pernambuco,Brazil,http://dbpedia.org/resource/Recife
+city,Redondo Beach,California,USA,"http://dbpedia.org/resource/Redondo_Beach,_California"
+city,Rennes,,France,http://dbpedia.org/resource/Rennes
+city,Reno,,USA,"http://dbpedia.org/resource/Reno,_Nevada"
+city,Reno,Nevada,USA,"http://dbpedia.org/resource/Reno,_Nevada"
+city,Research Triangle Park,,USA,http://dbpedia.org/resource/Research_Triangle_Park
+city,Reutlingen,,Germany,http://dbpedia.org/resource/Reutlingen
+city,Reykjavik,,Iceland,http://dbpedia.org/resource/Reykjavik
+city,Rhodes,Dodecanese,Greece,http://dbpedia.org/resource/Rhodes
+city,Riga,,Latvia,http://dbpedia.org/resource/Riga
+city,Rio de Janeiro,,Brazil,http://dbpedia.org/resource/Rio_de_Janeiro
+city,Rio de Janeiro,Rio de Janeiro,Brazil,http://dbpedia.org/resource/Rio_de_Janeiro
+city,Riva del Garda,,Italy,http://dbpedia.org/resource/Riva_del_Garda
+city,Riva del Garda,Trentino,Italy,http://dbpedia.org/resource/Riva_del_Garda
+city,Roanoke,,USA,"http://dbpedia.org/resource/Roanoke,_Virgini"
+city,Roanoke,Virginia,USA,"http://dbpedia.org/resource/Roanoke,_Virgini"
+city,Rochester,Michigan,USA,"http://dbpedia.org/resource/Rochester,_Michigan"
+city,Rochester,New York,USA,"http://dbpedia.org/resource/Rochester,_New_York"
+city,Rockport,Massachusetts,USA,"http://dbpedia.org/resource/Rockport,_Massachusetts"
+city,Rome,,Italy,http://dbpedia.org/resource/Rome
+city,Rostock,,Germany,http://dbpedia.org/resource/Rostock
+city,Rotterdam,,Netherlands,http://dbpedia.org/resource/Rotterdam
+city,Rye,New York,USA,"http://dbpedia.org/resource/Rye,_New_York"
+city,Saarbrücken,,Germany,http://dbpedia.org/resource/Saarbrücken
+city,Sacramento,California,USA,"http://dbpedia.org/resource/Sacramento,_California"
+city,Saint Paul,Minnesota,USA,"http://dbpedia.org/resource/Saint_Paul,_Minnesota"
+city,Saint Petersburg,,Republics of Russia,http://dbpedia.org/resource/Saint_Petersburg
+city,Saint Petersburg,,Russia,http://dbpedia.org/resource/Saint_Petersburg
+city,Saint-Malo,,France,http://dbpedia.org/resource/Saint-Malo
+city,Salerno,,Italy,http://dbpedia.org/resource/Salerno
+city,Salt Lake City,,USA,http://dbpedia.org/resource/Salt_Lake_City
+city,Salt Lake City,Utah,USA,http://dbpedia.org/resource/Salt_Lake_City
+city,Salvador,,Brazil,"http://dbpedia.org/resource/Salvador,_Bahia"
+city,Salzburg,,Austria,http://dbpedia.org/resource/Salzburg
+city,San Antonio,,USA,http://dbpedia.org/resource/San_Antonio
+city,San Antonio,Texas,USA,http://dbpedia.org/resource/San_Antonio
+city,San Diego,,USA,http://dbpedia.org/resource/San_Diego
+city,San Diego,California,USA,http://dbpedia.org/resource/San_Diego
+city,San Francisco,,USA,http://dbpedia.org/resource/San_Francisco
+city,San Francisco,California,USA,http://dbpedia.org/resource/San_Francisco
+city,San Jose,,USA,"http://dbpedia.org/resource/San_Jose,_California"
+city,San Jose,California,USA,"http://dbpedia.org/resource/San_Jose,_California"
+city,San José,,Costa Rica,"http://dbpedia.org/resource/San_José,_Costa_Rica"
+city,San Juan,,Puerto Rico,"http://dbpedia.org/resource/San_Juan,_Puerto_Rico"
+city,San Juan,,USA,"http://dbpedia.org/resource/San_Juan,_Puerto_Rico"
+city,San Juan,Puerto Rico,USA,"http://dbpedia.org/resource/San_Juan,_Puerto_Rico"
+city,San Sebastian,,Spain,http://dbpedia.org/resource/San_Sebastián
+city,Sanibel,,USA,"http://dbpedia.org/resource/Sanibel,_Florida"
+city,Sanibel,Florida,USA,"http://dbpedia.org/resource/Sanibel,_Florida"
+city,Santa Barbara,,USA,"http://dbpedia.org/resource/Santa_Barbara,_California"
+city,Santa Barbara,California,USA,"http://dbpedia.org/resource/Santa_Barbara,_California"
+city,Santa Clara,,USA,"http://dbpedia.org/resource/Santa_Clara,_California"
+city,Santa Clara,California,USA,"http://dbpedia.org/resource/Santa_Clara,_California"
+city,Santa Cruz,,USA,"http://dbpedia.org/resource/Santa_Cruz,_California"
+city,Santa Cruz,California,USA,"http://dbpedia.org/resource/Santa_Cruz,_California"
+city,Santa Fe,,Argentina,"http://dbpedia.org/resource/Santa_Fe,_Argentina"
+city,Santa Fe,,USA,"http://dbpedia.org/resource/Santa_Fe,_New_Mexico"
+city,Santa Fe,New Mexico,USA,"http://dbpedia.org/resource/Santa_Fe,_New_Mexico"
+city,Santa Margherita Ligure,,Italy,http://dbpedia.org/resource/Santa_Margherita_Ligure
+city,Santa María Huatulco,,Mexico,http://dbpedia.org/resource/Santa_María_Huatulco
+city,Santa Monica,California,USA,"http://dbpedia.org/resource/Santa_Monica,_California"
+city,Santander,,Spain,"http://dbpedia.org/resource/Santander,_Spain"
+city,Santiago,,Chile,http://dbpedia.org/resource/Santiago
+city,Santiago,,USA,http://dbpedia.org/resource/Santiago
+city,Santiago de Compostela,,Spain,http://dbpedia.org/resource/Santiago_de_Compostela
+city,Santorini,,Greece,http://dbpedia.org/resource/Santorini
+city,Sanur,Bali,Indonesia,http://dbpedia.org/resource/Sanur
+city,Saragossa,,Spain,http://dbpedia.org/resource/Zaragoza
+city,Sardinia,,Italy,http://dbpedia.org/resource/Sardinia
+city,Savannah,,USA,"http://dbpedia.org/resource/Savannah,_Georgia"
+city,Savannah,Georgia,USA,"http://dbpedia.org/resource/Savannah,_Georgia"
+city,Schwarzenberg,,Austria,"http://dbpedia.org/resource/Schwarzenberg,_Austria"
+city,Scottsdale,,USA,"http://dbpedia.org/resource/Scottsdale,_Arizona"
+city,Scottsdale,Arizona,USA,"http://dbpedia.org/resource/Scottsdale,_Arizona"
+city,Seattle,,USA,http://dbpedia.org/resource/Seattle
+city,Seattle,Washington,USA,http://dbpedia.org/resource/Seattle
+city,Seoul,,Korea,http://dbpedia.org/resource/Seoul
+city,Seoul,,South Korea,http://dbpedia.org/resource/Seoul
+city,Seville,Andalusia,Spain,http://dbpedia.org/resource/Seville
+city,Shaker Heights,Ohio,USA,"http://dbpedia.org/resource/Shaker_Heights,_Ohio"
+city,Shanghai,,China,http://dbpedia.org/resource/Shanghai
+city,Sheffield,,UK,http://dbpedia.org/resource/Sheffield
+city,Shenzhen,,China,http://dbpedia.org/resource/Shenzhen
+city,Siem Reap,,Cambodia,http://dbpedia.org/resource/Siem_Reap
+city,Siena,,Italy,http://dbpedia.org/resource/Siena
+city,Singapore,,Singapore,http://dbpedia.org/resource/Singapore
+city,Skopje,,North Macedonia,http://dbpedia.org/resource/Skopje
+city,Skopje,,Republic of Macedonia,http://dbpedia.org/resource/Skopje
+city,Snowbird,,USA,"http://dbpedia.org/resource/Snowbird,_Utah"
+city,Snowbird,Utah,USA,"http://dbpedia.org/resource/Snowbird,_Utah"
+city,Sofia,,Bulgaria,http://dbpedia.org/resource/Sofia
+city,Songdo,,South Korea,http://dbpedia.org/resource/Songdo_International_Business_District
+city,Sophia Antipolis,,France,http://dbpedia.org/resource/Sophia_Antipolis
+city,Sorrento,,Italy,http://dbpedia.org/resource/Sorrento
+city,St Andrews,Scotland,England,http://dbpedia.org/resource/St_Andrews
+city,St Andrews,,Scotland,http://dbpedia.org/resource/St_Andrews
+city,St Andrews,Scotland,UK,http://dbpedia.org/resource/St_Andrews
+city,St. John's,Newfoundland and Labrador,Canada,"http://dbpedia.org/resource/St._John's,_Newfoundland_and_Labrador"
+city,St. Louis,,USA,http://dbpedia.org/resource/St._Louis
+city,St. Louis,Missouri,USA,http://dbpedia.org/resource/St._Louis
+city,St. Petersburg Beach,Florida,USA,"http://dbpedia.org/resource/St._Pete_Beach,_Florida"
+city,Stanford,California,USA,"http://dbpedia.org/resource/Stanford,_California"
+city,Stockholm,,Sweden,http://dbpedia.org/resource/Stockholm
+city,Sydney,,Australia,http://dbpedia.org/resource/Sydney
+city,Sydney,New South Wales,Australia,http://dbpedia.org/resource/Sydney
+city,Syracuse,,USA,"http://dbpedia.org/resource/Syracuse,_New_York"
+city,Szeged,,Hungary,http://dbpedia.org/resource/Szeged
+city,São José dos Campos,São Paulo,Brazil,http://dbpedia.org/resource/São_José_dos_Campos
+city,São Paulo,,Brazil,http://dbpedia.org/resource/São_Paulo
+city,São Paulo,São Paulo,Brazil,http://dbpedia.org/resource/São_Paulo
+city,São Pedro,São Paulo,Brazil,"http://dbpedia.org/resource/São_Pedro,_São_Paulo"
+city,Taipei,,Taiwan,http://dbpedia.org/resource/Taipei
+city,Tallinn,,Estonia,http://dbpedia.org/resource/Tallinn
+city,Tampa,Florida,USA,"http://dbpedia.org/resource/Tampa,_Florida"
+city,Tampere,,Finland,http://dbpedia.org/resource/Tampere
+city,Tangier,,Morocco,http://dbpedia.org/resource/Tangier
+city,Tbilisi,,Georgia,http://dbpedia.org/resource/Tbilisi
+city,Tbilisi,,Kingdom of Georgia,http://dbpedia.org/resource/Tbilisi
+city,Tel Aviv,,Israel,http://dbpedia.org/resource/Tel_Aviv
+city,Tempe,Arizona,USA,"http://dbpedia.org/resource/Tempe,_Arizona"
+city,Tenerife,,Spain,http://dbpedia.org/resource/Tenerife
+city,The Hague,,Netherlands,http://dbpedia.org/resource/The_Hague
+city,Thessaloniki,,Greece,http://dbpedia.org/resource/Thessaloniki
+city,Tokyo,,Japan,http://dbpedia.org/resource/Tokyo
+city,Toronto,,Canada,http://dbpedia.org/resource/Toronto
+city,Toronto,Ontario,Canada,http://dbpedia.org/resource/Toronto
+city,Torremolinos,,Spain,http://dbpedia.org/resource/Torremolinos
+city,Toulouse,,France,http://dbpedia.org/resource/Toulouse
+city,Toulouse,Occitanie,France,http://dbpedia.org/resource/Toulouse
+city,Trento,,Italy,http://dbpedia.org/resource/Trento
+city,Trieste,Friuli Venezia Giulia,Italy,http://dbpedia.org/resource/Trieste
+city,Tromsø,,Norway,http://dbpedia.org/resource/Tromsø
+city,Trondheim,,Norway,http://dbpedia.org/resource/Trondheim
+city,Tucson,,USA,"http://dbpedia.org/resource/Tucson,_Arizona"
+city,Tucson,Arizona,USA,"http://dbpedia.org/resource/Tucson,_Arizona"
+city,Turin,,Italy,http://dbpedia.org/resource/Turin
+city,Turin,Piedmont,Italy,http://dbpedia.org/resource/Turin
+city,Tübingen,Baden-Württemberg,Germany,http://dbpedia.org/resource/Tübingen
+city,Udine,,Italy,http://dbpedia.org/resource/Udine
+city,Ulm,,Germany,http://dbpedia.org/resource/Ulm
+city,Uppsala,,Sweden,http://dbpedia.org/resource/Uppsala
+city,Urbana,,USA,"http://dbpedia.org/resource/Urbana,_Illinois"
+city,Utrecht,,Netherlands,http://dbpedia.org/resource/Utrecht
+city,Vail,Colorado,USA,"http://dbpedia.org/resource/Vail,_Colorado"
+city,Valencia,,Spain,http://dbpedia.org/resource/Valencia
+city,Valencia,Valencian Community,Spain,http://dbpedia.org/resource/Valencia
+city,Vancouver,,Canada,http://dbpedia.org/resource/Vancouver
+city,Vancouver,British Columbia,Canada,http://dbpedia.org/resource/Vancouver
+city,Velen,,Germany,http://dbpedia.org/resource/Velen
+city,Venice,,Italy,http://dbpedia.org/resource/Venice
+city,Verona,,Italy,http://dbpedia.org/resource/Verona
+city,Victoria,British Columbia,Canada,"http://dbpedia.org/resource/Victoria,_British_Columbia"
+city,Vienna,,Austria,http://dbpedia.org/resource/Vienna
+city,Vienna,Virginia,USA,"http://dbpedia.org/resource/Vienna,_Virginia"
+city,Villeneuve-d'Ascq,,France,http://dbpedia.org/resource/Villeneuve-d'Ascq
+city,Vilnius,,Lithuania,http://dbpedia.org/resource/Vilnius
+city,Vitória,,Brazil,"http://dbpedia.org/resource/Vitória,_Espírito_Santo"
+city,Västerås,,Sweden,http://dbpedia.org/resource/Västerås
+city,Waltham,,USA,"http://dbpedia.org/resource/Waltham,_Massachusetts"
+city,Warsaw,,Poland,http://dbpedia.org/resource/Warsaw
+city,Warwick,,UK,http://dbpedia.org/resource/Warwick
+city,"Washington, D.C.",,Canada,"http://dbpedia.org/resource/Washington,_D.C."
+city,"Washington, D.C.",,USA,"http://dbpedia.org/resource/Washington,_D.C."
+city,"Washington, D.C.",Washington,USA,"http://dbpedia.org/resource/Washington,_D.C."
+city,Waterloo,Ontario,Canada,"http://dbpedia.org/resource/Waterloo,_Ontario"
+city,West Berlin,,Germany,http://dbpedia.org/resource/West_Berlin
+city,Whistler,,Canada,"http://dbpedia.org/resource/Whistler,_British_Columbia"
+city,White Plains,New York,USA,"http://dbpedia.org/resource/White_Plains,_New_York"
+city,Williamsburg,,USA,"http://dbpedia.org/resource/Williamsburg,_Virginia"
+city,Williamsburg,Virginia,USA,"http://dbpedia.org/resource/Williamsburg,_Virginia"
+city,Windsor,Ontario,Canada,"http://dbpedia.org/resource/Windsor,_Ontario"
+city,Winnipeg,Manitoba,Canada,http://dbpedia.org/resource/Winnipeg
+city,Wrocław,,Poland,http://dbpedia.org/resource/Wrocław
+city,Wuhan,Hubei,China,http://dbpedia.org/resource/Wuhan
+city,Würzburg,,Germany,http://dbpedia.org/resource/Würzburg
+city,Xi'an,,China,http://dbpedia.org/resource/Xi'an
+city,Yokohama,,Japan,http://dbpedia.org/resource/Yokohama
+city,Yokohama,Kanagawa,Japan,http://dbpedia.org/resource/Yokohama
+city,York,,UK,http://dbpedia.org/resource/York
+city,Yorktown Heights,New York,USA,"http://dbpedia.org/resource/Yorktown_Heights,_New_York"
+city,Zürich,,Germany,http://dbpedia.org/resource/Zürich
+city,Zürich,,Switzerland,http://dbpedia.org/resource/Zürich
+state,Vermont,,USA,http://dbpedia.org/resource/Vermont
