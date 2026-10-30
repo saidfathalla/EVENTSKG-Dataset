@@ -20,23 +20,23 @@ eventskg: a void:Dataset,
     dcterms:description "EVENTSKG release 3.0: metadata of 2531 events of 75 top-ranked computer-science event series (1969-2026): dates, location, homepage, submitted/accepted papers and acceptance rate, research field, publisher and sponsor."@en ;
     dcterms:issued "2026-10-28"^^xsd:date ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-10-28"^^xsd:date ;
+    dcterms:modified "2026-10-30"^^xsd:date ;
     dcterms:title "EVENTSKG, Scientific Events Knowledge Graph."@en ;
     vann:preferredNamespacePrefix "eventskg" ;
     vann:preferredNamespaceUri "http://w3id.org/EVENTSKG-Dataset/ekg#" ;
-    void:classes 27 ;
-    void:distinctObjects 14228 ;
-    void:distinctSubjects 3287 ;
-    void:entities 3287 ;
+    void:classes 13 ;
+    void:distinctObjects 12905 ;
+    void:distinctSubjects 2631 ;
+    void:entities 2631 ;
     void:feature <http://www.w3.org/ns/formats/JSON-LD>,
         <http://www.w3.org/ns/formats/N-Triples>,
         <http://www.w3.org/ns/formats/N3>,
         <http://www.w3.org/ns/formats/RDF_XML>,
         <http://www.w3.org/ns/formats/Turtle> ;
-    void:properties 41 ;
-    void:triples 44059 ;
+    void:properties 40 ;
+    void:triples 41995 ;
     owl:versionInfo "3.0" ;
-    prov:wasRevisionOf <https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/EVENTSKG.ttl> .
+    prov:wasRevisionOf <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.ttl> .
 
 eventskg:AAAI1980 a owl:NamedIndividual,
         conference-ontology:Conference ;
@@ -2331,7 +2331,7 @@ eventskg:AISTATS2001 a owl:NamedIndividual,
     conference-ontology:title "8th International Workshop on Artificial Intelligence and Statistics" ;
     seo:ResearchField seo:ArtificialIntelligence ;
     seo:belongsToSeries eventskg:AISTATS ;
-    seo:city <http://dbpedia.org/resource/Key_West> ;
+    seo:city <http://dbpedia.org/resource/Key_West,_Florida> ;
     seo:eventWebsite "http://www.gatsby.ucl.ac.uk/aistats/aistats2001/index.html" ;
     seo:hasPublisher "Morgan Kaufmann" ;
     seo:hasSponsor "STATS" ;
@@ -2349,7 +2349,7 @@ eventskg:AISTATS2003 a owl:NamedIndividual,
     seo:acceptanceRate 0.3925 ;
     seo:acceptedPapers 42 ;
     seo:belongsToSeries eventskg:AISTATS ;
-    seo:city <http://dbpedia.org/resource/Key_West> ;
+    seo:city <http://dbpedia.org/resource/Key_West,_Florida> ;
     seo:eventWebsite "https://dblp.org/db/conf/aistats/aistats2003" ;
     seo:hasPublisher "PMLR" ;
     seo:hasSponsor "STATS" ;
@@ -2495,7 +2495,7 @@ eventskg:AISTATS2014 a owl:NamedIndividual,
     seo:acceptanceRate 0.3582 ;
     seo:acceptedPapers 120 ;
     seo:belongsToSeries eventskg:AISTATS ;
-    seo:city <http://dbpedia.org/resource/Reykjavík> ;
+    seo:city <http://dbpedia.org/resource/Reykjavik> ;
     seo:eventWebsite "https://www.aistats.org/aistats2014/" ;
     seo:hasPublisher "PMLR" ;
     seo:hasSponsor "SAISTATS" ;
@@ -2699,7 +2699,7 @@ eventskg:AISTATS2025 a owl:NamedIndividual,
     seo:acceptanceRate 0.3133 ;
     seo:acceptedPapers 583 ;
     seo:belongsToSeries eventskg:AISTATS ;
-    seo:city <http://dbpedia.org/resource/Phuket_province> ;
+    seo:city <http://dbpedia.org/resource/Phuket> ;
     seo:eventWebsite "https://aistats.org/aistats2025/" ;
     seo:hasPublisher "PMLR" ;
     seo:hasSponsor "SAISTATS" ;
@@ -4678,7 +4678,7 @@ eventskg:CCS1997 a owl:NamedIndividual,
     seo:acceptanceRate 0.2656 ;
     seo:acceptedPapers 17 ;
     seo:belongsToSeries eventskg:CCS ;
-    seo:city <http://dbpedia.org/resource/Zurich> ;
+    seo:city <http://dbpedia.org/resource/Zürich> ;
     seo:eventTitle "Conference on Computer and Communications Security" ;
     seo:eventWebsite "http://sigsac.org/ccs.html" ;
     seo:hasPublisher "ACM" ;
@@ -5079,7 +5079,7 @@ eventskg:CCS2018 a owl:NamedIndividual,
     seo:acceptanceRate 0.1656 ;
     seo:acceptedPapers 134 ;
     seo:belongsToSeries eventskg:CCS ;
-    seo:city <http://dbpedia.org/resource/Songdo> ;
+    seo:city <http://dbpedia.org/resource/Songdo_International_Business_District> ;
     seo:eventTitle "Conference on Computer and Communications Security" ;
     seo:eventWebsite "http://asiaccs2018.org/" ;
     seo:hasPublisher "ACM" ;
@@ -10375,7 +10375,7 @@ eventskg:ECCV2014 a owl:NamedIndividual,
     seo:acceptanceRate 0.2514 ;
     seo:acceptedPapers 363 ;
     seo:belongsToSeries eventskg:ECCV ;
-    seo:city <http://dbpedia.org/resource/Zurich> ;
+    seo:city <http://dbpedia.org/resource/Zürich> ;
     seo:eventWebsite "http://eccv2014.org/" ;
     seo:hasPublisher "Springer" ;
     seo:hasSponsor "Google" ;
@@ -11751,7 +11751,7 @@ eventskg:ESORICS2002 a owl:NamedIndividual,
     seo:acceptanceRate 0.2289 ;
     seo:acceptedPapers 19 ;
     seo:belongsToSeries eventskg:ESORICS ;
-    seo:city <http://dbpedia.org/resource/Zurich> ;
+    seo:city <http://dbpedia.org/resource/Zürich> ;
     seo:eventWebsite "https://link.springer.com/conference/esorics" ;
     seo:hasPublisher "Springer" ;
     seo:heldInCountry <http://dbpedia.org/resource/Switzerland> ;
@@ -12403,7 +12403,7 @@ eventskg:ESWC2016 a owl:NamedIndividual,
     seo:acceptanceRate 0.2304 ;
     seo:acceptedPapers 47 ;
     seo:belongsToSeries eventskg:ESWC ;
-    seo:city <http://dbpedia.org/resource/Hersonissos> ;
+    seo:city <http://dbpedia.org/resource/Anissaras> ;
     seo:eventWebsite "http://2016.eswc-conferences.org/" ;
     seo:hasPublisher "Springer" ;
     seo:hasSponsor "IOS" ;
@@ -12799,7 +12799,7 @@ eventskg:EUROGP2009 a owl:NamedIndividual,
 eventskg:EUROGP2010 a owl:NamedIndividual,
         conference-ontology:Conference ;
     rdfs:label "EuroGp 2010" ;
-    dbpedia-owl:state <http://dbpedia.org/resource/Marmara_region> ;
+    dbpedia-owl:state <http://dbpedia.org/resource/Marmara_Region> ;
     conference-ontology:acronym "EuroGp 2010" ;
     conference-ontology:endDate "2010-04-09T00:00:00+00:00"^^xsd:dateTime ;
     conference-ontology:startDate "2010-04-07T00:00:00+00:00"^^xsd:dateTime ;
@@ -13824,7 +13824,7 @@ eventskg:EuroCrypt2024 a owl:NamedIndividual,
     seo:acceptanceRate 0.2178 ;
     seo:acceptedPapers 105 ;
     seo:belongsToSeries eventskg:EuroCrypt ;
-    seo:city <http://dbpedia.org/resource/Zurich> ;
+    seo:city <http://dbpedia.org/resource/Zürich> ;
     seo:eventWebsite "https://eurocrypt.iacr.org/2024/" ;
     seo:hasPublisher "Springer" ;
     seo:heldInCountry <http://dbpedia.org/resource/Switzerland> ;
@@ -15511,7 +15511,7 @@ eventskg:FOGA2005 a owl:NamedIndividual,
     seo:ResearchField seo:ArtificialIntelligence ;
     seo:acceptedPapers 23 ;
     seo:belongsToSeries eventskg:FOGA ;
-    seo:city <http://dbpedia.org/resource/Aizuwakamatsu> ;
+    seo:city <http://dbpedia.org/resource/Aizu-Wakamatsu> ;
     seo:eventWebsite "http://dblp.uni-trier.de/db/conf/foga/foga2005.html" ;
     seo:hasPublisher "Springer" ;
     seo:hasSponsor "Sigevo" ;
@@ -15775,7 +15775,7 @@ eventskg:FSE1997 a owl:NamedIndividual,
     seo:acceptanceRate 0.1392 ;
     seo:acceptedPapers 27 ;
     seo:belongsToSeries eventskg:FSE ;
-    seo:city <http://dbpedia.org/resource/Zurich> ;
+    seo:city <http://dbpedia.org/resource/Zürich> ;
     seo:eventWebsite "https://link.springer.com/book/10.1007/3-540-63531-9" ;
     seo:hasPublisher "Springer" ;
     seo:heldInCountry <http://dbpedia.org/resource/Switzerland> ;
@@ -18248,7 +18248,7 @@ eventskg:ICFP2016 a owl:NamedIndividual,
     seo:acceptanceRate 0.3136 ;
     seo:acceptedPapers 37 ;
     seo:belongsToSeries eventskg:ICFP ;
-    seo:city <http://dbpedia.org/resource/Nara_(city)> ;
+    seo:city <http://dbpedia.org/resource/Nara,_Nara> ;
     seo:eventWebsite "https://conf.researchr.org/home/icfp-2016" ;
     seo:hasPublisher "ACM" ;
     seo:hasSponsor "Ahrefs" ;
@@ -19911,7 +19911,7 @@ eventskg:ICSE2012 a owl:NamedIndividual,
     seo:acceptanceRate 0.2132 ;
     seo:acceptedPapers 87 ;
     seo:belongsToSeries eventskg:ICSE ;
-    seo:city <http://dbpedia.org/resource/Zurich> ;
+    seo:city <http://dbpedia.org/resource/Zürich> ;
     seo:eventWebsite "http://files.ifi.uzh.ch/icseweb/" ;
     seo:hasPublisher "ACM" ;
     seo:hasSponsor "NSF" ;
@@ -22918,7 +22918,7 @@ eventskg:ISMAR2007 a owl:NamedIndividual,
     seo:acceptanceRate 0.4132 ;
     seo:acceptedPapers 50 ;
     seo:belongsToSeries eventskg:ISMAR ;
-    seo:city <http://dbpedia.org/resource/Nara_(city)> ;
+    seo:city <http://dbpedia.org/resource/Nara,_Nara> ;
     seo:eventWebsite "http://ismar2007.vgtc.org/" ;
     seo:hasPublisher "IEEE" ;
     seo:heldInCountry <http://dbpedia.org/resource/Japan> ;
@@ -23382,7 +23382,7 @@ eventskg:ISSAC1996 a owl:NamedIndividual,
     seo:acceptanceRate 0.3388 ;
     seo:acceptedPapers 41 ;
     seo:belongsToSeries eventskg:ISSAC ;
-    seo:city <http://dbpedia.org/resource/Zurich> ;
+    seo:city <http://dbpedia.org/resource/Zürich> ;
     seo:eventWebsite "http://dblp2.uni-trier.de/db/conf/issac/issac96.html" ;
     seo:hasPublisher "ACM" ;
     seo:heldInCountry <http://dbpedia.org/resource/Switzerland> ;
@@ -24335,7 +24335,7 @@ eventskg:ISWC2025 a owl:NamedIndividual,
     seo:acceptanceRate 0.2166 ;
     seo:acceptedPapers 60 ;
     seo:belongsToSeries eventskg:ISWC ;
-    seo:city <http://dbpedia.org/resource/Nara_(city)> ;
+    seo:city <http://dbpedia.org/resource/Nara,_Nara> ;
     seo:eventWebsite "https://iswc2025.semanticweb.org/" ;
     seo:hasPublisher "Springer" ;
     seo:heldInCountry <http://dbpedia.org/resource/Japan> ;
@@ -29035,7 +29035,7 @@ eventskg:PERCOM2017 a owl:NamedIndividual,
     seo:acceptanceRate 0.1649 ;
     seo:acceptedPapers 32 ;
     seo:belongsToSeries eventskg:PERCOM ;
-    seo:city <http://dbpedia.org/resource/Kailua-Kona,_Hawaii> ;
+    seo:city <http://dbpedia.org/resource/Kailua,_Hawaii_County,_Hawaii> ;
     seo:eventWebsite "http://www.percom.org/Previous/ST2017/" ;
     seo:hasPublisher "IEEE" ;
     seo:hasSponsor "NSF" ;
@@ -30558,7 +30558,7 @@ eventskg:PODC1985 a owl:NamedIndividual,
     seo:acceptanceRate 0.2500 ;
     seo:acceptedPapers 17 ;
     seo:belongsToSeries eventskg:PODC ;
-    seo:city <http://dbpedia.org/resource/Minaki> ;
+    seo:city <http://dbpedia.org/resource/Minaki,_Ontario> ;
     seo:eventWebsite "http://dblp2.uni-trier.de/db/conf/podc/podc85.html" ;
     seo:hasPublisher "ACM" ;
     seo:heldInCountry <http://dbpedia.org/resource/Canada> ;
@@ -31006,7 +31006,7 @@ eventskg:PODC2010 a owl:NamedIndividual,
     seo:acceptanceRate 0.2179 ;
     seo:acceptedPapers 39 ;
     seo:belongsToSeries eventskg:PODC ;
-    seo:city <http://dbpedia.org/resource/Zurich> ;
+    seo:city <http://dbpedia.org/resource/Zürich> ;
     seo:eventWebsite "http://www.podc.org/podc2010/" ;
     seo:hasPublisher "ACM" ;
     seo:hasSponsor "Google" ;
@@ -31098,7 +31098,7 @@ eventskg:PODC2015 a owl:NamedIndividual,
     seo:acceptanceRate 0.2356 ;
     seo:acceptedPapers 45 ;
     seo:belongsToSeries eventskg:PODC ;
-    seo:city <http://dbpedia.org/resource/San_Sebastián> ;
+    seo:city <http://dbpedia.org/resource/Donostia-San_Sebastián> ;
     seo:eventWebsite "http://www.podc.org/podc2015/" ;
     seo:hasPublisher "ACM" ;
     seo:hasSponsor "ACM" ;
@@ -34952,7 +34952,7 @@ eventskg:SIGIR1996 a owl:NamedIndividual,
     seo:ResearchField seo:InformationSystems ;
     seo:acceptedPapers 46 ;
     seo:belongsToSeries eventskg:SIGIR ;
-    seo:city <http://dbpedia.org/resource/Zurich> ;
+    seo:city <http://dbpedia.org/resource/Zürich> ;
     seo:eventWebsite "https://dl.acm.org/citation.cfm?id=243199&picked=prox" ;
     seo:hasPublisher "ACM" ;
     seo:heldInCountry <http://dbpedia.org/resource/Switzerland> .
@@ -40467,7 +40467,7 @@ eventskg:UBICOMP2013 a owl:NamedIndividual,
     seo:acceptanceRate 0.2335 ;
     seo:acceptedPapers 92 ;
     seo:belongsToSeries eventskg:UBICOMP ;
-    seo:city <http://dbpedia.org/resource/Zurich> ;
+    seo:city <http://dbpedia.org/resource/Zürich> ;
     seo:eventWebsite "http://www.ubicomp.org/ubicomp2013/" ;
     seo:hasPublisher "ACM" ;
     seo:hasSponsor "Google" ;
@@ -42298,7 +42298,7 @@ eventskg:VLDB1995 a owl:NamedIndividual,
     seo:acceptanceRate 0.1751 ;
     seo:acceptedPapers 52 ;
     seo:belongsToSeries eventskg:VLDB ;
-    seo:city <http://dbpedia.org/resource/Zurich> ;
+    seo:city <http://dbpedia.org/resource/Zürich> ;
     seo:eventWebsite "http://www.vldb.org/archives/website/1995/" ;
     seo:hasPublisher "ACM" ;
     seo:heldInCountry <http://dbpedia.org/resource/Switzerland> ;
@@ -42954,7 +42954,7 @@ eventskg:VR2000 a owl:NamedIndividual,
 eventskg:VR2001 a owl:NamedIndividual,
         conference-ontology:Conference ;
     rdfs:label "IEEE VR 2001" ;
-    dbpedia-owl:state <http://dbpedia.org/resource/Kanagawa_Prefecture> ;
+    dbpedia-owl:state <http://dbpedia.org/resource/Kanagawa> ;
     conference-ontology:acronym "IEEE VR 2001" ;
     conference-ontology:endDate "2001-03-17T00:00:00+00:00"^^xsd:dateTime ;
     conference-ontology:startDate "2001-03-13T00:00:00+00:00"^^xsd:dateTime ;
@@ -43754,1207 +43754,6 @@ eventskg:WSDM2026 a owl:NamedIndividual,
     seo:heldInCountry <http://dbpedia.org/resource/United_States> ;
     seo:submittedPapers 613 .
 
-<http://dbpedia.org/resource/Aalborg> a dbpedia-owl:Settlement ;
-    rdfs:label "Aalborg"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q25410> .
-
-<http://dbpedia.org/resource/Acapulco> a dbpedia-owl:Settlement ;
-    rdfs:label "Acapulco"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q81398> .
-
-<http://dbpedia.org/resource/Aix-en-Provence> a dbpedia-owl:Settlement ;
-    rdfs:label "Aix-en-Provence"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q47465> .
-
-<http://dbpedia.org/resource/Aizuwakamatsu> a dbpedia-owl:Settlement ;
-    rdfs:label "Aizuwakamatsu"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q237699> .
-
-<http://dbpedia.org/resource/Alicante> a dbpedia-owl:Settlement ;
-    rdfs:label "Alicante"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q11959> .
-
-<http://dbpedia.org/resource/Amherst,_Massachusetts> a dbpedia-owl:Settlement ;
-    rdfs:label "Amherst, Massachusetts"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q49164> .
-
-<http://dbpedia.org/resource/Antibes> a dbpedia-owl:Settlement ;
-    rdfs:label "Antibes"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q126898> .
-
-<http://dbpedia.org/resource/Arles> a dbpedia-owl:Settlement ;
-    rdfs:label "Arles"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q48292> .
-
-<http://dbpedia.org/resource/Arlington_County,_Virginia> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Location ;
-    rdfs:label "Arlington County, Virginia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q107126> .
-
-<http://dbpedia.org/resource/Asheville,_North_Carolina> a dbpedia-owl:Settlement ;
-    rdfs:label "Asheville, North Carolina"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q648501> .
-
-<http://dbpedia.org/resource/Athens,_Georgia> a dbpedia-owl:Settlement ;
-    rdfs:label "Athens, Georgia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q203263> .
-
-<http://dbpedia.org/resource/Avignon> a dbpedia-owl:Settlement ;
-    rdfs:label "Avignon"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q6397> .
-
-<http://dbpedia.org/resource/Baden-Württemberg> a dbpedia-owl:Location,
-        dbpedia-owl:Settlement ;
-    rdfs:label "Baden-Württemberg"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q985> .
-
-<http://dbpedia.org/resource/Balatonfüred> a dbpedia-owl:Settlement ;
-    rdfs:label "Balatonfüred"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q680743> .
-
-<http://dbpedia.org/resource/Bali> a dbpedia-owl:Location,
-        dbpedia-owl:Settlement ;
-    rdfs:label "Bali"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3125978> .
-
-<http://dbpedia.org/resource/Bar_Harbor,_Maine> a dbpedia-owl:Settlement ;
-    rdfs:label "Bar Harbor, Maine"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1672375> .
-
-<http://dbpedia.org/resource/Basel> a dbpedia-owl:Settlement ;
-    rdfs:label "Basel"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q78> .
-
-<http://dbpedia.org/resource/Bath,_Somerset> a dbpedia-owl:Settlement ;
-    rdfs:label "Bath, Somerset"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q22889> .
-
-<http://dbpedia.org/resource/Belgrade> a dbpedia-owl:Settlement ;
-    rdfs:label "Belgrade"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3711> .
-
-<http://dbpedia.org/resource/Belo_Horizonte> a dbpedia-owl:Settlement ;
-    rdfs:label "Belo Horizonte"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q42800> .
-
-<http://dbpedia.org/resource/Bend,_Oregon> a dbpedia-owl:Settlement ;
-    rdfs:label "Bend, Oregon"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q671288> .
-
-<http://dbpedia.org/resource/Bergamo> a dbpedia-owl:Settlement ;
-    rdfs:label "Bergamo"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q628> .
-
-<http://dbpedia.org/resource/Bern> a dbpedia-owl:Settlement ;
-    rdfs:label "Bern"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q70> .
-
-<http://dbpedia.org/resource/Bertinoro> a dbpedia-owl:Settlement ;
-    rdfs:label "Bertinoro"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q99934> .
-
-<http://dbpedia.org/resource/Bethlehem,_Pennsylvania> a dbpedia-owl:Settlement ;
-    rdfs:label "Bethlehem, Pennsylvania"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q164380> .
-
-<http://dbpedia.org/resource/Bled> a dbpedia-owl:Settlement ;
-    rdfs:label "Bled"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q202852> .
-
-<http://dbpedia.org/resource/Bloomington,_Indiana> a dbpedia-owl:Settlement ;
-    rdfs:label "Bloomington, Indiana"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q490385> .
-
-<http://dbpedia.org/resource/Boise,_Idaho> a dbpedia-owl:Settlement ;
-    rdfs:label "Boise, Idaho"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q35775> .
-
-<http://dbpedia.org/resource/Bonito,_Mato_Grosso_do_Sul> a dbpedia-owl:Settlement ;
-    rdfs:label "Bonito, Mato Grosso do Sul"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q768535> .
-
-<http://dbpedia.org/resource/Bowling_Green,_Ohio> a dbpedia-owl:Settlement ;
-    rdfs:label "Bowling Green, Ohio"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q895459> .
-
-<http://dbpedia.org/resource/Braga> a dbpedia-owl:Settlement ;
-    rdfs:label "Braga"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q83247> .
-
-<http://dbpedia.org/resource/Breckenridge,_Colorado> a dbpedia-owl:Settlement ;
-    rdfs:label "Breckenridge, Colorado"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q904354> .
-
-<http://dbpedia.org/resource/Brno> a dbpedia-owl:Settlement ;
-    rdfs:label "Brno"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q14960> .
-
-<http://dbpedia.org/resource/Broomfield,_Colorado> a dbpedia-owl:Settlement ;
-    rdfs:label "Broomfield, Colorado"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q492819> .
-
-<http://dbpedia.org/resource/Bruges> a dbpedia-owl:Settlement ;
-    rdfs:label "Bruges"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q12994> .
-
-<http://dbpedia.org/resource/Budva> a dbpedia-owl:Settlement ;
-    rdfs:label "Budva"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q174237> .
-
-<http://dbpedia.org/resource/Buffalo,_New_York> a dbpedia-owl:Settlement ;
-    rdfs:label "Buffalo, New York"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q40435> .
-
-<http://dbpedia.org/resource/Bulgaria> a dbpedia-owl:Country ;
-    rdfs:label "Bulgaria"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q219> .
-
-<http://dbpedia.org/resource/Burlingame,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Burlingame, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q986867> .
-
-<http://dbpedia.org/resource/Burlington,_Vermont> a dbpedia-owl:Settlement ;
-    rdfs:label "Burlington, Vermont"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q31058> .
-
-<http://dbpedia.org/resource/Bydgoszcz> a dbpedia-owl:Settlement ;
-    rdfs:label "Bydgoszcz"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q41252> .
-
-<http://dbpedia.org/resource/Cairo> a dbpedia-owl:Settlement ;
-    rdfs:label "Cairo"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q85> .
-
-<http://dbpedia.org/resource/Cambodia> a dbpedia-owl:Country ;
-    rdfs:label "Cambodia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q424> .
-
-<http://dbpedia.org/resource/Campania> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Campania"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1438> .
-
-<http://dbpedia.org/resource/Campinas> a dbpedia-owl:Settlement ;
-    rdfs:label "Campinas"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q171617> .
-
-<http://dbpedia.org/resource/Campos_do_Jordão> a dbpedia-owl:Settlement ;
-    rdfs:label "Campos do Jordão"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q851253> .
-
-<http://dbpedia.org/resource/Cancún> a dbpedia-owl:Settlement ;
-    rdfs:label "Cancún"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q8969> .
-
-<http://dbpedia.org/resource/Canela,_Rio_Grande_do_Sul> a dbpedia-owl:Settlement ;
-    rdfs:label "Canela, Rio Grande do Sul"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q995318> .
-
-<http://dbpedia.org/resource/Cape_May,_New_Jersey> a dbpedia-owl:Settlement ;
-    rdfs:label "Cape May, New Jersey"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q138548> .
-
-<http://dbpedia.org/resource/Capital_Region_of_Denmark> a dbpedia-owl:AdministrativeRegion ;
-    rdfs:label "Capital Region of Denmark"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q26073> .
-
-<http://dbpedia.org/resource/Cary,_North_Carolina> a dbpedia-owl:Settlement ;
-    rdfs:label "Cary, North Carolina"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q852665> .
-
-<http://dbpedia.org/resource/Cascais> a dbpedia-owl:Settlement ;
-    rdfs:label "Cascais"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q273059> .
-
-<http://dbpedia.org/resource/Caxambu> a dbpedia-owl:Settlement ;
-    rdfs:label "Caxambu"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q829417> .
-
-<http://dbpedia.org/resource/Central_Hungary> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Central Hungary"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q852742> .
-
-<http://dbpedia.org/resource/Cernay-la-Ville> a dbpedia-owl:Settlement ;
-    rdfs:label "Cernay-la-Ville"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q272066> .
-
-<http://dbpedia.org/resource/Chambéry> a dbpedia-owl:Settlement ;
-    rdfs:label "Chambéry"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q165090> .
-
-<http://dbpedia.org/resource/Changsha> a dbpedia-owl:Settlement ;
-    rdfs:label "Changsha"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q174091> .
-
-<http://dbpedia.org/resource/Chantilly,_Virginia> a dbpedia-owl:Settlement ;
-    rdfs:label "Chantilly, Virginia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q328451> .
-
-<http://dbpedia.org/resource/Charlottesville,_Virginia> a dbpedia-owl:Settlement ;
-    rdfs:label "Charlottesville, Virginia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q123766> .
-
-<http://dbpedia.org/resource/Chiba_(city)> a dbpedia-owl:Settlement ;
-    rdfs:label "Chiba (city)"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q170616> .
-
-<http://dbpedia.org/resource/Christchurch> a dbpedia-owl:Settlement ;
-    rdfs:label "Christchurch"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q79990> .
-
-<http://dbpedia.org/resource/Clearwater,_Florida> a dbpedia-owl:Settlement ;
-    rdfs:label "Clearwater, Florida"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q244146> .
-
-<http://dbpedia.org/resource/Cocoa_Beach,_Florida> a dbpedia-owl:Settlement ;
-    rdfs:label "Cocoa Beach, Florida"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q852653> .
-
-<http://dbpedia.org/resource/Colchester> a dbpedia-owl:Settlement ;
-    rdfs:label "Colchester"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q184163> .
-
-<http://dbpedia.org/resource/College_Park,_Maryland> a dbpedia-owl:Settlement ;
-    rdfs:label "College Park, Maryland"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q668676> .
-
-<http://dbpedia.org/resource/Colorado_Springs,_Colorado> a dbpedia-owl:Settlement ;
-    rdfs:label "Colorado Springs, Colorado"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q49258> .
-
-<http://dbpedia.org/resource/Community_of_Madrid> a dbpedia-owl:Location,
-        dbpedia-owl:Village ;
-    rdfs:label "Community of Madrid"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q5756> .
-
-<http://dbpedia.org/resource/Corfu> a dbpedia-owl:Island,
-        dbpedia-owl:Location ;
-    rdfs:label "Corfu"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q121378> .
-
-<http://dbpedia.org/resource/Cork> a dbpedia-owl:Settlement ;
-    rdfs:label "Cork"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q347404> .
-
-<http://dbpedia.org/resource/Costa_Rica> a dbpedia-owl:Country ;
-    rdfs:label "Costa Rica"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q800> .
-
-<http://dbpedia.org/resource/Cádiz> a dbpedia-owl:Settlement ;
-    rdfs:label "Cádiz"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q15682> .
-
-<http://dbpedia.org/resource/Davos> a dbpedia-owl:Settlement ;
-    rdfs:label "Davos"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q68097> .
-
-<http://dbpedia.org/resource/DeKalb,_Illinois> a dbpedia-owl:Settlement ;
-    rdfs:label "DeKalb, Illinois"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q580478> .
-
-<http://dbpedia.org/resource/Delft> a dbpedia-owl:Settlement ;
-    rdfs:label "Delft"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q690> .
-
-<http://dbpedia.org/resource/Delhi> a dbpedia-owl:City,
-        dbpedia-owl:Location ;
-    rdfs:label "Delhi"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1353> .
-
-<http://dbpedia.org/resource/Denton,_Texas> a dbpedia-owl:Settlement ;
-    rdfs:label "Denton, Texas"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q128306> .
-
-<http://dbpedia.org/resource/Desenzano_del_Garda> a dbpedia-owl:Settlement ;
-    rdfs:label "Desenzano del Garda"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q104577> .
-
-<http://dbpedia.org/resource/Doha> a dbpedia-owl:Settlement ;
-    rdfs:label "Doha"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3861> .
-
-<http://dbpedia.org/resource/Dornbirn> a dbpedia-owl:Settlement ;
-    rdfs:label "Dornbirn"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q171219> .
-
-<http://dbpedia.org/resource/Dubai> a dbpedia-owl:Settlement ;
-    rdfs:label "Dubai"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q612> .
-
-<http://dbpedia.org/resource/Dunedin> a dbpedia-owl:Settlement ;
-    rdfs:label "Dunedin"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q133073> .
-
-<http://dbpedia.org/resource/Ebermannstadt> a dbpedia-owl:Settlement ;
-    rdfs:label "Ebermannstadt"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q504585> .
-
-<http://dbpedia.org/resource/Egypt> a dbpedia-owl:Country ;
-    rdfs:label "Egypt"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q79> .
-
-<http://dbpedia.org/resource/El_Paso,_Texas> a dbpedia-owl:Settlement ;
-    rdfs:label "El Paso, Texas"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q16562> .
-
-<http://dbpedia.org/resource/Emilia-Romagna> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Emilia-Romagna"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1263> .
-
-<http://dbpedia.org/resource/Enschede> a dbpedia-owl:Settlement ;
-    rdfs:label "Enschede"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q10002> .
-
-<http://dbpedia.org/resource/Essen> a dbpedia-owl:Settlement ;
-    rdfs:label "Essen"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2066> .
-
-<http://dbpedia.org/resource/Estes_Park,_Colorado> a dbpedia-owl:Settlement ;
-    rdfs:label "Estes Park, Colorado"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1010533> .
-
-<http://dbpedia.org/resource/Eugene,_Oregon> a dbpedia-owl:Settlement ;
-    rdfs:label "Eugene, Oregon"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q171224> .
-
-<http://dbpedia.org/resource/Fort_Collins,_Colorado> a dbpedia-owl:Settlement ;
-    rdfs:label "Fort Collins, Colorado"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q490732> .
-
-<http://dbpedia.org/resource/Fort_Worth,_Texas> a dbpedia-owl:Settlement ;
-    rdfs:label "Fort Worth, Texas"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q16558> .
-
-<http://dbpedia.org/resource/Foster,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Foster, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q5473579> .
-
-<http://dbpedia.org/resource/Foz_do_Iguaçu> a dbpedia-owl:Settlement ;
-    rdfs:label "Foz do Iguaçu"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q202316> .
-
-<http://dbpedia.org/resource/Framingham,_Massachusetts> a dbpedia-owl:Settlement ;
-    rdfs:label "Framingham, Massachusetts"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q988568> .
-
-<http://dbpedia.org/resource/French_Riviera> a dbpedia-owl:Settlement ;
-    rdfs:label "French Riviera"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q182822> .
-
-<http://dbpedia.org/resource/Fukuoka> a dbpedia-owl:Settlement ;
-    rdfs:label "Fukuoka"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q26600> .
-
-<http://dbpedia.org/resource/Gaithersburg,_Maryland> a dbpedia-owl:Settlement ;
-    rdfs:label "Gaithersburg, Maryland"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q752719> .
-
-<http://dbpedia.org/resource/Galveston,_Texas> a dbpedia-owl:Settlement ;
-    rdfs:label "Galveston, Texas"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q135744> .
-
-<http://dbpedia.org/resource/Galway> a dbpedia-owl:Settlement ;
-    rdfs:label "Galway"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q129610> .
-
-<http://dbpedia.org/resource/Georgia_(country)> a dbpedia-owl:Country ;
-    rdfs:label "Georgia (country)"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q230> .
-
-<http://dbpedia.org/resource/Ghent> a dbpedia-owl:Settlement ;
-    rdfs:label "Ghent"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1296> .
-
-<http://dbpedia.org/resource/Gjøvik> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Location ;
-    rdfs:label "Gjøvik"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2728700> .
-
-<http://dbpedia.org/resource/Greenville,_South_Carolina> a dbpedia-owl:Settlement ;
-    rdfs:label "Greenville, South Carolina"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q574192> .
-
-<http://dbpedia.org/resource/Guanajuato> a dbpedia-owl:Settlement ;
-    rdfs:label "Guanajuato"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q46475> .
-
-<http://dbpedia.org/resource/Guangdong> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Guangdong"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q15175> .
-
-<http://dbpedia.org/resource/Hagenberg_im_Mühlkreis> a dbpedia-owl:Settlement ;
-    rdfs:label "Hagenberg im Mühlkreis"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q242020> .
-
-<http://dbpedia.org/resource/Hakodate> a dbpedia-owl:Settlement ;
-    rdfs:label "Hakodate"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q26418> .
-
-<http://dbpedia.org/resource/Hamilton,_Ontario> a dbpedia-owl:Settlement ;
-    rdfs:label "Hamilton, Ontario"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q133116> .
-
-<http://dbpedia.org/resource/Hanover,_Maryland> a dbpedia-owl:Settlement ;
-    rdfs:label "Hanover, Maryland"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q5649355> .
-
-<http://dbpedia.org/resource/Heidelberg> a dbpedia-owl:Settlement ;
-    rdfs:label "Heidelberg"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2966> .
-
-<http://dbpedia.org/resource/Hershey,_Pennsylvania> a dbpedia-owl:Settlement ;
-    rdfs:label "Hershey, Pennsylvania"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q868666> .
-
-<http://dbpedia.org/resource/Hilo,_Hawaii> a dbpedia-owl:Settlement ;
-    rdfs:label "Hilo, Hawaii"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q216258> .
-
-<http://dbpedia.org/resource/Hiroshima> a dbpedia-owl:Settlement ;
-    rdfs:label "Hiroshima"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q34664> .
-
-<http://dbpedia.org/resource/Hoboken,_New_Jersey> a dbpedia-owl:Settlement ;
-    rdfs:label "Hoboken, New Jersey"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q138578> .
-
-<http://dbpedia.org/resource/Hollywood,_Los_Angeles> a dbpedia-owl:Settlement ;
-    rdfs:label "Hollywood, Los Angeles"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q34006> .
-
-<http://dbpedia.org/resource/Houthalen-Helchteren> a dbpedia-owl:Settlement ;
-    rdfs:label "Houthalen-Helchteren"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q478795> .
-
-<http://dbpedia.org/resource/Hubei> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Hubei"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q46862> .
-
-<http://dbpedia.org/resource/Hunan> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Hunan"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q45761> .
-
-<http://dbpedia.org/resource/Iceland> a dbpedia-owl:Country ;
-    rdfs:label "Iceland"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q189> .
-
-<http://dbpedia.org/resource/Idaho> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Idaho"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1221> .
-
-<http://dbpedia.org/resource/Incline_Village,_Nevada> a dbpedia-owl:Settlement ;
-    rdfs:label "Incline Village, Nevada"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q20484109> .
-
-<http://dbpedia.org/resource/Indonesia> a dbpedia-owl:Country ;
-    rdfs:label "Indonesia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q252> .
-
-<http://dbpedia.org/resource/Interlaken> a dbpedia-owl:Settlement ;
-    rdfs:label "Interlaken"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q68103> .
-
-<http://dbpedia.org/resource/Ioannina> a dbpedia-owl:Settlement ;
-    rdfs:label "Ioannina"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q183199> .
-
-<http://dbpedia.org/resource/Jersey_City,_New_Jersey> a dbpedia-owl:Settlement ;
-    rdfs:label "Jersey City, New Jersey"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q26339> .
-
-<http://dbpedia.org/resource/Jerusalem> a dbpedia-owl:Settlement ;
-    rdfs:label "Jerusalem"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1218> .
-
-<http://dbpedia.org/resource/Jyväskylä> a dbpedia-owl:Settlement ;
-    rdfs:label "Jyväskylä"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q134620> .
-
-<http://dbpedia.org/resource/Kailua-Kona,_Hawaii> a dbpedia-owl:Settlement ;
-    rdfs:label "Kailua-Kona, Hawaii"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q627970> .
-
-<http://dbpedia.org/resource/Kalamata> a dbpedia-owl:Settlement ;
-    rdfs:label "Kalamata"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q167895> .
-
-<http://dbpedia.org/resource/Kanagawa_Prefecture> a dbpedia-owl:AdministrativeRegion ;
-    rdfs:label "Kanagawa Prefecture"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q127513> .
-
-<http://dbpedia.org/resource/Karnataka> a dbpedia-owl:Settlement ;
-    rdfs:label "Karnataka"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1185> .
-
-<http://dbpedia.org/resource/Kinsale> a dbpedia-owl:Settlement ;
-    rdfs:label "Kinsale"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q840681> .
-
-<http://dbpedia.org/resource/Knoxville,_Tennessee> a dbpedia-owl:Settlement ;
-    rdfs:label "Knoxville, Tennessee"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q185582> .
-
-<http://dbpedia.org/resource/Kohala,_Hawaii> a dbpedia-owl:Settlement ;
-    rdfs:label "Kohala, Hawaii"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q6425893> .
-
-<http://dbpedia.org/resource/Kolkata> a dbpedia-owl:Settlement ;
-    rdfs:label "Kolkata"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1348> .
-
-<http://dbpedia.org/resource/Kraków> a dbpedia-owl:Settlement ;
-    rdfs:label "Kraków"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q31487> .
-
-<http://dbpedia.org/resource/Kuching> a dbpedia-owl:Settlement ;
-    rdfs:label "Kuching"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q220445> .
-
-<http://dbpedia.org/resource/Kyiv> a dbpedia-owl:Settlement ;
-    rdfs:label "Kyiv"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1899> .
-
-<http://dbpedia.org/resource/La_Jolla> a dbpedia-owl:Settlement ;
-    rdfs:label "La Jolla"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q840668> .
-
-<http://dbpedia.org/resource/La_Palma> a dbpedia-owl:Island,
-        dbpedia-owl:Location ;
-    rdfs:label "La Palma"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q201689> .
-
-<http://dbpedia.org/resource/Lafayette,_Louisiana> a dbpedia-owl:Settlement ;
-    rdfs:label "Lafayette, Louisiana"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q128891> .
-
-<http://dbpedia.org/resource/Lahaina,_Hawaii> a dbpedia-owl:Settlement ;
-    rdfs:label "Lahaina, Hawaii"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1012971> .
-
-<http://dbpedia.org/resource/Lake_District> a dbpedia-owl:Location,
-        dbpedia-owl:Mountain,
-        dbpedia-owl:MountainRange,
-        dbpedia-owl:WorldHeritageSite ;
-    rdfs:label "Lake District"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q211778> .
-
-<http://dbpedia.org/resource/Lancaster,_Lancashire> a dbpedia-owl:Settlement ;
-    rdfs:label "Lancaster, Lancashire"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q205905> .
-
-<http://dbpedia.org/resource/Lanzarote> a dbpedia-owl:Island,
-        dbpedia-owl:Location ;
-    rdfs:label "Lanzarote"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q182432> .
-
-<http://dbpedia.org/resource/Latvia> a dbpedia-owl:Country ;
-    rdfs:label "Latvia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q211> .
-
-<http://dbpedia.org/resource/Lawrence,_Kansas> a dbpedia-owl:Settlement ;
-    rdfs:label "Lawrence, Kansas"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q493840> .
-
-<http://dbpedia.org/resource/Leiden> a dbpedia-owl:Settlement ;
-    rdfs:label "Leiden"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q43631> .
-
-<http://dbpedia.org/resource/Lille> a dbpedia-owl:Settlement ;
-    rdfs:label "Lille"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q648> .
-
-<http://dbpedia.org/resource/Limerick> a dbpedia-owl:Settlement ;
-    rdfs:label "Limerick"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q133315> .
-
-<http://dbpedia.org/resource/Lincoln,_Nebraska> a dbpedia-owl:Settlement ;
-    rdfs:label "Lincoln, Nebraska"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q28260> .
-
-<http://dbpedia.org/resource/Linköping> a dbpedia-owl:Settlement ;
-    rdfs:label "Linköping"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q25413> .
-
-<http://dbpedia.org/resource/Lithuania> a dbpedia-owl:Country ;
-    rdfs:label "Lithuania"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q37> .
-
-<http://dbpedia.org/resource/Ljubljana> a dbpedia-owl:Settlement ;
-    rdfs:label "Ljubljana"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q437> .
-
-<http://dbpedia.org/resource/Lombardy> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Lombardy"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1210> .
-
-<http://dbpedia.org/resource/London,_Ontario> a dbpedia-owl:Settlement ;
-    rdfs:label "London, Ontario"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q92561> .
-
-<http://dbpedia.org/resource/Los_Cabos_Municipality> a dbpedia-owl:Settlement ;
-    rdfs:label "Los Cabos Municipality"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q659516> .
-
-<http://dbpedia.org/resource/Louvain-la-Neuve> a dbpedia-owl:Settlement ;
-    rdfs:label "Louvain-la-Neuve"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q665868> .
-
-<http://dbpedia.org/resource/Madeira> a dbpedia-owl:Settlement ;
-    rdfs:label "Madeira"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q26253> .
-
-<http://dbpedia.org/resource/Malmö> a dbpedia-owl:Settlement ;
-    rdfs:label "Malmö"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2211> .
-
-<http://dbpedia.org/resource/Manchester> a dbpedia-owl:Settlement ;
-    rdfs:label "Manchester"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q18125> .
-
-<http://dbpedia.org/resource/Manhattan> a dbpedia-owl:Settlement ;
-    rdfs:label "Manhattan"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q11299> .
-
-<http://dbpedia.org/resource/Manitoba> a dbpedia-owl:AdministrativeRegion ;
-    rdfs:label "Manitoba"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1948> .
-
-<http://dbpedia.org/resource/Mannheim> a dbpedia-owl:Settlement ;
-    rdfs:label "Mannheim"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2119> .
-
-<http://dbpedia.org/resource/Maribor> a dbpedia-owl:Settlement ;
-    rdfs:label "Maribor"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1010> .
-
-<http://dbpedia.org/resource/Marmara_region> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Marmara region"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q155583> .
-
-<http://dbpedia.org/resource/Marseille> a dbpedia-owl:Settlement ;
-    rdfs:label "Marseille"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q23482> .
-
-<http://dbpedia.org/resource/Miami_Beach,_Florida> a dbpedia-owl:Settlement ;
-    rdfs:label "Miami Beach, Florida"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q201516> .
-
-<http://dbpedia.org/resource/Minaki> a dbpedia-owl:Settlement ;
-    rdfs:label "Minaki"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q6862790> .
-
-<http://dbpedia.org/resource/Minas_Gerais> a dbpedia-owl:Location,
-        dbpedia-owl:Settlement ;
-    rdfs:label "Minas Gerais"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q39109> .
-
-<http://dbpedia.org/resource/Montenegro> a dbpedia-owl:Country ;
-    rdfs:label "Montenegro"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q236> .
-
-<http://dbpedia.org/resource/Monterrey> a dbpedia-owl:Settlement ;
-    rdfs:label "Monterrey"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q81033> .
-
-<http://dbpedia.org/resource/Montreux> a dbpedia-owl:Settlement ;
-    rdfs:label "Montreux"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q69354> .
-
-<http://dbpedia.org/resource/Mordano> a dbpedia-owl:Settlement ;
-    rdfs:label "Mordano"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q94973> .
-
-<http://dbpedia.org/resource/Morocco> a dbpedia-owl:Country ;
-    rdfs:label "Morocco"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1028> .
-
-<http://dbpedia.org/resource/Murray_Hill,_New_Jersey> a dbpedia-owl:Settlement ;
-    rdfs:label "Murray Hill, New Jersey"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q984466> .
-
-<http://dbpedia.org/resource/Nagoya> a dbpedia-owl:Settlement ;
-    rdfs:label "Nagoya"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q11751> .
-
-<http://dbpedia.org/resource/Naha> a dbpedia-owl:Settlement ;
-    rdfs:label "Naha"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q181966> .
-
-<http://dbpedia.org/resource/Natal,_Rio_Grande_do_Norte> a dbpedia-owl:Settlement ;
-    rdfs:label "Natal, Rio Grande do Norte"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q131620> .
-
-<http://dbpedia.org/resource/Nebraska> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Nebraska"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1553> .
-
-<http://dbpedia.org/resource/Newark,_New_Jersey> a dbpedia-owl:Settlement ;
-    rdfs:label "Newark, New Jersey"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q25395> .
-
-<http://dbpedia.org/resource/Newfoundland_and_Labrador> a dbpedia-owl:AdministrativeRegion ;
-    rdfs:label "Newfoundland and Labrador"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2003> .
-
-<http://dbpedia.org/resource/Nicosia> a dbpedia-owl:Settlement ;
-    rdfs:label "Nicosia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3856> .
-
-<http://dbpedia.org/resource/North_Holland> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "North Holland"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q701> .
-
-<http://dbpedia.org/resource/North_Macedonia> a dbpedia-owl:Country ;
-    rdfs:label "North Macedonia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q221> .
-
-<http://dbpedia.org/resource/Northampton,_Massachusetts> a dbpedia-owl:Settlement ;
-    rdfs:label "Northampton, Massachusetts"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q49186> .
-
-<http://dbpedia.org/resource/Nottingham> a dbpedia-owl:Settlement ;
-    rdfs:label "Nottingham"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q41262> .
-
-<http://dbpedia.org/resource/Nuremberg> a dbpedia-owl:Settlement ;
-    rdfs:label "Nuremberg"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2090> .
-
-<http://dbpedia.org/resource/Occitania_(administrative_region)> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Occitania (administrative region)"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q18678265> .
-
-<http://dbpedia.org/resource/Oklahoma> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Oklahoma"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1649> .
-
-<http://dbpedia.org/resource/Oklahoma_City> a dbpedia-owl:Settlement ;
-    rdfs:label "Oklahoma City"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q34863> .
-
-<http://dbpedia.org/resource/Oldenburg> a dbpedia-owl:Settlement ;
-    rdfs:label "Oldenburg"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q547221> .
-
-<http://dbpedia.org/resource/Orsay> a dbpedia-owl:Settlement ;
-    rdfs:label "Orsay"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q372281> .
-
-<http://dbpedia.org/resource/Ouro_Preto> a dbpedia-owl:Settlement ;
-    rdfs:label "Ouro Preto"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q188905> .
-
-<http://dbpedia.org/resource/Oviedo> a dbpedia-owl:Settlement ;
-    rdfs:label "Oviedo"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q14317> .
-
-<http://dbpedia.org/resource/Paderborn> a dbpedia-owl:Settlement ;
-    rdfs:label "Paderborn"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2971> .
-
-<http://dbpedia.org/resource/Paestum> a dbpedia-owl:Settlement ;
-    rdfs:label "Paestum"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q329967> .
-
-<http://dbpedia.org/resource/Palm_Springs,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Palm Springs, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q488004> .
-
-<http://dbpedia.org/resource/Parma> a dbpedia-owl:Settlement ;
-    rdfs:label "Parma"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2683> .
-
-<http://dbpedia.org/resource/Patras> a dbpedia-owl:Settlement ;
-    rdfs:label "Patras"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q133123> .
-
-<http://dbpedia.org/resource/Pernambuco> a dbpedia-owl:Location,
-        dbpedia-owl:Settlement ;
-    rdfs:label "Pernambuco"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q40942> .
-
-<http://dbpedia.org/resource/Perugia> a dbpedia-owl:Settlement ;
-    rdfs:label "Perugia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3437> .
-
-<http://dbpedia.org/resource/Petrópolis> a dbpedia-owl:Settlement ;
-    rdfs:label "Petrópolis"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q189043> .
-
-<http://dbpedia.org/resource/Phuket_province> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Location ;
-    rdfs:label "Phuket province"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q182565> .
-
-<http://dbpedia.org/resource/Piedmont> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Piedmont"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1216> .
-
-<http://dbpedia.org/resource/Pirenópolis> a dbpedia-owl:Settlement ;
-    rdfs:label "Pirenópolis"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q988797> .
-
-<http://dbpedia.org/resource/Port_Jefferson,_New_York> a dbpedia-owl:Settlement ;
-    rdfs:label "Port Jefferson, New York"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2104746> .
-
-<http://dbpedia.org/resource/Porto_Alegre> a dbpedia-owl:Settlement ;
-    rdfs:label "Porto Alegre"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q40269> .
-
-<http://dbpedia.org/resource/Princeton,_New_Jersey> a dbpedia-owl:Settlement ;
-    rdfs:label "Princeton, New Jersey"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q138518> .
-
-<http://dbpedia.org/resource/Qatar> a dbpedia-owl:Country ;
-    rdfs:label "Qatar"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q846> .
-
-<http://dbpedia.org/resource/Queenstown,_New_Zealand> a dbpedia-owl:Settlement ;
-    rdfs:label "Queenstown, New Zealand"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q613602> .
-
-<http://dbpedia.org/resource/Recife> a dbpedia-owl:Settlement ;
-    rdfs:label "Recife"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q48344> .
-
-<http://dbpedia.org/resource/Redondo_Beach,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Redondo Beach, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q840678> .
-
-<http://dbpedia.org/resource/Reno,_Nevada> a dbpedia-owl:Settlement ;
-    rdfs:label "Reno, Nevada"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q49225> .
-
-<http://dbpedia.org/resource/Reutlingen> a dbpedia-owl:Settlement ;
-    rdfs:label "Reutlingen"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3085> .
-
-<http://dbpedia.org/resource/Reykjavík> a dbpedia-owl:Settlement ;
-    rdfs:label "Reykjavík"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1764> .
-
-<http://dbpedia.org/resource/Riga> a dbpedia-owl:Settlement ;
-    rdfs:label "Riga"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1773> .
-
-<http://dbpedia.org/resource/Rochester,_Michigan> a dbpedia-owl:Settlement ;
-    rdfs:label "Rochester, Michigan"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1018266> .
-
-<http://dbpedia.org/resource/Rostock> a dbpedia-owl:Settlement ;
-    rdfs:label "Rostock"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2861> .
-
-<http://dbpedia.org/resource/Rye,_New_York> a dbpedia-owl:Settlement ;
-    rdfs:label "Rye, New York"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1379757> .
-
-<http://dbpedia.org/resource/Saarbrücken> a dbpedia-owl:Settlement ;
-    rdfs:label "Saarbrücken"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1724> .
-
-<http://dbpedia.org/resource/Salerno> a dbpedia-owl:Settlement ;
-    rdfs:label "Salerno"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1083> .
-
-<http://dbpedia.org/resource/Salvador,_Bahia> a dbpedia-owl:Settlement ;
-    rdfs:label "Salvador, Bahia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q36947> .
-
-<http://dbpedia.org/resource/Salzburg> a dbpedia-owl:Settlement ;
-    rdfs:label "Salzburg"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q34713> .
-
-<http://dbpedia.org/resource/San_José,_Costa_Rica> a dbpedia-owl:Settlement ;
-    rdfs:label "San José, Costa Rica"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3070> .
-
-<http://dbpedia.org/resource/Santa_Catarina_(state)> a dbpedia-owl:Location,
-        dbpedia-owl:Settlement ;
-    rdfs:label "Santa Catarina (state)"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q41115> .
-
-<http://dbpedia.org/resource/Santa_Fe,_Argentina> a dbpedia-owl:Settlement ;
-    rdfs:label "Santa Fe, Argentina"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q44244> .
-
-<http://dbpedia.org/resource/Santa_María_Huatulco> a dbpedia-owl:Settlement ;
-    rdfs:label "Santa María Huatulco"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3893101> .
-
-<http://dbpedia.org/resource/Santa_Monica,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Santa Monica, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q47164> .
-
-<http://dbpedia.org/resource/Santander,_Spain> a dbpedia-owl:Settlement ;
-    rdfs:label "Santander, Spain"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q12233> .
-
-<http://dbpedia.org/resource/Santorini> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Island,
-        dbpedia-owl:Location ;
-    rdfs:label "Santorini"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q129296> .
-
-<http://dbpedia.org/resource/Sanur> a dbpedia-owl:Settlement ;
-    rdfs:label "Sanur"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q393689> .
-
-<http://dbpedia.org/resource/Saxony> a dbpedia-owl:Location,
-        dbpedia-owl:Settlement ;
-    rdfs:label "Saxony"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1202> .
-
-<http://dbpedia.org/resource/Schwarzenberg,_Austria> a dbpedia-owl:Settlement ;
-    rdfs:label "Schwarzenberg, Austria"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q695371> .
-
-<http://dbpedia.org/resource/Serbia> a dbpedia-owl:Country ;
-    rdfs:label "Serbia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q403> .
-
-<http://dbpedia.org/resource/Seville> a dbpedia-owl:Settlement ;
-    rdfs:label "Seville"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q8717> .
-
-<http://dbpedia.org/resource/Shaker_Heights,_Ohio> a dbpedia-owl:Settlement ;
-    rdfs:label "Shaker Heights, Ohio"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1065497> .
-
-<http://dbpedia.org/resource/Sheffield> a dbpedia-owl:Settlement ;
-    rdfs:label "Sheffield"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q42448> .
-
-<http://dbpedia.org/resource/Sicily> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Sicily"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1460> .
-
-<http://dbpedia.org/resource/Siem_Reap> a dbpedia-owl:Settlement ;
-    rdfs:label "Siem Reap"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q11711> .
-
-<http://dbpedia.org/resource/Siena> a dbpedia-owl:Settlement ;
-    rdfs:label "Siena"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2751> .
-
-<http://dbpedia.org/resource/Skopje> a dbpedia-owl:Settlement ;
-    rdfs:label "Skopje"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q384> .
-
-<http://dbpedia.org/resource/Sofia> a dbpedia-owl:Settlement ;
-    rdfs:label "Sofia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q472> .
-
-<http://dbpedia.org/resource/Songdo> a dbpedia-owl:Settlement ;
-    rdfs:label "Songdo"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q488965> .
-
-<http://dbpedia.org/resource/Sophia_Antipolis> a dbpedia-owl:Settlement ;
-    rdfs:label "Sophia Antipolis"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1359930> .
-
-<http://dbpedia.org/resource/Sorrento> a dbpedia-owl:Settlement ;
-    rdfs:label "Sorrento"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q72672> .
-
-<http://dbpedia.org/resource/South_Holland> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "South Holland"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q694> .
-
-<http://dbpedia.org/resource/South_Moravian_Region> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "South Moravian Region"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q192697> .
-
-<http://dbpedia.org/resource/St._John's,_Newfoundland_and_Labrador> a dbpedia-owl:Settlement ;
-    rdfs:label "St. John's, Newfoundland and Labrador"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2082> .
-
-<http://dbpedia.org/resource/St._Petersburg,_Florida> a dbpedia-owl:Settlement ;
-    rdfs:label "St. Petersburg, Florida"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q49236> .
-
-<http://dbpedia.org/resource/Szeged> a dbpedia-owl:Settlement ;
-    rdfs:label "Szeged"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q81581> .
-
-<http://dbpedia.org/resource/São_José_dos_Campos> a dbpedia-owl:Settlement ;
-    rdfs:label "São José dos Campos"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q191642> .
-
-<http://dbpedia.org/resource/São_Pedro,_São_Paulo> a dbpedia-owl:Settlement ;
-    rdfs:label "São Pedro, São Paulo"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q924342> .
-
-<http://dbpedia.org/resource/Tangier> a dbpedia-owl:Settlement ;
-    rdfs:label "Tangier"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q126148> .
-
-<http://dbpedia.org/resource/Tbilisi> a dbpedia-owl:Settlement ;
-    rdfs:label "Tbilisi"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q994> .
-
-<http://dbpedia.org/resource/Tempe,_Arizona> a dbpedia-owl:Settlement ;
-    rdfs:label "Tempe, Arizona"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q51685> .
-
-<http://dbpedia.org/resource/Tenerife> a dbpedia-owl:Island,
-        dbpedia-owl:Location ;
-    rdfs:label "Tenerife"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q40846> .
-
-<http://dbpedia.org/resource/Thessaloniki> a dbpedia-owl:Settlement ;
-    rdfs:label "Thessaloniki"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q17151> .
-
-<http://dbpedia.org/resource/Torremolinos> a dbpedia-owl:Settlement ;
-    rdfs:label "Torremolinos"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q492737> .
-
-<http://dbpedia.org/resource/Trento> a dbpedia-owl:Settlement ;
-    rdfs:label "Trento"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3376> .
-
-<http://dbpedia.org/resource/Trieste> a dbpedia-owl:Settlement ;
-    rdfs:label "Trieste"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q546> .
-
-<http://dbpedia.org/resource/Tübingen> a dbpedia-owl:Settlement ;
-    rdfs:label "Tübingen"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3806> .
-
-<http://dbpedia.org/resource/Udine> a dbpedia-owl:Settlement ;
-    rdfs:label "Udine"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2790> .
-
-<http://dbpedia.org/resource/Ukraine> a dbpedia-owl:Country ;
-    rdfs:label "Ukraine"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q212> .
-
-<http://dbpedia.org/resource/Ulm> a dbpedia-owl:Settlement ;
-    rdfs:label "Ulm"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3012> .
-
-<http://dbpedia.org/resource/United_Arab_Emirates> a dbpedia-owl:Country ;
-    rdfs:label "United Arab Emirates"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q878> .
-
-<http://dbpedia.org/resource/Urbana,_Illinois> a dbpedia-owl:Settlement ;
-    rdfs:label "Urbana, Illinois"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q462184> .
-
-<http://dbpedia.org/resource/Vail,_Colorado> a dbpedia-owl:Settlement ;
-    rdfs:label "Vail, Colorado"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q747987> .
-
-<http://dbpedia.org/resource/Valencian_Community> a dbpedia-owl:AdministrativeRegion ;
-    rdfs:label "Valencian Community"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q5720> .
-
-<http://dbpedia.org/resource/Vaud> a dbpedia-owl:Location,
-        dbpedia-owl:Settlement ;
-    rdfs:label "Vaud"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q12771> .
-
-<http://dbpedia.org/resource/Velen> a dbpedia-owl:Settlement ;
-    rdfs:label "Velen"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q200549> .
-
-<http://dbpedia.org/resource/Vermont> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Vermont"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q16551> .
-
-<http://dbpedia.org/resource/Verona> a dbpedia-owl:Settlement ;
-    rdfs:label "Verona"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2028> .
-
-<http://dbpedia.org/resource/Vienna,_Virginia> a dbpedia-owl:Settlement ;
-    rdfs:label "Vienna, Virginia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1002926> .
-
-<http://dbpedia.org/resource/Villeneuve-d'Ascq> a dbpedia-owl:Settlement ;
-    rdfs:label "Villeneuve-d'Ascq"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q43295> .
-
-<http://dbpedia.org/resource/Vilnius> a dbpedia-owl:Settlement ;
-    rdfs:label "Vilnius"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q216> .
-
-<http://dbpedia.org/resource/Vorarlberg> a dbpedia-owl:Location,
-        dbpedia-owl:Settlement ;
-    rdfs:label "Vorarlberg"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q38981> .
-
-<http://dbpedia.org/resource/Västerås> a dbpedia-owl:Settlement ;
-    rdfs:label "Västerås"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q25412> .
-
-<http://dbpedia.org/resource/Västra_Götaland_County> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Västra Götaland County"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q103093> .
-
-<http://dbpedia.org/resource/Waltham,_Massachusetts> a dbpedia-owl:Settlement ;
-    rdfs:label "Waltham, Massachusetts"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q49190> .
-
-<http://dbpedia.org/resource/Warwick> a dbpedia-owl:Settlement ;
-    rdfs:label "Warwick"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q549761> .
-
-<http://dbpedia.org/resource/Whistler,_British_Columbia> a dbpedia-owl:Settlement ;
-    rdfs:label "Whistler, British Columbia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q203122> .
-
-<http://dbpedia.org/resource/Windsor,_Ontario> a dbpedia-owl:Settlement ;
-    rdfs:label "Windsor, Ontario"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q182625> .
-
-<http://dbpedia.org/resource/Winnipeg> a dbpedia-owl:Settlement ;
-    rdfs:label "Winnipeg"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2135> .
-
-<http://dbpedia.org/resource/Wrocław> a dbpedia-owl:Settlement ;
-    rdfs:label "Wrocław"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1799> .
-
-<http://dbpedia.org/resource/Wuhan> a dbpedia-owl:Settlement ;
-    rdfs:label "Wuhan"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q11746> .
-
-<http://dbpedia.org/resource/Würzburg> a dbpedia-owl:Settlement ;
-    rdfs:label "Würzburg"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2999> .
-
-<http://dbpedia.org/resource/York> a dbpedia-owl:Settlement ;
-    rdfs:label "York"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q42462> .
-
-<http://dbpedia.org/resource/Yorktown_Heights,_New_York> a dbpedia-owl:Settlement ;
-    rdfs:label "Yorktown Heights, New York"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3316206> .
-
-<http://dbpedia.org/resource/Zaragoza> a dbpedia-owl:Settlement ;
-    rdfs:label "Zaragoza"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q10305> .
-
 schema:EventCancelled a schema:EventStatusType .
 
 eventskg:IAAI a owl:NamedIndividual,
@@ -45299,1015 +44098,21 @@ seo:DoctoralConsortium a owl:Class .
 
 seo:PanelsTrack a owl:Class .
 
-<http://dbpedia.org/resource/Aberystwyth> a dbpedia-owl:Settlement ;
-    rdfs:label "Aberystwyth"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q213154> .
-
-<http://dbpedia.org/resource/Adelaide> a dbpedia-owl:Settlement ;
-    rdfs:label "Adelaide"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q5112> .
-
-<http://dbpedia.org/resource/Antwerp> a dbpedia-owl:Settlement ;
-    rdfs:label "Antwerp"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q12892> .
-
-<http://dbpedia.org/resource/Atlantic_City,_New_Jersey> a dbpedia-owl:Settlement ;
-    rdfs:label "Atlantic City, New Jersey"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q139564> .
-
-<http://dbpedia.org/resource/Bangkok> a dbpedia-owl:Settlement ;
-    rdfs:label "Bangkok"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1861> .
-
-<http://dbpedia.org/resource/Bergen> a dbpedia-owl:Settlement ;
-    rdfs:label "Bergen"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q26793> .
-
-<http://dbpedia.org/resource/Bethesda,_Maryland> a dbpedia-owl:Settlement ;
-    rdfs:label "Bethesda, Maryland"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q584451> .
-
-<http://dbpedia.org/resource/Biarritz> a dbpedia-owl:Settlement ;
-    rdfs:label "Biarritz"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q132790> .
-
-<http://dbpedia.org/resource/Brandenburg> a dbpedia-owl:Location,
-        dbpedia-owl:Settlement ;
-    rdfs:label "Brandenburg"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1208> .
-
-<http://dbpedia.org/resource/Bremen> a dbpedia-owl:Settlement ;
-    rdfs:label "Bremen"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q24879> .
-
-<http://dbpedia.org/resource/Bristol> a dbpedia-owl:Settlement ;
-    rdfs:label "Bristol"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q23154> .
-
-<http://dbpedia.org/resource/Busan> a dbpedia-owl:Settlement ;
-    rdfs:label "Busan"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q16520> .
-
-<http://dbpedia.org/resource/Campo_Grande> a dbpedia-owl:Settlement ;
-    rdfs:label "Campo Grande"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q168929> .
-
-<http://dbpedia.org/resource/Canary_Islands> a dbpedia-owl:Village ;
-    rdfs:label "Canary Islands"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q5813> .
-
-<http://dbpedia.org/resource/Cannes> a dbpedia-owl:Settlement ;
-    rdfs:label "Cannes"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q39984> .
-
-<http://dbpedia.org/resource/Cape_Breton_Island> a dbpedia-owl:Island,
-        dbpedia-owl:Location ;
-    rdfs:label "Cape Breton Island"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q188489> .
-
-<http://dbpedia.org/resource/Cape_Town> a dbpedia-owl:Settlement ;
-    rdfs:label "Cape Town"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q5465> .
-
-<http://dbpedia.org/resource/Carlsbad,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Carlsbad, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q491099> .
-
-<http://dbpedia.org/resource/Cavtat> a dbpedia-owl:Settlement ;
-    rdfs:label "Cavtat"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q221350> .
-
-<http://dbpedia.org/resource/Chapel_Hill,_North_Carolina> a dbpedia-owl:Settlement ;
-    rdfs:label "Chapel Hill, North Carolina"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q671812> .
-
-<http://dbpedia.org/resource/Coimbra> a dbpedia-owl:Settlement ;
-    rdfs:label "Coimbra"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q45412> .
-
-<http://dbpedia.org/resource/Columbus,_Ohio> a dbpedia-owl:Settlement ;
-    rdfs:label "Columbus, Ohio"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q16567> .
-
-<http://dbpedia.org/resource/Cáceres> a dbpedia-owl:Settlement ;
-    rdfs:label "Cáceres"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q258477> .
-
-<http://dbpedia.org/resource/Daegu> a dbpedia-owl:Settlement ;
-    rdfs:label "Daegu"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q20927> .
-
-<http://dbpedia.org/resource/Dodecanese> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Dodecanese"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q131555> .
-
-<http://dbpedia.org/resource/Dresden> a dbpedia-owl:Settlement ;
-    rdfs:label "Dresden"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1731> .
-
-<http://dbpedia.org/resource/Dubrovnik> a dbpedia-owl:Settlement ;
-    rdfs:label "Dubrovnik"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1722> .
-
-<http://dbpedia.org/resource/Durham,_North_Carolina> a dbpedia-owl:Settlement ;
-    rdfs:label "Durham, North Carolina"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q49229> .
-
-<http://dbpedia.org/resource/Eindhoven> a dbpedia-owl:Settlement ;
-    rdfs:label "Eindhoven"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q9832> .
-
-<http://dbpedia.org/resource/Espoo> a dbpedia-owl:Settlement ;
-    rdfs:label "Espoo"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q47034> .
-
-<http://dbpedia.org/resource/Estoril> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Locality,
-        dbpedia-owl:Location ;
-    rdfs:label "Estoril"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q193305> .
-
-<http://dbpedia.org/resource/Fairfax,_Virginia> a dbpedia-owl:Settlement ;
-    rdfs:label "Fairfax, Virginia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q501785> .
-
-<http://dbpedia.org/resource/Florianópolis> a dbpedia-owl:Settlement ;
-    rdfs:label "Florianópolis"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q132997> .
-
-<http://dbpedia.org/resource/Gramado> a dbpedia-owl:Settlement ;
-    rdfs:label "Gramado"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q694833> .
-
-<http://dbpedia.org/resource/Granada> a dbpedia-owl:Settlement ;
-    rdfs:label "Granada"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q8810> .
-
-<http://dbpedia.org/resource/Graz> a dbpedia-owl:Settlement ;
-    rdfs:label "Graz"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q13298> .
-
-<http://dbpedia.org/resource/Guangzhou> a dbpedia-owl:Settlement ;
-    rdfs:label "Guangzhou"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q16572> .
-
-<http://dbpedia.org/resource/Hangzhou> a dbpedia-owl:Settlement ;
-    rdfs:label "Hangzhou"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q4970> .
-
-<http://dbpedia.org/resource/Hanoi> a dbpedia-owl:Settlement ;
-    rdfs:label "Hanoi"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1858> .
-
-<http://dbpedia.org/resource/Irvine,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Irvine, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q49219> .
-
-<http://dbpedia.org/resource/Ithaca,_New_York> a dbpedia-owl:Settlement ;
-    rdfs:label "Ithaca, New York"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q217346> .
-
-<http://dbpedia.org/resource/Jeju_City> a dbpedia-owl:Settlement ;
-    rdfs:label "Jeju City"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q42142> .
-
-<http://dbpedia.org/resource/Kaiserslautern> a dbpedia-owl:Settlement ;
-    rdfs:label "Kaiserslautern"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3758> .
-
-<http://dbpedia.org/resource/Kauai> a dbpedia-owl:Island,
-        dbpedia-owl:Location ;
-    rdfs:label "Kauai"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q201026> .
-
-<http://dbpedia.org/resource/Kenmare> a dbpedia-owl:Settlement ;
-    rdfs:label "Kenmare"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q166232> .
-
-<http://dbpedia.org/resource/Key_West> a dbpedia-owl:Island,
-        dbpedia-owl:Location ;
-    rdfs:label "Key West"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q485186> .
-
-<http://dbpedia.org/resource/Kitakyushu> a dbpedia-owl:Settlement ;
-    rdfs:label "Kitakyushu"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q188806> .
-
-<http://dbpedia.org/resource/Kobe> a dbpedia-owl:Settlement ;
-    rdfs:label "Kobe"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q48320> .
-
-<http://dbpedia.org/resource/Konstanz> a dbpedia-owl:Settlement ;
-    rdfs:label "Konstanz"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3834> .
-
-<http://dbpedia.org/resource/Lake_Buena_Vista,_Florida> a dbpedia-owl:Settlement ;
-    rdfs:label "Lake Buena Vista, Florida"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2154539> .
-
-<http://dbpedia.org/resource/Leipzig> a dbpedia-owl:Settlement ;
-    rdfs:label "Leipzig"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2079> .
-
-<http://dbpedia.org/resource/Leuven> a dbpedia-owl:Settlement ;
-    rdfs:label "Leuven"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q118958> .
-
-<http://dbpedia.org/resource/Lugano> a dbpedia-owl:Settlement ;
-    rdfs:label "Lugano"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q7024> .
-
-<http://dbpedia.org/resource/Malaysia> a dbpedia-owl:Country ;
-    rdfs:label "Malaysia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q833> .
-
-<http://dbpedia.org/resource/Marina_del_Rey,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Marina del Rey, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q988140> .
-
-<http://dbpedia.org/resource/McLean,_Virginia> a dbpedia-owl:Settlement ;
-    rdfs:label "McLean, Virginia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q963138> .
-
-<http://dbpedia.org/resource/Mexico_City> a dbpedia-owl:Settlement ;
-    rdfs:label "Mexico City"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1489> .
-
-<http://dbpedia.org/resource/Milwaukee> a dbpedia-owl:Settlement ;
-    rdfs:label "Milwaukee"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q37836> .
-
-<http://dbpedia.org/resource/Mérida,_Yucatán> a dbpedia-owl:Settlement ;
-    rdfs:label "Mérida, Yucatán"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q165204> .
-
-<http://dbpedia.org/resource/Nancy,_France> a dbpedia-owl:Settlement ;
-    rdfs:label "Nancy, France"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q40898> .
-
-<http://dbpedia.org/resource/Okinawa_Prefecture> a dbpedia-owl:Location,
-        dbpedia-owl:Settlement ;
-    rdfs:label "Okinawa Prefecture"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q766445> .
-
-<http://dbpedia.org/resource/Orange_County,_California> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Location ;
-    rdfs:label "Orange County, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q5925> .
-
-<http://dbpedia.org/resource/Padua> a dbpedia-owl:Settlement ;
-    rdfs:label "Padua"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q617> .
-
-<http://dbpedia.org/resource/Palermo> a dbpedia-owl:Settlement ;
-    rdfs:label "Palermo"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2656> .
-
-<http://dbpedia.org/resource/Pasadena,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Pasadena, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q485176> .
-
-<http://dbpedia.org/resource/Potsdam> a dbpedia-owl:Settlement ;
-    rdfs:label "Potsdam"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1711> .
-
-<http://dbpedia.org/resource/Puerto_Vallarta> a dbpedia-owl:Settlement ;
-    rdfs:label "Puerto Vallarta"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q853258> .
-
-<http://dbpedia.org/resource/Rennes> a dbpedia-owl:Settlement ;
-    rdfs:label "Rennes"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q647> .
-
-<http://dbpedia.org/resource/Research_Triangle_Park> a dbpedia-owl:Settlement ;
-    rdfs:label "Research Triangle Park"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1187093> .
-
-<http://dbpedia.org/resource/Rhodes> a dbpedia-owl:Settlement ;
-    rdfs:label "Rhodes"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q43048> .
-
-<http://dbpedia.org/resource/Rio_Grande_do_Sul> a dbpedia-owl:Location,
-        dbpedia-owl:Settlement ;
-    rdfs:label "Rio Grande do Sul"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q40030> .
-
-<http://dbpedia.org/resource/Rio_de_Janeiro_(state)> a dbpedia-owl:Location,
-        dbpedia-owl:Settlement ;
-    rdfs:label "Rio de Janeiro (state)"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q41428> .
-
-<http://dbpedia.org/resource/Rochester,_New_York> a dbpedia-owl:Settlement ;
-    rdfs:label "Rochester, New York"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q49218> .
-
-<http://dbpedia.org/resource/Rockport,_Massachusetts> a dbpedia-owl:Settlement ;
-    rdfs:label "Rockport, Massachusetts"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2079395> .
-
-<http://dbpedia.org/resource/Sacramento,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Sacramento, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q18013> .
-
-<http://dbpedia.org/resource/San_Sebastián> a dbpedia-owl:Settlement ;
-    rdfs:label "San Sebastián"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q10313> .
-
-<http://dbpedia.org/resource/Sanibel,_Florida> a dbpedia-owl:Settlement ;
-    rdfs:label "Sanibel, Florida"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q284242> .
-
-<http://dbpedia.org/resource/Santa_Catalina_Island_(California)> a dbpedia-owl:Island,
-        dbpedia-owl:Location ;
-    rdfs:label "Santa Catalina Island (California)"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q845229> .
-
-<http://dbpedia.org/resource/Santa_Margherita_Ligure> a dbpedia-owl:Settlement ;
-    rdfs:label "Santa Margherita Ligure"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q266975> .
-
-<http://dbpedia.org/resource/Santiago_de_Compostela> a dbpedia-owl:Settlement ;
-    rdfs:label "Santiago de Compostela"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q14314> .
-
-<http://dbpedia.org/resource/Sardinia> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Location,
-        dbpedia-owl:Region ;
-    rdfs:label "Sardinia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1462> .
-
-<http://dbpedia.org/resource/Shenzhen> a dbpedia-owl:Settlement ;
-    rdfs:label "Shenzhen"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q15174> .
-
-<http://dbpedia.org/resource/South_Africa> a dbpedia-owl:Country ;
-    rdfs:label "South Africa"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q258> .
-
-<http://dbpedia.org/resource/St._Pete_Beach,_Florida> a dbpedia-owl:Settlement ;
-    rdfs:label "St. Pete Beach, Florida"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q57200> .
-
-<http://dbpedia.org/resource/St_Andrews> a dbpedia-owl:Settlement ;
-    rdfs:label "St Andrews"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q207736> .
-
-<http://dbpedia.org/resource/Syracuse,_New_York> a dbpedia-owl:Settlement ;
-    rdfs:label "Syracuse, New York"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q128069> .
-
-<http://dbpedia.org/resource/Trentino> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Trentino"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q16289> .
-
-<http://dbpedia.org/resource/Utrecht> a dbpedia-owl:Settlement ;
-    rdfs:label "Utrecht"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q803> .
-
-<http://dbpedia.org/resource/Vietnam> a dbpedia-owl:Country ;
-    rdfs:label "Vietnam"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q881> .
-
-<http://dbpedia.org/resource/Vitória,_Espírito_Santo> a dbpedia-owl:Settlement ;
-    rdfs:label "Vitória, Espírito Santo"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q168376> .
-
-<http://dbpedia.org/resource/Wales> a dbpedia-owl:AdministrativeRegion ;
-    rdfs:label "Wales"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q25> .
-
-<http://dbpedia.org/resource/West_Berlin> a dbpedia-owl:Country,
-        dbpedia-owl:Location ;
-    rdfs:label "West Berlin"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q56036> .
-
-<http://dbpedia.org/resource/White_Plains,_New_York> a dbpedia-owl:Settlement ;
-    rdfs:label "White Plains, New York"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q462177> .
-
-<http://dbpedia.org/resource/Xi'an> a dbpedia-owl:Settlement ;
-    rdfs:label "Xi'an"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q5826> .
-
-<http://dbpedia.org/resource/Île-de-France> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Île-de-France"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q13917> .
-
 seo:ChallengesTrack a owl:Class .
 
 seo:In-useTrack a owl:Class .
 
 seo:ResourceTrack a owl:Class .
 
-<http://dbpedia.org/resource/Alaska> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Alaska"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q797> .
-
-<http://dbpedia.org/resource/Andalusia> a dbpedia-owl:AdministrativeRegion ;
-    rdfs:label "Andalusia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q5783> .
-
-<http://dbpedia.org/resource/Bologna> a dbpedia-owl:Settlement ;
-    rdfs:label "Bologna"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1891> .
-
-<http://dbpedia.org/resource/Bordeaux> a dbpedia-owl:Settlement ;
-    rdfs:label "Bordeaux"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1479> .
-
-<http://dbpedia.org/resource/Brisbane> a dbpedia-owl:Settlement ;
-    rdfs:label "Brisbane"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q34932> .
-
-<http://dbpedia.org/resource/Buenos_Aires> a dbpedia-owl:Settlement ;
-    rdfs:label "Buenos Aires"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1486> .
-
-<http://dbpedia.org/resource/Calgary> a dbpedia-owl:Settlement ;
-    rdfs:label "Calgary"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q36312> .
-
-<http://dbpedia.org/resource/Catalonia> a dbpedia-owl:Village ;
-    rdfs:label "Catalonia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q5705> .
-
-<http://dbpedia.org/resource/Champaign,_Illinois> a dbpedia-owl:Settlement ;
-    rdfs:label "Champaign, Illinois"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q577964> .
-
-<http://dbpedia.org/resource/Charleston,_South_Carolina> a dbpedia-owl:Settlement ;
-    rdfs:label "Charleston, South Carolina"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q47716> .
-
-<http://dbpedia.org/resource/Charlotte,_North_Carolina> a dbpedia-owl:Settlement ;
-    rdfs:label "Charlotte, North Carolina"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q16565> .
-
-<http://dbpedia.org/resource/Cologne> a dbpedia-owl:Settlement ;
-    rdfs:label "Cologne"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q365> .
-
-<http://dbpedia.org/resource/Como> a dbpedia-owl:Settlement ;
-    rdfs:label "Como"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1308> .
-
-<http://dbpedia.org/resource/Edmonton> a dbpedia-owl:Settlement ;
-    rdfs:label "Edmonton"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2096> .
-
-<http://dbpedia.org/resource/Freiburg_im_Breisgau> a dbpedia-owl:Settlement ;
-    rdfs:label "Freiburg im Breisgau"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2833> .
-
-<http://dbpedia.org/resource/Geneva> a dbpedia-owl:Settlement ;
-    rdfs:label "Geneva"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q71> .
-
-<http://dbpedia.org/resource/Gold_Coast,_Queensland> a dbpedia-owl:Settlement ;
-    rdfs:label "Gold Coast, Queensland"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q140075> .
-
-<http://dbpedia.org/resource/Hamburg> a dbpedia-owl:Settlement ;
-    rdfs:label "Hamburg"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1055> .
-
-<http://dbpedia.org/resource/Hilton_Head_Island,_South_Carolina> a dbpedia-owl:Settlement ;
-    rdfs:label "Hilton Head Island, South Carolina"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1001134> .
-
-<http://dbpedia.org/resource/Innsbruck> a dbpedia-owl:Settlement ;
-    rdfs:label "Innsbruck"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1735> .
-
-<http://dbpedia.org/resource/Karlsruhe> a dbpedia-owl:Settlement ;
-    rdfs:label "Karlsruhe"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1040> .
-
-<http://dbpedia.org/resource/Lake_Tahoe> a dbpedia-owl:Lake,
-        dbpedia-owl:Location ;
-    rdfs:label "Lake Tahoe"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q169962> .
-
-<http://dbpedia.org/resource/Linz> a dbpedia-owl:Settlement ;
-    rdfs:label "Linz"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q41329> .
-
-<http://dbpedia.org/resource/Macau> a dbpedia-owl:Settlement ;
-    rdfs:label "Macau"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q14773> .
-
-<http://dbpedia.org/resource/Maui> a dbpedia-owl:Island,
-        dbpedia-owl:Location ;
-    rdfs:label "Maui"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q188705> .
-
-<http://dbpedia.org/resource/Missouri> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Missouri"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1581> .
-
-<http://dbpedia.org/resource/Mumbai> a dbpedia-owl:Settlement ;
-    rdfs:label "Mumbai"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1156> .
-
-<http://dbpedia.org/resource/Málaga> a dbpedia-owl:Settlement ;
-    rdfs:label "Málaga"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q8851> .
-
-<http://dbpedia.org/resource/Naples> a dbpedia-owl:Settlement ;
-    rdfs:label "Naples"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2634> .
-
-<http://dbpedia.org/resource/Nara_(city)> a dbpedia-owl:Settlement ;
-    rdfs:label "Nara (city)"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q169134> .
-
-<http://dbpedia.org/resource/Newport,_Rhode_Island> a dbpedia-owl:Settlement ;
-    rdfs:label "Newport, Rhode Island"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q54264> .
-
-<http://dbpedia.org/resource/Nice> a dbpedia-owl:Settlement ;
-    rdfs:label "Nice"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q33959> .
-
-<http://dbpedia.org/resource/Ohio> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Ohio"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1397> .
-
-<http://dbpedia.org/resource/Oslo> a dbpedia-owl:Settlement ;
-    rdfs:label "Oslo"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q585> .
-
-<http://dbpedia.org/resource/Pacific_Grove,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Pacific Grove, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q117514> .
-
-<http://dbpedia.org/resource/Perth> a dbpedia-owl:Settlement ;
-    rdfs:label "Perth"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3183> .
-
-<http://dbpedia.org/resource/Porto_de_Galinhas> a dbpedia-owl:Settlement ;
-    rdfs:label "Porto de Galinhas"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2334856> .
-
-<http://dbpedia.org/resource/Rotterdam> a dbpedia-owl:Settlement ;
-    rdfs:label "Rotterdam"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q34370> .
-
-<http://dbpedia.org/resource/Saint_Paul,_Minnesota> a dbpedia-owl:Settlement ;
-    rdfs:label "Saint Paul, Minnesota"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q28848> .
-
-<http://dbpedia.org/resource/Tampa,_Florida> a dbpedia-owl:Settlement ;
-    rdfs:label "Tampa, Florida"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q49255> .
-
-<http://dbpedia.org/resource/Tampere> a dbpedia-owl:Settlement ;
-    rdfs:label "Tampere"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q40840> .
-
-<http://dbpedia.org/resource/Tennessee> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Tennessee"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1509> .
-
-<http://dbpedia.org/resource/Thailand> a dbpedia-owl:Country ;
-    rdfs:label "Thailand"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q869> .
-
-<http://dbpedia.org/resource/Turin> a dbpedia-owl:Settlement ;
-    rdfs:label "Turin"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q495> .
-
-<http://dbpedia.org/resource/Warsaw> a dbpedia-owl:Settlement ;
-    rdfs:label "Warsaw"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q270> .
-
-<http://dbpedia.org/resource/Waterloo,_Ontario> a dbpedia-owl:Settlement ;
-    rdfs:label "Waterloo, Ontario"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q639408> .
-
-<http://dbpedia.org/resource/Williamsburg,_Virginia> a dbpedia-owl:Settlement ;
-    rdfs:label "Williamsburg, Virginia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q492346> .
-
 schema:MixedEventAttendanceMode a schema:EventAttendanceModeEnumeration .
 
 seo:PHDSymposium a owl:Class .
 
-<http://dbpedia.org/resource/Aarhus> a dbpedia-owl:Settlement ;
-    rdfs:label "Aarhus"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q25319> .
-
-<http://dbpedia.org/resource/Anchorage,_Alaska> a dbpedia-owl:Settlement ;
-    rdfs:label "Anchorage, Alaska"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q39450> .
-
-<http://dbpedia.org/resource/Argentina> a dbpedia-owl:Country ;
-    rdfs:label "Argentina"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q414> .
-
-<http://dbpedia.org/resource/Bellevue,_Washington> a dbpedia-owl:Settlement ;
-    rdfs:label "Bellevue, Washington"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q214164> .
-
-<http://dbpedia.org/resource/Bonn> a dbpedia-owl:Settlement ;
-    rdfs:label "Bonn"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q586> .
-
-<http://dbpedia.org/resource/Boulder,_Colorado> a dbpedia-owl:Settlement ;
-    rdfs:label "Boulder, Colorado"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q192517> .
-
-<http://dbpedia.org/resource/Daejeon> a dbpedia-owl:Settlement ;
-    rdfs:label "Daejeon"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q20921> .
-
-<http://dbpedia.org/resource/Darmstadt> a dbpedia-owl:Settlement ;
-    rdfs:label "Darmstadt"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2973> .
-
-<http://dbpedia.org/resource/Detroit> a dbpedia-owl:Settlement ;
-    rdfs:label "Detroit"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q12439> .
-
-<http://dbpedia.org/resource/Egham> a dbpedia-owl:Settlement ;
-    rdfs:label "Egham"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q746681> .
-
-<http://dbpedia.org/resource/England> a dbpedia-owl:AdministrativeRegion ;
-    rdfs:label "England"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q21> .
-
-<http://dbpedia.org/resource/Estonia> a dbpedia-owl:Country ;
-    rdfs:label "Estonia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q191> .
-
-<http://dbpedia.org/resource/Genoa> a dbpedia-owl:Settlement ;
-    rdfs:label "Genoa"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1449> .
-
-<http://dbpedia.org/resource/Glasgow> a dbpedia-owl:Settlement ;
-    rdfs:label "Glasgow"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q4093> .
-
-<http://dbpedia.org/resource/Haifa> a dbpedia-owl:Settlement ;
-    rdfs:label "Haifa"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q41621> .
-
-<http://dbpedia.org/resource/Hersonissos> a dbpedia-owl:Settlement ;
-    rdfs:label "Hersonissos"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1018106> .
-
-<http://dbpedia.org/resource/Hyderabad> a dbpedia-owl:Settlement ;
-    rdfs:label "Hyderabad"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1361> .
-
-<http://dbpedia.org/resource/Long_Beach,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Long Beach, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q16739> .
-
-<http://dbpedia.org/resource/Luxembourg_City> a dbpedia-owl:Settlement ;
-    rdfs:label "Luxembourg City"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1842> .
-
-<http://dbpedia.org/resource/Montpellier> a dbpedia-owl:Settlement ;
-    rdfs:label "Montpellier"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q6441> .
-
-<http://dbpedia.org/resource/Nashville,_Tennessee> a dbpedia-owl:Settlement ;
-    rdfs:label "Nashville, Tennessee"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q23197> .
-
-<http://dbpedia.org/resource/New_Delhi> a dbpedia-owl:Settlement ;
-    rdfs:label "New Delhi"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q987> .
-
-<http://dbpedia.org/resource/Newport_Beach,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Newport Beach, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q268873> .
-
-<http://dbpedia.org/resource/Osaka> a dbpedia-owl:Settlement ;
-    rdfs:label "Osaka"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q35765> .
-
-<http://dbpedia.org/resource/Oxford> a dbpedia-owl:Settlement ;
-    rdfs:label "Oxford"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q34217> .
-
-<http://dbpedia.org/resource/Paphos> a dbpedia-owl:Settlement ;
-    rdfs:label "Paphos"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q180918> .
-
-<http://dbpedia.org/resource/Portorož> a dbpedia-owl:Settlement ;
-    rdfs:label "Portorož"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q564988> .
-
-<http://dbpedia.org/resource/Quebec_City> a dbpedia-owl:Settlement ;
-    rdfs:label "Quebec City"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2145> .
-
-<http://dbpedia.org/resource/Riva_del_Garda> a dbpedia-owl:Settlement ;
-    rdfs:label "Riva del Garda"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q194136> .
-
-<http://dbpedia.org/resource/Russia> a dbpedia-owl:Country ;
-    rdfs:label "Russia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q159> .
-
-<http://dbpedia.org/resource/Saint_Petersburg> a dbpedia-owl:Settlement ;
-    rdfs:label "Saint Petersburg"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q656> .
-
-<http://dbpedia.org/resource/Savannah,_Georgia> a dbpedia-owl:Settlement ;
-    rdfs:label "Savannah, Georgia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q83813> .
-
-<http://dbpedia.org/resource/St._Louis> a dbpedia-owl:Settlement ;
-    rdfs:label "St. Louis"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q38022> .
-
-<http://dbpedia.org/resource/São_Paulo> a dbpedia-owl:Settlement ;
-    rdfs:label "São Paulo"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q174> .
-
-<http://dbpedia.org/resource/São_Paulo_(state)> a dbpedia-owl:Location,
-        dbpedia-owl:Settlement ;
-    rdfs:label "São Paulo (state)"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q175> .
-
-<http://dbpedia.org/resource/Tallinn> a dbpedia-owl:Settlement ;
-    rdfs:label "Tallinn"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1770> .
-
-<http://dbpedia.org/resource/Tel_Aviv> a dbpedia-owl:Settlement ;
-    rdfs:label "Tel Aviv"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q33935> .
-
-<http://dbpedia.org/resource/The_Hague> a dbpedia-owl:Settlement ;
-    rdfs:label "The Hague"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q36600> .
-
-<http://dbpedia.org/resource/Trondheim> a dbpedia-owl:Settlement ;
-    rdfs:label "Trondheim"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q25804> .
-
-<http://dbpedia.org/resource/Uppsala> a dbpedia-owl:Settlement ;
-    rdfs:label "Uppsala"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q25286> .
-
-<http://dbpedia.org/resource/Victoria,_British_Columbia> a dbpedia-owl:Settlement ;
-    rdfs:label "Victoria, British Columbia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2132> .
-
-<http://dbpedia.org/resource/Yokohama> a dbpedia-owl:Settlement ;
-    rdfs:label "Yokohama"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q38283> .
-
 seo:IndustryTrack a owl:Class .
-
-<http://dbpedia.org/resource/Albuquerque,_New_Mexico> a dbpedia-owl:Settlement ;
-    rdfs:label "Albuquerque, New Mexico"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q34804> .
-
-<http://dbpedia.org/resource/Ann_Arbor,_Michigan> a dbpedia-owl:Settlement ;
-    rdfs:label "Ann Arbor, Michigan"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q485172> .
-
-<http://dbpedia.org/resource/Bari> a dbpedia-owl:Settlement ;
-    rdfs:label "Bari"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3519> .
-
-<http://dbpedia.org/resource/Brussels> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Location ;
-    rdfs:label "Brussels"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q240> .
-
-<http://dbpedia.org/resource/Cyprus> a dbpedia-owl:Country ;
-    rdfs:label "Cyprus"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q229> .
-
-<http://dbpedia.org/resource/Grenoble> a dbpedia-owl:Settlement ;
-    rdfs:label "Grenoble"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1289> .
-
-<http://dbpedia.org/resource/Indiana> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Indiana"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1415> .
-
-<http://dbpedia.org/resource/Indianapolis> a dbpedia-owl:Settlement ;
-    rdfs:label "Indianapolis"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q6346> .
-
-<http://dbpedia.org/resource/Lausanne> a dbpedia-owl:Settlement ;
-    rdfs:label "Lausanne"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q807> .
-
-<http://dbpedia.org/resource/Luxembourg> a dbpedia-owl:Country ;
-    rdfs:label "Luxembourg"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q32> .
-
-<http://dbpedia.org/resource/Milan> a dbpedia-owl:Settlement ;
-    rdfs:label "Milan"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q490> .
-
-<http://dbpedia.org/resource/New_Brunswick,_New_Jersey> a dbpedia-owl:Settlement ;
-    rdfs:label "New Brunswick, New Jersey"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q138338> .
-
-<http://dbpedia.org/resource/Puerto_Rico> a dbpedia-owl:AdministrativeRegion ;
-    rdfs:label "Puerto Rico"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1183> .
-
-<http://dbpedia.org/resource/Queensland> a dbpedia-owl:AdministrativeRegion ;
-    rdfs:label "Queensland"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q36074> .
-
-<http://dbpedia.org/resource/Saint-Malo> a dbpedia-owl:Settlement ;
-    rdfs:label "Saint-Malo"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q163108> .
-
-<http://dbpedia.org/resource/Santa_Fe,_New_Mexico> a dbpedia-owl:Settlement ;
-    rdfs:label "Santa Fe, New Mexico"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q38555> .
-
-<http://dbpedia.org/resource/Scottsdale,_Arizona> a dbpedia-owl:Settlement ;
-    rdfs:label "Scottsdale, Arizona"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q49221> .
-
-<http://dbpedia.org/resource/Alexandria,_Virginia> a dbpedia-owl:Settlement ;
-    rdfs:label "Alexandria, Virginia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q88> .
-
-<http://dbpedia.org/resource/Brighton> a dbpedia-owl:Settlement ;
-    rdfs:label "Brighton"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q131491> .
-
-<http://dbpedia.org/resource/Chile> a dbpedia-owl:Country ;
-    rdfs:label "Chile"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q298> .
-
-<http://dbpedia.org/resource/Croatia> a dbpedia-owl:Country ;
-    rdfs:label "Croatia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q224> .
-
-<http://dbpedia.org/resource/Gothenburg> a dbpedia-owl:Settlement ;
-    rdfs:label "Gothenburg"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q25287> .
-
-<http://dbpedia.org/resource/Helsinki> a dbpedia-owl:Settlement ;
-    rdfs:label "Helsinki"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1757> .
-
-<http://dbpedia.org/resource/Houston> a dbpedia-owl:Settlement ;
-    rdfs:label "Houston"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q16555> .
-
-<http://dbpedia.org/resource/Kyoto> a dbpedia-owl:Settlement ;
-    rdfs:label "Kyoto"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q34600> .
-
-<http://dbpedia.org/resource/Miami> a dbpedia-owl:Settlement ;
-    rdfs:label "Miami"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q8652> .
-
-<http://dbpedia.org/resource/Nantes> a dbpedia-owl:Settlement ;
-    rdfs:label "Nantes"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q12191> .
-
-<http://dbpedia.org/resource/New_Mexico> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "New Mexico"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1522> .
-
-<http://dbpedia.org/resource/New_South_Wales> a dbpedia-owl:AdministrativeRegion ;
-    rdfs:label "New South Wales"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3224> .
-
-<http://dbpedia.org/resource/Poland> a dbpedia-owl:Country ;
-    rdfs:label "Poland"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q36> .
-
-<http://dbpedia.org/resource/San_Juan,_Puerto_Rico> a dbpedia-owl:Settlement ;
-    rdfs:label "San Juan, Puerto Rico"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q41211> .
-
-<http://dbpedia.org/resource/Santiago> a dbpedia-owl:Settlement ;
-    rdfs:label "Santiago"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2887> .
-
-<http://dbpedia.org/resource/South_Carolina> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "South Carolina"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1456> .
-
-<http://dbpedia.org/resource/Stanford,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Stanford, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q173813> .
 
 seo:PostersTrack a owl:Class .
 
-<http://dbpedia.org/resource/Auckland> a dbpedia-owl:Settlement ;
-    rdfs:label "Auckland"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q37100> .
-
-<http://dbpedia.org/resource/Banff,_Alberta> a dbpedia-owl:Settlement ;
-    rdfs:label "Banff, Alberta"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q58337> .
-
-<http://dbpedia.org/resource/Dublin> a dbpedia-owl:Settlement ;
-    rdfs:label "Dublin"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1761> .
-
-<http://dbpedia.org/resource/Franconia,_New_Hampshire> a dbpedia-owl:Settlement ;
-    rdfs:label "Franconia, New Hampshire"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2323254> .
-
-<http://dbpedia.org/resource/Madison,_Wisconsin> a dbpedia-owl:Settlement ;
-    rdfs:label "Madison, Wisconsin"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q43788> .
-
-<http://dbpedia.org/resource/Ottawa> a dbpedia-owl:Settlement ;
-    rdfs:label "Ottawa"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1930> .
-
-<http://dbpedia.org/resource/Pisa> a dbpedia-owl:Settlement ;
-    rdfs:label "Pisa"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q13375> .
-
-<http://dbpedia.org/resource/Santa_Cruz,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Santa Cruz, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q159232> .
-
-<http://dbpedia.org/resource/Shanghai> a dbpedia-owl:Settlement ;
-    rdfs:label "Shanghai"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q8686> .
-
-<http://dbpedia.org/resource/Valencia> a dbpedia-owl:Settlement ;
-    rdfs:label "Valencia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q8818> .
-
-<http://dbpedia.org/resource/Venice> a dbpedia-owl:Settlement ;
-    rdfs:label "Venice"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q641> .
-
-<http://dbpedia.org/resource/Wisconsin> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Wisconsin"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1537> .
-
 seo:DemosTrack a owl:Class .
-
-<http://dbpedia.org/resource/Cambridge> a dbpedia-owl:Settlement ;
-    rdfs:label "Cambridge"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q350> .
-
-<http://dbpedia.org/resource/Florence> a dbpedia-owl:Settlement ;
-    rdfs:label "Florence"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2044> .
-
-<http://dbpedia.org/resource/Istanbul> a dbpedia-owl:Settlement ;
-    rdfs:label "Istanbul"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q406> .
-
-<http://dbpedia.org/resource/Laguna_Hills,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Laguna Hills, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q862679> .
-
-<http://dbpedia.org/resource/Madrid> a dbpedia-owl:Settlement ;
-    rdfs:label "Madrid"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2807> .
-
-<http://dbpedia.org/resource/Michigan> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Michigan"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1166> .
-
-<http://dbpedia.org/resource/Porto> a dbpedia-owl:Settlement ;
-    rdfs:label "Porto"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q36433> .
-
-<http://dbpedia.org/resource/Raleigh,_North_Carolina> a dbpedia-owl:Settlement ;
-    rdfs:label "Raleigh, North Carolina"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q41087> .
-
-<http://dbpedia.org/resource/Santa_Clara,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Santa Clara, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q159260> .
-
-<http://dbpedia.org/resource/Slovenia> a dbpedia-owl:Country ;
-    rdfs:label "Slovenia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q215> .
-
-<http://dbpedia.org/resource/Taipei> a dbpedia-owl:Settlement ;
-    rdfs:label "Taipei"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1867> .
 
 schema:EventScheduled a schema:EventStatusType .
 
@@ -46315,159 +44120,7 @@ seo:TutorialProposals a owl:Class .
 
 seo:WorkshopProposals a owl:Class .
 
-<http://dbpedia.org/resource/Fort_Lauderdale,_Florida> a dbpedia-owl:Settlement ;
-    rdfs:label "Fort Lauderdale, Florida"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q165972> .
-
-<http://dbpedia.org/resource/Monterey,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Monterey, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q487315> .
-
-<http://dbpedia.org/resource/Rhode_Island> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Rhode Island"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1387> .
-
-<http://dbpedia.org/resource/San_Antonio> a dbpedia-owl:Settlement ;
-    rdfs:label "San Antonio"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q975> .
-
-<http://dbpedia.org/resource/Santa_Barbara,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Santa Barbara, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q159288> .
-
-<http://dbpedia.org/resource/Toulouse> a dbpedia-owl:Settlement ;
-    rdfs:label "Toulouse"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q7880> .
-
-<http://dbpedia.org/resource/Turkey> a dbpedia-owl:Country ;
-    rdfs:label "Turkey"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q43> .
-
-<http://dbpedia.org/resource/Anaheim,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Anaheim, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q49247> .
-
-<http://dbpedia.org/resource/Budapest> a dbpedia-owl:Settlement ;
-    rdfs:label "Budapest"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1781> .
-
-<http://dbpedia.org/resource/Dallas> a dbpedia-owl:Settlement ;
-    rdfs:label "Dallas"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q16557> .
-
-<http://dbpedia.org/resource/Israel> a dbpedia-owl:Country ;
-    rdfs:label "Israel"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q801> .
-
-<http://dbpedia.org/resource/Lyon> a dbpedia-owl:Settlement ;
-    rdfs:label "Lyon"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q456> .
-
-<http://dbpedia.org/resource/New_Jersey> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "New Jersey"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1408> .
-
-<http://dbpedia.org/resource/New_Zealand> a dbpedia-owl:Country ;
-    rdfs:label "New Zealand"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q664> .
-
-<http://dbpedia.org/resource/Providence,_Rhode_Island> a dbpedia-owl:Settlement ;
-    rdfs:label "Providence, Rhode Island"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q18383> .
-
-<http://dbpedia.org/resource/Rio_de_Janeiro> a dbpedia-owl:Settlement ;
-    rdfs:label "Rio de Janeiro"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q8678> .
-
-<http://dbpedia.org/resource/Stockholm> a dbpedia-owl:Settlement ;
-    rdfs:label "Stockholm"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1754> .
-
-<http://dbpedia.org/resource/Tucson,_Arizona> a dbpedia-owl:Settlement ;
-    rdfs:label "Tucson, Arizona"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q18575> .
-
 seo:ResearchTrack a owl:Class .
-
-<http://dbpedia.org/resource/Alberta> a dbpedia-owl:AdministrativeRegion ;
-    rdfs:label "Alberta"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1951> .
-
-<http://dbpedia.org/resource/Phoenix,_Arizona> a dbpedia-owl:Settlement ;
-    rdfs:label "Phoenix, Arizona"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q16556> .
-
-<http://dbpedia.org/resource/Salt_Lake_City> a dbpedia-owl:Settlement ;
-    rdfs:label "Salt Lake City"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q23337> .
-
-<http://dbpedia.org/resource/Taiwan> a dbpedia-owl:Country ;
-    rdfs:label "Taiwan"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q865> .
-
-<http://dbpedia.org/resource/Zurich> a dbpedia-owl:Settlement ;
-    rdfs:label "Zurich"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q72> .
-
-<http://dbpedia.org/resource/Copenhagen> a dbpedia-owl:Settlement ;
-    rdfs:label "Copenhagen"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1748> .
-
-<http://dbpedia.org/resource/Heraklion> a dbpedia-owl:Settlement ;
-    rdfs:label "Heraklion"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q160544> .
-
-<http://dbpedia.org/resource/Hong_Kong> a dbpedia-owl:Settlement ;
-    rdfs:label "Hong Kong"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q8646> .
-
-<http://dbpedia.org/resource/Hungary> a dbpedia-owl:Country ;
-    rdfs:label "Hungary"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q28> .
-
-<http://dbpedia.org/resource/Nevada> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Nevada"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1227> .
-
-<http://dbpedia.org/resource/Norway> a dbpedia-owl:Country ;
-    rdfs:label "Norway"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q20> .
-
-<http://dbpedia.org/resource/Palo_Alto,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Palo Alto, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q47265> .
-
-<http://dbpedia.org/resource/Scotland> a dbpedia-owl:AdministrativeRegion ;
-    rdfs:label "Scotland"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q22> .
-
-<http://dbpedia.org/resource/Seoul> a dbpedia-owl:Settlement ;
-    rdfs:label "Seoul"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q8684> .
-
-<http://dbpedia.org/resource/Belgium> a dbpedia-owl:Country ;
-    rdfs:label "Belgium"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q31> .
-
-<http://dbpedia.org/resource/Crete> a dbpedia-owl:Island,
-        dbpedia-owl:Location ;
-    rdfs:label "Crete"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q34374> .
-
-<http://dbpedia.org/resource/Finland> a dbpedia-owl:Country ;
-    rdfs:label "Finland"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q33> .
-
-<http://dbpedia.org/resource/Lisbon> a dbpedia-owl:Settlement ;
-    rdfs:label "Lisbon"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q597> .
-
-<http://dbpedia.org/resource/Prague> a dbpedia-owl:Settlement ;
-    rdfs:label "Prague"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1085> .
 
 eventskg:IJCAR a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
@@ -46475,127 +44128,17 @@ eventskg:IJCAR a owl:NamedIndividual,
     conference-ontology:acronym "IJCAR" ;
     conference-ontology:title "International Joint Conference on Automated Reasoning" .
 
-<http://dbpedia.org/resource/Athens> a dbpedia-owl:Settlement ;
-    rdfs:label "Athens"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1524> .
-
-<http://dbpedia.org/resource/Czech_Republic> a dbpedia-owl:Country ;
-    rdfs:label "Czech Republic"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q213> .
-
-<http://dbpedia.org/resource/Ireland> a dbpedia-owl:Island,
-        dbpedia-owl:Location ;
-    rdfs:label "Ireland"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q22890> .
-
-<http://dbpedia.org/resource/Las_Vegas> a dbpedia-owl:Settlement ;
-    rdfs:label "Las Vegas"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q23768> .
-
-<http://dbpedia.org/resource/Mexico> a dbpedia-owl:Country ;
-    rdfs:label "Mexico"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q96> .
-
-<http://dbpedia.org/resource/North_Carolina> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "North Carolina"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1454> .
-
-<http://dbpedia.org/resource/Tokyo> a dbpedia-owl:Settlement ;
-    rdfs:label "Tokyo"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1490> .
-
-<http://dbpedia.org/resource/Baltimore> a dbpedia-owl:Settlement ;
-    rdfs:label "Baltimore"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q5092> .
-
-<http://dbpedia.org/resource/Maryland> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Maryland"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1391> .
-
-<http://dbpedia.org/resource/Melbourne> a dbpedia-owl:Settlement ;
-    rdfs:label "Melbourne"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3141> .
-
-<http://dbpedia.org/resource/Minnesota> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Minnesota"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1527> .
-
-<http://dbpedia.org/resource/Munich> a dbpedia-owl:Settlement ;
-    rdfs:label "Munich"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1726> .
-
-<http://dbpedia.org/resource/Virginia> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Virginia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1370> .
-
-<http://dbpedia.org/resource/Honolulu> a dbpedia-owl:Settlement ;
-    rdfs:label "Honolulu"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q18094> .
-
-<http://dbpedia.org/resource/Minneapolis> a dbpedia-owl:Settlement ;
-    rdfs:label "Minneapolis"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q36091> .
-
-<http://dbpedia.org/resource/Rome> a dbpedia-owl:Settlement ;
-    rdfs:label "Rome"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q220> .
-
-<http://dbpedia.org/resource/Beijing> a dbpedia-owl:Settlement ;
-    rdfs:label "Beijing"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q956> .
-
-<http://dbpedia.org/resource/Berlin> a dbpedia-owl:Settlement ;
-    rdfs:label "Berlin"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q64> .
-
-<http://dbpedia.org/resource/India> a dbpedia-owl:Country ;
-    rdfs:label "India"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q668> .
-
-<http://dbpedia.org/resource/London> a dbpedia-owl:Settlement ;
-    rdfs:label "London"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q84> .
-
 eventskg:ACCV a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
     rdfs:label "ACCV" ;
     conference-ontology:acronym "ACCV" ;
     conference-ontology:title "Asian Conference on Computer Vision" .
 
-<http://dbpedia.org/resource/Arizona> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Arizona"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q816> .
-
-<http://dbpedia.org/resource/Berkeley,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Berkeley, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q484678> .
-
 eventskg:FOGA a owl:NamedIndividual,
         conference-ontology:WorkshopSeries ;
     rdfs:label "FOGA" ;
     conference-ontology:acronym "FOGA" ;
     conference-ontology:title "ACM/SIGEVO Conference on Foundations of Genetic Algorithms" .
-
-<http://dbpedia.org/resource/Cambridge,_Massachusetts> a dbpedia-owl:Settlement ;
-    rdfs:label "Cambridge, Massachusetts"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q49111> .
-
-<http://dbpedia.org/resource/Denmark> a dbpedia-owl:Country ;
-    rdfs:label "Denmark"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q35> .
-
-<http://dbpedia.org/resource/Edinburgh> a dbpedia-owl:Settlement ;
-    rdfs:label "Edinburgh"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q23436> .
-
-<http://dbpedia.org/resource/Sydney> a dbpedia-owl:Settlement ;
-    rdfs:label "Sydney"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3130> .
 
 eventskg:ECCV a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
@@ -46615,11 +44158,6 @@ eventskg:WSDM a owl:NamedIndividual,
     conference-ontology:acronym "WSDM" ;
     conference-ontology:title "ACM International Conference on Web Search and Data Mining" .
 
-<http://dbpedia.org/resource/Illinois> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Illinois"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1204> .
-
 eventskg:ICCV a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
     rdfs:label "ICCV" ;
@@ -46638,40 +44176,11 @@ eventskg:RecSys a owl:NamedIndividual,
     conference-ontology:acronym "RecSys" ;
     conference-ontology:title "Conference on Recommender Systems" .
 
-<http://dbpedia.org/resource/Quebec> a dbpedia-owl:AdministrativeRegion ;
-    rdfs:label "Quebec"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q176> .
-
-<http://dbpedia.org/resource/Toronto> a dbpedia-owl:Settlement ;
-    rdfs:label "Toronto"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q172> .
-
 eventskg:EUROSYS a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
     rdfs:label "EUROSYS" ;
     conference-ontology:acronym "EUROSYS" ;
     conference-ontology:title "European Conference on Computer Systems" .
-
-<http://dbpedia.org/resource/Barcelona> a dbpedia-owl:Settlement ;
-    rdfs:label "Barcelona"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1492> .
-
-<http://dbpedia.org/resource/Amsterdam> a dbpedia-owl:Settlement ;
-    rdfs:label "Amsterdam"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q727> .
-
-<http://dbpedia.org/resource/Hawaii> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Hawaii"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q782> .
-
-<http://dbpedia.org/resource/Pittsburgh> a dbpedia-owl:Settlement ;
-    rdfs:label "Pittsburgh"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1342> .
-
-<http://dbpedia.org/resource/Sweden> a dbpedia-owl:Country ;
-    rdfs:label "Sweden"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q34> .
 
 eventskg:ESWC a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
@@ -46694,10 +44203,6 @@ eventskg:KR a owl:NamedIndividual,
     conference-ontology:acronym "KR" ;
     conference-ontology:title "International Conference on Principles of Knowledge Representation and Reasoning" .
 
-<http://dbpedia.org/resource/Vienna> a dbpedia-owl:Settlement ;
-    rdfs:label "Vienna"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1741> .
-
 eventskg:ICWS a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
     rdfs:label "ICWS" ;
@@ -46710,24 +44215,11 @@ eventskg:PERCOM a owl:NamedIndividual,
     conference-ontology:acronym "PERCOM" ;
     conference-ontology:title "International Conference on Pervasive Computing and Communications" .
 
-<http://dbpedia.org/resource/Paris> a dbpedia-owl:Settlement ;
-    rdfs:label "Paris"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q90> .
-
 eventskg:AAMAS a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
     rdfs:label "AAMAS" ;
     conference-ontology:acronym "AAMAS" ;
     conference-ontology:title "International Conference on Autonomous Agents and Multiagent Systems" .
-
-<http://dbpedia.org/resource/Louisiana> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Louisiana"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1588> .
-
-<http://dbpedia.org/resource/Switzerland> a dbpedia-owl:Country ;
-    rdfs:label "Switzerland"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q39> .
 
 eventskg:ICWE a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
@@ -46756,32 +44248,11 @@ eventskg:JCDL a owl:NamedIndividual,
     conference-ontology:acronym "JCDL" ;
     conference-ontology:title "ACM/IEEE-CS Joint Conference on Digital Libraries" .
 
-<http://dbpedia.org/resource/New_York_City> a dbpedia-owl:Settlement ;
-    rdfs:label "New York City"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q60> .
-
-<http://dbpedia.org/resource/South_Korea> a dbpedia-owl:Country ;
-    rdfs:label "South Korea"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q884> .
-
 eventskg:DSN a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
     rdfs:label "DSN" ;
     conference-ontology:acronym "DSN" ;
     conference-ontology:title "International Conference on Dependable Systems and Networks" .
-
-<http://dbpedia.org/resource/Georgia_(U.S._state)> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Georgia (U.S. state)"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1428> .
-
-<http://dbpedia.org/resource/New_Orleans> a dbpedia-owl:Settlement ;
-    rdfs:label "New Orleans"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q34404> .
-
-<http://dbpedia.org/resource/San_Jose,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "San Jose, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q16553> .
 
 eventskg:ISMAR a owl:NamedIndividual,
         seo:SymposiumSeries ;
@@ -46800,30 +44271,6 @@ eventskg:UBICOMP a owl:NamedIndividual,
     rdfs:label "UBICOMP" ;
     conference-ontology:acronym "UBICOMP" ;
     conference-ontology:title "International Conference on Ubiquitous Computing" .
-
-<http://dbpedia.org/resource/Austin,_Texas> a dbpedia-owl:Settlement ;
-    rdfs:label "Austin, Texas"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q16559> .
-
-<http://dbpedia.org/resource/Chicago> a dbpedia-owl:Settlement ;
-    rdfs:label "Chicago"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1297> .
-
-<http://dbpedia.org/resource/Oakland,_California> a dbpedia-owl:Settlement ;
-    rdfs:label "Oakland, California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q17042> .
-
-<http://dbpedia.org/resource/Ontario> a dbpedia-owl:AdministrativeRegion ;
-    rdfs:label "Ontario"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1904> .
-
-<http://dbpedia.org/resource/Philadelphia> a dbpedia-owl:Settlement ;
-    rdfs:label "Philadelphia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1345> .
-
-<http://dbpedia.org/resource/Portugal> a dbpedia-owl:Country ;
-    rdfs:label "Portugal"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q45> .
 
 eventskg:AISTATS a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
@@ -46855,10 +44302,6 @@ eventskg:FASE a owl:NamedIndividual,
     conference-ontology:acronym "FASE" ;
     conference-ontology:title "Fundamental Approaches to Software Engineering" .
 
-<http://dbpedia.org/resource/Atlanta> a dbpedia-owl:Settlement ;
-    rdfs:label "Atlanta"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q23556> .
-
 eventskg:ESORICS a owl:NamedIndividual,
         seo:SymposiumSeries ;
     rdfs:label "ESORICS" ;
@@ -46889,19 +44332,6 @@ eventskg:ICFP a owl:NamedIndividual,
     conference-ontology:acronym "ICFP" ;
     conference-ontology:title "International Conference on Functional Programming" .
 
-<http://dbpedia.org/resource/Denver> a dbpedia-owl:Settlement ;
-    rdfs:label "Denver"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q16554> .
-
-<http://dbpedia.org/resource/Oregon> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Oregon"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q824> .
-
-<http://dbpedia.org/resource/Orlando,_Florida> a dbpedia-owl:Settlement ;
-    rdfs:label "Orlando, Florida"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q49233> .
-
 eventskg:HPCA a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
     rdfs:label "HPCA" ;
@@ -46931,10 +44361,6 @@ eventskg:VR a owl:NamedIndividual,
     rdfs:label "VR" ;
     conference-ontology:acronym "VR" ;
     conference-ontology:title "IEEE Conference on Virtual Reality and 3D User Interfaces" .
-
-<http://dbpedia.org/resource/Portland,_Oregon> a dbpedia-owl:Settlement ;
-    rdfs:label "Portland, Oregon"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q6106> .
 
 eventskg:CCS a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
@@ -46978,15 +44404,6 @@ eventskg:USENIX a owl:NamedIndividual,
     conference-ontology:acronym "USENIX" ;
     conference-ontology:title "Usenix Security Symposium" .
 
-<http://dbpedia.org/resource/Montreal> a dbpedia-owl:Settlement ;
-    rdfs:label "Montreal"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q340> .
-
-<http://dbpedia.org/resource/New_York_(state)> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "New York (state)"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1384> .
-
 eventskg:ASE a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
     rdfs:label "ASE" ;
@@ -46999,20 +44416,6 @@ eventskg:DCC a owl:NamedIndividual,
     conference-ontology:acronym "DCC" ;
     conference-ontology:title "Data Compression Conference" ;
     seo:hasTrack seo:ResearchTrack .
-
-<http://dbpedia.org/resource/Austria> a dbpedia-owl:Country ;
-    rdfs:label "Austria"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q40> .
-
-<http://dbpedia.org/resource/Colorado> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Colorado"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1261> .
-
-<http://dbpedia.org/resource/Pennsylvania> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Pennsylvania"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1400> .
 
 eventskg:InfoVis a owl:NamedIndividual,
         seo:SymposiumSeries ;
@@ -47041,15 +44444,6 @@ eventskg:SPAA a owl:NamedIndividual,
     rdfs:label "SPAA" ;
     conference-ontology:acronym "SPAA" ;
     conference-ontology:title "ACM Symposium on Parallelism in Algorithms and Architectures" .
-
-<http://dbpedia.org/resource/Netherlands> a dbpedia-owl:Country ;
-    rdfs:label "Netherlands"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q55> .
-
-<http://dbpedia.org/resource/Singapore> a dbpedia-owl:Country,
-        dbpedia-owl:Settlement ;
-    rdfs:label "Singapore"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q334> .
 
 eventskg:COLT a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
@@ -47081,14 +44475,6 @@ eventskg:UIST a owl:NamedIndividual,
     conference-ontology:acronym "UIST" ;
     conference-ontology:title "ACM Symposium on USer Interface Software and Technology" .
 
-<http://dbpedia.org/resource/Los_Angeles> a dbpedia-owl:Settlement ;
-    rdfs:label "Los Angeles"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q65> .
-
-<http://dbpedia.org/resource/Washington,_D.C.> a dbpedia-owl:Settlement ;
-    rdfs:label "Washington, D.C."@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q61> .
-
 eventskg:AAAI a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
     rdfs:label "AAAI" ;
@@ -47107,14 +44493,6 @@ eventskg:SBAC-PAD a owl:NamedIndividual,
     conference-ontology:acronym "SBAC-PAD" ;
     conference-ontology:title "International Symposium on Computer Architecture and High Performance Computing" .
 
-<http://dbpedia.org/resource/British_Columbia> a dbpedia-owl:AdministrativeRegion ;
-    rdfs:label "British Columbia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1973> .
-
-<http://dbpedia.org/resource/Snowbird,_Utah> a dbpedia-owl:SkiArea ;
-    rdfs:label "Snowbird, Utah"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3487194> .
-
 eventskg:CCC a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
     rdfs:label "CCC" ;
@@ -47126,15 +44504,6 @@ eventskg:OOPSLA a owl:NamedIndividual,
     rdfs:label "OOPSLA" ;
     conference-ontology:acronym "OOPSLA" ;
     conference-ontology:title "Conference on Object-Oriented Programming Systems, Languages, and Applications" .
-
-<http://dbpedia.org/resource/Brazil> a dbpedia-owl:Country ;
-    rdfs:label "Brazil"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q155> .
-
-<http://dbpedia.org/resource/Washington_(state)> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Washington (state)"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1223> .
 
 eventskg:ACSAC a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
@@ -47184,41 +44553,11 @@ eventskg:PODS a owl:NamedIndividual,
     conference-ontology:acronym "PODS" ;
     conference-ontology:title "ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems" .
 
-<http://dbpedia.org/resource/Greece> a dbpedia-owl:Country ;
-    rdfs:label "Greece"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q41> .
-
-<http://dbpedia.org/resource/Japan> a dbpedia-owl:Country ;
-    rdfs:label "Japan"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q17> .
-
-<http://dbpedia.org/resource/Seattle> a dbpedia-owl:Settlement ;
-    rdfs:label "Seattle"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q5083> .
-
-<http://dbpedia.org/resource/Utah> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Utah"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q829> .
-
-<http://dbpedia.org/resource/Massachusetts> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Massachusetts"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q771> .
-
 eventskg:SP a owl:NamedIndividual,
         seo:SymposiumSeries ;
     rdfs:label "SP" ;
     conference-ontology:acronym "SP" ;
     conference-ontology:title "Conference on security and privacy" .
-
-<http://dbpedia.org/resource/Boston> a dbpedia-owl:Settlement ;
-    rdfs:label "Boston"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q100> .
-
-<http://dbpedia.org/resource/San_Francisco> a dbpedia-owl:Settlement ;
-    rdfs:label "San Francisco"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q62> .
 
 eventskg:ICSE a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
@@ -47236,20 +44575,11 @@ eventskg:SIGMOD a owl:NamedIndividual,
     conference-ontology:acronym "SIGMOD" ;
     conference-ontology:title "SIGMOD" .
 
-<http://dbpedia.org/resource/Australia> a dbpedia-owl:Country ;
-    rdfs:label "Australia"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q408> .
-
 eventskg:SIGIR a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
     rdfs:label "SIGIR" ;
     conference-ontology:acronym "SIGIR" ;
     conference-ontology:title "International ACM SIGIR Conference on Research and Development in Information Retrieval" .
-
-<http://dbpedia.org/resource/Texas> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Texas"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q1439> .
 
 eventskg:VLDB a owl:NamedIndividual,
         conference-ontology:ConferenceSeries ;
@@ -47284,65 +44614,19 @@ eventskg:SIGGRAPH a owl:NamedIndividual,
     conference-ontology:acronym "SIGGRAPH" ;
     conference-ontology:title "SIGGRAPH" .
 
-<http://dbpedia.org/resource/China> a dbpedia-owl:Country ;
-    rdfs:label "China"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q148> .
-
-<http://dbpedia.org/resource/Vancouver> a dbpedia-owl:Settlement ;
-    rdfs:label "Vancouver"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q24639> .
-
-<http://dbpedia.org/resource/Florida> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "Florida"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q812> .
-
 eventskg:STOC a owl:NamedIndividual,
         seo:SymposiumSeries ;
     rdfs:label "STOC" ;
     conference-ontology:acronym "STOC" ;
     conference-ontology:title "Theory of Computing" .
 
-<http://dbpedia.org/resource/Spain> a dbpedia-owl:Country ;
-    rdfs:label "Spain"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q29> .
-
-<http://dbpedia.org/resource/United_Kingdom> a dbpedia-owl:Country ;
-    rdfs:label "United Kingdom"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q145> .
-
-<http://dbpedia.org/resource/Germany> a dbpedia-owl:Country ;
-    rdfs:label "Germany"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q183> .
-
-<http://dbpedia.org/resource/Italy> a dbpedia-owl:Country ;
-    rdfs:label "Italy"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q38> .
-
-<http://dbpedia.org/resource/San_Diego> a dbpedia-owl:Settlement ;
-    rdfs:label "San Diego"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q16552> .
-
-<http://dbpedia.org/resource/France> a dbpedia-owl:Country ;
-    rdfs:label "France"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q142> .
-
 schema:OnlineEventAttendanceMode a schema:EventAttendanceModeEnumeration .
-
-<http://dbpedia.org/resource/Canada> a dbpedia-owl:Country ;
-    rdfs:label "Canada"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q16> .
 
 seo:WorldWideWeb a seo:ResearchField .
 
 seo:ComputerSystemsOrganization a seo:ResearchField .
 
 seo:SecurityAndPrivacy a seo:ResearchField .
-
-<http://dbpedia.org/resource/California> a dbpedia-owl:AdministrativeRegion,
-        dbpedia-owl:Region ;
-    rdfs:label "California"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q99> .
 
 seo:HumanCenteredComputing a seo:ResearchField .
 
@@ -47353,8 +44637,4 @@ seo:InformationSystems a seo:ResearchField .
 seo:SoftwareEngineering a seo:ResearchField .
 
 seo:ArtificialIntelligence a seo:ResearchField .
-
-<http://dbpedia.org/resource/United_States> a dbpedia-owl:Country ;
-    rdfs:label "United States"@en ;
-    owl:sameAs <http://www.wikidata.org/entity/Q30> .
 

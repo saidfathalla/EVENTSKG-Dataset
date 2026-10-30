@@ -16,12 +16,12 @@ eventskg: a void:Dataset,
     dcterms:description "EVENTSKG release 3.0: metadata of 2531 events of 75 top-ranked computer-science event series (1969-2026): dates, location, homepage, submitted/accepted papers and acceptance rate, research field, publisher and sponsor."@en ;
     dcterms:issued "2026-10-28"^^xsd:date ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-10-28"^^xsd:date ;
+    dcterms:modified "2026-10-30"^^xsd:date ;
     dcterms:title "EVENTSKG, Scientific Events Knowledge Graph."@en ;
     vann:preferredNamespacePrefix "eventskg" ;
     vann:preferredNamespaceUri "http://w3id.org/EVENTSKG-Dataset/ekg#" ;
     void:classes 9 ;
-    void:distinctObjects 12901 ;
+    void:distinctObjects 12902 ;
     void:distinctSubjects 2607 ;
     void:entities 2607 ;
     void:feature <http://www.w3.org/ns/formats/JSON-LD>,
@@ -32,5 +32,5 @@ eventskg: a void:Dataset,
     void:properties 40 ;
     void:triples 39365 ;
     owl:versionInfo "3.0" ;
-    prov:wasRevisionOf <https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/EVENTSKG.ttl> .
+    prov:wasRevisionOf <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.ttl> .
 
