@@ -1,5 +1,7 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix eventskg: <http://w3id.org/EVENTSKG-Dataset/ekg#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix orcid: <https://orcid.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9,28 +11,117 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 eventskg: a void:Dataset,
-        owl:Ontology ;
+        owl:Ontology,
+        dcat:Dataset ;
     rdfs:label "EVENTSKG, A dataset of scientific events"@en ;
+    dcterms:conformsTo <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/shapes/shapes.ttl> ;
+    dcterms:contributor [ a foaf:Person ;
+            foaf:name "Heba Mohamed" ],
+        [ a foaf:Person ;
+            foaf:name "Sören Auer" ] ;
     dcterms:created "2018-04-01"^^xsd:date ;
     dcterms:creator orcid:0000-0002-8113-9419 ;
     dcterms:description "EVENTSKG release 3.0: metadata of 2531 events of 75 top-ranked computer-science event series (1969-2026): dates, location, homepage, submitted/accepted papers and acceptance rate, research field, publisher and sponsor."@en ;
+    dcterms:identifier "https://doi.org/10.5281/zenodo.23806362" ;
+    dcterms:isReferencedBy <https://doi.org/10.1007/978-3-030-21348-0_28> ;
     dcterms:issued "2026-10-28"^^xsd:date ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-10-30"^^xsd:date ;
+    dcterms:publisher [ a foaf:Organization ;
+            foaf:homepage <https://zenodo.org> ;
+            foaf:name "Zenodo" ] ;
+    dcterms:temporal [ a dcterms:PeriodOfTime ;
+            dcat:endDate "2026"^^xsd:gYear ;
+            dcat:startDate "1969"^^xsd:gYear ] ;
     dcterms:title "EVENTSKG, Scientific Events Knowledge Graph."@en ;
     vann:preferredNamespacePrefix "eventskg" ;
     vann:preferredNamespaceUri "http://w3id.org/EVENTSKG-Dataset/ekg#" ;
-    void:classes 9 ;
-    void:distinctObjects 12902 ;
-    void:distinctSubjects 2607 ;
-    void:entities 2607 ;
+    void:classes 16 ;
+    void:distinctObjects 12977 ;
+    void:distinctSubjects 2625 ;
+    void:entities 2625 ;
     void:feature <http://www.w3.org/ns/formats/JSON-LD>,
         <http://www.w3.org/ns/formats/N-Triples>,
         <http://www.w3.org/ns/formats/N3>,
         <http://www.w3.org/ns/formats/RDF_XML>,
         <http://www.w3.org/ns/formats/Turtle> ;
-    void:properties 40 ;
-    void:triples 39365 ;
+    void:properties 59 ;
+    void:triples 39472 ;
     owl:versionInfo "3.0" ;
-    prov:wasRevisionOf <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.ttl> .
+    dcat:distribution [ a dcat:Distribution ;
+            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+            dcterms:title "Enriched edition (Turtle)"@en ;
+            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/EVENTSKG-enriched.ttl> ;
+            dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ],
+        [ a dcat:Distribution ;
+            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+            dcterms:title "Enriched edition (N-Triples)"@en ;
+            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.nt> ;
+            dcat:mediaType <https://www.iana.org/assignments/media-types/application/n-triples> ],
+        [ a dcat:Distribution ;
+            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+            dcterms:title "Enriched edition (JSON-LD)"@en ;
+            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.jsonld> ;
+            dcat:mediaType <https://www.iana.org/assignments/media-types/application/ld+json> ],
+        [ a dcat:Distribution ;
+            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+            dcterms:title "Enriched edition (RDF/XML)"@en ;
+            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.rdf> ;
+            dcat:mediaType <https://www.iana.org/assignments/media-types/application/rdf+xml> ],
+        [ a dcat:Distribution ;
+            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+            dcterms:title "Enriched edition (N3)"@en ;
+            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.n3> ;
+            dcat:mediaType <https://www.iana.org/assignments/media-types/text/n3> ],
+        [ a dcat:Distribution ;
+            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+            dcterms:title "Curated record (CSV)"@en ;
+            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/EVENTSKG_data.csv> ;
+            dcat:mediaType <https://www.iana.org/assignments/media-types/text/csv> ],
+        [ a dcat:Distribution ;
+            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+            dcterms:title "Generated edition (Turtle)"@en ;
+            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/EVENTSKG.ttl> ;
+            dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ],
+        [ a dcat:Distribution ;
+            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+            dcterms:title "Generated edition (N-Triples)"@en ;
+            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.nt> ;
+            dcat:mediaType <https://www.iana.org/assignments/media-types/application/n-triples> ],
+        [ a dcat:Distribution ;
+            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+            dcterms:title "Generated edition (JSON-LD)"@en ;
+            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.jsonld> ;
+            dcat:mediaType <https://www.iana.org/assignments/media-types/application/ld+json> ],
+        [ a dcat:Distribution ;
+            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+            dcterms:title "Generated edition (RDF/XML)"@en ;
+            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.rdf> ;
+            dcat:mediaType <https://www.iana.org/assignments/media-types/application/rdf+xml> ],
+        [ a dcat:Distribution ;
+            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+            dcterms:title "Generated edition (N3)"@en ;
+            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.n3> ;
+            dcat:mediaType <https://www.iana.org/assignments/media-types/text/n3> ] ;
+    dcat:keyword "Linked Open Data"@en,
+        "computer science conferences"@en,
+        "scholarly knowledge graph"@en,
+        "scientific events"@en,
+        "scientometrics"@en ;
+    dcat:landingPage <https://saidfathalla.github.io/EVENTSKG-Dataset/docs/> ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dcterms:description "Generation of the knowledge graph from the curated record with the SSSOM mapping (csv2rdf.py), SHACL validation, and enrichment of the places with DBpedia and Wikidata (enrich.py)."@en ;
+            prov:used <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/EVENTSKG_data.csv>,
+                <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/dbpedia_places.csv>,
+                <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/eventskg.sssom.tsv>,
+                <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/scripts/enrich.yml>,
+                <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/shapes/shapes.ttl> ;
+            prov:wasAssociatedWith [ a prov:SoftwareAgent ;
+                    foaf:name "csv2rdf.py" ;
+                    foaf:page <https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/scripts/csv2rdf.py> ],
+                [ a prov:SoftwareAgent ;
+                    foaf:name "enrich.py" ;
+                    foaf:page <https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/scripts/enrich.py> ] ] ;
+    prov:wasRevisionOf <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.ttl> ;
+    foaf:homepage <https://saidfathalla.github.io/EVENTSKG-Dataset/docs/> .
 

@@ -1,25 +1,132 @@
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/modified> "2026-10-30"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#entities> "2607"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#distinctSubjects> "2607"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb6 <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.nt> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb8 <http://purl.org/dc/terms/title> "Generated edition (RDF/XML)"@en .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb6 <http://purl.org/dc/terms/title> "Generated edition (N-Triples)"@en .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/dcat#keyword> "Linked Open Data"@en .
 <http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://w3id.org/EVENTSKG-Dataset/ekg#" .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/N-Triples> .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "eventskg" .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#triples> "39365"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/prov#wasRevisionOf> <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.ttl> .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#properties> "40"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#distinctObjects> "12902"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/2002/07/owl#versionInfo> "3.0" .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/created> "2018-04-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/JSON-LD> .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/2000/01/rdf-schema#label> "EVENTSKG, A dataset of scientific events"@en .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-8113-9419> .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#classes> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/Turtle> .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/RDF_XML> .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/issued> "2026-10-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/description> "EVENTSKG release 3.0: metadata of 2531 events of 75 top-ranked computer-science event series (1969-2026): dates, location, homepage, submitted/accepted papers and acceptance rate, research field, publisher and sponsor."@en .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#SoftwareAgent> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb16 <http://www.w3.org/ns/prov#used> <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/eventskg.sssom.tsv> .
 <http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/title> "EVENTSKG, Scientific Events Knowledge Graph."@en .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#classes> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/dcat#distribution> _:ncfcc76dcd59041c6ae90e8250587fbcfb15 .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb16 <http://www.w3.org/ns/prov#wasAssociatedWith> _:ncfcc76dcd59041c6ae90e8250587fbcfb17 .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb16 <http://www.w3.org/ns/prov#wasAssociatedWith> _:ncfcc76dcd59041c6ae90e8250587fbcfb18 .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb11 <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/dcat#distribution> _:ncfcc76dcd59041c6ae90e8250587fbcfb7 .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb5 <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb1 <http://xmlns.com/foaf/0.1/homepage> <https://zenodo.org> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb8 <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.rdf> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb14 <http://purl.org/dc/terms/title> "Enriched edition (N3)"@en .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb15 <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb11 <http://purl.org/dc/terms/title> "Enriched edition (N-Triples)"@en .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb14 <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.n3> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/dcat#distribution> _:ncfcc76dcd59041c6ae90e8250587fbcfb14 .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/prov#wasRevisionOf> <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.ttl> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/dcat#keyword> "scholarly knowledge graph"@en .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/created> "2018-04-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#SoftwareAgent> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb12 <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.jsonld> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/N-Triples> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb5 <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/EVENTSKG.ttl> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/modified> "2026-10-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb8 <http://www.w3.org/ns/dcat#mediaType> <https://www.iana.org/assignments/media-types/application/rdf+xml> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/dcat#keyword> "scientometrics"@en .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/identifier> "https://doi.org/10.5281/zenodo.23806362" .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/issued> "2026-10-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb11 <http://www.w3.org/ns/dcat#mediaType> <https://www.iana.org/assignments/media-types/application/n-triples> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb13 <http://purl.org/dc/terms/title> "Enriched edition (RDF/XML)"@en .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/dcat#distribution> _:ncfcc76dcd59041c6ae90e8250587fbcfb11 .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb12 <http://purl.org/dc/terms/title> "Enriched edition (JSON-LD)"@en .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb10 <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb7 <http://www.w3.org/ns/dcat#mediaType> <https://www.iana.org/assignments/media-types/application/ld+json> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb9 <http://purl.org/dc/terms/title> "Generated edition (N3)"@en .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-8113-9419> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/dcat#keyword> "computer science conferences"@en .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#triples> "39472"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb9 <http://www.w3.org/ns/dcat#mediaType> <https://www.iana.org/assignments/media-types/text/n3> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb1 <http://xmlns.com/foaf/0.1/name> "Zenodo" .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb9 <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.n3> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb11 <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.nt> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#entities> "2625"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb15 <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/EVENTSKG_data.csv> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#properties> "59"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb7 <http://purl.org/dc/terms/title> "Generated edition (JSON-LD)"@en .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb9 <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb12 <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#distinctSubjects> "2625"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb13 <http://www.w3.org/ns/dcat#mediaType> <https://www.iana.org/assignments/media-types/application/rdf+xml> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb14 <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/JSON-LD> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://xmlns.com/foaf/0.1/homepage> <https://saidfathalla.github.io/EVENTSKG-Dataset/docs/> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/dcat#landingPage> <https://saidfathalla.github.io/EVENTSKG-Dataset/docs/> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#distinctObjects> "12977"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb10 <http://purl.org/dc/terms/title> "Enriched edition (Turtle)"@en .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb6 <http://www.w3.org/ns/dcat#mediaType> <https://www.iana.org/assignments/media-types/application/n-triples> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/dcat#distribution> _:ncfcc76dcd59041c6ae90e8250587fbcfb8 .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb17 <http://xmlns.com/foaf/0.1/name> "csv2rdf.py" .
 <http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/N3> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb16 <http://www.w3.org/ns/prov#used> <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/EVENTSKG_data.csv> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/publisher> _:ncfcc76dcd59041c6ae90e8250587fbcfb1 .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb12 <http://www.w3.org/ns/dcat#mediaType> <https://www.iana.org/assignments/media-types/application/ld+json> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb16 <http://purl.org/dc/terms/description> "Generation of the knowledge graph from the curated record with the SSSOM mapping (csv2rdf.py), SHACL validation, and enrichment of the places with DBpedia and Wikidata (enrich.py)."@en .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/description> "EVENTSKG release 3.0: metadata of 2531 events of 75 top-ranked computer-science event series (1969-2026): dates, location, homepage, submitted/accepted papers and acceptance rate, research field, publisher and sponsor."@en .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb3 <http://xmlns.com/foaf/0.1/name> "Sören Auer" .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb16 <http://www.w3.org/ns/prov#used> <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/shapes/shapes.ttl> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/dcat#distribution> _:ncfcc76dcd59041c6ae90e8250587fbcfb12 .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb16 <http://www.w3.org/ns/prov#used> <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/dbpedia_places.csv> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/dcat#distribution> _:ncfcc76dcd59041c6ae90e8250587fbcfb5 .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/PeriodOfTime> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb5 <http://www.w3.org/ns/dcat#mediaType> <https://www.iana.org/assignments/media-types/text/turtle> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/conformsTo> <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/shapes/shapes.ttl> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb8 <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "eventskg" .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/RDF_XML> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/dcat#distribution> _:ncfcc76dcd59041c6ae90e8250587fbcfb13 .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb18 <http://xmlns.com/foaf/0.1/page> <https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/scripts/enrich.py> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb10 <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/EVENTSKG-enriched.ttl> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/dcat#distribution> _:ncfcc76dcd59041c6ae90e8250587fbcfb10 .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/contributor> _:ncfcc76dcd59041c6ae90e8250587fbcfb2 .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/contributor> _:ncfcc76dcd59041c6ae90e8250587fbcfb3 .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb17 <http://xmlns.com/foaf/0.1/page> <https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/scripts/csv2rdf.py> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/isReferencedBy> <https://doi.org/10.1007/978-3-030-21348-0_28> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb16 <http://www.w3.org/ns/prov#used> <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/scripts/enrich.yml> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb15 <http://www.w3.org/ns/dcat#mediaType> <https://www.iana.org/assignments/media-types/text/csv> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb15 <http://purl.org/dc/terms/title> "Curated record (CSV)"@en .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb18 <http://xmlns.com/foaf/0.1/name> "enrich.py" .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb13 <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.rdf> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb6 <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/2000/01/rdf-schema#label> "EVENTSKG, A dataset of scientific events"@en .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/dcat#distribution> _:ncfcc76dcd59041c6ae90e8250587fbcfb6 .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb10 <http://www.w3.org/ns/dcat#mediaType> <https://www.iana.org/assignments/media-types/text/turtle> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb7 <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.jsonld> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb5 <http://purl.org/dc/terms/title> "Generated edition (Turtle)"@en .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb14 <http://www.w3.org/ns/dcat#mediaType> <https://www.iana.org/assignments/media-types/text/n3> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/Turtle> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/prov#wasGeneratedBy> _:ncfcc76dcd59041c6ae90e8250587fbcfb16 .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb2 <http://xmlns.com/foaf/0.1/name> "Heba Mohamed" .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/2002/07/owl#versionInfo> "3.0" .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/dcat#distribution> _:ncfcc76dcd59041c6ae90e8250587fbcfb9 .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb13 <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb4 <http://www.w3.org/ns/dcat#endDate> "2026"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb4 <http://www.w3.org/ns/dcat#startDate> "1969"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://purl.org/dc/terms/temporal> _:ncfcc76dcd59041c6ae90e8250587fbcfb4 .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/ns/dcat#keyword> "scientific events"@en .
+_:ncfcc76dcd59041c6ae90e8250587fbcfb7 <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
