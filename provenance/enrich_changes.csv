@@ -1,0 +1,27 @@
+subject,property,old value,new value,reason
+http://w3id.org/EVENTSKG-Dataset/ekg#FOGA2005,seo:city,http://dbpedia.org/resource/Aizu-Wakamatsu,http://dbpedia.org/resource/Aizuwakamatsu,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#ESWC2016,seo:city,http://dbpedia.org/resource/Anissaras,http://dbpedia.org/resource/Hersonissos,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#PODC2015,seo:city,http://dbpedia.org/resource/Donostia-San_Sebastián,http://dbpedia.org/resource/San_Sebastián,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#PERCOM2017,seo:city,"http://dbpedia.org/resource/Kailua,_Hawaii_County,_Hawaii","http://dbpedia.org/resource/Kailua-Kona,_Hawaii",redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#VR2001,dbpedia-owl:state,http://dbpedia.org/resource/Kanagawa,http://dbpedia.org/resource/Kanagawa_Prefecture,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#AISTATS2001,seo:city,"http://dbpedia.org/resource/Key_West,_Florida",http://dbpedia.org/resource/Key_West,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#AISTATS2003,seo:city,"http://dbpedia.org/resource/Key_West,_Florida",http://dbpedia.org/resource/Key_West,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#EUROGP2010,dbpedia-owl:state,http://dbpedia.org/resource/Marmara_Region,http://dbpedia.org/resource/Marmara_region,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#PODC1985,seo:city,"http://dbpedia.org/resource/Minaki,_Ontario",http://dbpedia.org/resource/Minaki,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#ICFP2016,seo:city,"http://dbpedia.org/resource/Nara,_Nara",http://dbpedia.org/resource/Nara_(city),redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#ISMAR2007,seo:city,"http://dbpedia.org/resource/Nara,_Nara",http://dbpedia.org/resource/Nara_(city),redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#ISWC2025,seo:city,"http://dbpedia.org/resource/Nara,_Nara",http://dbpedia.org/resource/Nara_(city),redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#AISTATS2025,seo:city,http://dbpedia.org/resource/Phuket,http://dbpedia.org/resource/Phuket_province,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#AISTATS2014,seo:city,http://dbpedia.org/resource/Reykjavik,http://dbpedia.org/resource/Reykjavík,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#CCS2018,seo:city,http://dbpedia.org/resource/Songdo_International_Business_District,http://dbpedia.org/resource/Songdo,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#CCS1997,seo:city,http://dbpedia.org/resource/Zürich,http://dbpedia.org/resource/Zurich,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#ECCV2014,seo:city,http://dbpedia.org/resource/Zürich,http://dbpedia.org/resource/Zurich,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#ESORICS2002,seo:city,http://dbpedia.org/resource/Zürich,http://dbpedia.org/resource/Zurich,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#EuroCrypt2024,seo:city,http://dbpedia.org/resource/Zürich,http://dbpedia.org/resource/Zurich,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#FSE1997,seo:city,http://dbpedia.org/resource/Zürich,http://dbpedia.org/resource/Zurich,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#ICSE2012,seo:city,http://dbpedia.org/resource/Zürich,http://dbpedia.org/resource/Zurich,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#ISSAC1996,seo:city,http://dbpedia.org/resource/Zürich,http://dbpedia.org/resource/Zurich,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#PODC2010,seo:city,http://dbpedia.org/resource/Zürich,http://dbpedia.org/resource/Zurich,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#SIGIR1996,seo:city,http://dbpedia.org/resource/Zürich,http://dbpedia.org/resource/Zurich,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#UBICOMP2013,seo:city,http://dbpedia.org/resource/Zürich,http://dbpedia.org/resource/Zurich,redirect
+http://w3id.org/EVENTSKG-Dataset/ekg#VLDB1995,seo:city,http://dbpedia.org/resource/Zürich,http://dbpedia.org/resource/Zurich,redirect

@@ -31,6 +31,11 @@ eventskg: a void:Dataset,
     dcterms:issued "2026-10-28"^^xsd:date ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
     dcterms:modified "2026-10-30"^^xsd:date ;
+    dcterms:provenance [ a dcterms:ProvenanceStatement ;
+            dcterms:description "Release 3.0 was created by merging release 2.1 with a curated spreadsheet and by researching the editions held after 2018 from event web sites and proceedings. Every change to a value of release 2.1 is logged with its old value, new value and reason in the migration and correction logs; open data-quality items are listed in the data-check report. Sources of individual values are not yet recorded."@en ;
+            dcterms:source <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/provenance/data_checks.csv>,
+                <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/provenance/fix_log.csv>,
+                <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/provenance/migration_log.csv> ] ;
     dcterms:publisher [ a foaf:Organization ;
             foaf:homepage <https://zenodo.org> ;
             foaf:name "Zenodo" ] ;
@@ -40,19 +45,24 @@ eventskg: a void:Dataset,
     dcterms:title "EVENTSKG, Scientific Events Knowledge Graph."@en ;
     vann:preferredNamespacePrefix "eventskg" ;
     vann:preferredNamespaceUri "http://w3id.org/EVENTSKG-Dataset/ekg#" ;
-    void:classes 34 ;
-    void:distinctObjects 14305 ;
-    void:distinctSubjects 3305 ;
-    void:entities 3305 ;
+    void:classes 35 ;
+    void:distinctObjects 14311 ;
+    void:distinctSubjects 3306 ;
+    void:entities 3306 ;
     void:feature <http://www.w3.org/ns/formats/JSON-LD>,
         <http://www.w3.org/ns/formats/N-Triples>,
         <http://www.w3.org/ns/formats/N3>,
         <http://www.w3.org/ns/formats/RDF_XML>,
         <http://www.w3.org/ns/formats/Turtle> ;
-    void:properties 60 ;
-    void:triples 44166 ;
+    void:properties 63 ;
+    void:triples 44173 ;
     owl:versionInfo "3.0" ;
     dcat:distribution [ a dcat:Distribution ;
+            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+            dcterms:title "Enriched edition (N3)"@en ;
+            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.n3> ;
+            dcat:mediaType <https://www.iana.org/assignments/media-types/text/n3> ],
+        [ a dcat:Distribution ;
             dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
             dcterms:title "Curated record (CSV)"@en ;
             dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/EVENTSKG_data.csv> ;
@@ -101,18 +111,14 @@ eventskg: a void:Dataset,
             dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
             dcterms:title "Enriched edition (RDF/XML)"@en ;
             dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.rdf> ;
-            dcat:mediaType <https://www.iana.org/assignments/media-types/application/rdf+xml> ],
-        [ a dcat:Distribution ;
-            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
-            dcterms:title "Enriched edition (N3)"@en ;
-            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.n3> ;
-            dcat:mediaType <https://www.iana.org/assignments/media-types/text/n3> ] ;
+            dcat:mediaType <https://www.iana.org/assignments/media-types/application/rdf+xml> ] ;
     dcat:keyword "Linked Open Data"@en,
         "computer science conferences"@en,
         "scholarly knowledge graph"@en,
         "scientific events"@en,
         "scientometrics"@en ;
     dcat:landingPage <https://saidfathalla.github.io/EVENTSKG-Dataset/docs/> ;
+    prov:wasDerivedFrom <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.ttl> ;
     prov:wasGeneratedBy [ a prov:Activity ;
             dcterms:description "Generation of the knowledge graph from the curated record with the SSSOM mapping (csv2rdf.py), SHACL validation, and enrichment of the places with DBpedia and Wikidata (enrich.py)."@en ;
             prov:used <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/EVENTSKG_data.csv>,

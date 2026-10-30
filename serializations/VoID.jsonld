@@ -23,51 +23,47 @@
    ],
    "dcat:distribution": [
     {
-     "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb15"
+     "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab12"
     },
     {
-     "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb8"
+     "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab10"
     },
     {
-     "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb7"
+     "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab11"
     },
     {
-     "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb12"
+     "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab13"
     },
     {
-     "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb5"
+     "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab6"
     },
     {
-     "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb14"
+     "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab14"
     },
     {
-     "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb13"
+     "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab9"
     },
     {
-     "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb10"
+     "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab7"
     },
     {
-     "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb11"
+     "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab5"
     },
     {
-     "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb6"
+     "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab8"
     },
     {
-     "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb9"
+     "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab15"
     }
    ],
    "dcat:keyword": [
-    {
-     "@language": "en",
-     "@value": "Linked Open Data"
-    },
     {
      "@language": "en",
      "@value": "scholarly knowledge graph"
     },
     {
      "@language": "en",
-     "@value": "scientometrics"
+     "@value": "scientific events"
     },
     {
      "@language": "en",
@@ -75,7 +71,11 @@
     },
     {
      "@language": "en",
-     "@value": "scientific events"
+     "@value": "Linked Open Data"
+    },
+    {
+     "@language": "en",
+     "@value": "scientometrics"
     }
    ],
    "dcat:landingPage": {
@@ -86,10 +86,10 @@
    },
    "dcterms:contributor": [
     {
-     "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb2"
+     "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab3"
     },
     {
-     "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb3"
+     "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab2"
     }
    ],
    "dcterms:created": {
@@ -118,11 +118,14 @@
     "@type": "xsd:date",
     "@value": "2026-10-30"
    },
+   "dcterms:provenance": {
+    "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab16"
+   },
    "dcterms:publisher": {
-    "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb1"
+    "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab1"
    },
    "dcterms:temporal": {
-    "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb4"
+    "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab4"
    },
    "dcterms:title": {
     "@language": "en",
@@ -132,8 +135,11 @@
     "@id": "https://saidfathalla.github.io/EVENTSKG-Dataset/docs/"
    },
    "owl:versionInfo": "3.0",
+   "prov:wasDerivedFrom": {
+    "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.ttl"
+   },
    "prov:wasGeneratedBy": {
-    "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb16"
+    "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab17"
    },
    "prov:wasRevisionOf": {
     "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.ttl"
@@ -144,10 +150,10 @@
    },
    "vann:preferredNamespacePrefix": "eventskg",
    "vann:preferredNamespaceUri": "http://w3id.org/EVENTSKG-Dataset/ekg#",
-   "void:classes": 16,
-   "void:distinctObjects": 12977,
-   "void:distinctSubjects": 2625,
-   "void:entities": 2625,
+   "void:classes": 17,
+   "void:distinctObjects": 12983,
+   "void:distinctSubjects": 2626,
+   "void:entities": 2626,
    "void:feature": [
     {
      "@id": "http://www.w3.org/ns/formats/Turtle"
@@ -165,62 +171,11 @@
      "@id": "http://www.w3.org/ns/formats/N3"
     }
    ],
-   "void:properties": 59,
-   "void:triples": 39472
+   "void:properties": 62,
+   "void:triples": 39479
   },
   {
-   "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb15",
-   "@type": "dcat:Distribution",
-   "dcat:downloadURL": {
-    "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/EVENTSKG_data.csv"
-   },
-   "dcat:mediaType": {
-    "@id": "https://www.iana.org/assignments/media-types/text/csv"
-   },
-   "dcterms:license": {
-    "@id": "http://creativecommons.org/licenses/by/4.0/"
-   },
-   "dcterms:title": {
-    "@language": "en",
-    "@value": "Curated record (CSV)"
-   }
-  },
-  {
-   "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb8",
-   "@type": "dcat:Distribution",
-   "dcat:downloadURL": {
-    "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.rdf"
-   },
-   "dcat:mediaType": {
-    "@id": "https://www.iana.org/assignments/media-types/application/rdf+xml"
-   },
-   "dcterms:license": {
-    "@id": "http://creativecommons.org/licenses/by/4.0/"
-   },
-   "dcterms:title": {
-    "@language": "en",
-    "@value": "Generated edition (RDF/XML)"
-   }
-  },
-  {
-   "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb7",
-   "@type": "dcat:Distribution",
-   "dcat:downloadURL": {
-    "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.jsonld"
-   },
-   "dcat:mediaType": {
-    "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
-   },
-   "dcterms:license": {
-    "@id": "http://creativecommons.org/licenses/by/4.0/"
-   },
-   "dcterms:title": {
-    "@language": "en",
-    "@value": "Generated edition (JSON-LD)"
-   }
-  },
-  {
-   "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb12",
+   "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab12",
    "@type": "dcat:Distribution",
    "dcat:downloadURL": {
     "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.jsonld"
@@ -237,58 +192,7 @@
    }
   },
   {
-   "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb5",
-   "@type": "dcat:Distribution",
-   "dcat:downloadURL": {
-    "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/EVENTSKG.ttl"
-   },
-   "dcat:mediaType": {
-    "@id": "https://www.iana.org/assignments/media-types/text/turtle"
-   },
-   "dcterms:license": {
-    "@id": "http://creativecommons.org/licenses/by/4.0/"
-   },
-   "dcterms:title": {
-    "@language": "en",
-    "@value": "Generated edition (Turtle)"
-   }
-  },
-  {
-   "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb14",
-   "@type": "dcat:Distribution",
-   "dcat:downloadURL": {
-    "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.n3"
-   },
-   "dcat:mediaType": {
-    "@id": "https://www.iana.org/assignments/media-types/text/n3"
-   },
-   "dcterms:license": {
-    "@id": "http://creativecommons.org/licenses/by/4.0/"
-   },
-   "dcterms:title": {
-    "@language": "en",
-    "@value": "Enriched edition (N3)"
-   }
-  },
-  {
-   "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb13",
-   "@type": "dcat:Distribution",
-   "dcat:downloadURL": {
-    "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.rdf"
-   },
-   "dcat:mediaType": {
-    "@id": "https://www.iana.org/assignments/media-types/application/rdf+xml"
-   },
-   "dcterms:license": {
-    "@id": "http://creativecommons.org/licenses/by/4.0/"
-   },
-   "dcterms:title": {
-    "@language": "en",
-    "@value": "Enriched edition (RDF/XML)"
-   }
-  },
-  {
-   "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb10",
+   "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab10",
    "@type": "dcat:Distribution",
    "dcat:downloadURL": {
     "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/EVENTSKG-enriched.ttl"
@@ -305,7 +209,7 @@
    }
   },
   {
-   "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb11",
+   "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab11",
    "@type": "dcat:Distribution",
    "dcat:downloadURL": {
     "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.nt"
@@ -322,7 +226,24 @@
    }
   },
   {
-   "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb6",
+   "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab13",
+   "@type": "dcat:Distribution",
+   "dcat:downloadURL": {
+    "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.rdf"
+   },
+   "dcat:mediaType": {
+    "@id": "https://www.iana.org/assignments/media-types/application/rdf+xml"
+   },
+   "dcterms:license": {
+    "@id": "http://creativecommons.org/licenses/by/4.0/"
+   },
+   "dcterms:title": {
+    "@language": "en",
+    "@value": "Enriched edition (RDF/XML)"
+   }
+  },
+  {
+   "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab6",
    "@type": "dcat:Distribution",
    "dcat:downloadURL": {
     "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.nt"
@@ -339,7 +260,24 @@
    }
   },
   {
-   "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb9",
+   "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab14",
+   "@type": "dcat:Distribution",
+   "dcat:downloadURL": {
+    "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.n3"
+   },
+   "dcat:mediaType": {
+    "@id": "https://www.iana.org/assignments/media-types/text/n3"
+   },
+   "dcterms:license": {
+    "@id": "http://creativecommons.org/licenses/by/4.0/"
+   },
+   "dcterms:title": {
+    "@language": "en",
+    "@value": "Enriched edition (N3)"
+   }
+  },
+  {
+   "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab9",
    "@type": "dcat:Distribution",
    "dcat:downloadURL": {
     "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.n3"
@@ -356,25 +294,85 @@
    }
   },
   {
-   "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb1",
-   "@type": "foaf:Organization",
-   "foaf:homepage": {
-    "@id": "https://zenodo.org"
+   "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab7",
+   "@type": "dcat:Distribution",
+   "dcat:downloadURL": {
+    "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.jsonld"
    },
-   "foaf:name": "Zenodo"
+   "dcat:mediaType": {
+    "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
+   },
+   "dcterms:license": {
+    "@id": "http://creativecommons.org/licenses/by/4.0/"
+   },
+   "dcterms:title": {
+    "@language": "en",
+    "@value": "Generated edition (JSON-LD)"
+   }
   },
   {
-   "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb2",
-   "@type": "foaf:Person",
-   "foaf:name": "Heba Mohamed"
+   "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab5",
+   "@type": "dcat:Distribution",
+   "dcat:downloadURL": {
+    "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/EVENTSKG.ttl"
+   },
+   "dcat:mediaType": {
+    "@id": "https://www.iana.org/assignments/media-types/text/turtle"
+   },
+   "dcterms:license": {
+    "@id": "http://creativecommons.org/licenses/by/4.0/"
+   },
+   "dcterms:title": {
+    "@language": "en",
+    "@value": "Generated edition (Turtle)"
+   }
   },
   {
-   "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb3",
+   "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab8",
+   "@type": "dcat:Distribution",
+   "dcat:downloadURL": {
+    "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.rdf"
+   },
+   "dcat:mediaType": {
+    "@id": "https://www.iana.org/assignments/media-types/application/rdf+xml"
+   },
+   "dcterms:license": {
+    "@id": "http://creativecommons.org/licenses/by/4.0/"
+   },
+   "dcterms:title": {
+    "@language": "en",
+    "@value": "Generated edition (RDF/XML)"
+   }
+  },
+  {
+   "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab15",
+   "@type": "dcat:Distribution",
+   "dcat:downloadURL": {
+    "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/EVENTSKG_data.csv"
+   },
+   "dcat:mediaType": {
+    "@id": "https://www.iana.org/assignments/media-types/text/csv"
+   },
+   "dcterms:license": {
+    "@id": "http://creativecommons.org/licenses/by/4.0/"
+   },
+   "dcterms:title": {
+    "@language": "en",
+    "@value": "Curated record (CSV)"
+   }
+  },
+  {
+   "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab3",
    "@type": "foaf:Person",
    "foaf:name": "Sören Auer"
   },
   {
-   "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb16",
+   "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab2",
+   "@type": "foaf:Person",
+   "foaf:name": "Heba Mohamed"
+  },
+  {
+   "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab17",
    "@type": "prov:Activity",
    "dcterms:description": {
     "@language": "en",
@@ -388,26 +386,26 @@
      "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/EVENTSKG_data.csv"
     },
     {
+     "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/scripts/enrich.yml"
+    },
+    {
      "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/shapes/shapes.ttl"
     },
     {
      "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/dbpedia_places.csv"
-    },
-    {
-     "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/scripts/enrich.yml"
     }
    ],
    "prov:wasAssociatedWith": [
     {
-     "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb17"
+     "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab18"
     },
     {
-     "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb18"
+     "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab19"
     }
    ]
   },
   {
-   "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb17",
+   "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab18",
    "@type": "prov:SoftwareAgent",
    "foaf:name": "csv2rdf.py",
    "foaf:page": {
@@ -415,7 +413,7 @@
    }
   },
   {
-   "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb18",
+   "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab19",
    "@type": "prov:SoftwareAgent",
    "foaf:name": "enrich.py",
    "foaf:page": {
@@ -423,7 +421,7 @@
    }
   },
   {
-   "@id": "_:ncfcc76dcd59041c6ae90e8250587fbcfb4",
+   "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab4",
    "@type": "dcterms:PeriodOfTime",
    "dcat:endDate": {
     "@type": "xsd:gYear",
@@ -433,6 +431,33 @@
     "@type": "xsd:gYear",
     "@value": "1969"
    }
+  },
+  {
+   "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab16",
+   "@type": "dcterms:ProvenanceStatement",
+   "dcterms:description": {
+    "@language": "en",
+    "@value": "Release 3.0 was created by merging release 2.1 with a curated spreadsheet and by researching the editions held after 2018 from event web sites and proceedings. Every change to a value of release 2.1 is logged with its old value, new value and reason in the migration and correction logs; open data-quality items are listed in the data-check report. Sources of individual values are not yet recorded."
+   },
+   "dcterms:source": [
+    {
+     "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/provenance/migration_log.csv"
+    },
+    {
+     "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/provenance/fix_log.csv"
+    },
+    {
+     "@id": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/provenance/data_checks.csv"
+    }
+   ]
+  },
+  {
+   "@id": "_:nda4428fcb3174b45965b73ef6e8fed9ab1",
+   "@type": "foaf:Organization",
+   "foaf:homepage": {
+    "@id": "https://zenodo.org"
+   },
+   "foaf:name": "Zenodo"
   }
  ]
 }

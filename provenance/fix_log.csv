@@ -1,0 +1,464 @@
+event_id,column,old,new,reason
+AISTATS2026,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2026,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2025,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2025,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2024,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2024,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2023,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2023,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2022,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2022,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2021,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2021,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2020,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2020,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2019,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2019,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2018,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2018,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2017,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2017,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2016,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2016,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2015,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2015,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2014,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2014,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2013,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2013,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2012,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2012,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2011,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2011,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2010,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2010,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2009,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2009,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2007,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2007,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2005,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2005,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2003,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2003,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS2001,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS2001,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS1999,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS1999,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS1997,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS1997,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS1995,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS1995,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS1993,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS1993,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS1991,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS1991,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS1989,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS1989,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+AISTATS1985,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
+AISTATS1985,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
+Eurosys2026,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2025,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2024,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2023,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2022,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2021,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2020,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2019,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2018,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2017,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2016,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2015,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2014,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2013,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2012,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2011,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2010,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2009,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2008,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2007,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+Eurosys2006,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
+SIGIR2026,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2025,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2024,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2023,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2022,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2021,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2020,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2019,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2018,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2017,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2016,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2015,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2014,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2013,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2012,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2011,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2010,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2009,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2008,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2007,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2006,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2005,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2004,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2003,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2002,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2001,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR2000,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1999,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1998,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1997,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1996,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1995,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1994,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1993,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1992,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1991,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1990,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1989,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1988,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1987,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1986,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1985,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1984,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1983,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1982,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1981,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1980,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1979,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+SIGIR1978,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+InfoVis2026,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2025,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2024,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2023,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2022,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2021,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2020,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2019,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2018,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2017,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2016,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2015,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2014,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2013,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2012,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2011,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2010,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2009,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2008,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2007,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2006,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2005,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2004,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2003,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2002,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2001,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis2000,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis1999,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis1998,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis1997,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis1996,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis1995,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis1994,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis1993,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis1992,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis1991,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+InfoVis1990,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
+SBAC-PAD2026,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2025,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2024,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2023,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2022,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2021,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2020,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2019,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2018,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2017,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2016,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2015,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2014,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2013,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2012,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2011,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2010,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2009,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2008,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2007,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2006,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2005,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2004,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2003,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2002,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2001,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD2000,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD1999,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD1998,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD1997,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD1996,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD1995,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD1994,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD1993,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD1992,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD1991,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD1990,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD1989,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD1988,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SBAC-PAD1987,series_type,ConferenceSeries,SymposiumSeries,series type = type of 40 of its 40 editions
+SP2026,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2025,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2024,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2023,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2022,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2021,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2020,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2019,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2018,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2017,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2016,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2015,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2014,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2013,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2012,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2011,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2010,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2009,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2008,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2007,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2006,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2005,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2004,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2003,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2002,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2001,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP2000,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1999,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1998,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1997,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1996,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1995,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1994,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1993,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1992,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1991,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1990,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1989,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1988,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1987,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1986,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1985,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1984,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1983,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1982,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1981,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SP1980,series_type,ConferenceSeries,SymposiumSeries,series type = type of 47 of its 47 editions
+SPAA2026,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2025,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2024,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2023,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2022,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2021,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2020,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2019,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2018,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2017,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2016,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2015,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2014,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2013,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2012,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2011,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2010,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2009,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2008,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2007,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2006,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2005,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2004,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2003,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2002,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2001,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA2000,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA1999,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA1998,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA1997,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA1996,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA1995,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA1994,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA1993,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA1992,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA1991,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA1990,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+SPAA1989,series_type,ConferenceSeries,SymposiumSeries,series type = type of 38 of its 38 editions
+STOC2026,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2025,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2024,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2023,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2022,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2021,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2020,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2019,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2018,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2017,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2016,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2015,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2014,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2013,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2012,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2011,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2010,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2009,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2008,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2007,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2006,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2005,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2004,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2003,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2002,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2001,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC2000,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1999,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1998,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1997,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1996,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1995,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1994,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1993,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1992,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1991,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1990,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1989,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1988,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1987,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1986,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1985,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1984,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1983,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1982,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1981,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1980,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1979,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1978,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1977,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1976,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1975,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1974,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1973,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1972,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1971,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1970,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+STOC1969,series_type,ConferenceSeries,SymposiumSeries,series type = type of 58 of its 58 editions
+USENIX2026,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2025,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2024,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2023,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2022,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2021,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2020,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2019,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2018,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2017,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2016,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2015,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2014,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2013,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2012,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2011,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2010,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2009,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2008,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2007,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2006,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2005,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2004,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2003,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2002,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2001,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX2000,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX1999,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX1998,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX1996,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX1995,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX1993,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX1992,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX1991,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+USENIX1990,series_type,ConferenceSeries,SymposiumSeries,series type = type of 35 of its 35 editions
+ACCV2020,city,,Kyoto,checked correction
+ACCV2020,country,,Japan,checked correction
+ACCV2020,attendance_mode,,online,checked correction
+CHI2020,city,,Honolulu,checked correction
+CHI2020,state,,Hawaii,checked correction
+CHI2020,end_date,2020-05-07,2020-04-30,checked correction
+CHI2020,attendance_mode,online,,checked correction
+CHI2020,event_status,,cancelled,checked correction
+CHI2020,notes,,cancelled (COVID-19); papers published in the proceedings,checked correction
+JCDL2013,homepage,www.jcdl.org/archived-conf-sites/jcdl2013/,http://www.jcdl.org/archived-conf-sites/jcdl2013/,homepage without http://
+JCDL2012,homepage,www.jcdl.org/archived-conf-sites/jcdl2012/,http://www.jcdl.org/archived-conf-sites/jcdl2012/,homepage without http://
+JCDL2011,homepage,www.jcdl.org/archived-conf-sites/jcdl2011/,http://www.jcdl.org/archived-conf-sites/jcdl2011/,homepage without http://
+JCDL2010,homepage,www.jcdl.org/archived-conf-sites/jcdl2010/,http://www.jcdl.org/archived-conf-sites/jcdl2010/,homepage without http://
+JCDL2009,homepage,www.jcdl.org/archived-conf-sites/jcdl2009/,http://www.jcdl.org/archived-conf-sites/jcdl2009/,homepage without http://
+JCDL2008,homepage,www.jcdl.org/archived-conf-sites/jcdl2008/,http://www.jcdl.org/archived-conf-sites/jcdl2008/,homepage without http://
+JCDL2007,homepage,www.jcdl.org/archived-conf-sites/jcdl2007/,http://www.jcdl.org/archived-conf-sites/jcdl2007/,homepage without http://
+JCDL2006,homepage,www.jcdl.org/archived-conf-sites/jcdl2006/,http://www.jcdl.org/archived-conf-sites/jcdl2006/,homepage without http://
+JCDL2005,homepage,www.jcdl.org/archived-conf-sites/jcdl2005/,http://www.jcdl.org/archived-conf-sites/jcdl2005/,homepage without http://
+JCDL2004,homepage,www.jcdl.org/archived-conf-sites/jcdl2004/,http://www.jcdl.org/archived-conf-sites/jcdl2004/,homepage without http://
+JCDL2003,homepage,www.jcdl.org/archived-conf-sites/jcdl2003/,http://www.jcdl.org/archived-conf-sites/jcdl2003/,homepage without http://
+JCDL2002,homepage,www.jcdl.org/archived-conf-sites/jcdl2002/,http://www.jcdl.org/archived-conf-sites/jcdl2002/,homepage without http://
+JCDL2001,homepage,www.jcdl.org/archived-conf-sites/jcdl2001/,http://www.jcdl.org/archived-conf-sites/jcdl2001/,homepage without http://
+OOPSLA2013,homepage,http://dblp2.uni-trier.de/db/conf/SPLASH /SPLASH 2013.html,http://dblp2.uni-trier.de/db/conf/oopsla/oopsla2013.html,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA2012,homepage,http://dblp2.uni-trier.de/db/conf/SPLASH /SPLASH 2012.html,http://dblp2.uni-trier.de/db/conf/oopsla/oopsla2012.html,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA2011,homepage,http://dblp2.uni-trier.de/db/conf/SPLASH /SPLASH 2011.html,http://dblp2.uni-trier.de/db/conf/oopsla/oopsla2011.html,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA2010,homepage,http://dblp2.uni-trier.de/db/conf/SPLASH /SPLASH 2010.html,http://dblp2.uni-trier.de/db/conf/oopsla/oopsla2010.html,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA2009,homepage,http://www.SPLASH .org/SPLASH 2009/,http://www.oopsla.org/oopsla2009/,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA2008,homepage,http://www.SPLASH .org/SPLASH 2008/,http://www.oopsla.org/oopsla2008/,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA2007,homepage,http://www.SPLASH .org/SPLASH 2007/,http://www.oopsla.org/oopsla2007/,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA2006,homepage,http://www.SPLASH .org/2006/,http://www.oopsla.org/2006/,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA2005,homepage,http://www.SPLASH .org/2005/,http://www.oopsla.org/2005/,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA2004,homepage,http://www.SPLASH .org/2004/,http://www.oopsla.org/2004/,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA2003,homepage,http://www.SPLASH .org/SPLASH 2003/,http://www.oopsla.org/oopsla2003/,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA2002,homepage,http://www.SPLASH .org/2002/,http://www.oopsla.org/2002/,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA2001,homepage,http://www.SPLASH .org/2001/,http://www.oopsla.org/2001/,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA2000,homepage,http://www.SPLASH .org/2000/,http://www.oopsla.org/2000/,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA1999,homepage,http://classic.sigplan.org/SPLASH /SPLASH 99/,http://classic.sigplan.org/oopsla/oopsla99/,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA1998,homepage,http://classic.sigplan.org/SPLASH /SPLASH 98/,http://classic.sigplan.org/oopsla/oopsla98/,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA1997,homepage,http://classic.sigplan.org/SPLASH /SPLASH 97/SPLASH 97.html,http://classic.sigplan.org/oopsla/oopsla97/oopsla97.html,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA1996,homepage,http://classic.sigplan.org/SPLASH /SPLASH 96/SPLASH 96.html,http://classic.sigplan.org/oopsla/oopsla96/oopsla96.html,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA1995,homepage,http://dblp2.uni-trier.de/db/conf/SPLASH /SPLASH 95.html,http://dblp2.uni-trier.de/db/conf/oopsla/oopsla95.html,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA1994,homepage,http://dblp2.uni-trier.de/db/conf/SPLASH /SPLASH 94.html,http://dblp2.uni-trier.de/db/conf/oopsla/oopsla94.html,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA1993,homepage,http://dblp2.uni-trier.de/db/conf/SPLASH /SPLASH 93.html,http://dblp2.uni-trier.de/db/conf/oopsla/oopsla93.html,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA1992,homepage,http://dblp2.uni-trier.de/db/conf/SPLASH /SPLASH 92.html,http://dblp2.uni-trier.de/db/conf/oopsla/oopsla92.html,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA1991,homepage,http://dblp2.uni-trier.de/db/conf/SPLASH /SPLASH 91.html,http://dblp2.uni-trier.de/db/conf/oopsla/oopsla91.html,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA1990,homepage,http://dblp2.uni-trier.de/db/conf/SPLASH /SPLASH 90.html,http://dblp2.uni-trier.de/db/conf/oopsla/oopsla90.html,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA1989,homepage,http://dblp2.uni-trier.de/db/conf/SPLASH /SPLASH 89.html,http://dblp2.uni-trier.de/db/conf/oopsla/oopsla89.html,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA1988,homepage,http://dblp2.uni-trier.de/db/conf/SPLASH /SPLASH 88.html,http://dblp2.uni-trier.de/db/conf/oopsla/oopsla88.html,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA1987,homepage,http://dblp2.uni-trier.de/db/conf/SPLASH /SPLASH 87.html,http://dblp2.uni-trier.de/db/conf/oopsla/oopsla87.html,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+OOPSLA1986,homepage,http://dblp2.uni-trier.de/db/conf/SPLASH /SPLASH 86.html,http://dblp2.uni-trier.de/db/conf/oopsla/oopsla86.html,"URL damaged by a find-and-replace (oopsla -> ""SPLASH "")"
+PKDD2001,homepage,http://ttp://dblp.org/db/conf/pkdd/pkdd2001.html,http://dblp.org/db/conf/pkdd/pkdd2001.html,URL typo
+TheWeb1994,state,Illinois,,checked correction
+UAI2008,state,California,,checked correction
+UAI2007,state,California,British Columbia,checked correction
+USENIX2019,homepage,USENIX,,not a URL
+USENIX1992,homepage,USENIX,,not a URL
+USENIX1991,homepage,USENIX,,not a URL
+USENIX1990,homepage,USENIX,,not a URL
+CSF2011,sponsor,intel,Intel,sponsor name spelling
+EDBT2011,sponsor,hp,HP,sponsor name spelling
+ESWC2012,sponsor,monnet,Monnet,sponsor name spelling
+ESWC2010,sponsor,ontotext,Ontotext,sponsor name spelling
+EuroCrypt2018,sponsor,arm,Arm,sponsor name spelling
+EuroCrypt2016,sponsor,intel,Intel,sponsor name spelling
+EuroCrypt2013,sponsor,intel,Intel,sponsor name spelling
+FOCS1996,state,%20Vermont,Vermont,encoded space in the name
+ICFP2018,sponsor,ahrefs,Ahrefs,sponsor name spelling
+ICFP2017,sponsor,ahrefs,Ahrefs,sponsor name spelling
+ICFP2016,sponsor,ahrefs,Ahrefs,sponsor name spelling
+ICFP2015,sponsor,ahrefs,Ahrefs,sponsor name spelling
+NDSS2012,sponsor,intenet 2,Internet2,sponsor name spelling
+SPAA2009,sponsor,intel,Intel,sponsor name spelling
+CSF2020,state,Massachusetts,,state without a city (online edition)
+DCC2021,state,Utah,,state without a city (online edition)
+FSE2020,state,California,,state without a city (online edition)
+PODS2020,state,Oregon,,state without a city (online edition)
+SIGGRAPH2021,state,California,,state without a city (online edition)
+SIGGRAPH2020,state,California,,state without a city (online edition)
+VR2020,state,Georgia,,state without a city (online edition)
+WSDM2022,state,Arizona,,state without a city (online edition)
