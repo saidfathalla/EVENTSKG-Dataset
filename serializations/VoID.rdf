@@ -10,42 +10,56 @@
    xmlns:vann="http://purl.org/vocab/vann/"
    xmlns:void="http://rdfs.org/ns/void#"
 >
+  <rdf:Description rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b13">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/EVENTSKG_data.csv"/>
+    <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:title xml:lang="en">Curated record (CSV)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b10">
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.jsonld"/>
+    <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:title xml:lang="en">Enriched edition (JSON-LD)</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://w3id.org/EVENTSKG-Dataset/ekg#">
-    <dcat:distribution rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab12"/>
-    <dcat:distribution rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab10"/>
-    <dcat:distribution rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab11"/>
-    <dcat:distribution rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab13"/>
-    <dcat:distribution rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab6"/>
-    <dcat:distribution rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab14"/>
-    <dcat:distribution rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab9"/>
-    <dcat:distribution rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab7"/>
-    <dcat:distribution rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab5"/>
-    <dcat:distribution rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab8"/>
-    <dcat:distribution rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab15"/>
+    <dcat:distribution rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b4"/>
+    <dcat:distribution rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b6"/>
+    <dcat:distribution rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b7"/>
+    <dcat:distribution rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b10"/>
+    <dcat:distribution rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b8"/>
+    <dcat:distribution rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b9"/>
+    <dcat:distribution rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b13"/>
+    <dcat:distribution rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b5"/>
+    <dcat:distribution rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b11"/>
+    <dcat:distribution rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b3"/>
+    <dcat:distribution rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b12"/>
+    <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-3146-1937"/>
+    <dcterms:contributor rdf:resource="https://orcid.org/0000-0002-0698-2864"/>
+    <dcterms:isReferencedBy rdf:resource="https://doi.org/10.1007/978-3-030-21348-0_28"/>
+    <dcat:keyword xml:lang="en">scientometrics</dcat:keyword>
+    <dcat:keyword xml:lang="en">scientific events</dcat:keyword>
+    <dcat:keyword xml:lang="en">computer science conferences</dcat:keyword>
+    <dcat:keyword xml:lang="en">scholarly knowledge graph</dcat:keyword>
+    <dcat:keyword xml:lang="en">Linked Open Data</dcat:keyword>
+    <dcterms:provenance rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b14"/>
+    <dcterms:publisher rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b1"/>
+    <prov:wasGeneratedBy rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b15"/>
+    <foaf:homepage rdf:resource="https://saidfathalla.github.io/EVENTSKG-Dataset/docs/"/>
+    <dcterms:temporal rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b2"/>
+    <prov:wasDerivedFrom rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.ttl"/>
+    <dcat:landingPage rdf:resource="https://saidfathalla.github.io/EVENTSKG-Dataset/docs/"/>
+    <dcterms:conformsTo rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/shapes/shapes.ttl"/>
     <dcterms:identifier>https://doi.org/10.5281/zenodo.23806362</dcterms:identifier>
-    <dcterms:contributor rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab3"/>
-    <dcterms:contributor rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab2"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-    <prov:wasGeneratedBy rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab17"/>
-    <dcterms:temporal rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab4"/>
-    <dcat:keyword xml:lang="en">scholarly knowledge graph</dcat:keyword>
-    <dcat:keyword xml:lang="en">scientific events</dcat:keyword>
-    <dcat:keyword xml:lang="en">computer science conferences</dcat:keyword>
-    <dcat:keyword xml:lang="en">Linked Open Data</dcat:keyword>
-    <dcat:keyword xml:lang="en">scientometrics</dcat:keyword>
-    <prov:wasDerivedFrom rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.ttl"/>
-    <dcterms:isReferencedBy rdf:resource="https://doi.org/10.1007/978-3-030-21348-0_28"/>
-    <dcat:landingPage rdf:resource="https://saidfathalla.github.io/EVENTSKG-Dataset/docs/"/>
-    <foaf:homepage rdf:resource="https://saidfathalla.github.io/EVENTSKG-Dataset/docs/"/>
-    <dcterms:provenance rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab16"/>
-    <dcterms:conformsTo rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/shapes/shapes.ttl"/>
-    <dcterms:publisher rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab1"/>
     <rdfs:label xml:lang="en">EVENTSKG, A dataset of scientific events</rdfs:label>
     <dcterms:title xml:lang="en">EVENTSKG, Scientific Events Knowledge Graph.</dcterms:title>
     <dcterms:description xml:lang="en">EVENTSKG release 3.0: metadata of 2531 events of 75 top-ranked computer-science event series (1969-2026): dates, location, homepage, submitted/accepted papers and acceptance rate, research field, publisher and sponsor.</dcterms:description>
-    <dcterms:creator rdf:resource="https://orcid.org/0000-0002-8113-9419"/>
+    <dcterms:creator rdf:resource="https://orcid.org/0000-0002-2818-5890"/>
     <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-01</dcterms:created>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-28</dcterms:issued>
@@ -59,134 +73,112 @@
     <void:feature rdf:resource="http://www.w3.org/ns/formats/JSON-LD"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
     <void:feature rdf:resource="http://www.w3.org/ns/formats/N3"/>
-    <void:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2626</void:entities>
+    <void:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2627</void:entities>
     <void:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</void:classes>
     <void:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</void:properties>
-    <void:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2626</void:distinctSubjects>
-    <void:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12983</void:distinctObjects>
-    <void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39479</void:triples>
+    <void:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2627</void:distinctSubjects>
+    <void:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12984</void:distinctObjects>
+    <void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39481</void:triples>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab11">
-    <dcterms:title xml:lang="en">Enriched edition (N-Triples)</dcterms:title>
-    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/n-triples"/>
-    <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.nt"/>
+  <rdf:Description rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b14">
+    <dcterms:source rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/provenance/data_checks.csv"/>
+    <dcterms:source rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/provenance/migration_log.csv"/>
+    <dcterms:source rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/provenance/fix_log.csv"/>
+    <dcterms:description xml:lang="en">Release 3.0 was created by merging release 2.1 with a curated spreadsheet and by researching the editions held after 2018 from event web sites and proceedings. Every change to a value of release 2.1 is logged with its old value, new value and reason in the migration and correction logs; open data-quality items are listed in the data-check report. Sources of individual values are not yet recorded.</dcterms:description>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/ProvenanceStatement"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab8">
-    <dcterms:title xml:lang="en">Generated edition (RDF/XML)</dcterms:title>
-    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
-    <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.rdf"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab18">
-    <foaf:name>csv2rdf.py</foaf:name>
-    <foaf:page rdf:resource="https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/scripts/csv2rdf.py"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab19">
-    <foaf:name>enrich.py</foaf:name>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
-    <foaf:page rdf:resource="https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/scripts/enrich.py"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab15">
-    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
-    <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <dcterms:title xml:lang="en">Curated record (CSV)</dcterms:title>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/EVENTSKG_data.csv"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab17">
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-    <prov:used rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/eventskg.sssom.tsv"/>
-    <prov:used rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/EVENTSKG_data.csv"/>
-    <prov:used rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/scripts/enrich.yml"/>
-    <prov:used rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/shapes/shapes.ttl"/>
-    <prov:used rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/dbpedia_places.csv"/>
-    <prov:wasAssociatedWith rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab18"/>
-    <prov:wasAssociatedWith rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab19"/>
-    <dcterms:description xml:lang="en">Generation of the knowledge graph from the curated record with the SSSOM mapping (csv2rdf.py), SHACL validation, and enrichment of the places with DBpedia and Wikidata (enrich.py).</dcterms:description>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab14">
-    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/n3"/>
-    <dcterms:title xml:lang="en">Enriched edition (N3)</dcterms:title>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.n3"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab13">
-    <dcterms:title xml:lang="en">Enriched edition (RDF/XML)</dcterms:title>
-    <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.rdf"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab5">
+  <rdf:Description rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b3">
     <dcterms:title xml:lang="en">Generated edition (Turtle)</dcterms:title>
     <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
     <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/turtle"/>
     <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/EVENTSKG.ttl"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab9">
+  <rdf:Description rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b9">
     <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.n3"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/n-triples"/>
+    <dcterms:title xml:lang="en">Enriched edition (N-Triples)</dcterms:title>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.nt"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b2">
+    <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2026</dcat:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</dcat:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b1">
+    <foaf:homepage rdf:resource="https://zenodo.org"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <foaf:name>Zenodo</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b15">
+    <prov:wasAssociatedWith rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b17"/>
+    <prov:wasAssociatedWith rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b16"/>
+    <prov:used rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/dbpedia_places.csv"/>
+    <prov:used rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/EVENTSKG_data.csv"/>
+    <prov:used rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/eventskg.sssom.tsv"/>
+    <prov:used rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/shapes/shapes.ttl"/>
+    <prov:used rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/scripts/enrich.yml"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dcterms:description xml:lang="en">Generation of the knowledge graph from the curated record with the SSSOM mapping (csv2rdf.py), SHACL validation, and enrichment of the places with DBpedia and Wikidata (enrich.py).</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b16">
+    <foaf:page rdf:resource="https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/scripts/csv2rdf.py"/>
+    <foaf:name>csv2rdf.py</foaf:name>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b11">
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.rdf"/>
+    <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
+    <dcterms:title xml:lang="en">Enriched edition (RDF/XML)</dcterms:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b8">
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/turtle"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:title xml:lang="en">Enriched edition (Turtle)</dcterms:title>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/EVENTSKG-enriched.ttl"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b12">
+    <dcterms:title xml:lang="en">Enriched edition (N3)</dcterms:title>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.n3"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/n3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b6">
+    <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:title xml:lang="en">Generated edition (RDF/XML)</dcterms:title>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b5">
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.jsonld"/>
+    <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:title xml:lang="en">Generated edition (JSON-LD)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b17">
+    <foaf:name>enrich.py</foaf:name>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
+    <foaf:page rdf:resource="https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/scripts/enrich.py"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b7">
     <dcterms:title xml:lang="en">Generated edition (N3)</dcterms:title>
     <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/n3"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab10">
-    <dcterms:title xml:lang="en">Enriched edition (Turtle)</dcterms:title>
     <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/turtle"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/EVENTSKG-enriched.ttl"/>
+    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.n3"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab16">
-    <dcterms:source rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/provenance/migration_log.csv"/>
-    <dcterms:source rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/provenance/fix_log.csv"/>
-    <dcterms:source rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/provenance/data_checks.csv"/>
-    <rdf:type rdf:resource="http://purl.org/dc/terms/ProvenanceStatement"/>
-    <dcterms:description xml:lang="en">Release 3.0 was created by merging release 2.1 with a curated spreadsheet and by researching the editions held after 2018 from event web sites and proceedings. Every change to a value of release 2.1 is logged with its old value, new value and reason in the migration and correction logs; open data-quality items are listed in the data-check report. Sources of individual values are not yet recorded.</dcterms:description>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab1">
-    <foaf:name>Zenodo</foaf:name>
-    <foaf:homepage rdf:resource="https://zenodo.org"/>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab4">
-    <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</dcat:startDate>
-    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
-    <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2026</dcat:endDate>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab6">
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  <rdf:Description rdf:nodeID="n38789c95af504e04b62bf67fc20eab26b4">
     <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
     <dcterms:title xml:lang="en">Generated edition (N-Triples)</dcterms:title>
     <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/n-triples"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.nt"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab3">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <foaf:name>Sören Auer</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab12">
-    <dcterms:title xml:lang="en">Enriched edition (JSON-LD)</dcterms:title>
-    <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.jsonld"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab7">
-    <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
-    <dcterms:title xml:lang="en">Generated edition (JSON-LD)</dcterms:title>
-    <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.jsonld"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nda4428fcb3174b45965b73ef6e8fed9ab2">
-    <foaf:name>Heba Mohamed</foaf:name>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
 </rdf:RDF>

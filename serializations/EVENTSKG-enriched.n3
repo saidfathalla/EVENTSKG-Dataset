@@ -19,12 +19,10 @@ eventskg: a void:Dataset,
         dcat:Dataset ;
     rdfs:label "EVENTSKG, A dataset of scientific events"@en ;
     dcterms:conformsTo <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/shapes/shapes.ttl> ;
-    dcterms:contributor [ a foaf:Person ;
-            foaf:name "Heba Mohamed" ],
-        [ a foaf:Person ;
-            foaf:name "Sören Auer" ] ;
+    dcterms:contributor orcid:0000-0002-0698-2864,
+        orcid:0000-0003-3146-1937 ;
     dcterms:created "2018-04-01"^^xsd:date ;
-    dcterms:creator orcid:0000-0002-8113-9419 ;
+    dcterms:creator orcid:0000-0002-2818-5890 ;
     dcterms:description "EVENTSKG release 3.0: metadata of 2531 events of 75 top-ranked computer-science event series (1969-2026): dates, location, homepage, submitted/accepted papers and acceptance rate, research field, publisher and sponsor."@en ;
     dcterms:identifier "https://doi.org/10.5281/zenodo.23806362" ;
     dcterms:isReferencedBy <https://doi.org/10.1007/978-3-030-21348-0_28> ;
@@ -46,38 +44,18 @@ eventskg: a void:Dataset,
     vann:preferredNamespacePrefix "eventskg" ;
     vann:preferredNamespaceUri "http://w3id.org/EVENTSKG-Dataset/ekg#" ;
     void:classes 35 ;
-    void:distinctObjects 14311 ;
-    void:distinctSubjects 3306 ;
-    void:entities 3306 ;
+    void:distinctObjects 14312 ;
+    void:distinctSubjects 3307 ;
+    void:entities 3307 ;
     void:feature <http://www.w3.org/ns/formats/JSON-LD>,
         <http://www.w3.org/ns/formats/N-Triples>,
         <http://www.w3.org/ns/formats/N3>,
         <http://www.w3.org/ns/formats/RDF_XML>,
         <http://www.w3.org/ns/formats/Turtle> ;
     void:properties 63 ;
-    void:triples 44173 ;
+    void:triples 44175 ;
     owl:versionInfo "3.0" ;
     dcat:distribution [ a dcat:Distribution ;
-            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
-            dcterms:title "Enriched edition (N3)"@en ;
-            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.n3> ;
-            dcat:mediaType <https://www.iana.org/assignments/media-types/text/n3> ],
-        [ a dcat:Distribution ;
-            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
-            dcterms:title "Curated record (CSV)"@en ;
-            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/EVENTSKG_data.csv> ;
-            dcat:mediaType <https://www.iana.org/assignments/media-types/text/csv> ],
-        [ a dcat:Distribution ;
-            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
-            dcterms:title "Generated edition (Turtle)"@en ;
-            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/EVENTSKG.ttl> ;
-            dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ],
-        [ a dcat:Distribution ;
-            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
-            dcterms:title "Generated edition (N-Triples)"@en ;
-            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.nt> ;
-            dcat:mediaType <https://www.iana.org/assignments/media-types/application/n-triples> ],
-        [ a dcat:Distribution ;
             dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
             dcterms:title "Generated edition (JSON-LD)"@en ;
             dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.jsonld> ;
@@ -111,7 +89,27 @@ eventskg: a void:Dataset,
             dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
             dcterms:title "Enriched edition (RDF/XML)"@en ;
             dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.rdf> ;
-            dcat:mediaType <https://www.iana.org/assignments/media-types/application/rdf+xml> ] ;
+            dcat:mediaType <https://www.iana.org/assignments/media-types/application/rdf+xml> ],
+        [ a dcat:Distribution ;
+            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+            dcterms:title "Enriched edition (N3)"@en ;
+            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.n3> ;
+            dcat:mediaType <https://www.iana.org/assignments/media-types/text/n3> ],
+        [ a dcat:Distribution ;
+            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+            dcterms:title "Curated record (CSV)"@en ;
+            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/EVENTSKG_data.csv> ;
+            dcat:mediaType <https://www.iana.org/assignments/media-types/text/csv> ],
+        [ a dcat:Distribution ;
+            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+            dcterms:title "Generated edition (Turtle)"@en ;
+            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/EVENTSKG.ttl> ;
+            dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ],
+        [ a dcat:Distribution ;
+            dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+            dcterms:title "Generated edition (N-Triples)"@en ;
+            dcat:downloadURL <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.nt> ;
+            dcat:mediaType <https://www.iana.org/assignments/media-types/application/n-triples> ] ;
     dcat:keyword "Linked Open Data"@en,
         "computer science conferences"@en,
         "scholarly knowledge graph"@en,
@@ -45391,6 +45389,15 @@ eventskg:PODS2018 a owl:NamedIndividual,
     seo:hasSponsor "ACMSIGMOD" ;
     seo:heldInCountry <http://dbpedia.org/resource/United_States> ;
     seo:submittedPapers 83 .
+
+orcid:0000-0002-0698-2864 a foaf:Person ;
+    foaf:name "Sören Auer" .
+
+orcid:0000-0002-2818-5890 a foaf:Person ;
+    foaf:name "Said Fathalla" .
+
+orcid:0000-0003-3146-1937 a foaf:Person ;
+    foaf:name "Heba Mohamed" .
 
 seo:DoctoralConsortium a owl:Class .
 

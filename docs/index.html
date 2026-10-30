@@ -36,7 +36,7 @@
       "name": "Said Fathalla",
       "givenName": "Said",
       "familyName": "Fathalla",
-      "sameAs": "https://orcid.org/0000-0002-8113-9419",
+      "sameAs": "https://orcid.org/0000-0002-2818-5890",
       "affiliation": {
         "@type": "Organization",
         "name": "Faculty of Science, Alexandria University"
@@ -47,6 +47,7 @@
       "name": "Heba Mohamed",
       "givenName": "Heba",
       "familyName": "Mohamed",
+      "sameAs": "https://orcid.org/0000-0003-3146-1937",
       "affiliation": {
         "@type": "Organization",
         "name": "Faculty of Science, Alexandria University"
@@ -57,6 +58,7 @@
       "name": "Sören Auer",
       "givenName": "Sören",
       "familyName": "Auer",
+      "sameAs": "https://orcid.org/0000-0002-0698-2864",
       "affiliation": {
         "@type": "Organization",
         "name": "TIB – Leibniz Information Centre for Science and Technology"
@@ -358,7 +360,7 @@
                 </tr>
                 <tr>
                     <th>Creators</th>
-                    <td><a href="https://github.com/saidfathalla">Said Fathalla</a> (<a href="https://orcid.org/0000-0002-8113-9419">ORCID</a>), Heba Mohamed</td>
+                    <td><a href="https://github.com/saidfathalla">Said Fathalla</a> (<a href="https://orcid.org/0000-0002-2818-5890">ORCID</a>), Heba Mohamed (<a href="https://orcid.org/0000-0003-3146-1937">ORCID</a>), Sören Auer (<a href="https://orcid.org/0000-0002-0698-2864">ORCID</a>)</td>
                 </tr>
                 <tr>
                     <th>Coverage</th>
@@ -374,7 +376,7 @@
                 </tr>
                 <tr>
                     <th>Vocabularies</th>
-                    <td><a href="http://sda.tech/SEOontology/Documentation/SEO.html">Scientific Events Ontology (SEO)</a>, <a href="https://w3id.org/scholarlydata/ontology/conference-ontology.owl">Conference Ontology</a>, schema.org, DBpedia ontology, DCMI Terms, VoID, PROV-O</td>
+                    <td><a href="https://w3id.org/seo">Scientific Events Ontology (SEO)</a>, <a href="https://w3id.org/scholarlydata/ontology/conference-ontology.owl">Conference Ontology</a>, schema.org, DBpedia ontology, DCMI Terms, VoID, PROV-O</td>
                 </tr>
                 <tr>
                     <th>Links</th>
@@ -398,9 +400,9 @@
                         <ul>
                             <li>Said Fathalla, Heba Mohamed, Sören Auer. EVENTSKG 3.0 (dataset), Zenodo, 2026. <a href="https://doi.org/10.5281/zenodo.23806362">doi:10.5281/zenodo.23806362</a>.</li>
                             <li>Said Fathalla, Heba Mohamed, Sören Auer. EVENTSKG 3.0: Reproducible and Interoperable Linked Data on Top-Ranked Computer Science Events. Semantic Web Journal (under review), 2026.</li>
-                            <li>Said Fathalla, Christoph Lange, Sören Auer. EVENTSKG: A 5-Star Dataset of Top-ranked Events in Eight Computer Science Communities. In European Semantic Web Conference, Springer, Cham, 2019.</li>
+                            <li>Said Fathalla, Christoph Lange, Sören Auer. EVENTSKG: A 5-Star Dataset of Top-ranked Events in Eight Computer Science Communities. In The Semantic Web (ESWC 2019), LNCS 11503, pp. 427&ndash;442, Springer, 2019. <a href="https://doi.org/10.1007/978-3-030-21348-0_28">doi:10.1007/978-3-030-21348-0_28</a>.</li>
                             <li>Said Fathalla, and Christoph Lange. "EVENTSKG: A Knowledge Graph Representation for Top-Prestigious Computer Science Events Metadata." International Conference on Computational Collective Intelligence. Springer, Cham, 2018.</li>
-                            <li>Said Fathalla, and Christoph Lange. "EVENTS: a dataset on the history of top-prestigious events in five computer science communities." International Workshop on Semantic, Analytics, Visualization. Springer, Heidelberg. 2018.</li>
+                            <li>Said Fathalla, Christoph Lange. EVENTS: A Dataset on the History of Top-Prestigious Events in Five Computer Science Communities. In Semantics, Analytics, Visualization (SAVE-SD 2017 and 2018), pp. 110&ndash;120, Springer, 2018. <a href="https://doi.org/10.1007/978-3-030-01379-0_8">doi:10.1007/978-3-030-01379-0_8</a>.</li>
                         </ul>
                     </td>
                 </tr>
@@ -416,7 +418,7 @@
                 <li><strong>Attendance mode and status.</strong> Events record whether they were held online, in person or in a mixed format, and whether they were cancelled or postponed, so the move to virtual events during the COVID-19 pandemic is visible in the data.</li>
                 <li><strong>Reproducible generation.</strong> The knowledge graph is regenerated from a curated CSV record by a declarative <a href="https://mapping-commons.github.io/sssom/">SSSOM</a> mapping, with constraint checks and SHACL validation. Anyone can rebuild and verify the release from the published record and mapping.</li>
                 <li><strong>Enrichment and interoperability.</strong> An enrichment step checks every place link against DBpedia (redirects, language chapters, kind of place), types and labels every resource, and links all places to Wikidata.</li>
-                <li><strong>Self-describing dataset.</strong> Each edition contains a machine-readable dataset description with VoID statistics, version information and a provenance link to release 2.0.</li>
+                <li><strong>Self-describing dataset.</strong> Each edition contains a machine-readable dataset description with VoID statistics, version information and a provenance link to release 2.1.</li>
                 <li><strong>Fully compatible.</strong> All IRIs and properties of release 2.0 are preserved.</li>
             </ul>
         </div>
@@ -441,11 +443,11 @@
             <table class="grid-table">
                 <thead><tr><th>Format</th><th>Generated edition</th><th>Enriched edition</th></tr></thead>
                 <tbody>
-                    <tr><td>Turtle</td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/EVENTSKG.ttl">EVENTSKG.ttl</a></td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/EVENTSKG-enriched.ttl">EVENTSKG-enriched.ttl</a></td></tr>
-                    <tr><td>N-Triples</td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/serializations/EVENTSKG.nt">EVENTSKG.nt</a></td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/serializations/EVENTSKG-enriched.nt">EVENTSKG-enriched.nt</a></td></tr>
-                    <tr><td>JSON-LD</td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/serializations/EVENTSKG.jsonld">EVENTSKG.jsonld</a></td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/serializations/EVENTSKG-enriched.jsonld">EVENTSKG-enriched.jsonld</a></td></tr>
-                    <tr><td>RDF/XML</td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/serializations/EVENTSKG.rdf">EVENTSKG.rdf</a></td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/serializations/EVENTSKG-enriched.rdf">EVENTSKG-enriched.rdf</a></td></tr>
-                    <tr><td>N3</td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/serializations/EVENTSKG.n3">EVENTSKG.n3</a></td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/serializations/EVENTSKG-enriched.n3">EVENTSKG-enriched.n3</a></td></tr>
+                    <tr><td>Turtle</td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/EVENTSKG.ttl">EVENTSKG.ttl</a></td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/EVENTSKG-enriched.ttl">EVENTSKG-enriched.ttl</a></td></tr>
+                    <tr><td>N-Triples</td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.nt">EVENTSKG.nt</a></td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.nt">EVENTSKG-enriched.nt</a></td></tr>
+                    <tr><td>JSON-LD</td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.jsonld">EVENTSKG.jsonld</a></td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.jsonld">EVENTSKG-enriched.jsonld</a></td></tr>
+                    <tr><td>RDF/XML</td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.rdf">EVENTSKG.rdf</a></td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.rdf">EVENTSKG-enriched.rdf</a></td></tr>
+                    <tr><td>N3</td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.n3">EVENTSKG.n3</a></td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.n3">EVENTSKG-enriched.n3</a></td></tr>
                 </tbody>
             </table>
             </div>
@@ -457,7 +459,7 @@
                     <tr><td><a href="https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/data/eventskg.sssom.tsv">eventskg.sssom.tsv</a>, <a href="https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/data/eventskg.sssom.yml">eventskg.sssom.yml</a></td><td>The SSSOM mapping set: which property each field becomes, and the dataset description</td></tr>
                     <tr><td><a href="https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/shapes/shapes.ttl">shapes.ttl</a></td><td>SHACL shapes used to validate the release</td></tr>
                     <tr><td><a href="https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/scripts/enrich.yml">enrich.yml</a></td><td>Configuration of the enrichment step</td></tr>
-                    <tr><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/VoID.ttl">VoID.ttl</a></td><td>The dataset description with VoID statistics</td></tr>
+                    <tr><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/VoID.ttl">VoID.ttl</a></td><td>The dataset description with VoID statistics</td></tr>
                     <tr><td><a href="https://github.com/saidfathalla/EVENTSKG-Dataset/tree/master/scripts">scripts/</a></td><td>The generation (<code>csv2rdf.py</code>) and enrichment (<code>enrich.py</code>) scripts</td></tr>
                     <tr><td><a href="https://github.com/saidfathalla/EVENTSKG-Dataset/tree/master/stats">stats/</a></td><td>Statistics pages of the generated and the enriched edition</td></tr>
                 </tbody>
@@ -467,7 +469,7 @@
         <!-- Statistics Chart Card -->
         <div class="card" id="statistics">
             <h2>Dataset Statistics</h2>
-            <p>Key figures of release 3.0 compared with release 2.0.</p>
+            <p>Key figures of release 3.0 compared with release 2.1, the last version of release 2.</p>
             <div id="chartRelease" class="chart"></div>
 
             <h3>Events per year and community</h3>
@@ -527,10 +529,10 @@ python3 scripts/enrich.py release/EVENTSKG.ttl -c scripts/enrich.yml -o release/
         <!-- Releases and Use Cases -->
         <div class="card">
             <h2>Previous Releases</h2>
-            <p><strong>Release 2.1:</strong> the last version of release 2, based on the updated SEO ontology; 75 event series and 1,929 events in eight communities, up to 2018 (<a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/archive/R2.1/EVENTSKG.ttl">Turtle</a> | <a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/archive/R2.1/EVENTSKG.nt">N-Triples</a> | <a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/archive/R2.1/EVENTSKG.jsonld">JSON-LD</a> | <a href="https://github.com/saidfathalla/EVENTSKG-Dataset/tree/master/archive/R2.1">all files</a>).</p>
+            <p><strong>Release 2.1:</strong> the last version of release 2, based on the updated SEO ontology; 75 event series and 1,929 events in eight communities, up to 2018 (<a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.ttl">Turtle</a> | <a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.nt">N-Triples</a> | <a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.jsonld">JSON-LD</a> | <a href="https://github.com/saidfathalla/EVENTSKG-Dataset/tree/master/archive/R2.1">all files</a>).</p>
             <p><strong>Release 2.0 (2018-11):</strong> Linked Dataset based on the updated SEO ontology; 73 event series and 1,951 events in eight communities.</p>
-            <p><strong>Version 2018-01 (EVENTSKG-40):</strong> Specification of 40 top-prestigious event series (<a href="EVENTS-Dataset/EVENTSKGV1.html">Details</a> | <a href="EVENTSKG-40.ttl">Turtle</a>).</p>
-            <p><strong>Version 2018-01 (EVENTS):</strong> Specification of 25 event series (<a href="EVENTS-Dataset/EVENTS.html">Details</a>).</p>
+            <p><strong>Version 2018-01 (EVENTSKG-40):</strong> Specification of 40 top-prestigious event series, described in the ICCCI 2018 paper listed under Citation.</p>
+            <p><strong>Version 2018-01 (EVENTS):</strong> Specification of 25 event series (<a href="https://doi.org/10.1007/978-3-030-01379-0_8">paper</a>).</p>
 
             <h2>Use Cases</h2>
             <ul>
@@ -620,7 +622,7 @@ Highcharts.chart('chartRelease', {
     tooltip: { shared: true },
     credits: { enabled: false },
     series: [
-        { name: "Release 2.0 (latest dump)", data: [75, 1929, 393, 60, 62, 8], color: '#94a3b8' },
+        { name: "Release 2.1", data: [75, 1929, 393, 60, 62, 8], color: '#94a3b8' },
         { name: 'Release 3.0', data: [75, 2531, 517, 91, 61, 8], color: '#2563eb' }
     ]
 });

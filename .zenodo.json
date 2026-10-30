@@ -2,20 +2,22 @@
   "upload_type": "dataset",
   "title": "EVENTSKG 3.0: Reproducible and Interoperable Linked Data on Top-Ranked Computer Science Events",
   "version": "3.0",
-  "description": "<p>EVENTSKG is a five-star Linked Open Dataset of top-ranked computer science events. Release 3.0 describes 2,531 editions of 75 event series from eight communities (1969&ndash;2026): titles and acronyms, dates, cities, states and countries (linked to DBpedia and Wikidata), submitted and accepted papers, acceptance rates, publishers, sponsors, homepages, and the attendance mode and status of each edition.</p><p>The release is published in two editions: a <b>generated edition</b> (39,365 triples) containing exactly the curated facts, and an <b>enriched edition</b> (44,059 triples) whose places are verified against DBpedia, typed, labelled and linked to Wikidata. Both editions are available in Turtle, N-Triples, JSON-LD, RDF/XML and N3.</p><p>Every release is generated from a curated CSV record through a declarative SSSOM mapping, with constraint checks and SHACL validation; the archive contains the record, the mapping, the generation and enrichment scripts, the SHACL shapes and the cached answers of DBpedia and Wikidata, so that the release can be reproduced.</p>",
+  "description": "<p>EVENTSKG is a five-star Linked Open Dataset of top-ranked computer science events. Release 3.0 describes 2,531 editions of 75 event series from eight communities (1969&ndash;2026): titles and acronyms, dates, cities, states and countries (linked to DBpedia and Wikidata), submitted and accepted papers, acceptance rates, publishers, sponsors, homepages, and the attendance mode and status of each edition.</p><p>The release is published in two editions: a <b>generated edition</b> (39,479 triples) containing exactly the curated facts, and an <b>enriched edition</b> (44,173 triples) whose places are verified against DBpedia, typed, labelled and linked to Wikidata. Both editions are available in Turtle, N-Triples, JSON-LD, RDF/XML and N3.</p><p>Every release is generated from a curated CSV record through a declarative SSSOM mapping, with constraint checks and SHACL validation; the archive contains the record, the mapping, the generation and enrichment scripts, the SHACL shapes and the cached answers of DBpedia and Wikidata, so that the release can be reproduced.</p>",
   "creators": [
     {
       "name": "Fathalla, Said",
       "affiliation": "Faculty of Science, Alexandria University",
-      "orcid": "0000-0002-8113-9419"
+      "orcid": "0000-0002-2818-5890"
     },
     {
       "name": "Mohamed, Heba",
-      "affiliation": "Faculty of Science, Alexandria University"
+      "affiliation": "Faculty of Science, Alexandria University",
+      "orcid": "0000-0003-3146-1937"
     },
     {
       "name": "Auer, Sören",
-      "affiliation": "TIB – Leibniz Information Centre for Science and Technology"
+      "affiliation": "TIB – Leibniz Information Centre for Science and Technology",
+      "orcid": "0000-0002-0698-2864"
     }
   ],
   "license": "cc-by-4.0",

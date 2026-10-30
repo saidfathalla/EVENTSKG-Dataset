@@ -19,8 +19,8 @@ eventskg: a dcat:Dataset ;
     dcterms:isReferencedBy <https://doi.org/10.1007/978-3-030-21348-0_28> ;
     dcterms:publisher [ a foaf:Organization ; foaf:name "Zenodo" ; foaf:homepage <https://zenodo.org> ] ;
     dcterms:contributor
-        [ a foaf:Person ; foaf:name "Heba Mohamed" ] ,
-        [ a foaf:Person ; foaf:name "Sören Auer" ] ;
+        <https://orcid.org/0000-0003-3146-1937> ,
+        <https://orcid.org/0000-0002-0698-2864> ;
     dcterms:temporal [ a dcterms:PeriodOfTime ;
         dcat:startDate "1969"^^xsd:gYear ; dcat:endDate "2026"^^xsd:gYear ] ;
     dcat:keyword "scholarly knowledge graph"@en, "scientific events"@en,
@@ -95,3 +95,8 @@ eventskg: a dcat:Dataset ;
               foaf:page <https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/scripts/csv2rdf.py> ] ,
             [ a prov:SoftwareAgent ; foaf:name "enrich.py" ;
               foaf:page <https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/scripts/enrich.py> ] ] .
+
+# ---------------------------------------------------------------- people
+<https://orcid.org/0000-0002-2818-5890> a foaf:Person ; foaf:name "Said Fathalla" .
+<https://orcid.org/0000-0003-3146-1937> a foaf:Person ; foaf:name "Heba Mohamed" .
+<https://orcid.org/0000-0002-0698-2864> a foaf:Person ; foaf:name "Sören Auer" .

@@ -22,7 +22,7 @@ mapping_set_description: >-
   check tell csv2rdf.py how a cell is written.
 license: https://creativecommons.org/licenses/by/4.0/
 creator_id:
-  - orcid:0000-0002-8113-9419
+  - orcid:0000-0002-2818-5890
 mapping_date: "2026-10-28"
 subject_source: eventskg-data:EVENTSKG_data.csv
 object_source: http://w3id.org/EVENTSKG-Dataset/ekg#
@@ -100,7 +100,7 @@ dataset_label: EVENTSKG, A dataset of scientific events
 dataset_description: >-
   EVENTSKG release 3.0: metadata of 2531 events of 75 top-ranked computer-science event series (1969-2026):
   dates, location, homepage, submitted/accepted papers and acceptance rate, research field, publisher and sponsor.
-dataset_creator: orcid:0000-0002-8113-9419
+dataset_creator: orcid:0000-0002-2818-5890
 dataset_license: http://creativecommons.org/licenses/by/4.0/
 dataset_created: "2018-04-01"
 dataset_issued: "2026-10-28"
