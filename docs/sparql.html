@@ -26,6 +26,11 @@ nav{display:flex;justify-content:space-between;align-items:center;gap:12px;paddi
 <label>Query templates</label>
 <div class="templates">
 <button class="template-btn" data-query="all">All triples (10)</button>
+<button class="template-btn" data-query="count">Number of events</button>
+<button class="template-btn" data-query="bytype">Events by type</button>
+<button class="template-btn" data-query="byfield">Events per community</button>
+<button class="template-btn" data-query="byyear">Events per year</button>
+<button class="template-btn" data-query="nseries">Number of series</button>
 <button class="template-btn" data-query="series">Editions of a series</button>
 <button class="template-btn" data-query="countries">Top host countries</button>
 <button class="template-btn" data-query="rate">Acceptance rate per community</button>
@@ -84,6 +89,11 @@ const PROLOGUE = Object.entries(PREFIXES).map(([p, iri]) => `PREFIX ${p}: <${iri
 
 const templates = {
  all: `SELECT ?s ?p ?o WHERE {\n  ?s ?p ?o .\n}\nLIMIT 10`,
+ count: `# Number of events (every event belongs to a series)\nSELECT (COUNT(DISTINCT ?event) AS ?events) WHERE {\n  ?event seo:belongsToSeries ?series .\n}`,
+ bytype: `# Number of events by type (conference, symposium, workshop)\nSELECT ?type (COUNT(DISTINCT ?event) AS ?events) WHERE {\n  ?event seo:belongsToSeries ?series ;\n         a ?type .\n  FILTER(?type != owl:NamedIndividual)\n}\nGROUP BY ?type\nORDER BY DESC(?events)`,
+ byfield: `# Number of events per research community\nSELECT ?field (COUNT(DISTINCT ?event) AS ?events) WHERE {\n  ?event seo:belongsToSeries ?series ;\n         seo:ResearchField ?field .\n}\nGROUP BY ?field\nORDER BY DESC(?events)`,
+ byyear: `# Number of events per year\nSELECT ?year (COUNT(DISTINCT ?event) AS ?events) WHERE {\n  ?event seo:belongsToSeries ?series ;\n         conference-ontology:startDate ?d .\n  BIND(YEAR(?d) AS ?year)\n}\nGROUP BY ?year\nORDER BY ?year`,
+ nseries: `# Number of event series\nSELECT (COUNT(DISTINCT ?series) AS ?series) WHERE {\n  ?event seo:belongsToSeries ?series .\n}`,
  series: `# All editions of the AAAI series\nSELECT ?event ?acronym ?start ?city WHERE {\n  ?event seo:belongsToSeries eventskg:AAAI ;\n         conference-ontology:acronym ?acronym ;\n         conference-ontology:startDate ?start .\n  OPTIONAL { ?event seo:city ?city . }\n}\nORDER BY ?start`,
  countries: `# Countries hosting the most Security and Privacy events since 2009\nSELECT ?country (COUNT(?e) AS ?numOfEvents) WHERE {\n  ?e seo:heldInCountry ?country ;\n     seo:ResearchField seo:SecurityAndPrivacy ;\n     conference-ontology:startDate ?sd .\n  FILTER(?sd >= "2009-01-01T00:00:00+00:00"^^xsd:dateTime)\n}\nGROUP BY ?country\nORDER BY DESC(?numOfEvents)\nLIMIT 5`,
  rate: `# Average acceptance rate per community, 2020-2025\nSELECT ?field (ROUND(AVG(?rate) * 1000) / 10 AS ?avgRatePercent) (COUNT(?e) AS ?events) WHERE {\n  ?e seo:ResearchField ?field ;\n     seo:acceptanceRate ?rate ;\n     conference-ontology:startDate ?sd .\n  FILTER(YEAR(?sd) >= 2020 && YEAR(?sd) <= 2025)\n}\nGROUP BY ?field\nORDER BY ?avgRatePercent`,
