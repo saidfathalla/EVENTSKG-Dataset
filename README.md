@@ -177,8 +177,8 @@ Each release is also validated against the SHACL shapes (see [Reproducing the re
 | Resource | Address |
 |---|---|
 | Namespace (content negotiation: HTML for browsers, RDF for clients) | <http://w3id.org/EVENTSKG-Dataset/ekg#> |
-| Documentation | <https://w3id.org/EVENTSKG-Dataset/> |
-| SPARQL explorer (SPARQL 1.1, runs in the browser) | <https://w3id.org/EVENTSKG-Dataset/sparql> |
+| Documentation | <https://w3id.org/EVENTSKG-Dataset/> (direct: <https://saidfathalla.github.io/EVENTSKG-Dataset/docs/>) |
+| SPARQL explorer (SPARQL 1.1, runs in the browser) | <https://w3id.org/EVENTSKG-Dataset/sparql> (direct: <https://saidfathalla.github.io/EVENTSKG-Dataset/docs/sparql.html>) |
 | Generated edition | <https://w3id.org/EVENTSKG-Dataset/ttl>, `/nt`, `/jsonld`, `/rdf`, `/n3` |
 | Enriched edition | <https://w3id.org/EVENTSKG-Dataset/enriched>, `/enriched/nt`, `/enriched/jsonld` … |
 | Dataset description (VoID) | <https://w3id.org/EVENTSKG-Dataset/void> |
