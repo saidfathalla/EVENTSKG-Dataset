@@ -292,7 +292,7 @@ If you use EVENTSKG in your research or project, please cite:
 ```bibtex
 @inproceedings{fathalla2019eventskg,
   author    = {Fathalla, Said and Lange, Christoph and Auer, S{\"o}ren},
-  title     = {{EVENTSKG}: A 5-Star Dataset of Top-Ranked Events in Eight Computer Science Communities},
+  title     = "{EVENTSKG}: A 5-Star Dataset of Top-Ranked Events in Eight Computer Science Communities",
   booktitle = {The Semantic Web -- 16th International Conference, ESWC 2019, Portoro{\v z}, Slovenia, Proceedings},
   series    = {Lecture Notes in Computer Science},
   volume    = {11503},
