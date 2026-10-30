@@ -16,7 +16,7 @@
   "@id": "https://doi.org/10.5281/zenodo.23806362",
   "name": "EVENTSKG: Reproducible and Interoperable Linked Data on Top-Ranked Computer Science Events",
   "alternateName": "EVENTSKG 3.0",
-  "description": "EVENTSKG is a five-star Linked Open Dataset of top-ranked computer science events. Release 3.0 describes 2,531 editions of 75 event series from eight communities (1969-2026), with dates, places linked to DBpedia and Wikidata, submitted and accepted papers, acceptance rates, publishers, sponsors, homepages, attendance mode and status. It is published as a generated edition (39,365 triples) and an enriched edition (44,059 triples).",
+  "description": "EVENTSKG is a five-star Linked Open Dataset of top-ranked computer science events. Release 3.0 describes 2,531 editions of 75 event series from eight communities (1969-2026), with dates, places linked to DBpedia and Wikidata, submitted and accepted papers, acceptance rates, publishers, sponsors, homepages, attendance mode and status. It is published as a generated edition (39,479 triples) and an enriched edition (44,173 triples).",
   "url": "https://saidfathalla.github.io/EVENTSKG-Dataset/docs/",
   "identifier": [
     "https://doi.org/10.5281/zenodo.23806362",
@@ -370,7 +370,7 @@
                 </tr>
                 <tr>
                     <th>Size</th>
-                    <td>Generated: 39,365 triples &middot; Enriched: 44,061 triples</td>
+                    <td>Generated: 39,479 triples &middot; Enriched: 44,173 triples</td>
                 </tr>
                 <tr>
                     <th>Vocabularies</th>
@@ -429,12 +429,12 @@
                 <div class="edition">
                     <h3>Generated edition</h3>
                     <p>Exactly the curated facts: events, series, dates, places as DBpedia IRIs, figures, publishers, and the dataset description.</p>
-                    <p>39,365 triples</p>
+                    <p>39,479 triples</p>
                 </div>
                 <div class="edition recommended">
                     <h3>Enriched edition <span class="badge">recommended</span></h3>
                     <p>The generated edition plus verified, typed and labelled places, labels for events and series, types for vocabulary values, and <code>owl:sameAs</code> links to Wikidata.</p>
-                    <p>44,061 triples</p>
+                    <p>44,173 triples</p>
                 </div>
             </div>
             <div class="data-table-wrapper">
@@ -479,23 +479,23 @@
             <table class="grid-table">
                 <thead><tr><th></th><th class="num">Generated</th><th class="num">Enriched</th></tr></thead>
                 <tbody>
-                    <tr><td>Resources with an <code>rdf:type</code></td><td class="num">79.1%</td><td class="num new">99.8%</td></tr>
-                    <tr><td>Resources with an <code>rdfs:label</code></td><td class="num">0%</td><td class="num new">99.1%</td></tr>
-                    <tr><td>Classes</td><td class="num">9</td><td class="num new">27</td></tr>
-                    <tr><td>Links to other datasets</td><td class="num">6,020</td><td class="num new">6,676</td></tr>
+                    <tr><td>Resources with an <code>rdf:type</code></td><td class="num">78.4%</td><td class="num new">98.9%</td></tr>
+                    <tr><td>Resources with an <code>rdfs:label</code></td><td class="num">0%</td><td class="num new">98.2%</td></tr>
+                    <tr><td>Classes</td><td class="num">17</td><td class="num new">35</td></tr>
+                    <tr><td>Links to DBpedia and Wikidata</td><td class="num">6,020</td><td class="num new">6,676</td></tr>
                     <tr class="sub"><td>of which <code>owl:sameAs</code> to Wikidata</td><td class="num">&ndash;</td><td class="num new">656</td></tr>
-                    <tr><td>External datasets linked</td><td class="num">1</td><td class="num new">3</td></tr>
+                    <tr><td>External datasets linked</td><td class="num">1</td><td class="num new">2</td></tr>
                     <tr><td>Places checked against DBpedia</td><td class="num">&ndash;</td><td class="num">665</td></tr>
                     <tr class="sub"><td>confirmed by DBpedia</td><td class="num">&ndash;</td><td class="num">580</td></tr>
-                    <tr class="sub"><td>typed from their role (no DBpedia type)</td><td class="num">&ndash;</td><td class="num">38</td></tr>
+                    <tr class="sub"><td>typed from their role (no DBpedia type)</td><td class="num">&ndash;</td><td class="num">37</td></tr>
                     <tr class="sub"><td>another kind of place, typed as in DBpedia</td><td class="num">&ndash;</td><td class="num">41</td></tr>
-                    <tr class="sub"><td>not found in any DBpedia edition</td><td class="num">&ndash;</td><td class="num">6</td></tr>
+                    <tr class="sub"><td>not found in any DBpedia edition</td><td class="num">&ndash;</td><td class="num">7</td></tr>
                     <tr class="sub"><td>redirecting IRIs replaced</td><td class="num">&ndash;</td><td class="num">13</td></tr>
-                    <tr><td>Triples</td><td class="num">39,365</td><td class="num">44,061</td></tr>
+                    <tr><td>Triples</td><td class="num">39,479</td><td class="num">44,173</td></tr>
                 </tbody>
             </table>
             </div>
-            <p>The external datasets of the enriched edition are DBpedia, Wikidata and the French DBpedia chapter.</p>
+            <p>The external datasets of the enriched edition are DBpedia and Wikidata. Typed and labelled shares count all resources, including the files and agents named in the dataset description.</p>
         </div>
 
         <!-- Reproduce -->
@@ -505,7 +505,7 @@
 <pre><span class="c"># 1. Generate: CSV + SSSOM mapping -> knowledge graph (all serialisations), VoID description, statistics</span>
 git clone https://github.com/saidfathalla/EVENTSKG-Dataset.git && cd EVENTSKG-Dataset
 pip install rdflib pyyaml pyshacl
-python3 scripts/csv2rdf.py data/EVENTSKG_data.csv data/eventskg.sssom.tsv --places data/dbpedia_places.csv \
+python3 scripts/csv2rdf.py data/EVENTSKG_data.csv data/eventskg.sssom.tsv --places data/dbpedia_places.csv --include data/eventskg-metadata.ttl \
         -o release/EVENTSKG --void release/VoID --stats release/stats.html
 python3 -m pyshacl -s shapes/shapes.ttl -df turtle release/EVENTSKG.ttl
 
