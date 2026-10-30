@@ -8,9 +8,169 @@
 <meta name="author" content="Said Fathalla">
 <title>EVENTSKG Dataset</title>
 
+<!-- Machine-readable description for search engines (Google Dataset Search) and FAIR assessment tools -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.23806362",
+  "name": "EVENTSKG: Reproducible and Interoperable Linked Data on Top-Ranked Computer Science Events",
+  "alternateName": "EVENTSKG 3.0",
+  "description": "EVENTSKG is a five-star Linked Open Dataset of top-ranked computer science events. Release 3.0 describes 2,531 editions of 75 event series from eight communities (1969-2026), with dates, places linked to DBpedia and Wikidata, submitted and accepted papers, acceptance rates, publishers, sponsors, homepages, attendance mode and status. It is published as a generated edition (39,365 triples) and an enriched edition (44,059 triples).",
+  "url": "https://saidfathalla.github.io/EVENTSKG-Dataset/docs/",
+  "identifier": [
+    "https://doi.org/10.5281/zenodo.23806362",
+    "http://w3id.org/EVENTSKG-Dataset/ekg#"
+  ],
+  "sameAs": "https://github.com/saidfathalla/EVENTSKG-Dataset",
+  "version": "3.0",
+  "datePublished": "2026-10-28",
+  "dateModified": "2026-10-28",
+  "dateCreated": "2018-04-01",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Said Fathalla",
+      "givenName": "Said",
+      "familyName": "Fathalla",
+      "sameAs": "https://orcid.org/0000-0002-8113-9419",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Faculty of Science, Alexandria University"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Heba Mohamed",
+      "givenName": "Heba",
+      "familyName": "Mohamed",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Faculty of Science, Alexandria University"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Sören Auer",
+      "givenName": "Sören",
+      "familyName": "Auer",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "TIB – Leibniz Information Centre for Science and Technology"
+      }
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo",
+    "url": "https://zenodo.org"
+  },
+  "keywords": [
+    "scholarly knowledge graph",
+    "scientific events",
+    "computer science conferences",
+    "Linked Open Data",
+    "RDF",
+    "SSSOM",
+    "DBpedia",
+    "Wikidata",
+    "scientometrics",
+    "FAIR data"
+  ],
+  "temporalCoverage": "1969/2026",
+  "measurementTechnique": "Curated record converted to RDF with a declarative SSSOM mapping, validated with SHACL, places verified against DBpedia and linked to Wikidata",
+  "variableMeasured": [
+    "event dates",
+    "event location",
+    "submitted papers",
+    "accepted papers",
+    "acceptance rate",
+    "publisher",
+    "sponsor",
+    "attendance mode",
+    "event status",
+    "research field"
+  ],
+  "citation": "https://doi.org/10.1007/978-3-030-21348-0_28",
+  "isBasedOn": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.ttl",
+  "conditionsOfAccess": "Open access, no registration required",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "EVENTSKG 3.0, generated edition (Turtle)",
+      "encodingFormat": "text/turtle",
+      "contentUrl": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/EVENTSKG.ttl"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "EVENTSKG 3.0, generated edition (N-Triples)",
+      "encodingFormat": "application/n-triples",
+      "contentUrl": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.nt"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "EVENTSKG 3.0, generated edition (JSON-LD)",
+      "encodingFormat": "application/ld+json",
+      "contentUrl": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.jsonld"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "EVENTSKG 3.0, generated edition (RDF/XML)",
+      "encodingFormat": "application/rdf+xml",
+      "contentUrl": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.rdf"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "EVENTSKG 3.0, generated edition (N3)",
+      "encodingFormat": "text/n3",
+      "contentUrl": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.n3"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "EVENTSKG 3.0, enriched edition (Turtle)",
+      "encodingFormat": "text/turtle",
+      "contentUrl": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/EVENTSKG-enriched.ttl"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "EVENTSKG 3.0, enriched edition (N-Triples)",
+      "encodingFormat": "application/n-triples",
+      "contentUrl": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.nt"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "EVENTSKG 3.0, enriched edition (JSON-LD)",
+      "encodingFormat": "application/ld+json",
+      "contentUrl": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.jsonld"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "EVENTSKG 3.0, enriched edition (RDF/XML)",
+      "encodingFormat": "application/rdf+xml",
+      "contentUrl": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.rdf"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "EVENTSKG 3.0, enriched edition (N3)",
+      "encodingFormat": "text/n3",
+      "contentUrl": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.n3"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "EVENTSKG 3.0, curated record (CSV)",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/data/EVENTSKG_data.csv"
+    }
+  ]
+}
+</script>
+
 <!-- Highcharts dependencies -->
-<script src="https://cdn.jsdelivr.net/npm/highcharts@11.4.8/highcharts.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/highcharts@11.4.8/modules/exporting.js"></script>
+<script src="highcharts.js"></script>
+<script src="exporting.js"></script>
 
 <style>
     :root {
