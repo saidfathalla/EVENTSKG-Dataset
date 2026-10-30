@@ -9,8 +9,8 @@
 <title>EVENTSKG Dataset</title>
 
 <!-- Highcharts dependencies -->
-<script src="highcharts.js"></script>
-<script src="exporting.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@11.4.8/highcharts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@11.4.8/modules/exporting.js"></script>
 
 <style>
     :root {
@@ -181,6 +181,10 @@
                     <td>3.0, issued 2026-10-28 (first release: 2018)</td>
                 </tr>
                 <tr>
+                    <th>DOI</th>
+                    <td><a href="https://doi.org/10.5281/zenodo.23806362">10.5281/zenodo.23806362</a> (archived release on Zenodo)</td>
+                </tr>
+                <tr>
                     <th>PURL</th>
                     <td><a href="http://w3id.org/EVENTSKG-Dataset/ekg#">http://w3id.org/EVENTSKG-Dataset/ekg#</a></td>
                 </tr>
@@ -232,7 +236,8 @@
                     <th>Citation</th>
                     <td>
                         <ul>
-                            <li>Said Fathalla, Heba Mohamed. EVENTSKG 3.0: Reproducible and Interoperable Linked Data on Top-Ranked Computer Science Events. Semantic Web Journal (under review), 2026.</li>
+                            <li>Said Fathalla, Heba Mohamed, Sören Auer. EVENTSKG 3.0 (dataset), Zenodo, 2026. <a href="https://doi.org/10.5281/zenodo.23806362">doi:10.5281/zenodo.23806362</a>.</li>
+                            <li>Said Fathalla, Heba Mohamed, Sören Auer. EVENTSKG 3.0: Reproducible and Interoperable Linked Data on Top-Ranked Computer Science Events. Semantic Web Journal (under review), 2026.</li>
                             <li>Said Fathalla, Christoph Lange, Sören Auer. EVENTSKG: A 5-Star Dataset of Top-ranked Events in Eight Computer Science Communities. In European Semantic Web Conference, Springer, Cham, 2019.</li>
                             <li>Said Fathalla, and Christoph Lange. "EVENTSKG: A Knowledge Graph Representation for Top-Prestigious Computer Science Events Metadata." International Conference on Computational Collective Intelligence. Springer, Cham, 2018.</li>
                             <li>Said Fathalla, and Christoph Lange. "EVENTS: a dataset on the history of top-prestigious events in five computer science communities." International Workshop on Semantic, Analytics, Visualization. Springer, Heidelberg. 2018.</li>
@@ -443,6 +448,7 @@ python3 scripts/enrich.py release/EVENTSKG.ttl -c scripts/enrich.yml -o release/
     </div>
 
 <script>
+if (window.Highcharts) {
 Highcharts.setOptions({ lang: { thousandsSep: ',' } });
 
 Highcharts.chart('chartRelease', {
@@ -480,6 +486,12 @@ Highcharts.chart('chartRelease', {
         series: series
     });
 })();
+} else {
+    ['chartRelease', 'chartYears'].forEach(function (id) {
+        document.getElementById(id).innerHTML = '<p>The charts could not be loaded (the chart library is not reachable).</p>';
+        document.getElementById(id).style.height = 'auto';
+    });
+}
 </script>
 </body>
 </html>
