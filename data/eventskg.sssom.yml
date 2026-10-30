@@ -105,7 +105,7 @@ dataset_license: http://creativecommons.org/licenses/by/4.0/
 dataset_created: "2018-04-01"
 dataset_issued: "2026-10-28"
 dataset_version: "3.0"
-dataset_previous_version: https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/EVENTSKG.ttl
+dataset_previous_version: https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/enriched-dataset-for-V3.0.0/archive/R2.1/EVENTSKG.ttl
 dataset_namespace_prefix: eventskg
 dataset_namespace: http://w3id.org/EVENTSKG-Dataset/ekg#
 dataset_language: en

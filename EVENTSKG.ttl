@@ -36,7 +36,7 @@ eventskg: a void:Dataset,
     void:properties 40 ;
     void:triples 39365 ;
     owl:versionInfo "3.0" ;
-    prov:wasRevisionOf <https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/EVENTSKG.ttl> .
+    prov:wasRevisionOf <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.ttl> .
 
 eventskg:AAAI1980 a owl:NamedIndividual,
         conference-ontology:Conference ;
