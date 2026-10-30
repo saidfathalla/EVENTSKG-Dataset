@@ -1,0 +1,33 @@
+@prefix conference-ontology: <https://w3id.org/scholarlydata/ontology/conference-ontology.owl#> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix eventskg: <http://w3id.org/EVENTSKG-Dataset/ekg#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix seo: <https://w3id.org/seo#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+eventskg:AAAI2017 a owl:NamedIndividual,
+        conference-ontology:Conference ;
+    dbpedia-owl:state <http://dbpedia.org/resource/California> ;
+    conference-ontology:acronym "AAAI2017" ;
+    conference-ontology:endDate "2017-02-09T00:00:00+00:00"^^xsd:dateTime ;
+    conference-ontology:startDate "2017-02-04T00:00:00+00:00"^^xsd:dateTime ;
+    conference-ontology:title "31st Annual National Conference on Artificial Intelligence" ;
+    seo:ResearchField seo:ArtificialIntelligence ;
+    seo:acceptanceRate 0.2463 ;
+    seo:acceptedPapers 638 ;
+    seo:belongsToSeries eventskg:AAAI ;
+    seo:city <http://dbpedia.org/resource/San_Francisco> ;
+    seo:colocatedWith eventskg:IAAI2017 ;
+    seo:eventWebsite "aaai.org/Conferences/AAAI/aaai17.php" ;
+    seo:hasPublisher "AAAI" ;
+    seo:hasSponsor "Amazon" ;
+    seo:heldInCountry <http://dbpedia.org/resource/United_States> ;
+    seo:submittedPapers 2590 .

@@ -1,0 +1,111 @@
+curie_map:
+  eventskg-data: http://w3id.org/EVENTSKG-Dataset/data#
+  eventskg: http://w3id.org/EVENTSKG-Dataset/ekg#
+  seo: https://w3id.org/seo#
+  conference-ontology: https://w3id.org/scholarlydata/ontology/conference-ontology.owl#
+  dbpedia-owl: http://dbpedia.org/ontology/
+  schema: http://schema.org/
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  skos: http://www.w3.org/2004/02/skos/core#
+  semapv: https://w3id.org/semapv/vocab/
+  orcid: https://orcid.org/
+  c2r: http://w3id.org/EVENTSKG-Dataset/csv2rdf#
+  void: http://rdfs.org/ns/void#
+mapping_set_id: http://w3id.org/EVENTSKG-Dataset/mappings/eventskg.sssom.tsv
+mapping_set_version: "3.0"
+mapping_set_title: EVENTSKG data fields mapped to the RDF properties of EVENTSKG release 2
+mapping_set_description: >-
+  Each row maps a field of the EVENTSKG data file (eventskg-data:, one CSV column) to the property used for it in
+  EVENTSKG release 2. The extension columns resource, datatype, iri_pattern, value_map, lookup, separator and
+  check tell csv2rdf.py how a cell is written.
+license: https://creativecommons.org/licenses/by/4.0/
+creator_id:
+  - orcid:0000-0002-8113-9419
+mapping_date: "2026-10-28"
+subject_source: eventskg-data:EVENTSKG_data.csv
+object_source: http://w3id.org/EVENTSKG-Dataset/ekg#
+extension_definitions:
+  - slot_name: resource
+    property: c2r:resource
+    type_hint: xsd:string
+  - slot_name: datatype
+    property: c2r:datatype
+    type_hint: xsd:string
+  - slot_name: iri_pattern
+    property: c2r:iriPattern
+    type_hint: xsd:string
+  - slot_name: value_map
+    property: c2r:valueMap
+    type_hint: xsd:string
+  - slot_name: lookup
+    property: c2r:lookup
+    type_hint: xsd:string
+  - slot_name: separator
+    property: c2r:separator
+    type_hint: xsd:string
+  - slot_name: check
+    property: c2r:check
+    type_hint: xsd:string
+  - slot_name: dataset_iri
+    property: c2r:datasetIri
+    type_hint: xsd:string
+  - slot_name: dataset_type
+    property: c2r:datasetType
+    type_hint: xsd:string
+  - slot_name: dataset_title
+    property: c2r:datasetTitle
+    type_hint: xsd:string
+  - slot_name: dataset_label
+    property: c2r:datasetLabel
+    type_hint: xsd:string
+  - slot_name: dataset_description
+    property: c2r:datasetDescription
+    type_hint: xsd:string
+  - slot_name: dataset_creator
+    property: c2r:datasetCreator
+    type_hint: xsd:string
+  - slot_name: dataset_license
+    property: c2r:datasetLicense
+    type_hint: xsd:string
+  - slot_name: dataset_created
+    property: c2r:datasetCreated
+    type_hint: xsd:string
+  - slot_name: dataset_issued
+    property: c2r:datasetIssued
+    type_hint: xsd:string
+  - slot_name: dataset_version
+    property: c2r:datasetVersion
+    type_hint: xsd:string
+  - slot_name: dataset_previous_version
+    property: c2r:datasetPreviousVersion
+    type_hint: xsd:string
+  - slot_name: dataset_namespace_prefix
+    property: c2r:datasetNamespacePrefix
+    type_hint: xsd:string
+  - slot_name: dataset_namespace
+    property: c2r:datasetNamespace
+    type_hint: xsd:string
+  - slot_name: dataset_language
+    property: c2r:datasetLanguage
+    type_hint: xsd:string
+
+# ---- the dataset itself (written to the RDF output and, with --void, to the VoID file)
+# Edit dataset_issued, dataset_version, dataset_description and dataset_previous_version for each new release.
+dataset_iri: "eventskg:"
+dataset_type: void:Dataset owl:Ontology
+dataset_title: EVENTSKG, Scientific Events Knowledge Graph.
+dataset_label: EVENTSKG, A dataset of scientific events
+dataset_description: >-
+  EVENTSKG release 3.0: metadata of 2531 events of 75 top-ranked computer-science event series (1969-2026):
+  dates, location, homepage, submitted/accepted papers and acceptance rate, research field, publisher and sponsor.
+dataset_creator: orcid:0000-0002-8113-9419
+dataset_license: http://creativecommons.org/licenses/by/4.0/
+dataset_created: "2018-04-01"
+dataset_issued: "2026-10-28"
+dataset_version: "3.0"
+dataset_previous_version: https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/EVENTSKG.ttl
+dataset_namespace_prefix: eventskg
+dataset_namespace: http://w3id.org/EVENTSKG-Dataset/ekg#
+dataset_language: en
