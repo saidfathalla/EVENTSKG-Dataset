@@ -15,7 +15,7 @@
 
 EVENTSKG (formerly EVENTS) is a 5-star Linked Open Dataset of top-ranked computer science events. For **2,531 editions of 75 event series** from **eight communities (1969–2026)** it records titles and acronyms, dates, cities, states and countries (linked to DBpedia and Wikidata), submitted and accepted papers, acceptance rates, publishers, sponsors, homepages, and the attendance mode and status of each edition.
 
-**Documentation:** <https://w3id.org/EVENTSKG-Dataset/> · **SPARQL explorer:** <https://w3id.org/EVENTSKG-Dataset/sparql> · **Namespace:** `http://w3id.org/EVENTSKG-Dataset/ekg#`
+**Documentation:** <https://saidfathalla.github.io/EVENTSKG-Dataset/docs/> · **SPARQL explorer:** <https://saidfathalla.github.io/EVENTSKG-Dataset/docs/sparql.html> · **Namespace:** `http://w3id.org/EVENTSKG-Dataset/ekg#`
 
 ---
 
@@ -177,13 +177,15 @@ Each release is also validated against the SHACL shapes (see [Reproducing the re
 | Resource | Address |
 |---|---|
 | Namespace (content negotiation: HTML for browsers, RDF for clients) | <http://w3id.org/EVENTSKG-Dataset/ekg#> |
-| Documentation | <https://w3id.org/EVENTSKG-Dataset/> (direct: <https://saidfathalla.github.io/EVENTSKG-Dataset/docs/>) |
-| SPARQL explorer (SPARQL 1.1, runs in the browser) | <https://w3id.org/EVENTSKG-Dataset/sparql> (direct: <https://saidfathalla.github.io/EVENTSKG-Dataset/docs/sparql.html>) |
-| Generated edition | <https://w3id.org/EVENTSKG-Dataset/ttl>, `/nt`, `/jsonld`, `/rdf`, `/n3` |
-| Enriched edition | <https://w3id.org/EVENTSKG-Dataset/enriched>, `/enriched/nt`, `/enriched/jsonld` … |
-| Dataset description (VoID) | <https://w3id.org/EVENTSKG-Dataset/void> |
-| Curated record, mapping, shapes | <https://w3id.org/EVENTSKG-Dataset/data>, `/mapping`, `/shapes` |
-| Release 2.1 | <https://w3id.org/EVENTSKG-Dataset/R2.1> |
+| Documentation | <https://saidfathalla.github.io/EVENTSKG-Dataset/docs/> |
+| SPARQL explorer (SPARQL 1.1, runs in the browser) | <https://saidfathalla.github.io/EVENTSKG-Dataset/docs/sparql.html> |
+| Generated edition | [Turtle](https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/EVENTSKG.ttl); other formats in [`serializations/`](serializations/) |
+| Enriched edition | [Turtle](https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/EVENTSKG-enriched.ttl); other formats in [`serializations/`](serializations/) |
+| Dataset description (VoID) | [VoID.ttl](https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/VoID.ttl) |
+| Curated record, mapping, shapes | [EVENTSKG_data.csv](data/EVENTSKG_data.csv), [eventskg.sssom.tsv](data/eventskg.sssom.tsv), [shapes/](shapes/) |
+| Release 2.1 | [`archive/R2.1/`](archive/R2.1/) |
+
+Short persistent addresses are being registered at w3id.org: `w3id.org/EVENTSKG-Dataset/` (documentation), `/sparql`, `/ttl`, `/nt`, `/jsonld`, `/rdf`, `/n3`, `/enriched`, `/enriched/nt` …, `/void`, `/data`, `/mapping`, `/shapes` and `/R2.1`.
 
 To get the data with content negotiation:
 
@@ -195,7 +197,7 @@ curl -L -H "Accept: text/turtle" http://w3id.org/EVENTSKG-Dataset/ekg
 
 ## Example SPARQL Queries
 
-All queries run in the [SPARQL explorer](https://w3id.org/EVENTSKG-Dataset/sparql) (which predeclares the prefixes) or in any SPARQL engine loaded with the dataset.
+All queries run in the [SPARQL explorer](https://saidfathalla.github.io/EVENTSKG-Dataset/docs/sparql.html) (which predeclares the prefixes) or in any SPARQL engine loaded with the dataset.
 
 ### Query 1: The top 5 countries that hosted the most Security and Privacy events since 2009
 ```sparql
