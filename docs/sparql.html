@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="EVENTSKG browser-based SPARQL query interface">
+<meta name="description" content="Browser-based SPARQL query interface for EVENTSKG 3.0 (generated and enriched editions)">
 <meta name="author" content="Said Fathalla">
 <title>EVENTSKG SPARQL Explorer</title>
 <script src="https://unpkg.com/n3@1.16.0/browser/n3.min.js"></script>
@@ -17,17 +17,22 @@ nav{display:flex;justify-content:space-between;align-items:center;gap:12px;paddi
 </head>
 <body>
 <div class="container">
-<nav><a href="EVENTSKG_R2.html">← Back to Dataset Home</a><span id="dataset-stats">Dataset not loaded</span></nav>
+<nav><a href="index.html">← Back to Dataset Home</a><span id="dataset-stats">Dataset not loaded</span></nav>
 <main class="card">
 <h1>EVENTSKG Public SPARQL Explorer</h1>
-<p>Run basic SPARQL SELECT queries against the EVENTSKG Turtle dataset in your browser. Query execution uses parsed triple patterns and variable joins; it is not a remote SPARQL endpoint.</p>
+<p>Run basic SPARQL SELECT queries against EVENTSKG 3.0 in your browser. The <strong>enriched edition</strong> adds types and labels for all resources and Wikidata links for all places; the <strong>generated edition</strong> contains only the curated facts. Query execution uses parsed triple patterns and variable joins; it is not a remote SPARQL endpoint.</p>
+<label for="edition-select">Edition</label>
+<select id="edition-select"><option value="enriched" selected>Enriched edition (recommended)</option><option value="generated">Generated edition</option></select>
 <label>Quick query templates</label>
 <div class="templates">
 <button class="template-btn" data-query="all">All triples (10)</button>
-<button class="template-btn" data-query="types">Event types and labels</button>
-<button class="template-btn" data-query="cities">Events by city</button>
-<button class="template-btn" data-query="predicates">Most-used predicates (sample)</button>
-<button class="template-btn" data-query="subjects">Sample subjects</button>
+<button class="template-btn" data-query="series">Editions of a series</button>
+<button class="template-btn" data-query="figures">Submission figures</button>
+<button class="template-btn" data-query="cities">Events by city (with labels)</button>
+<button class="template-btn" data-query="wikidata">Places and their Wikidata items</button>
+<button class="template-btn" data-query="online">Online events</button>
+<button class="template-btn" data-query="status">Event status (cancelled, scheduled …)</button>
+<button class="template-btn" data-query="dataset">Dataset description</button>
 </div>
 <label for="sparql-query-input">SPARQL query</label>
 <textarea id="sparql-query-input" spellcheck="false" aria-label="SPARQL query editor"></textarea>
@@ -41,37 +46,55 @@ nav{display:flex;justify-content:space-between;align-items:center;gap:12px;paddi
 </div>
 <div id="query-results-container" aria-live="polite"><div class="notice">Downloading the dataset and preparing the local query store…</div></div>
 <h2>Supported query features</h2>
-<p class="small">SELECT projections, PREFIX declarations, basic graph patterns, joins across multiple triple patterns, variables, IRIs, prefixed names, literals, semicolon/comma shorthand, DISTINCT, and LIMIT. FILTER, OPTIONAL, UNION, aggregates, property paths, and remote SERVICE queries are not implemented by this lightweight browser evaluator.</p>
+<p class="small">Common prefixes (rdf, rdfs, owl, xsd, skos, schema, seo, eventskg, conference-ontology, dbpedia-owl, dbo, dbr, wd, dcterms, void, prov) are predeclared. Supported: SELECT projections, PREFIX declarations, basic graph patterns, joins across multiple triple patterns, variables, IRIs, prefixed names, literals, semicolon/comma shorthand, DISTINCT, and LIMIT. FILTER, OPTIONAL, UNION, aggregates, property paths, and remote SERVICE queries are not implemented by this lightweight browser evaluator.</p>
 </main>
-<footer>EVENTSKG In-Browser SPARQL Query Interface</footer>
+<footer>EVENTSKG 3.0 In-Browser SPARQL Query Interface &middot; CC BY 4.0</footer>
 </div>
 <script>
 (() => {
 "use strict";
-const DATASET_URL = "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/EVENTSKG.ttl";
+// Raw URLs of the two editions of release 3.0. Adjust if the files live in another folder or branch.
+const DATASET_BASE = "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/";
+const EDITIONS = {
+ enriched: {label:"enriched edition", url: DATASET_BASE + "EVENTSKG-enriched.ttl"},
+ generated: {label:"generated edition", url: DATASET_BASE + "EVENTSKG.ttl"}
+};
 const PREFIXES = {
  rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
  rdfs: "http://www.w3.org/2000/01/rdf-schema#",
  owl: "http://www.w3.org/2002/07/owl#",
  xsd: "http://www.w3.org/2001/XMLSchema#",
  skos: "http://www.w3.org/2004/02/skos/core#",
- schema: "https://schema.org/",
- seo: "https://w3id.org/seo#"
+ schema: "http://schema.org/",
+ seo: "https://w3id.org/seo#",
+ eventskg: "http://w3id.org/EVENTSKG-Dataset/ekg#",
+ "conference-ontology": "https://w3id.org/scholarlydata/ontology/conference-ontology.owl#",
+ "dbpedia-owl": "http://dbpedia.org/ontology/",
+ dbo: "http://dbpedia.org/ontology/",
+ dbr: "http://dbpedia.org/resource/",
+ wd: "http://www.wikidata.org/entity/",
+ dcterms: "http://purl.org/dc/terms/",
+ void: "http://rdfs.org/ns/void#",
+ prov: "http://www.w3.org/ns/prov#"
 };
+// Common prefixes (listed above) are predeclared, so templates can use them without PREFIX lines.
 const templates = {
  all: `SELECT ?s ?p ?o WHERE {\n  ?s ?p ?o .\n}\nLIMIT 10`,
- types: `PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT ?event ?type ?label WHERE {\n  ?event rdf:type ?type .\n  OPTIONAL { ?type rdfs:label ?label . }\n}\nLIMIT 20`,
- cities: `PREFIX seo: <https://w3id.org/seo#>\n\nSELECT ?event ?city WHERE {\n  ?event seo:city ?city .\n}\nLIMIT 20`,
- predicates: `SELECT ?p ?o WHERE {\n  ?s ?p ?o .\n}\nLIMIT 30`,
- subjects: `SELECT DISTINCT ?s WHERE {\n  ?s ?p ?o .\n}\nLIMIT 20`
+ series: `# All editions of the AAAI series with their dates\nSELECT ?event ?acronym ?start WHERE {\n  ?event seo:belongsToSeries eventskg:AAAI ;\n         conference-ontology:acronym ?acronym ;\n         conference-ontology:startDate ?start .\n}\nLIMIT 100`,
+ figures: `# Submitted and accepted papers and acceptance rate per event\nSELECT ?acronym ?submitted ?accepted ?rate WHERE {\n  ?event conference-ontology:acronym ?acronym ;\n         seo:submittedPapers ?submitted ;\n         seo:acceptedPapers ?accepted ;\n         seo:acceptanceRate ?rate .\n}\nLIMIT 50`,
+ cities: `# Events and the names of their host cities (labels: enriched edition)\nSELECT ?acronym ?city ?cityName WHERE {\n  ?event conference-ontology:acronym ?acronym ;\n         seo:city ?city .\n  ?city rdfs:label ?cityName .\n}\nLIMIT 50`,
+ wikidata: `# Places with their type, name and Wikidata item (enriched edition)\nSELECT ?place ?type ?name ?wikidata WHERE {\n  ?place a ?type ;\n         rdfs:label ?name ;\n         owl:sameAs ?wikidata .\n}\nLIMIT 50`,
+ online: `# Events held online (schema.org attendance mode)\nSELECT ?event ?acronym WHERE {\n  ?event schema:eventAttendanceMode schema:OnlineEventAttendanceMode ;\n         conference-ontology:acronym ?acronym .\n}\nLIMIT 100`,
+ status: `# Events with a recorded status (cancelled, postponed, scheduled …)\nSELECT ?event ?acronym ?status WHERE {\n  ?event schema:eventStatus ?status ;\n         conference-ontology:acronym ?acronym .\n}`,
+ dataset: `# The dataset description and its VoID statistics\nSELECT ?dataset ?p ?o WHERE {\n  ?dataset a void:Dataset ;\n           ?p ?o .\n}\nLIMIT 50`
 };
-// OPTIONAL in the type template is intentionally avoided because the lightweight engine does not implement it.
-templates.types = `PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n\nSELECT ?event ?type WHERE {\n  ?event rdf:type ?type .\n}\nLIMIT 20`;
 
 const $ = id => document.getElementById(id);
 const queryInput = $("sparql-query-input"), status = $("query-status"), stats = $("dataset-stats");
 const resultsContainer = $("query-results-container"), runButton = $("run-query-btn");
-let store = null, datasetPromise = null, lastResults = [], lastVariables = [];
+let store = null, datasetPromise = null, lastResults = [], lastVariables = [], notice = "";
+const editionSelect = $("edition-select");
+const currentEdition = () => EDITIONS[editionSelect.value] || EDITIONS.enriched;
 
 function setStatus(message, kind="") {
  status.textContent = message;
@@ -94,9 +117,23 @@ async function loadDataset() {
  if (store) return store;
  if (datasetPromise) return datasetPromise;
  datasetPromise = (async () => {
-  setStatus("Downloading Turtle dataset…");
-  const response = await fetch(DATASET_URL, {cache:"no-cache"});
-  if (!response.ok) throw new Error(`Dataset request failed (HTTP ${response.status}). Check that the GitHub raw URL is public and reachable.`);
+  notice = "";
+  let edition = currentEdition();
+  setStatus(`Downloading the ${edition.label}…`);
+  let response = await fetch(edition.url, {cache:"no-cache"});
+  if (response.status === 404) {
+   // The selected edition is not published (yet): fall back to the other edition.
+   const otherKey = Object.keys(EDITIONS).find(k => EDITIONS[k] !== edition);
+   const other = EDITIONS[otherKey];
+   const fallback = await fetch(other.url, {cache:"no-cache"});
+   if (fallback.ok) {
+    editionSelect.querySelector(`option[value="${editionSelect.value}"]`).disabled = true;
+    editionSelect.value = otherKey;
+    notice = `The ${edition.label} was not found at ${edition.url}, so the ${other.label} was loaded instead.`;
+    edition = other; response = fallback;
+   }
+  }
+  if (!response.ok) throw new Error(`Dataset request failed (HTTP ${response.status}) for ${edition.url}. Check that the file exists in the repository and that the GitHub raw URL is public.`);
   const turtle = await response.text();
   if (!turtle.trim()) throw new Error("The dataset download was empty.");
   setStatus("Parsing Turtle and building index…");
@@ -108,9 +145,9 @@ async function loadDataset() {
    else resolve();
   }));
   store = new N3.Store(quads);
-  stats.textContent = `${quads.length.toLocaleString()} triples loaded`;
+  stats.textContent = `EVENTSKG 3.0, ${edition.label}: ${quads.length.toLocaleString()} triples loaded`;
   setStatus("Dataset ready","success");
-  resultsContainer.innerHTML = '<div class="notice">Dataset loaded. Choose a template or enter a query, then select <strong>Run query</strong>.</div>';
+  resultsContainer.innerHTML = (notice ? `<div class="notice">${escapeHTML(notice)}</div>` : "") + '<div class="notice">Dataset loaded. Choose a template or enter a query, then select <strong>Run query</strong>.</div>';
   return store;
  })().catch(error => {
   datasetPromise = null;
@@ -347,6 +384,12 @@ $("export-csv-btn").addEventListener("click",()=>{
 $("export-json-btn").addEventListener("click",()=>{
  const rows=lastResults.map(row=>Object.fromEntries(lastVariables.map(v=>[v,row[v]?{value:termDisplay(row[v]),termType:row[v].termType,datatype:row[v].datatype?.value||null,language:row[v].language||null}:null])));
  downloadFile(JSON.stringify({variables:lastVariables,results:rows},null,2),"application/json;charset=utf-8","eventskg_query_results.json");
+});
+editionSelect.addEventListener("change",()=>{
+ store=null; datasetPromise=null; lastResults=[]; lastVariables=[];
+ $("export-csv-btn").hidden=true; $("export-json-btn").hidden=true;
+ resultsContainer.innerHTML='<div class="notice">Loading the selected edition…</div>';
+ loadDataset().catch(error=>console.error("Dataset initialization failed:",error));
 });
 queryInput.value=templates.all;
 loadDataset().catch(error=>console.error("Dataset initialization failed:",error));

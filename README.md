@@ -51,9 +51,9 @@ This repository uses **GitHub Actions** workflows to automatically maintain data
 Explore and validate the dataset using the following linked data endpoints and documentation:
 
 * **Persistent URI (PURL)**: [http://w3id.org/EVENTSKG-Dataset/ekg#](http://w3id.org/EVENTSKG-Dataset/ekg#)
-* **VoID Statistics**: [VoID Metadata Description (N-Triples)](VoID.nt)
+* **VoID Statistics**: [VoID Metadata Description (TTL)](VoID.ttl)
 * **Documentation**: [HTML Documentation](https://saidfathalla.github.io/EVENTSKG-Dataset/docs/index.html)
-* **SPARQL endpointn**: [HTML Documentation](https://saidfathalla.github.io/EVENTSKG-Dataset/docs/sparql.html)
+* **SPARQL endpointn**: [EVENTSKG Public SPARQL Explorer](https://saidfathalla.github.io/EVENTSKG-Dataset/docs/sparql.html)
 ---
 
 ## Example SPARQL Queries
