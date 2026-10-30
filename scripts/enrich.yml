@@ -1,0 +1,24 @@
+# enrich.py settings. Prefixes are taken from the input file.
+
+# properties whose values are places, and the DBpedia type each place must have (it gets that type)
+places:
+  seo:city: dbpedia-owl:Settlement
+  dbpedia-owl:state: [dbpedia-owl:AdministrativeRegion, dbpedia-owl:Region]
+  seo:heldInCountry: dbpedia-owl:Country
+
+same_as: '^http://www\.wikidata\.org/entity/Q'    # owl:sameAs of each place taken from DBpedia (one)
+place_labels: en                                   # rdfs:label of each place from DBpedia, in this language
+
+# places missing from DBpedia are looked up under the same name in these DBpedia language chapters
+# (http://hu.dbpedia.org/resource/Bengaluru); the first one that has it is used
+chapters: [de, fr, es, it, nl, pt, pl, hu]
+
+# resources without rdfs:label get the value of the first of these properties
+labels: [conference-ontology:acronym, conference-ontology:title]
+
+# untyped values of these properties get these types
+value_types:
+  seo:ResearchField: seo:ResearchField
+  seo:hasTrack: owl:Class                          # SEO track kinds are classes (subclasses of seo:Track)
+  schema:eventAttendanceMode: schema:EventAttendanceModeEnumeration
+  schema:eventStatus: schema:EventStatusType
