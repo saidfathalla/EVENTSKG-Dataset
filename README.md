@@ -30,8 +30,8 @@ EVENTSKG (formerly EVENTS) is a 5-star Linked Open Dataset of top-ranked compute
 * **Reproducible generation.** The knowledge graph is generated from one curated CSV file by a declarative [SSSOM](https://mapping-commons.github.io/sssom/) mapping, with constraint checks and SHACL validation. Anyone can rebuild a release from the files in this repository (see [Reproducing the release](#reproducing-the-release)).
 * **Enrichment.** After generation, every place link is checked against DBpedia (existence, redirects, DBpedia language chapters, kind of place), every resource gets an `rdf:type` and an `rdfs:label`, and every place gets an `owl:sameAs` link to its Wikidata item. No volatile facts (populations, areas …) are copied.
 * **Two editions.**
-  * **Generated** (`EVENTSKG.ttl`, 39,479 triples): exactly the curated facts, the reference for reproducing the release.
-  * **Enriched** (`EVENTSKG-enriched.ttl`, 44,173 triples): adds verified, typed and labelled places and the Wikidata links. Recommended for querying and integration.
+  * **Generated** (`EVENTSKG.ttl`, 39,481 triples): exactly the curated facts, the reference for reproducing the release.
+  * **Enriched** (`EVENTSKG-enriched.ttl`, 44,175 triples): adds verified, typed and labelled places and the Wikidata links. Recommended for querying and integration.
 * **Self-describing.** Each edition contains a dataset description: title, creators, licence, version, issue date, VoID statistics, and a `prov:wasRevisionOf` link to the previous release.
 * **Fully compatible.** All IRIs and properties of release 2 are kept (`seo:`, `conference-ontology:`, `dbpedia-owl:state`), so existing queries keep working.
 * **HTML documentation and SPARQL explorer.** A documentation page with statistics and downloads, and a SPARQL 1.1 explorer that runs in the browser without any installation.
@@ -47,7 +47,7 @@ EVENTSKG (formerly EVENTS) is a 5-star Linked Open Dataset of top-ranked compute
 | `owl:sameAs` links to Wikidata | – | 656 |
 | Places checked against DBpedia (confirmed / typed from role / other kind / not found) | – | 665 (580 / 37 / 41 / 7) |
 | Redirecting DBpedia IRIs replaced | – | 13 |
-| Triples | 39,479 | 44,173 |
+| Triples | 39,481 | 44,175 |
 
 ### Communities covered
 
@@ -110,8 +110,8 @@ python3 scripts/enrich.py release/EVENTSKG.ttl -c scripts/enrich.yml \
         -o release/EVENTSKG-enriched --stats release/stats-enriched.html
 ```
 
-Result of step 1: 2,531 events, 75 series, 39,479 triples, `0 errors, 0 warnings`, SHACL `Conforms: True`.
-Step 2 uses the answers in `.enrich_cache.json` and gives the same 44,173 triples; add `--offline` to make sure no external service is asked, or `--refresh` to ask DBpedia and Wikidata again.
+Result of step 1: 2,531 events, 75 series, 39,481 triples, `0 errors, 0 warnings`, SHACL `Conforms: True`.
+Step 2 uses the answers in `.enrich_cache.json` and gives the same 44,175 triples; add `--offline` to make sure no external service is asked, or `--refresh` to ask DBpedia and Wikidata again.
 
 ### Generation: `csv2rdf.py`
 

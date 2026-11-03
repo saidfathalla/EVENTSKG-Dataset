@@ -1,17 +1,9 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix void: <http://rdfs.org/ns/void#> .
-
-@prefix eventskg: <http://w3id.org/EVENTSKG-Dataset/ekg#> .
-
-<http://w3id.org/EVENTSKG-Dataset/ekg#> a void:Dataset ; 
- rdfs:seeAlso <http://w3id.org/EVENTSKG-Dataset/ekg#> ; 
- rdfs:label "EVENTSKG, A dataset of scientific events" ; 
- void:triples 27329 ; 
- void:classes 11 ; 
- void:entities 2036 ; 
- void:distinctSubjects 2036 ; 
- void:properties 39 ; 
- void:distinctObjects 9077 . 
-
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#entities> "2036"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#distinctSubjects> "2036"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#distinctObjects> "9077"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#triples> "27329"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#properties> "39"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://rdfs.org/ns/void#classes> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/2000/01/rdf-schema#label> "EVENTSKG, A dataset of scientific events" .
+<http://w3id.org/EVENTSKG-Dataset/ekg#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://w3id.org/EVENTSKG-Dataset/ekg#> .
