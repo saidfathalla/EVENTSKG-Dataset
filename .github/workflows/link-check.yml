@@ -1,17 +1,37 @@
 name: Link Checker
 
+# Runs on every push to master/main, every Sunday at midnight (UTC), and on demand.
 on:
   push:
     branches: [ master, main ]
   schedule:
-    - cron: '0 0 * * 0' # Runs every Sunday at midnight
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
 
 jobs:
+  # Links in the README and other Markdown files, the HTML documentation
+  # and SPARQL explorer, and the dataset description (download URLs,
+  # provenance files, scripts and vocabulary namespaces).
   link-check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Lychee Broken Link Checker
+      - name: Lychee broken link checker
         uses: lycheeverse/lychee-action@v2.0.2
         with:
-          args: --verbose --no-progress './**/*.md'
+          args: >-
+            --verbose --no-progress
+            --max-retries 3 --retry-wait-time 5
+            --accept 200..=299,403,429
+            --exclude '^https?://(localhost|127\.0\.0\.1)'
+            './**/*.md' 'docs/*.html' 'VoID.ttl' 'data/eventskg-metadata.ttl'
+          fail: true
+
+  # Persistent IRIs: every w3id.org path must redirect to the expected
+  # target, and the target must answer 200 (scripts/check_w3id.sh).
+  w3id-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check w3id.org redirects
+        run: bash scripts/check_w3id.sh

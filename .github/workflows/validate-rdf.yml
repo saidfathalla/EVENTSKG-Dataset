@@ -1,41 +1,31 @@
 name: Validate RDF Data
 
+# Runs on every push and pull request to master/main, and on demand.
+# Checks (scripts/validate_rdf.py):
+#   1. every RDF file (Turtle, N-Triples, JSON-LD, RDF/XML, N3) parses,
+#   2. the five serializations of each edition contain the same triples count,
+#   3. both editions conform to the SHACL shapes (shapes/shapes.ttl).
 on:
   push:
     branches: [ master, main ]
   pull_request:
     branches: [ master, main ]
+  workflow_dispatch:
 
 jobs:
   rdf-check:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.12'
 
-      - name: Install RDFLib
-        run: pip install rdflib
+      - name: Install RDFLib and pySHACL
+        run: pip install rdflib pyshacl
 
-      - name: Validate RDF Syntax
-        run: |
-          python -c "
-          import glob
-          from rdflib import Graph
-
-          files = glob.glob('**/*.ttl', recursive=True) + glob.glob('**/*.rdf', recursive=True)
-          if not files:
-              print('No RDF files found to validate.')
-          for f in files:
-              try:
-                  g = Graph()
-                  g.parse(f)
-                  print(f'✅ {f} is valid ({len(g)} triples)')
-              except Exception as e:
-                  print(f'❌ Syntax error in {f}: {e}')
-                  exit(1)
-          "
+      - name: Syntax, consistency and SHACL validation
+        run: python scripts/validate_rdf.py
