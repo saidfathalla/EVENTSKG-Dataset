@@ -9,10 +9,24 @@
 <title>EVENTSKG Dataset</title>
 
 <!-- Machine-readable description for search engines (Google Dataset Search) and FAIR assessment tools -->
+<link rel="describedby" type="text/turtle" href="https://saidfathalla.github.io/EVENTSKG-Dataset/VoID.ttl">
+<link rel="alternate" type="text/turtle" href="https://saidfathalla.github.io/EVENTSKG-Dataset/EVENTSKG.ttl">
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
-  "@type": "Dataset",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "void": "http://rdfs.org/ns/void#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "dct": "http://purl.org/dc/terms/"
+  },
+  "@type": ["Dataset", "dcat:Dataset", "void:Dataset"],
+  "void:triples": 44173,
+  "void:uriSpace": "http://w3id.org/EVENTSKG-Dataset/ekg#",
+  "prov:wasDerivedFrom": {"@id": "https://w3id.org/EVENTSKG-Dataset/R2.1"},
+  "dct:conformsTo": {"@id": "https://w3id.org/EVENTSKG-Dataset/shapes"},
+  "isAccessibleForFree": true,
+  "conditionsOfAccess": "http://purl.org/coar/access_right/c_abf2",
   "@id": "https://doi.org/10.5281/zenodo.23806362",
   "name": "EVENTSKG: Reproducible and Interoperable Linked Data on Top-Ranked Computer Science Events",
   "alternateName": "EVENTSKG 3.0",
