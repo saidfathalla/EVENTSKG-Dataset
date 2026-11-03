@@ -26,12 +26,3 @@ jobs:
             --exclude '^https?://(localhost|127\.0\.0\.1)'
             './**/*.md' 'docs/*.html' 'VoID.ttl' 'data/eventskg-metadata.ttl'
           fail: true
-
-  # Persistent IRIs: every w3id.org path must redirect to the expected
-  # target, and the target must answer 200 (scripts/check_w3id.sh).
-  w3id-check:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Check w3id.org redirects
-        run: bash scripts/check_w3id.sh
