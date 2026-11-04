@@ -82,7 +82,7 @@ The release was assessed with [F-UJI](https://www.f-uji.net) 4.0.1 (FAIRsFAIR me
 | Reusable | 6/6 | advanced | CC BY 4.0; type, media type and size of every download; PROV-O provenance and correction logs |
 | **Total** | **26/26 (100%)** | | |
 
-The full report is in [`fair/fuji-ekg-2026-11-03.json`](fair/fuji-ekg-2026-11-03.json). To repeat the assessment, enter `https://w3id.org/EVENTSKG-Dataset/ekg` at <https://www.f-uji.net>.
+To repeat the assessment, enter `https://w3id.org/EVENTSKG-Dataset/ekg` at <https://www.f-uji.net>.
 
 ---
 
@@ -108,7 +108,6 @@ The full report is in [`fair/fuji-ekg-2026-11-03.json`](fair/fuji-ekg-2026-11-03
 | `.enrich_cache.json` | Cached DBpedia and Wikidata answers, so the enrichment can be repeated offline |
 | `archive/` | Earlier releases |
 | `docs/` | Documentation website (`index.html`) and SPARQL explorer (`sparql.html`), published with GitHub Pages |
-| `fair/` | F-UJI FAIR assessment reports |
 
 ---
 
