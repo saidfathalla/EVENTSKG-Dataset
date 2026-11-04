@@ -5,6 +5,7 @@
 [![5-Star Open Data](https://img.shields.io/badge/Open%20Data-5%E2%98%85-gold.svg)](https://5stardata.info/en/)
 [![Release](https://img.shields.io/badge/Release-3.0-green.svg)](#whats-new-in-release-30)
 [![DOI](https://img.shields.io/badge/DOI-10%2E5281%2Fzenodo%2E23806362-blue.svg)](https://doi.org/10.5281/zenodo.23806362)
+[![F-UJI FAIR score: 100%](https://img.shields.io/badge/F--UJI%20FAIR%20score-100%25-brightgreen.svg)](#fair-assessment)
 
 <!-- Academic & Citation -->
 [![DOI: 10.1007/978-3-030-21348-0_28](https://img.shields.io/badge/DOI-10.1007%2F978--3--030--21348--0__28-blue.svg)](https://doi.org/10.1007/978-3-030-21348-0_28)
@@ -16,24 +17,25 @@
 
 EVENTSKG (formerly EVENTS) is a 5-star Linked Open Dataset of top-ranked computer science events. For **2,531 editions of 75 event series** from **eight communities (1969–2026)** it records titles and acronyms, dates, cities, states and countries (linked to DBpedia and Wikidata), submitted and accepted papers, acceptance rates, publishers, sponsors, homepages, and the attendance mode and status of each edition.
 
-**Documentation:** <https://saidfathalla.github.io/EVENTSKG-Dataset/docs/> · **SPARQL explorer:** <https://saidfathalla.github.io/EVENTSKG-Dataset/docs/sparql.html> · **Namespace:** `http://w3id.org/EVENTSKG-Dataset/ekg#`
+**Documentation:** <https://w3id.org/EVENTSKG-Dataset/docs> · **SPARQL explorer:** <https://w3id.org/EVENTSKG-Dataset/sparql> · **Namespace:** `http://w3id.org/EVENTSKG-Dataset/ekg#` · **DOI:** [10.5281/zenodo.23806362](https://doi.org/10.5281/zenodo.23806362)
 
 ---
 
 ## What's New in Release 3.0
 
-* **Extended coverage.** 561 editions held from 2019 to 2026 were added, including the announced editions of 2026, and 44 missing historical editions were filled in: 2,531 events instead of 1,929 (+31%).
+* **Extended coverage.** 561 editions held from 2019 to 2026 were added, including the announced editions of 2026, and 44 missing historical editions were filled in: 2,531 events instead of 1,929 in release 2.1 (+31%; release 2.0 as published at ESWC 2019 had 1,951).
 * **Corrected and completed data.** More than 2,500 documented corrections fix wrong series, titles, homepages, places and dates inherited from earlier releases. Titles are now complete for all events and publishers for 99.5% of them.
 * **Attendance mode and status.** Two schema.org properties are new:
   * `schema:eventAttendanceMode`: online or mixed editions (129 events), which makes the move to virtual events during the COVID-19 pandemic visible;
   * `schema:eventStatus`: scheduled, cancelled or postponed editions.
 * **Reproducible generation.** The knowledge graph is generated from one curated CSV file by a declarative [SSSOM](https://mapping-commons.github.io/sssom/) mapping, with constraint checks and SHACL validation. Anyone can rebuild a release from the files in this repository (see [Reproducing the release](#reproducing-the-release)).
-* **Enrichment.** After generation, every place link is checked against DBpedia (existence, redirects, DBpedia language chapters, kind of place), every resource gets an `rdf:type` and an `rdfs:label`, and every place gets an `owl:sameAs` link to its Wikidata item. No volatile facts (populations, areas …) are copied.
+* **Enrichment.** After generation, every place link is checked against DBpedia (existence, redirects, DBpedia language chapters, kind of place), almost every resource gets an `rdf:type` and an `rdfs:label` (98.9% and 98.2%), and every place found in DBpedia gets an `owl:sameAs` link to its Wikidata item. No volatile facts (populations, areas …) are copied.
 * **Two editions.**
   * **Generated** (`EVENTSKG.ttl`, 39,481 triples): exactly the curated facts, the reference for reproducing the release.
   * **Enriched** (`EVENTSKG-enriched.ttl`, 44,175 triples): adds verified, typed and labelled places and the Wikidata links. Recommended for querying and integration.
 * **Self-describing.** Each edition contains a dataset description: title, creators, licence, version, issue date, VoID statistics, and a `prov:wasRevisionOf` link to the previous release.
-* **Fully compatible.** All IRIs and properties of release 2 are kept (`seo:`, `conference-ontology:`, `dbpedia-owl:state`), so existing queries keep working.
+* **Backward compatible.** All properties of release 2 (`seo:`, `conference-ontology:`, `dbpedia-owl:state`) and the IRIs of its events and series are kept, except three records of editions that never took place, so existing queries keep working.
+* **FAIR.** An automated assessment with [F-UJI](https://www.f-uji.net) gives the dataset a score of **100%** (see [FAIR assessment](#fair-assessment)).
 * **HTML documentation and SPARQL explorer.** A documentation page with statistics and downloads, and a SPARQL 1.1 explorer that runs in the browser without any installation.
 
 ### Effect of the enrichment
@@ -68,6 +70,22 @@ EVENTSKG (formerly EVENTS) is a 5-star Linked Open Dataset of top-ranked compute
 
 ---
 
+## FAIR Assessment
+
+The release was assessed with [F-UJI](https://www.f-uji.net) 4.0.1 (FAIRsFAIR metrics v0.8) on its persistent IRI `https://w3id.org/EVENTSKG-Dataset/ekg` (3 November 2026). It reaches the full score on all assessed metrics:
+
+| Principle | Score | Maturity | What satisfies it |
+|---|---:|---|---|
+| Findable | 7/7 | advanced | w3id.org IRIs and Zenodo DOI; title, creators with ORCID, dates, keywords; schema.org `Dataset` in JSON-LD |
+| Accessible | 7/7 | advanced | IRIs resolve over HTTP(S) with content negotiation; open access and CC BY 4.0 stated in the metadata |
+| Interoperable | 6/6 | advanced | RDF in five serializations; SEO, DCAT, VoID, PROV-O, DCMI Terms; links to DBpedia, Wikidata and release 2.1 |
+| Reusable | 6/6 | advanced | CC BY 4.0; type, media type and size of every download; PROV-O provenance and correction logs |
+| **Total** | **26/26 (100%)** | | |
+
+The full report is in [`fair/fuji-ekg-2026-11-03.json`](fair/fuji-ekg-2026-11-03.json). To repeat the assessment, enter `https://w3id.org/EVENTSKG-Dataset/ekg` at <https://www.f-uji.net>.
+
+---
+
 ## Repository Layout
 
 | Path | Content |
@@ -81,11 +99,16 @@ EVENTSKG (formerly EVENTS) is a 5-star Linked Open Dataset of top-ranked compute
 | `data/eventskg.sssom.tsv`, `data/eventskg.sssom.yml` | The SSSOM mapping set: which property each column becomes, and the dataset description (`dataset_*` keys) |
 | `scripts/csv2rdf.py` | Generation: CSV + mapping → RDF |
 | `scripts/enrich.py`, `scripts/enrich.yml` | Enrichment and its configuration |
+| `data/eventskg-metadata.ttl` | Extra dataset metadata merged into each release (DOI, creators, DCAT distributions, provenance) |
+| `provenance/` | Migration and correction logs and the data-check report |
+| `scripts/validate_rdf.py` | Checks syntax, triple counts and SHACL conformance of the published files (used by GitHub Actions) |
+| `scripts/add_file_sizes.py` | Writes the file sizes of the downloads into the documentation's JSON-LD |
 | `shapes/` | SHACL shapes |
 | `stats/` | Statistics pages of the generated and the enriched edition |
 | `.enrich_cache.json` | Cached DBpedia and Wikidata answers, so the enrichment can be repeated offline |
 | `archive/` | Earlier releases |
 | `docs/` | Documentation website (`index.html`) and SPARQL explorer (`sparql.html`), published with GitHub Pages |
+| `fair/` | F-UJI FAIR assessment reports |
 
 ---
 
@@ -96,18 +119,24 @@ Every release is generated from the curated CSV; nothing is edited by hand in th
 ```bash
 git clone https://github.com/saidfathalla/EVENTSKG-Dataset.git
 cd EVENTSKG-Dataset
+python3 -m venv .venv && source .venv/bin/activate
 pip install rdflib pyyaml pyshacl
 
-# 1. Generate: CSV + SSSOM mapping -> all RDF serializations, VoID description, statistics
+# 1. Generate: CSV + SSSOM mapping -> generated edition, VoID description, statistics
 python3 scripts/csv2rdf.py data/EVENTSKG_data.csv data/eventskg.sssom.tsv \
         --places data/dbpedia_places.csv --include data/eventskg-metadata.ttl \
-        -o release/EVENTSKG --void release/VoID --stats release/stats.html \
+        -o EVENTSKG --void VoID --stats stats/stats.html \
         --compare archive/R2.1/EVENTSKG.ttl
-python3 -m pyshacl -s shapes/shapes.ttl -df turtle release/EVENTSKG.ttl
+python3 -m pyshacl -s shapes/shapes.ttl -df turtle EVENTSKG.ttl
 
 # 2. Enrich: check places against DBpedia, add types, labels and Wikidata links
-python3 scripts/enrich.py release/EVENTSKG.ttl -c scripts/enrich.yml \
-        -o release/EVENTSKG-enriched --stats release/stats-enriched.html
+python3 scripts/enrich.py EVENTSKG.ttl -c scripts/enrich.yml \
+        -o EVENTSKG-enriched --stats stats/stats-enriched.html
+
+# 3. Keep Turtle in the root, move the other formats, check everything
+mv -f EVENTSKG.{nt,jsonld,rdf,n3} EVENTSKG-enriched.{nt,jsonld,rdf,n3} VoID.{nt,jsonld,rdf,n3} serializations/
+python3 scripts/validate_rdf.py
+python3 scripts/add_file_sizes.py
 ```
 
 Result of step 1: 2,531 events, 75 series, 39,481 triples, `0 errors, 0 warnings`, SHACL `Conforms: True`.
@@ -165,11 +194,9 @@ The converter checks the data while converting: required and unique values, ISO 
 
 This repository uses **GitHub Actions** workflows to maintain data quality, syntax correctness, and link stability:
 
-* **RDF Syntax Validation (`validate-rdf.yml`)**: on every push and pull request, the RDF files are parsed with `RDFLib` to catch syntax errors.
-* **Link Checking (`link-check.yml`)**: a weekly check that external links, dataset dumps and persistent IRIs are online.
-* **Pages Deployment (`pages-build-deployment.yml`)**: deploys the documentation in `docs/` to GitHub Pages.
-
-Each release is also validated against the SHACL shapes (see [Reproducing the release](#reproducing-the-release)).
+* **RDF validation (`validate-rdf.yml`)**: on every push and pull request, `scripts/validate_rdf.py` parses every RDF file in all five serializations, checks that the serializations of each edition contain the same number of triples, and validates both editions against the SHACL shapes.
+* **Link checking (`link-check.yml`)**: on every push and once a week, all links in the README, the documentation and the dataset description (including every download URL) are checked.
+* **Pages deployment**: GitHub Pages rebuilds the documentation on every push.
 
 ---
 
@@ -178,15 +205,14 @@ Each release is also validated against the SHACL shapes (see [Reproducing the re
 | Resource | Address |
 |---|---|
 | Namespace (content negotiation: HTML for browsers, RDF for clients) | <http://w3id.org/EVENTSKG-Dataset/ekg#> |
-| Documentation | <https://saidfathalla.github.io/EVENTSKG-Dataset/docs/> |
-| SPARQL explorer (SPARQL 1.1, runs in the browser) | <https://saidfathalla.github.io/EVENTSKG-Dataset/docs/sparql.html> |
-| Generated edition | [Turtle](https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/EVENTSKG.ttl); other formats in [`serializations/`](serializations/) |
-| Enriched edition | [Turtle](https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/EVENTSKG-enriched.ttl); other formats in [`serializations/`](serializations/) |
-| Dataset description (VoID) | [VoID.ttl](https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/refs/heads/master/VoID.ttl) |
-| Curated record, mapping, shapes | [EVENTSKG_data.csv](data/EVENTSKG_data.csv), [eventskg.sssom.tsv](data/eventskg.sssom.tsv), [shapes/](shapes/) |
-| Release 2.1 | [`archive/R2.1/`](archive/R2.1/) |
-
-Short persistent addresses are being registered at w3id.org: `w3id.org/EVENTSKG-Dataset/` (documentation), `/sparql`, `/ttl`, `/nt`, `/jsonld`, `/rdf`, `/n3`, `/enriched`, `/enriched/nt` …, `/void`, `/data`, `/mapping`, `/shapes` and `/R2.1`.
+| Documentation | <https://w3id.org/EVENTSKG-Dataset/docs> |
+| SPARQL explorer (SPARQL 1.1, runs in the browser) | <https://w3id.org/EVENTSKG-Dataset/sparql> |
+| Generated edition | [Turtle](https://w3id.org/EVENTSKG-Dataset/ttl) · [N-Triples](https://w3id.org/EVENTSKG-Dataset/nt) · [JSON-LD](https://w3id.org/EVENTSKG-Dataset/jsonld) · [RDF/XML](https://w3id.org/EVENTSKG-Dataset/rdf) · [N3](https://w3id.org/EVENTSKG-Dataset/n3) |
+| Enriched edition | [Turtle](https://w3id.org/EVENTSKG-Dataset/enriched) · [N-Triples](https://w3id.org/EVENTSKG-Dataset/enriched/nt) · [JSON-LD](https://w3id.org/EVENTSKG-Dataset/enriched/jsonld) · [RDF/XML](https://w3id.org/EVENTSKG-Dataset/enriched/rdf) · [N3](https://w3id.org/EVENTSKG-Dataset/enriched/n3) |
+| Dataset description (VoID) | <https://w3id.org/EVENTSKG-Dataset/void> |
+| Curated record, mapping, shapes | <https://w3id.org/EVENTSKG-Dataset/data>, <https://w3id.org/EVENTSKG-Dataset/mapping>, <https://w3id.org/EVENTSKG-Dataset/shapes> |
+| Release 2.1 | <https://w3id.org/EVENTSKG-Dataset/R2.1> ([`archive/R2.1/`](archive/R2.1/)) |
+| Archive (all versions) | <https://doi.org/10.5281/zenodo.23806362> |
 
 To get the data with content negotiation:
 

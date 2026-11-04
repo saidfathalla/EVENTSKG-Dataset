@@ -111,84 +111,73 @@
     "research field"
   ],
   "citation": "https://doi.org/10.1007/978-3-030-21348-0_28",
-  "isBasedOn": "https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.ttl",
+  "isBasedOn": "https://saidfathalla.github.io/EVENTSKG-Dataset/archive/R2.1/EVENTSKG.ttl",
   "conditionsOfAccess": "Open access, no registration required",
   "distribution": [
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, generated edition (Turtle)",
       "encodingFormat": "text/turtle",
-      "contentSize": "1.9 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/EVENTSKG.ttl"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, generated edition (N-Triples)",
       "encodingFormat": "application/n-triples",
-      "contentSize": "5.4 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG.nt"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, generated edition (JSON-LD)",
       "encodingFormat": "application/ld+json",
-      "contentSize": "2.6 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG.jsonld"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, generated edition (RDF/XML)",
       "encodingFormat": "application/rdf+xml",
-      "contentSize": "3.7 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG.rdf"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, generated edition (N3)",
       "encodingFormat": "text/n3",
-      "contentSize": "1.9 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG.n3"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, enriched edition (Turtle)",
       "encodingFormat": "text/turtle",
-      "contentSize": "2.1 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/EVENTSKG-enriched.ttl"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, enriched edition (N-Triples)",
       "encodingFormat": "application/n-triples",
-      "contentSize": "5.9 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG-enriched.nt"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, enriched edition (JSON-LD)",
       "encodingFormat": "application/ld+json",
-      "contentSize": "2.8 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG-enriched.jsonld"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, enriched edition (RDF/XML)",
       "encodingFormat": "application/rdf+xml",
-      "contentSize": "4.0 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG-enriched.rdf"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, enriched edition (N3)",
       "encodingFormat": "text/n3",
-      "contentSize": "2.1 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG-enriched.n3"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, curated record (CSV)",
       "encodingFormat": "text/csv",
-      "contentSize": "737.0 KB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/data/EVENTSKG_data.csv"
     }
   ]
@@ -416,8 +405,12 @@
                     <td><a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 (CC BY 4.0)</a></td>
                 </tr>
                 <tr>
+                    <th>FAIR assessment</th>
+                    <td><strong>100%</strong> with <a href="https://www.f-uji.net">F-UJI</a> 4.0.1 (metrics v0.8): Findable 7/7, Accessible 7/7, Interoperable 6/6, Reusable 6/6, all at the highest maturity level (3 November 2026). See <a href="#fair">FAIR assessment</a>.</td>
+                </tr>
+                <tr>
                     <th>API</th>
-                    <td>Java API available <a href="https://github.com/saidfathalla/EVENTSKG_API">here</a>. Release 3.0 keeps all IRIs and properties of release 2.0, so existing queries and applications continue to work.</td>
+                    <td>Java API available <a href="https://github.com/saidfathalla/EVENTSKG_API">here</a>. Release 3.0 keeps the properties of release 2.0 and the IRIs of its events and series (except three records of editions that never took place), so existing queries and applications continue to work.</td>
                 </tr>
                 <tr>
                     <th>Citation</th>
@@ -438,13 +431,14 @@
         <div class="card">
             <h2>What's New in Release 3.0</h2>
             <ul>
-                <li><strong>Extended coverage.</strong> 561 editions held from 2019 to 2026 were added, including the announced editions of 2026, and 44 missing historical editions were filled in: 2,531 events instead of 1,929 (+31%).</li>
+                <li><strong>Extended coverage.</strong> 561 editions held from 2019 to 2026 were added, including the announced editions of 2026, and 44 missing historical editions were filled in: 2,531 events instead of 1,929 in release 2.1 (+31%).</li>
                 <li><strong>Corrected and completed data.</strong> More than 2,500 documented corrections fix wrong series, titles, places and dates inherited from earlier releases. Titles are now complete for all events and publishers for 99.5% of them.</li>
                 <li><strong>Attendance mode and status.</strong> Events record whether they were held online, in person or in a mixed format, and whether they were cancelled or postponed, so the move to virtual events during the COVID-19 pandemic is visible in the data.</li>
                 <li><strong>Reproducible generation.</strong> The knowledge graph is regenerated from a curated CSV record by a declarative <a href="https://mapping-commons.github.io/sssom/">SSSOM</a> mapping, with constraint checks and SHACL validation. Anyone can rebuild and verify the release from the published record and mapping.</li>
-                <li><strong>Enrichment and interoperability.</strong> An enrichment step checks every place link against DBpedia (redirects, language chapters, kind of place), types and labels every resource, and links all places to Wikidata.</li>
+                <li><strong>Enrichment and interoperability.</strong> An enrichment step checks every place link against DBpedia (redirects, language chapters, kind of place), types and labels almost every resource, and links the places to Wikidata.</li>
                 <li><strong>Self-describing dataset.</strong> Each edition contains a machine-readable dataset description with VoID statistics, version information and a provenance link to release 2.1.</li>
-                <li><strong>Fully compatible.</strong> All IRIs and properties of release 2.0 are preserved.</li>
+                <li><strong>Backward compatible.</strong> The properties of release 2.0 and the IRIs of its events and series are kept, except three records of editions that never took place.</li>
+                <li><strong>FAIR.</strong> An automated assessment with F-UJI gives the dataset a score of 100% (<a href="#fair">details</a>).</li>
             </ul>
         </div>
 
@@ -468,11 +462,11 @@
             <table class="grid-table">
                 <thead><tr><th>Format</th><th>Generated edition</th><th>Enriched edition</th></tr></thead>
                 <tbody>
-                    <tr><td>Turtle</td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/EVENTSKG.ttl">EVENTSKG.ttl</a></td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/EVENTSKG-enriched.ttl">EVENTSKG-enriched.ttl</a></td></tr>
-                    <tr><td>N-Triples</td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.nt">EVENTSKG.nt</a></td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.nt">EVENTSKG-enriched.nt</a></td></tr>
-                    <tr><td>JSON-LD</td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.jsonld">EVENTSKG.jsonld</a></td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.jsonld">EVENTSKG-enriched.jsonld</a></td></tr>
-                    <tr><td>RDF/XML</td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.rdf">EVENTSKG.rdf</a></td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.rdf">EVENTSKG-enriched.rdf</a></td></tr>
-                    <tr><td>N3</td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG.n3">EVENTSKG.n3</a></td><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/serializations/EVENTSKG-enriched.n3">EVENTSKG-enriched.n3</a></td></tr>
+                    <tr><td>Turtle</td><td><a href="https://saidfathalla.github.io/EVENTSKG-Dataset/EVENTSKG.ttl">EVENTSKG.ttl</a></td><td><a href="https://saidfathalla.github.io/EVENTSKG-Dataset/EVENTSKG-enriched.ttl">EVENTSKG-enriched.ttl</a></td></tr>
+                    <tr><td>N-Triples</td><td><a href="https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG.nt">EVENTSKG.nt</a></td><td><a href="https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG-enriched.nt">EVENTSKG-enriched.nt</a></td></tr>
+                    <tr><td>JSON-LD</td><td><a href="https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG.jsonld">EVENTSKG.jsonld</a></td><td><a href="https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG-enriched.jsonld">EVENTSKG-enriched.jsonld</a></td></tr>
+                    <tr><td>RDF/XML</td><td><a href="https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG.rdf">EVENTSKG.rdf</a></td><td><a href="https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG-enriched.rdf">EVENTSKG-enriched.rdf</a></td></tr>
+                    <tr><td>N3</td><td><a href="https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG.n3">EVENTSKG.n3</a></td><td><a href="https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG-enriched.n3">EVENTSKG-enriched.n3</a></td></tr>
                 </tbody>
             </table>
             </div>
@@ -484,7 +478,7 @@
                     <tr><td><a href="https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/data/eventskg.sssom.tsv">eventskg.sssom.tsv</a>, <a href="https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/data/eventskg.sssom.yml">eventskg.sssom.yml</a></td><td>The SSSOM mapping set: which property each field becomes, and the dataset description</td></tr>
                     <tr><td><a href="https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/shapes/shapes.ttl">shapes.ttl</a></td><td>SHACL shapes used to validate the release</td></tr>
                     <tr><td><a href="https://github.com/saidfathalla/EVENTSKG-Dataset/blob/master/scripts/enrich.yml">enrich.yml</a></td><td>Configuration of the enrichment step</td></tr>
-                    <tr><td><a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/VoID.ttl">VoID.ttl</a></td><td>The dataset description with VoID statistics</td></tr>
+                    <tr><td><a href="https://saidfathalla.github.io/EVENTSKG-Dataset/VoID.ttl">VoID.ttl</a></td><td>The dataset description with VoID statistics</td></tr>
                     <tr><td><a href="https://github.com/saidfathalla/EVENTSKG-Dataset/tree/master/scripts">scripts/</a></td><td>The generation (<code>csv2rdf.py</code>) and enrichment (<code>enrich.py</code>) scripts</td></tr>
                     <tr><td><a href="https://github.com/saidfathalla/EVENTSKG-Dataset/tree/master/stats">stats/</a></td><td>Statistics pages of the generated and the enriched edition</td></tr>
                 </tbody>
@@ -528,17 +522,21 @@
         <!-- Reproduce -->
         <div class="card" id="reproduce">
             <h2>Reproduce the Release</h2>
-            <p>Every release is generated from the curated record; nothing is edited by hand in the RDF. With Python 3 and the files of the repository, two commands rebuild both editions:</p>
-<pre><span class="c"># 1. Generate: CSV + SSSOM mapping -> knowledge graph (all serialisations), VoID description, statistics</span>
-git clone https://github.com/saidfathalla/EVENTSKG-Dataset.git && cd EVENTSKG-Dataset
-pip install rdflib pyyaml pyshacl
-python3 scripts/csv2rdf.py data/EVENTSKG_data.csv data/eventskg.sssom.tsv --places data/dbpedia_places.csv --include data/eventskg-metadata.ttl \
-        -o release/EVENTSKG --void release/VoID --stats release/stats.html
-python3 -m pyshacl -s shapes/shapes.ttl -df turtle release/EVENTSKG.ttl
+            <p>Every release is generated from the curated record; nothing is edited by hand in the RDF. With Python 3 and the files of the repository, a few commands rebuild and check both editions (39,481 and 44,175 triples):</p>
+<pre>git clone https://github.com/saidfathalla/EVENTSKG-Dataset.git && cd EVENTSKG-Dataset
+python3 -m venv .venv && source .venv/bin/activate && pip install rdflib pyyaml pyshacl
+
+<span class="c"># 1. Generate: CSV + SSSOM mapping -> generated edition, VoID description, statistics</span>
+python3 scripts/csv2rdf.py data/EVENTSKG_data.csv data/eventskg.sssom.tsv --places data/dbpedia_places.csv \
+        --include data/eventskg-metadata.ttl -o EVENTSKG --void VoID --stats stats/stats.html
+python3 -m pyshacl -s shapes/shapes.ttl -df turtle EVENTSKG.ttl
 
 <span class="c"># 2. Enrich: check places against DBpedia, add types, labels and Wikidata links</span>
-python3 scripts/enrich.py release/EVENTSKG.ttl -c scripts/enrich.yml -o release/EVENTSKG-enriched \
-        --stats release/stats-enriched.html</pre>
+python3 scripts/enrich.py EVENTSKG.ttl -c scripts/enrich.yml -o EVENTSKG-enriched --stats stats/stats-enriched.html
+
+<span class="c"># 3. Move the other formats and check everything</span>
+mv -f EVENTSKG.{nt,jsonld,rdf,n3} EVENTSKG-enriched.{nt,jsonld,rdf,n3} VoID.{nt,jsonld,rdf,n3} serializations/
+python3 scripts/validate_rdf.py</pre>
             <p>Generation rejects any value that breaks a rule of the mapping (required and unique values, ISO dates, start before end, accepted &le; submitted papers, acceptance rates in [0,1], controlled values) and reports it with its line in the record. Enrichment caches the answers of DBpedia and Wikidata (<code>.enrich_cache.json</code> in the repository), so it can be repeated offline with identical results. The same converter and mapping format work for any tabular data.</p>
 
             <h2>Interoperability</h2>
@@ -551,11 +549,26 @@ python3 scripts/enrich.py release/EVENTSKG.ttl -c scripts/enrich.yml -o release/
             </ul>
         </div>
 
+        <!-- FAIR assessment -->
+        <div class="card" id="fair">
+            <h2>FAIR Assessment</h2>
+            <p>The release was assessed with <a href="https://www.f-uji.net">F-UJI</a> 4.0.1 (FAIRsFAIR metrics v0.8) on its persistent IRI <code>https://w3id.org/EVENTSKG-Dataset/ekg</code> on 3 November 2026. It reaches the full score on all assessed metrics.</p>
+            <table class="grid-table">
+                <tr><th>Principle</th><th>Score</th><th>Maturity</th><th>What satisfies it</th></tr>
+                <tr><td>Findable</td><td class="num">7/7</td><td>advanced</td><td>w3id.org IRIs and Zenodo DOI; title, creators with ORCID, dates, keywords; schema.org <code>Dataset</code> in JSON-LD</td></tr>
+                <tr><td>Accessible</td><td class="num">7/7</td><td>advanced</td><td>IRIs resolve over HTTP(S) with content negotiation; open access and CC BY 4.0 stated in the metadata</td></tr>
+                <tr><td>Interoperable</td><td class="num">6/6</td><td>advanced</td><td>RDF in five serializations; SEO, DCAT, VoID, PROV-O, DCMI Terms; links to DBpedia, Wikidata and release 2.1</td></tr>
+                <tr><td>Reusable</td><td class="num">6/6</td><td>advanced</td><td>CC BY 4.0; type, media type and size of every download; PROV-O provenance and correction logs</td></tr>
+                <tr><th>Total</th><th class="num">26/26 (100%)</th><th></th><th></th></tr>
+            </table>
+            <p>Full report: <a href="https://saidfathalla.github.io/EVENTSKG-Dataset/fair/fuji-ekg-2026-11-03.json">fuji-ekg-2026-11-03.json</a>. To repeat the assessment, enter the IRI above at <a href="https://www.f-uji.net">f-uji.net</a>.</p>
+        </div>
+
         <!-- Releases and Use Cases -->
         <div class="card">
             <h2>Previous Releases</h2>
-            <p><strong>Release 2.1:</strong> the last version of release 2, based on the updated SEO ontology; 75 event series and 1,929 events in eight communities, up to 2018 (<a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.ttl">Turtle</a> | <a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.nt">N-Triples</a> | <a href="https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/archive/R2.1/EVENTSKG.jsonld">JSON-LD</a> | <a href="https://github.com/saidfathalla/EVENTSKG-Dataset/tree/master/archive/R2.1">all files</a>).</p>
-            <p><strong>Release 2.0 (2018-11):</strong> Linked Dataset based on the updated SEO ontology; 73 event series and 1,951 events in eight communities.</p>
+            <p><strong>Release 2.1:</strong> the last version of release 2, based on the updated SEO ontology; 75 event series and 1,929 events in eight communities, up to 2018 (<a href="https://saidfathalla.github.io/EVENTSKG-Dataset/archive/R2.1/EVENTSKG.ttl">Turtle</a> | <a href="https://saidfathalla.github.io/EVENTSKG-Dataset/archive/R2.1/EVENTSKG.nt">N-Triples</a> | <a href="https://saidfathalla.github.io/EVENTSKG-Dataset/archive/R2.1/EVENTSKG.jsonld">JSON-LD</a> | <a href="https://github.com/saidfathalla/EVENTSKG-Dataset/tree/master/archive/R2.1">all files</a>).</p>
+            <p><strong>Release 2.0 (2018-11, ESWC 2019):</strong> Linked Dataset based on the updated SEO ontology; 73 event series, 1,951 events and 29,255 triples in eight communities (<a href="https://doi.org/10.1007/978-3-030-21348-0_28">paper</a>).</p>
             <p><strong>Version 2018-01 (EVENTSKG-40):</strong> Specification of 40 top-prestigious event series, described in the ICCCI 2018 paper listed under Citation.</p>
             <p><strong>Version 2018-01 (EVENTS):</strong> Specification of 25 event series (<a href="https://doi.org/10.1007/978-3-030-01379-0_8">paper</a>).</p>
 
