@@ -3,14 +3,15 @@
 
 1. Syntax: every RDF file in the repository (Turtle, N-Triples, JSON-LD,
    RDF/XML, N3) must parse.
-2. Consistency: the five serializations of each edition must contain the
-   same number of triples.
+2. Consistency: the five serializations of each edition must be isomorphic
+   RDF graphs (same triples up to blank-node renaming).
 3. Constraints: both editions must conform to the SHACL shapes.
 
 Exits with status 1 if any check fails.
 """
 import glob, os, sys
 from rdflib import Graph
+from rdflib.compare import isomorphic
 
 FORMATS = {".ttl": "turtle", ".nt": "nt", ".jsonld": "json-ld", ".rdf": "xml", ".n3": "n3"}
 SKIP_DIRS = (".git", "node_modules", ".venv", "venv")
@@ -22,6 +23,7 @@ SHAPES = "shapes/shapes.ttl"
 
 errors = []
 sizes = {}
+graphs = {}
 
 # 1. syntax
 files = sorted(f for ext in FORMATS for f in glob.glob(f"**/*{ext}", recursive=True)
@@ -31,25 +33,27 @@ for f in files:
     try:
         g = Graph().parse(f, format=FORMATS[os.path.splitext(f)[1]])
         sizes[f] = len(g)
+        graphs[f] = g
         print(f"  ok    {f} ({len(g):,} triples)")
     except Exception as e:  # noqa: BLE001
         errors.append(f"syntax error in {f}: {e}")
         print(f"  FAIL  {f}: {e}")
 
-# 2. same number of triples in all serializations of an edition
-print("== Consistency of the serializations")
+# 2. all serializations of an edition are isomorphic graphs
+print("== Consistency of the serializations (graph isomorphism)")
 for ed, fs in EDITIONS.items():
-    missing = [f for f in fs if not os.path.exists(f)]
+    missing = [f for f in fs if f not in graphs]
     if missing:
-        errors.append(f"{ed} edition: missing {', '.join(missing)}")
-        print(f"  FAIL  {ed}: missing {', '.join(missing)}")
+        errors.append(f"{ed} edition: missing or unparsable {', '.join(missing)}")
+        print(f"  FAIL  {ed}: missing or unparsable {', '.join(missing)}")
         continue
-    counts = {f: sizes.get(f) for f in fs}
-    if len(set(counts.values())) == 1:
-        print(f"  ok    {ed}: {next(iter(counts.values())):,} triples in all five serializations")
+    ref = graphs[fs[0]]
+    bad = [f for f in fs[1:] if not isomorphic(ref, graphs[f])]
+    if bad:
+        errors.append(f"{ed} edition: not isomorphic to {fs[0]}: {', '.join(bad)}")
+        print(f"  FAIL  {ed}: not isomorphic to {fs[0]}: {', '.join(bad)}")
     else:
-        errors.append(f"{ed} edition: serializations differ {counts}")
-        print(f"  FAIL  {ed}: {counts}")
+        print(f"  ok    {ed}: all five serializations are isomorphic ({len(ref):,} triples)")
 
 # 3. SHACL
 print("== SHACL validation")
