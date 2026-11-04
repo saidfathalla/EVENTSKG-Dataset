@@ -1,0 +1,54 @@
+check,item,status
+no start date,ACSAC1985 (line 125),"open: value unknown, to be researched"
+no start date,ISCA1983 (line 1339),"open: value unknown, to be researched"
+no start date,NIPS2000 (line 1582),"open: value unknown, to be researched"
+no start date,NIPS1997 (line 1585),"open: value unknown, to be researched"
+no start date,NIPS1994 (line 1588),"open: value unknown, to be researched"
+no start date,NIPS1993 (line 1589),"open: value unknown, to be researched"
+no start date,NIPS1988 (line 1594),"open: value unknown, to be researched"
+no start date,NIPS1987 (line 1595),"open: value unknown, to be researched"
+no start date,SBAC-PAD1991 (line 1952),"open: value unknown, to be researched"
+no start date,SBAC-PAD1989 (line 1954),"open: value unknown, to be researched"
+no start date,STOC1987 (line 2231),"open: value unknown, to be researched"
+no start date,USENIX1991 (line 2427),"open: value unknown, to be researched"
+longer than 10 days,ASPLOS2021 (line 196): 2021-04-12 -> 2021-04-23,checked: correct (virtual/hybrid editions)
+longer than 10 days,CSCW2022 (line 384): 2022-11-08 -> 2022-11-22,checked: correct (virtual/hybrid editions)
+longer than 10 days,NIPS2022 (line 1560): 2022-11-28 -> 2022-12-09,checked: correct (virtual/hybrid editions)
+longer than 10 days,SIGGRAPH2020 (line 1963): 2020-08-17 -> 2020-08-28,checked: correct (virtual/hybrid editions)
+start date not in edition year,"FOCS2021 (line 849): year 2021, starts 2022-02-07",checked: correct (postponed to early next year)
+start date not in edition year,"IJCAI2020 (line 1217): year 2020, starts 2021-01-07",checked: correct (postponed to early next year)
+start but no end date,IJCAI1989 (line 1235),"open: value unknown, to be researched"
+start but no end date,IJCAI1985 (line 1237),"open: value unknown, to be researched"
+start but no end date,IJCAI1983 (line 1238),"open: value unknown, to be researched"
+start but no end date,ISCA1994 (line 1328),"open: value unknown, to be researched"
+start but no end date,ISCA1993 (line 1329),"open: value unknown, to be researched"
+start but no end date,ISCA1992 (line 1330),"open: value unknown, to be researched"
+start but no end date,ISCA1990 (line 1332),"open: value unknown, to be researched"
+start but no end date,ISCA1989 (line 1333),"open: value unknown, to be researched"
+start but no end date,ISCA1988 (line 1334),"open: value unknown, to be researched"
+start but no end date,ISCA1987 (line 1335),"open: value unknown, to be researched"
+start but no end date,ISCA1986 (line 1336),"open: value unknown, to be researched"
+start but no end date,ISCA1985 (line 1337),"open: value unknown, to be researched"
+start but no end date,ISCA1984 (line 1338),"open: value unknown, to be researched"
+start but no end date,ISCA1981 (line 1341),"open: value unknown, to be researched"
+start but no end date,ISCA1980 (line 1342),"open: value unknown, to be researched"
+start but no end date,ISCA1979 (line 1343),"open: value unknown, to be researched"
+start but no end date,ISCA1978 (line 1344),"open: value unknown, to be researched"
+start but no end date,ISCA1977 (line 1345),"open: value unknown, to be researched"
+start but no end date,ISCA1976 (line 1346),"open: value unknown, to be researched"
+start but no end date,ISCA1974 (line 1347),"open: value unknown, to be researched"
+start but no end date,ISCA1973 (line 1348),"open: value unknown, to be researched"
+no country (not online),ISCA1981 (line 1341),"open: value unknown, to be researched"
+no country (not online),ISCA1980 (line 1342),"open: value unknown, to be researched"
+no country (not online),ISCA1979 (line 1343),"open: value unknown, to be researched"
+no country (not online),ISCA1978 (line 1344),"open: value unknown, to be researched"
+no country (not online),ISCA1977 (line 1345),"open: value unknown, to be researched"
+no country (not online),ISCA1976 (line 1346),"open: value unknown, to be researched"
+no country (not online),ISCA1974 (line 1347),"open: value unknown, to be researched"
+no country (not online),ISCA1973 (line 1348),"open: value unknown, to be researched"
+no country (not online),SBAC-PAD1991 (line 1952),"open: value unknown, to be researched"
+no country (not online),SBAC-PAD1989 (line 1954),"open: value unknown, to be researched"
+two editions of a series in one year,TheWeb1995 (line 2281),checked: correct (WWW had two conferences in 1994 and 1995)
+two editions of a series in one year,TheWeb1995_2 (line 2282),checked: correct (WWW had two conferences in 1994 and 1995)
+two editions of a series in one year,TheWeb1994 (line 2283),checked: correct (WWW had two conferences in 1994 and 1995)
+two editions of a series in one year,TheWeb1994_2 (line 2284),checked: correct (WWW had two conferences in 1994 and 1995)
