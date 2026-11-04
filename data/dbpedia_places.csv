@@ -149,7 +149,7 @@ state,Trentino,,Italy,http://dbpedia.org/resource/Trentino
 state,Utah,,USA,http://dbpedia.org/resource/Utah
 state,Valencian Community,,Spain,http://dbpedia.org/resource/Valencian_Community
 state,Vaud,,Switzerland,http://dbpedia.org/resource/Vaud
-state,Victoria,,Australia,http://dbpedia.org/resource/Victoria_(state)
+state,Victoria,,Australia,http://dbpedia.org/resource/Victoria_(Australia)
 state,Virginia,,USA,http://dbpedia.org/resource/Virginia
 state,Vorarlberg,,Austria,http://dbpedia.org/resource/Vorarlberg
 state,Västra Götaland,,Sweden,http://dbpedia.org/resource/Västra_Götaland_County
@@ -216,8 +216,8 @@ city,Bellevue,,USA,"http://dbpedia.org/resource/Bellevue,_Washington"
 city,Bellevue,Washington,USA,"http://dbpedia.org/resource/Bellevue,_Washington"
 city,Belo Horizonte,,Brazil,http://dbpedia.org/resource/Belo_Horizonte
 city,Bend,Oregon,USA,"http://dbpedia.org/resource/Bend,_Oregon"
-city,Bengaluru,,India,http://dbpedia.org/resource/Bengaluru
-city,Bengaluru,Karnataka,India,http://dbpedia.org/resource/Bengaluru
+city,Bengaluru,,India,http://dbpedia.org/resource/Bangalore
+city,Bengaluru,Karnataka,India,http://dbpedia.org/resource/Bangalore
 city,Bergamo,,Italy,http://dbpedia.org/resource/Bergamo
 city,Bergen,,Norway,http://dbpedia.org/resource/Bergen
 city,Berkeley,,USA,"http://dbpedia.org/resource/Berkeley,_California"
@@ -303,7 +303,7 @@ city,Charlotte,,USA,"http://dbpedia.org/resource/Charlotte,_North_Carolina"
 city,Charlotte,North Carolina,USA,"http://dbpedia.org/resource/Charlotte,_North_Carolina"
 city,Charlottesville,,USA,"http://dbpedia.org/resource/Charlottesville,_Virginia"
 city,Charlottesville,Virginia,USA,"http://dbpedia.org/resource/Charlottesville,_Virginia"
-city,Chia,Sardinia,Italy,"http://dbpedia.org/resource/Chia,_Sardinia"
+city,Chia,Sardinia,Italy,"http://dbpedia.org/resource/Chia_(Sardinia)"
 city,Chiba,,Japan,http://dbpedia.org/resource/Chiba_(city)
 city,Chicago,,USA,http://dbpedia.org/resource/Chicago
 city,Chicago,Illinois,USA,http://dbpedia.org/resource/Chicago
@@ -498,7 +498,7 @@ city,Linköping,,Sweden,http://dbpedia.org/resource/Linköping
 city,Linz,,Austria,http://dbpedia.org/resource/Linz
 city,Lisbon,,Portugal,http://dbpedia.org/resource/Lisbon
 city,Ljubljana,,Slovenia,http://dbpedia.org/resource/Ljubljana
-city,Lofthus,,Norway,"http://dbpedia.org/resource/Lofthus,_Ullensvang"
+city,Lofthus,,Norway,"http://dbpedia.org/resource/Lofthus,_Vestland"
 city,London,Ontario,Canada,"http://dbpedia.org/resource/London,_Ontario"
 city,London,,UK,http://dbpedia.org/resource/London
 city,Long Beach,California,USA,"http://dbpedia.org/resource/Long_Beach,_California"
@@ -663,8 +663,8 @@ city,Rio de Janeiro,,Brazil,http://dbpedia.org/resource/Rio_de_Janeiro
 city,Rio de Janeiro,Rio de Janeiro,Brazil,http://dbpedia.org/resource/Rio_de_Janeiro
 city,Riva del Garda,,Italy,http://dbpedia.org/resource/Riva_del_Garda
 city,Riva del Garda,Trentino,Italy,http://dbpedia.org/resource/Riva_del_Garda
-city,Roanoke,,USA,"http://dbpedia.org/resource/Roanoke,_Virgini"
-city,Roanoke,Virginia,USA,"http://dbpedia.org/resource/Roanoke,_Virgini"
+city,Roanoke,,USA,"http://dbpedia.org/resource/Roanoke,_Virginia"
+city,Roanoke,Virginia,USA,"http://dbpedia.org/resource/Roanoke,_Virginia"
 city,Rochester,Michigan,USA,"http://dbpedia.org/resource/Rochester,_Michigan"
 city,Rochester,New York,USA,"http://dbpedia.org/resource/Rochester,_New_York"
 city,Rockport,Massachusetts,USA,"http://dbpedia.org/resource/Rockport,_Massachusetts"
@@ -780,7 +780,7 @@ city,Toulouse,,France,http://dbpedia.org/resource/Toulouse
 city,Toulouse,Occitanie,France,http://dbpedia.org/resource/Toulouse
 city,Trento,,Italy,http://dbpedia.org/resource/Trento
 city,Trieste,Friuli Venezia Giulia,Italy,http://dbpedia.org/resource/Trieste
-city,Tromsø,,Norway,http://dbpedia.org/resource/Tromsø
+city,Tromsø,,Norway,http://dbpedia.org/resource/Tromsø_(city)
 city,Trondheim,,Norway,http://dbpedia.org/resource/Trondheim
 city,Tucson,,USA,"http://dbpedia.org/resource/Tucson,_Arizona"
 city,Tucson,Arizona,USA,"http://dbpedia.org/resource/Tucson,_Arizona"

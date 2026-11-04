@@ -462,3 +462,4 @@ SIGGRAPH2021,state,California,,state without a city (online edition)
 SIGGRAPH2020,state,California,,state without a city (online edition)
 VR2020,state,Georgia,,state without a city (online edition)
 WSDM2022,state,Arizona,,state without a city (online edition)
+EUROGP2025,state,Friuli Venezia Giulia,,region not found in DBpedia; state is optional for Italy

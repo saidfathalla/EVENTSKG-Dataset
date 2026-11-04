@@ -28,7 +28,7 @@ eventskg: a void:Dataset,
     dcterms:isReferencedBy <https://doi.org/10.1007/978-3-030-21348-0_28> ;
     dcterms:issued "2026-10-28"^^xsd:date ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-11-03"^^xsd:date ;
+    dcterms:modified "2026-11-04"^^xsd:date ;
     dcterms:provenance [ a dcterms:ProvenanceStatement ;
             dcterms:description "Release 3.0 was created by merging release 2.1 with a curated spreadsheet and by researching the editions held after 2018 from event web sites and proceedings. Every change to a value of release 2.1 is logged with its old value, new value and reason in the migration and correction logs; open data-quality items are listed in the data-check report. Sources of individual values are not yet recorded."@en ;
             dcterms:source <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/provenance/data_checks.csv>,
@@ -44,7 +44,7 @@ eventskg: a void:Dataset,
     vann:preferredNamespacePrefix "eventskg" ;
     vann:preferredNamespaceUri "http://w3id.org/EVENTSKG-Dataset/ekg#" ;
     void:classes 17 ;
-    void:distinctObjects 12985 ;
+    void:distinctObjects 12984 ;
     void:distinctSubjects 2627 ;
     void:entities 2627 ;
     void:feature <http://www.w3.org/ns/formats/JSON-LD>,
@@ -53,7 +53,7 @@ eventskg: a void:Dataset,
         <http://www.w3.org/ns/formats/RDF_XML>,
         <http://www.w3.org/ns/formats/Turtle> ;
     void:properties 62 ;
-    void:triples 39481 ;
+    void:triples 39480 ;
     owl:versionInfo "3.0" ;
     dcat:distribution [ a dcat:Distribution ;
             dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
@@ -6304,7 +6304,7 @@ eventskg:COLT2023 a owl:NamedIndividual,
     seo:acceptanceRate 0.3460 ;
     seo:acceptedPapers 164 ;
     seo:belongsToSeries eventskg:COLT ;
-    seo:city <http://dbpedia.org/resource/Bengaluru> ;
+    seo:city <http://dbpedia.org/resource/Bangalore> ;
     seo:eventWebsite "https://learningtheory.org/colt2023/" ;
     seo:hasPublisher "PMLR" ;
     seo:heldInCountry <http://dbpedia.org/resource/India> ;
@@ -12430,7 +12430,6 @@ eventskg:EUROGP2024 a owl:NamedIndividual,
 
 eventskg:EUROGP2025 a owl:NamedIndividual,
         conference-ontology:Conference ;
-    dbpedia-owl:state <http://dbpedia.org/resource/Friuli_Venezia_Giulia> ;
     conference-ontology:acronym "EuroGP 2025" ;
     conference-ontology:endDate "2025-04-25T00:00:00+00:00"^^xsd:dateTime ;
     conference-ontology:startDate "2025-04-23T00:00:00+00:00"^^xsd:dateTime ;
@@ -12623,7 +12622,7 @@ eventskg:EuroCrypt1993 a owl:NamedIndividual,
     seo:acceptanceRate 0.2308 ;
     seo:acceptedPapers 27 ;
     seo:belongsToSeries eventskg:EuroCrypt ;
-    seo:city <http://dbpedia.org/resource/Lofthus,_Ullensvang> ;
+    seo:city <http://dbpedia.org/resource/Lofthus,_Vestland> ;
     seo:eventWebsite "http://www.iacr.org/cryptodb/data/conf.php?year=1993&venue=eurocrypt" ;
     seo:hasPublisher "Springer" ;
     seo:heldInCountry <http://dbpedia.org/resource/Norway> ;
@@ -15720,7 +15719,7 @@ eventskg:HPCA2010 a owl:NamedIndividual,
     seo:acceptanceRate 0.1829 ;
     seo:acceptedPapers 32 ;
     seo:belongsToSeries eventskg:HPCA ;
-    seo:city <http://dbpedia.org/resource/Bengaluru> ;
+    seo:city <http://dbpedia.org/resource/Bangalore> ;
     seo:eventWebsite "http://www.cse.psu.edu/hpcl/hpca16.html" ;
     seo:hasPublisher "ACM" ;
     seo:hasSponsor "IEEE" ;
@@ -17997,7 +17996,7 @@ eventskg:ICONIP2025 a owl:NamedIndividual,
 
 eventskg:ICONIP2026 a owl:NamedIndividual,
         conference-ontology:Conference ;
-    dbpedia-owl:state <http://dbpedia.org/resource/Victoria_(state)> ;
+    dbpedia-owl:state <http://dbpedia.org/resource/Victoria_(Australia)> ;
     schema:eventStatus schema:EventScheduled ;
     conference-ontology:acronym "ICONIP 2026" ;
     conference-ontology:endDate "2026-11-27T00:00:00+00:00"^^xsd:dateTime ;
@@ -20332,7 +20331,7 @@ eventskg:IJCAI2016 a owl:NamedIndividual,
 
 eventskg:IJCAI2017 a owl:NamedIndividual,
         conference-ontology:Conference ;
-    dbpedia-owl:state <http://dbpedia.org/resource/Victoria_(state)> ;
+    dbpedia-owl:state <http://dbpedia.org/resource/Victoria_(Australia)> ;
     conference-ontology:acronym "IJCAI 2017" ;
     conference-ontology:endDate "2017-08-25T00:00:00+00:00"^^xsd:dateTime ;
     conference-ontology:startDate "2017-08-19T00:00:00+00:00"^^xsd:dateTime ;
@@ -22565,7 +22564,7 @@ eventskg:ISSAC2023 a owl:NamedIndividual,
     seo:acceptanceRate 0.3770 ;
     seo:acceptedPapers 46 ;
     seo:belongsToSeries eventskg:ISSAC ;
-    seo:city <http://dbpedia.org/resource/Tromsø> ;
+    seo:city <http://dbpedia.org/resource/Tromsø_(city)> ;
     seo:eventWebsite "https://www.issac-conference.org/2023/" ;
     seo:hasPublisher "ACM" ;
     seo:heldInCountry <http://dbpedia.org/resource/Norway> ;
@@ -22648,7 +22647,7 @@ eventskg:ISWC2002 a owl:NamedIndividual,
     seo:acceptanceRate 0.2842 ;
     seo:acceptedPapers 27 ;
     seo:belongsToSeries eventskg:ISWC ;
-    seo:city <http://dbpedia.org/resource/Chia,_Sardinia> ;
+    seo:city <http://dbpedia.org/resource/Chia_(Sardinia)> ;
     seo:eventWebsite "http://iswc2002.semanticweb.org/" ;
     seo:hasPublisher "IEEE" ;
     seo:heldInCountry <http://dbpedia.org/resource/Italy> ;
@@ -23672,7 +23671,7 @@ eventskg:JCDL2001 a owl:NamedIndividual,
     seo:acceptanceRate 0.3040 ;
     seo:acceptedPapers 76 ;
     seo:belongsToSeries eventskg:JCDL ;
-    seo:city <http://dbpedia.org/resource/Roanoke,_Virgini> ;
+    seo:city <http://dbpedia.org/resource/Roanoke,_Virginia> ;
     seo:eventWebsite "http://www.jcdl.org/archived-conf-sites/jcdl2001/" ;
     seo:hasPublisher "ACM" ;
     seo:heldInCountry <http://dbpedia.org/resource/United_States> ;
@@ -24431,7 +24430,7 @@ eventskg:KR2024 a owl:NamedIndividual,
 
 eventskg:KR2025 a owl:NamedIndividual,
         conference-ontology:Conference ;
-    dbpedia-owl:state <http://dbpedia.org/resource/Victoria_(state)> ;
+    dbpedia-owl:state <http://dbpedia.org/resource/Victoria_(Australia)> ;
     conference-ontology:acronym "KR 2025" ;
     conference-ontology:endDate "2025-11-17T00:00:00+00:00"^^xsd:dateTime ;
     conference-ontology:startDate "2025-11-11T00:00:00+00:00"^^xsd:dateTime ;
@@ -26202,7 +26201,7 @@ eventskg:NIPS2025 a owl:NamedIndividual,
 
 eventskg:NIPS2026 a owl:NamedIndividual,
         conference-ontology:Conference ;
-    dbpedia-owl:state <http://dbpedia.org/resource/Victoria_(state)> ;
+    dbpedia-owl:state <http://dbpedia.org/resource/Victoria_(Australia)> ;
     schema:eventStatus schema:EventScheduled ;
     conference-ontology:acronym "NeurIPS 2026" ;
     conference-ontology:endDate "2026-11-27T00:00:00+00:00"^^xsd:dateTime ;
@@ -30019,7 +30018,7 @@ eventskg:PODS2026 a owl:NamedIndividual,
     seo:ResearchField seo:InformationSystems ;
     seo:acceptedPapers 41 ;
     seo:belongsToSeries eventskg:PODS ;
-    seo:city <http://dbpedia.org/resource/Bengaluru> ;
+    seo:city <http://dbpedia.org/resource/Bangalore> ;
     seo:eventWebsite "https://2026.sigmod.org/index.shtml" ;
     seo:hasPublisher "ACM" ;
     seo:heldInCountry <http://dbpedia.org/resource/India> .
@@ -33517,7 +33516,7 @@ eventskg:SIGIR2025 a owl:NamedIndividual,
 
 eventskg:SIGIR2026 a owl:NamedIndividual,
         conference-ontology:Conference ;
-    dbpedia-owl:state <http://dbpedia.org/resource/Victoria_(state)> ;
+    dbpedia-owl:state <http://dbpedia.org/resource/Victoria_(Australia)> ;
     conference-ontology:acronym "SIGIR 2026" ;
     conference-ontology:endDate "2026-07-24T00:00:00+00:00"^^xsd:dateTime ;
     conference-ontology:startDate "2026-07-20T00:00:00+00:00"^^xsd:dateTime ;
@@ -34135,7 +34134,7 @@ eventskg:SIGMOD2014 a owl:NamedIndividual,
 
 eventskg:SIGMOD2015 a owl:NamedIndividual,
         conference-ontology:Conference ;
-    dbpedia-owl:state <http://dbpedia.org/resource/Victoria_(state)> ;
+    dbpedia-owl:state <http://dbpedia.org/resource/Victoria_(Australia)> ;
     conference-ontology:acronym "SIGMOD 2015" ;
     conference-ontology:endDate "2015-06-05T00:00:00+00:00"^^xsd:dateTime ;
     conference-ontology:startDate "2015-05-31T00:00:00+00:00"^^xsd:dateTime ;
@@ -34331,7 +34330,7 @@ eventskg:SIGMOD2026 a owl:NamedIndividual,
     seo:acceptanceRate 0.3327 ;
     seo:acceptedPapers 349 ;
     seo:belongsToSeries eventskg:SIGMOD ;
-    seo:city <http://dbpedia.org/resource/Bengaluru> ;
+    seo:city <http://dbpedia.org/resource/Bangalore> ;
     seo:hasPublisher "ACM" ;
     seo:heldInCountry <http://dbpedia.org/resource/India> ;
     seo:submittedPapers 1049 .
@@ -41588,7 +41587,7 @@ eventskg:PODS2014 a owl:NamedIndividual,
 
 eventskg:PODS2015 a owl:NamedIndividual,
         seo:Symposium ;
-    dbpedia-owl:state <http://dbpedia.org/resource/Victoria_(state)> ;
+    dbpedia-owl:state <http://dbpedia.org/resource/Victoria_(Australia)> ;
     conference-ontology:acronym "PODS 2015" ;
     conference-ontology:endDate "2015-06-04T00:00:00+00:00"^^xsd:dateTime ;
     conference-ontology:startDate "2015-05-31T00:00:00+00:00"^^xsd:dateTime ;

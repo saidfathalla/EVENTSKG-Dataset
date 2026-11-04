@@ -21,7 +21,7 @@
     "dct": "http://purl.org/dc/terms/"
   },
   "@type": ["Dataset", "dcat:Dataset", "void:Dataset"],
-  "void:triples": 44175,
+  "void:triples": 44192,
   "void:uriSpace": "http://w3id.org/EVENTSKG-Dataset/ekg#",
   "prov:wasDerivedFrom": {"@id": "https://w3id.org/EVENTSKG-Dataset/R2.1"},
   "dct:conformsTo": {"@id": "https://w3id.org/EVENTSKG-Dataset/shapes"},
@@ -30,7 +30,7 @@
   "@id": "https://doi.org/10.5281/zenodo.23806362",
   "name": "EVENTSKG: Reproducible and Interoperable Linked Data on Top-Ranked Computer Science Events",
   "alternateName": "EVENTSKG 3.0",
-  "description": "EVENTSKG is a five-star Linked Open Dataset of top-ranked computer science events. Release 3.0 describes 2,531 editions of 75 event series from eight communities (1969-2026), with dates, places linked to DBpedia and Wikidata, submitted and accepted papers, acceptance rates, publishers, sponsors, homepages, attendance mode and status. It is published as a generated edition (39,481 triples) and an enriched edition (44,175 triples).",
+  "description": "EVENTSKG is a five-star Linked Open Dataset of top-ranked computer science events. Release 3.0 describes 2,531 editions of 75 event series from eight communities (1969-2026), with dates, places linked to DBpedia and Wikidata, submitted and accepted papers, acceptance rates, publishers, sponsors, homepages, attendance mode and status. It is published as a generated edition (39,480 triples) and an enriched edition (44,192 triples).",
   "url": "https://saidfathalla.github.io/EVENTSKG-Dataset/docs/",
   "identifier": [
     "https://doi.org/10.5281/zenodo.23806362",
@@ -118,66 +118,77 @@
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, generated edition (Turtle)",
       "encodingFormat": "text/turtle",
+      "contentSize": "1.9 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/EVENTSKG.ttl"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, generated edition (N-Triples)",
       "encodingFormat": "application/n-triples",
+      "contentSize": "5.4 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG.nt"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, generated edition (JSON-LD)",
       "encodingFormat": "application/ld+json",
+      "contentSize": "2.6 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG.jsonld"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, generated edition (RDF/XML)",
       "encodingFormat": "application/rdf+xml",
+      "contentSize": "3.7 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG.rdf"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, generated edition (N3)",
       "encodingFormat": "text/n3",
+      "contentSize": "1.9 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG.n3"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, enriched edition (Turtle)",
       "encodingFormat": "text/turtle",
+      "contentSize": "2.1 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/EVENTSKG-enriched.ttl"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, enriched edition (N-Triples)",
       "encodingFormat": "application/n-triples",
+      "contentSize": "5.9 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG-enriched.nt"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, enriched edition (JSON-LD)",
       "encodingFormat": "application/ld+json",
+      "contentSize": "2.8 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG-enriched.jsonld"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, enriched edition (RDF/XML)",
       "encodingFormat": "application/rdf+xml",
+      "contentSize": "4.0 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG-enriched.rdf"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, enriched edition (N3)",
       "encodingFormat": "text/n3",
+      "contentSize": "2.1 MB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/serializations/EVENTSKG-enriched.n3"
     },
     {
       "@type": "DataDownload",
       "name": "EVENTSKG 3.0, curated record (CSV)",
       "encodingFormat": "text/csv",
+      "contentSize": "737.0 KB",
       "contentUrl": "https://saidfathalla.github.io/EVENTSKG-Dataset/data/EVENTSKG_data.csv"
     }
   ]
@@ -386,7 +397,7 @@
                 </tr>
                 <tr>
                     <th>Size</th>
-                    <td>Generated: 39,481 triples &middot; Enriched: 44,175 triples</td>
+                    <td>Generated: 39,480 triples &middot; Enriched: 44,192 triples</td>
                 </tr>
                 <tr>
                     <th>Vocabularies</th>
@@ -450,12 +461,12 @@
                 <div class="edition">
                     <h3>Generated edition</h3>
                     <p>Exactly the curated facts: events, series, dates, places as DBpedia IRIs, figures, publishers, and the dataset description.</p>
-                    <p>39,481 triples</p>
+                    <p>39,480 triples</p>
                 </div>
                 <div class="edition recommended">
                     <h3>Enriched edition <span class="badge">recommended</span></h3>
                     <p>The generated edition plus verified, typed and labelled places, labels for events and series, types for vocabulary values, and <code>owl:sameAs</code> links to Wikidata.</p>
-                    <p>44,175 triples</p>
+                    <p>44,192 triples</p>
                 </div>
             </div>
             <div class="data-table-wrapper">
@@ -500,19 +511,19 @@
             <table class="grid-table">
                 <thead><tr><th></th><th class="num">Generated</th><th class="num">Enriched</th></tr></thead>
                 <tbody>
-                    <tr><td>Resources with an <code>rdf:type</code></td><td class="num">78.4%</td><td class="num new">98.9%</td></tr>
-                    <tr><td>Resources with an <code>rdfs:label</code></td><td class="num">0%</td><td class="num new">98.2%</td></tr>
+                    <tr><td>Resources with an <code>rdf:type</code></td><td class="num">78.4%</td><td class="num new">99.1%</td></tr>
+                    <tr><td>Resources with an <code>rdfs:label</code></td><td class="num">0%</td><td class="num new">98.3%</td></tr>
                     <tr><td>Classes</td><td class="num">17</td><td class="num new">35</td></tr>
-                    <tr><td>Links to DBpedia and Wikidata</td><td class="num">6,020</td><td class="num new">6,676</td></tr>
-                    <tr class="sub"><td>of which <code>owl:sameAs</code> to Wikidata</td><td class="num">&ndash;</td><td class="num new">656</td></tr>
+                    <tr><td>Links to DBpedia and Wikidata</td><td class="num">6,019</td><td class="num new">6,680</td></tr>
+                    <tr class="sub"><td>of which <code>owl:sameAs</code> to Wikidata</td><td class="num">&ndash;</td><td class="num new">661</td></tr>
                     <tr><td>External datasets linked</td><td class="num">1</td><td class="num new">2</td></tr>
-                    <tr><td>Places checked against DBpedia</td><td class="num">&ndash;</td><td class="num">665</td></tr>
-                    <tr class="sub"><td>confirmed by DBpedia</td><td class="num">&ndash;</td><td class="num">580</td></tr>
+                    <tr><td>Places checked against DBpedia</td><td class="num">&ndash;</td><td class="num">664</td></tr>
+                    <tr class="sub"><td>confirmed by DBpedia</td><td class="num">&ndash;</td><td class="num">586</td></tr>
                     <tr class="sub"><td>typed from their role (no DBpedia type)</td><td class="num">&ndash;</td><td class="num">37</td></tr>
                     <tr class="sub"><td>another kind of place, typed as in DBpedia</td><td class="num">&ndash;</td><td class="num">41</td></tr>
-                    <tr class="sub"><td>not found in any DBpedia edition</td><td class="num">&ndash;</td><td class="num">7</td></tr>
-                    <tr class="sub"><td>redirecting IRIs replaced</td><td class="num">&ndash;</td><td class="num">13</td></tr>
-                    <tr><td>Triples</td><td class="num">39,481</td><td class="num">44,175</td></tr>
+                    <tr class="sub"><td>not found in any DBpedia edition</td><td class="num">&ndash;</td><td class="num">0</td></tr>
+                    <tr class="sub"><td>redirecting IRIs replaced</td><td class="num">&ndash;</td><td class="num">15</td></tr>
+                    <tr><td>Triples</td><td class="num">39,480</td><td class="num">44,192</td></tr>
                 </tbody>
             </table>
             </div>
@@ -522,7 +533,7 @@
         <!-- Reproduce -->
         <div class="card" id="reproduce">
             <h2>Reproduce the Release</h2>
-            <p>Every release is generated from the curated record; nothing is edited by hand in the RDF. With Python 3 and the files of the repository, a few commands rebuild and check both editions (39,481 and 44,175 triples):</p>
+            <p>Every release is generated from the curated record; nothing is edited by hand in the RDF. With Python 3 and the files of the repository, a few commands rebuild and check both editions (39,480 and 44,192 triples):</p>
 <pre>git clone https://github.com/saidfathalla/EVENTSKG-Dataset.git && cd EVENTSKG-Dataset
 python3 -m venv .venv && source .venv/bin/activate && pip install rdflib pyyaml pyshacl
 
@@ -565,7 +576,7 @@ python3 scripts/validate_rdf.py</pre>
         </div>
 
         <!-- Releases and Use Cases -->
-        <div class="card" id="previous-releases">
+        <div class="card">
             <h2>Previous Releases</h2>
             <p><strong>Release 2.1:</strong> the last version of release 2, based on the updated SEO ontology; 75 event series and 1,929 events in eight communities, up to 2018 (<a href="https://saidfathalla.github.io/EVENTSKG-Dataset/archive/R2.1/EVENTSKG.ttl">Turtle</a> | <a href="https://saidfathalla.github.io/EVENTSKG-Dataset/archive/R2.1/EVENTSKG.nt">N-Triples</a> | <a href="https://saidfathalla.github.io/EVENTSKG-Dataset/archive/R2.1/EVENTSKG.jsonld">JSON-LD</a> | <a href="https://github.com/saidfathalla/EVENTSKG-Dataset/tree/master/archive/R2.1">all files</a>).</p>
             <p><strong>Release 2.0 (2018-11, ESWC 2019):</strong> Linked Dataset based on the updated SEO ontology; 73 event series, 1,951 events and 29,255 triples in eight communities (<a href="https://doi.org/10.1007/978-3-030-21348-0_28">paper</a>).</p>

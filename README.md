@@ -29,10 +29,10 @@ EVENTSKG (formerly EVENTS) is a 5-star Linked Open Dataset of top-ranked compute
   * `schema:eventAttendanceMode`: online or mixed editions (129 events), which makes the move to virtual events during the COVID-19 pandemic visible;
   * `schema:eventStatus`: scheduled, cancelled or postponed editions.
 * **Reproducible generation.** The knowledge graph is generated from one curated CSV file by a declarative [SSSOM](https://mapping-commons.github.io/sssom/) mapping, with constraint checks and SHACL validation. Anyone can rebuild a release from the files in this repository (see [Reproducing the release](#reproducing-the-release)).
-* **Enrichment.** After generation, every place link is checked against DBpedia (existence, redirects, DBpedia language chapters, kind of place), almost every resource gets an `rdf:type` and an `rdfs:label` (98.9% and 98.2%), and every place found in DBpedia gets an `owl:sameAs` link to its Wikidata item. No volatile facts (populations, areas …) are copied.
+* **Enrichment.** After generation, every place link is checked against DBpedia (existence, redirects, DBpedia language chapters, kind of place), almost every resource gets an `rdf:type` and an `rdfs:label` (99.1% and 98.3%), and every place found in DBpedia gets an `owl:sameAs` link to its Wikidata item. No volatile facts (populations, areas …) are copied.
 * **Two editions.**
-  * **Generated** (`EVENTSKG.ttl`, 39,481 triples): exactly the curated facts, the reference for reproducing the release.
-  * **Enriched** (`EVENTSKG-enriched.ttl`, 44,175 triples): adds verified, typed and labelled places and the Wikidata links. Recommended for querying and integration.
+  * **Generated** (`EVENTSKG.ttl`, 39,480 triples): exactly the curated facts, the reference for reproducing the release.
+  * **Enriched** (`EVENTSKG-enriched.ttl`, 44,192 triples): adds verified, typed and labelled places and the Wikidata links. Recommended for querying and integration.
 * **Self-describing.** Each edition contains a dataset description: title, creators, licence, version, issue date, VoID statistics, and a `prov:wasRevisionOf` link to the previous release.
 * **Backward compatible.** All properties of release 2 (`seo:`, `conference-ontology:`, `dbpedia-owl:state`) and the IRIs of its events and series are kept, except three records of editions that never took place, so existing queries keep working.
 * **FAIR.** An automated assessment with [F-UJI](https://www.f-uji.net) gives the dataset a score of **100%** (see [FAIR assessment](#fair-assessment)).
@@ -42,14 +42,14 @@ EVENTSKG (formerly EVENTS) is a 5-star Linked Open Dataset of top-ranked compute
 
 | | Generated | Enriched |
 |---|---:|---:|
-| Resources with an `rdf:type` | 78.4% | 98.9% |
-| Resources with an `rdfs:label` | 0% | 98.2% |
+| Resources with an `rdf:type` | 78.4% | 99.1% |
+| Resources with an `rdfs:label` | 0% | 98.3% |
 | Classes | 17 | 35 |
-| Links to DBpedia and Wikidata | 6,020 | 6,676 |
-| `owl:sameAs` links to Wikidata | – | 656 |
-| Places checked against DBpedia (confirmed / typed from role / other kind / not found) | – | 665 (580 / 37 / 41 / 7) |
-| Redirecting DBpedia IRIs replaced | – | 13 |
-| Triples | 39,481 | 44,175 |
+| Links to DBpedia and Wikidata | 6,019 | 6,680 |
+| `owl:sameAs` links to Wikidata | – | 661 |
+| Places checked against DBpedia (confirmed / typed from role / other kind / not found) | – | 664 (586 / 37 / 41 / 0) |
+| Redirecting DBpedia IRIs replaced | – | 15 |
+| Triples | 39,480 | 44,192 |
 
 ### Communities covered
 
@@ -82,7 +82,7 @@ The release was assessed with [F-UJI](https://www.f-uji.net) 4.0.1 (FAIRsFAIR me
 | Reusable | 6/6 | advanced | CC BY 4.0; type, media type and size of every download; PROV-O provenance and correction logs |
 | **Total** | **26/26 (100%)** | | |
 
-To repeat the assessment, enter `https://w3id.org/EVENTSKG-Dataset/ekg` at <https://www.f-uji.net>.
+The full report is in [`fair/fuji-ekg-2026-11-03.json`](fair/fuji-ekg-2026-11-03.json). To repeat the assessment, enter `https://w3id.org/EVENTSKG-Dataset/ekg` at <https://www.f-uji.net>.
 
 ---
 
@@ -139,8 +139,8 @@ python3 scripts/validate_rdf.py
 python3 scripts/add_file_sizes.py
 ```
 
-Result of step 1: 2,531 events, 75 series, 39,481 triples, `0 errors, 0 warnings`, SHACL `Conforms: True`.
-Step 2 uses the answers in `.enrich_cache.json` and gives the same 44,175 triples; add `--offline` to make sure no external service is asked, or `--refresh` to ask DBpedia and Wikidata again.
+Result of step 1: 2,531 events, 75 series, 39,480 triples, `0 errors, 0 warnings`, SHACL `Conforms: True`.
+Step 2 uses the answers in `.enrich_cache.json` and gives the same 44,192 triples; add `--offline` to make sure no external service is asked, or `--refresh` to ask DBpedia and Wikidata again.
 
 ### Generation: `csv2rdf.py`
 

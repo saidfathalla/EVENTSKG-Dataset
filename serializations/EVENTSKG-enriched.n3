@@ -28,7 +28,7 @@ eventskg: a void:Dataset,
     dcterms:isReferencedBy <https://doi.org/10.1007/978-3-030-21348-0_28> ;
     dcterms:issued "2026-10-28"^^xsd:date ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-11-03"^^xsd:date ;
+    dcterms:modified "2026-11-04"^^xsd:date ;
     dcterms:provenance [ a dcterms:ProvenanceStatement ;
             dcterms:description "Release 3.0 was created by merging release 2.1 with a curated spreadsheet and by researching the editions held after 2018 from event web sites and proceedings. Every change to a value of release 2.1 is logged with its old value, new value and reason in the migration and correction logs; open data-quality items are listed in the data-check report. Sources of individual values are not yet recorded."@en ;
             dcterms:source <https://raw.githubusercontent.com/saidfathalla/EVENTSKG-Dataset/master/provenance/data_checks.csv>,
@@ -44,16 +44,16 @@ eventskg: a void:Dataset,
     vann:preferredNamespacePrefix "eventskg" ;
     vann:preferredNamespaceUri "http://w3id.org/EVENTSKG-Dataset/ekg#" ;
     void:classes 35 ;
-    void:distinctObjects 14313 ;
-    void:distinctSubjects 3307 ;
-    void:entities 3307 ;
+    void:distinctObjects 14323 ;
+    void:distinctSubjects 3313 ;
+    void:entities 3313 ;
     void:feature <http://www.w3.org/ns/formats/JSON-LD>,
         <http://www.w3.org/ns/formats/N-Triples>,
         <http://www.w3.org/ns/formats/N3>,
         <http://www.w3.org/ns/formats/RDF_XML>,
         <http://www.w3.org/ns/formats/Turtle> ;
     void:properties 63 ;
-    void:triples 44175 ;
+    void:triples 44192 ;
     owl:versionInfo "3.0" ;
     dcat:distribution [ a dcat:Distribution ;
             dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
@@ -13176,7 +13176,6 @@ eventskg:EUROGP2024 a owl:NamedIndividual,
 eventskg:EUROGP2025 a owl:NamedIndividual,
         conference-ontology:Conference ;
     rdfs:label "EuroGP 2025" ;
-    dbpedia-owl:state <http://dbpedia.org/resource/Friuli_Venezia_Giulia> ;
     conference-ontology:acronym "EuroGP 2025" ;
     conference-ontology:endDate "2025-04-25T00:00:00+00:00"^^xsd:dateTime ;
     conference-ontology:startDate "2025-04-23T00:00:00+00:00"^^xsd:dateTime ;
@@ -13382,7 +13381,7 @@ eventskg:EuroCrypt1993 a owl:NamedIndividual,
     seo:acceptanceRate 0.2308 ;
     seo:acceptedPapers 27 ;
     seo:belongsToSeries eventskg:EuroCrypt ;
-    seo:city <http://dbpedia.org/resource/Lofthus,_Ullensvang> ;
+    seo:city <http://dbpedia.org/resource/Lofthus,_Vestland> ;
     seo:eventWebsite "http://www.iacr.org/cryptodb/data/conf.php?year=1993&venue=eurocrypt" ;
     seo:hasPublisher "Springer" ;
     seo:heldInCountry <http://dbpedia.org/resource/Norway> ;
@@ -23938,7 +23937,7 @@ eventskg:ISSAC2023 a owl:NamedIndividual,
     seo:acceptanceRate 0.3770 ;
     seo:acceptedPapers 46 ;
     seo:belongsToSeries eventskg:ISSAC ;
-    seo:city <http://dbpedia.org/resource/Tromsø> ;
+    seo:city <http://dbpedia.org/resource/Tromsø_(city)> ;
     seo:eventWebsite "https://www.issac-conference.org/2023/" ;
     seo:hasPublisher "ACM" ;
     seo:heldInCountry <http://dbpedia.org/resource/Norway> ;
@@ -24026,7 +24025,7 @@ eventskg:ISWC2002 a owl:NamedIndividual,
     seo:acceptanceRate 0.2842 ;
     seo:acceptedPapers 27 ;
     seo:belongsToSeries eventskg:ISWC ;
-    seo:city <http://dbpedia.org/resource/Chia,_Sardinia> ;
+    seo:city <http://dbpedia.org/resource/Chia_(Sardinia)> ;
     seo:eventWebsite "http://iswc2002.semanticweb.org/" ;
     seo:hasPublisher "IEEE" ;
     seo:heldInCountry <http://dbpedia.org/resource/Italy> ;
@@ -25112,7 +25111,7 @@ eventskg:JCDL2001 a owl:NamedIndividual,
     seo:acceptanceRate 0.3040 ;
     seo:acceptedPapers 76 ;
     seo:belongsToSeries eventskg:JCDL ;
-    seo:city <http://dbpedia.org/resource/Roanoke,_Virgini> ;
+    seo:city <http://dbpedia.org/resource/Roanoke,_Virginia> ;
     seo:eventWebsite "http://www.jcdl.org/archived-conf-sites/jcdl2001/" ;
     seo:hasPublisher "ACM" ;
     seo:heldInCountry <http://dbpedia.org/resource/United_States> ;
@@ -44090,6 +44089,10 @@ eventskg:WSDM2026 a owl:NamedIndividual,
     rdfs:label "Charlottesville, Virginia"@en ;
     = <http://www.wikidata.org/entity/Q123766> .
 
+<http://dbpedia.org/resource/Chia_(Sardinia)> a dbpedia-owl:Settlement ;
+    rdfs:label "Chia (Sardinia)"@en ;
+    = <http://www.wikidata.org/entity/Q3246886> .
+
 <http://dbpedia.org/resource/Chiba_(city)> a dbpedia-owl:Settlement ;
     rdfs:label "Chiba (city)"@en ;
     = <http://www.wikidata.org/entity/Q170616> .
@@ -44484,6 +44487,10 @@ eventskg:WSDM2026 a owl:NamedIndividual,
     rdfs:label "Ljubljana"@en ;
     = <http://www.wikidata.org/entity/Q437> .
 
+<http://dbpedia.org/resource/Lofthus,_Vestland> a dbpedia-owl:Settlement ;
+    rdfs:label "Lofthus, Vestland"@en ;
+    = <http://www.wikidata.org/entity/Q739574> .
+
 <http://dbpedia.org/resource/Lombardy> a dbpedia-owl:AdministrativeRegion,
         dbpedia-owl:Region ;
     rdfs:label "Lombardy"@en ;
@@ -44746,6 +44753,10 @@ eventskg:WSDM2026 a owl:NamedIndividual,
     rdfs:label "Riga"@en ;
     = <http://www.wikidata.org/entity/Q1773> .
 
+<http://dbpedia.org/resource/Roanoke,_Virginia> a dbpedia-owl:Settlement ;
+    rdfs:label "Roanoke, Virginia"@en ;
+    = <http://www.wikidata.org/entity/Q501796> .
+
 <http://dbpedia.org/resource/Rochester,_Michigan> a dbpedia-owl:Settlement ;
     rdfs:label "Rochester, Michigan"@en ;
     = <http://www.wikidata.org/entity/Q1018266> .
@@ -44929,6 +44940,9 @@ eventskg:WSDM2026 a owl:NamedIndividual,
 <http://dbpedia.org/resource/Trieste> a dbpedia-owl:Settlement ;
     rdfs:label "Trieste"@en ;
     = <http://www.wikidata.org/entity/Q546> .
+
+<http://dbpedia.org/resource/Tromsø_(city)> a dbpedia-owl:Settlement ;
+    rdfs:label "Tromsø"@en .
 
 <http://dbpedia.org/resource/Tübingen> a dbpedia-owl:Settlement ;
     rdfs:label "Tübingen"@en ;
@@ -46020,6 +46034,10 @@ seo:PHDSymposium a owl:Class .
     rdfs:label "Bellevue, Washington"@en ;
     = <http://www.wikidata.org/entity/Q214164> .
 
+<http://dbpedia.org/resource/Bengaluru> a dbpedia-owl:Settlement ;
+    rdfs:label "Bengaluru"@en ;
+    = <http://www.wikidata.org/entity/Q1355> .
+
 <http://dbpedia.org/resource/Bonn> a dbpedia-owl:Settlement ;
     rdfs:label "Bonn"@en ;
     = <http://www.wikidata.org/entity/Q586> .
@@ -46360,6 +46378,11 @@ seo:PostersTrack a owl:Class .
 <http://dbpedia.org/resource/Venice> a dbpedia-owl:Settlement ;
     rdfs:label "Venice"@en ;
     = <http://www.wikidata.org/entity/Q641> .
+
+<http://dbpedia.org/resource/Victoria_(state)> a dbpedia-owl:AdministrativeRegion,
+        dbpedia-owl:Region ;
+    rdfs:label "Victoria (state)"@en ;
+    = <http://www.wikidata.org/entity/Q36687> .
 
 <http://dbpedia.org/resource/Wisconsin> a dbpedia-owl:AdministrativeRegion,
         dbpedia-owl:Region ;
