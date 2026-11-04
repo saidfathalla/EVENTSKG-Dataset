@@ -1,132 +1,132 @@
 event_id,column,old,new,reason
-AISTATS2026,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2026,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2025,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2025,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2024,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2024,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2023,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2023,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2022,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2022,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2021,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2021,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2020,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2020,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2019,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2019,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2018,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2018,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2017,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2017,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2016,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2016,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2015,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2015,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2014,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2014,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2013,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2013,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2012,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2012,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2011,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2011,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2010,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2010,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2009,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2009,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2007,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2007,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2005,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2005,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2003,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2003,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS2001,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS2001,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS1999,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS1999,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS1997,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS1997,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS1995,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS1995,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS1993,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS1993,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS1991,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS1991,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS1989,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS1989,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-AISTATS1985,series_acronym,AAAI,AISTATS,series acronym was wrong in R2
-AISTATS1985,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title was wrong in R2
-Eurosys2026,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2025,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2024,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2023,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2022,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2021,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2020,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2019,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2018,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2017,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2016,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2015,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2014,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2013,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2012,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2011,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2010,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2009,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2008,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2007,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-Eurosys2006,series_acronym,EuroSys,EUROSYS,series acronym was wrong in R2
-SIGIR2026,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2025,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2024,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2023,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2022,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2021,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2020,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2019,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2018,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2017,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2016,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2015,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2014,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2013,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2012,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2011,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2010,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2009,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2008,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2007,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2006,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2005,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2004,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2003,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2002,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2001,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR2000,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1999,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1998,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1997,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1996,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1995,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1994,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1993,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1992,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1991,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1990,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1989,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1988,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1987,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1986,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1985,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1984,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1983,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1982,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1981,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1980,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1979,series_acronym,POPL,SIGIR,series acronym was wrong in R2
-SIGIR1978,series_acronym,POPL,SIGIR,series acronym was wrong in R2
+AISTATS2026,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2026,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2025,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2025,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2024,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2024,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2023,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2023,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2022,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2022,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2021,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2021,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2020,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2020,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2019,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2019,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2018,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2018,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2017,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2017,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2016,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2016,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2015,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2015,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2014,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2014,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2013,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2013,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2012,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2012,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2011,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2011,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2010,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2010,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2009,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2009,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2007,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2007,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2005,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2005,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2003,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2003,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS2001,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS2001,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS1999,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS1999,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS1997,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS1997,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS1995,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS1995,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS1993,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS1993,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS1991,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS1991,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS1989,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS1989,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+AISTATS1985,series_acronym,AAAI,AISTATS,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+AISTATS1985,series_title,Annual National Conference on Artificial Intelligence,International Conference on Artificial Intelligence and Statistics,series title copied from another series in the curated spreadsheet; corrected before release
+Eurosys2026,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2025,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2024,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2023,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2022,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2021,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2020,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2019,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2018,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2017,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2016,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2015,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2014,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2013,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2012,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2011,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2010,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2009,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2008,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2007,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+Eurosys2006,series_acronym,EuroSys,EUROSYS,acronym spelling normalized to the series IRI
+SIGIR2026,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2025,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2024,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2023,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2022,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2021,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2020,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2019,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2018,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2017,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2016,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2015,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2014,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2013,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2012,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2011,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2010,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2009,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2008,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2007,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2006,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2005,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2004,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2003,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2002,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2001,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR2000,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1999,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1998,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1997,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1996,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1995,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1994,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1993,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1992,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1991,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1990,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1989,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1988,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1987,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1986,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1985,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1984,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1983,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1982,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1981,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1980,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1979,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
+SIGIR1978,series_acronym,POPL,SIGIR,series acronym copied from another series in the curated spreadsheet; corrected before release (R2 was correct)
 InfoVis2026,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
 InfoVis2025,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
 InfoVis2024,series_type,ConferenceSeries,SymposiumSeries,series type = type of 29 of its 37 editions
