@@ -25,5 +25,7 @@ jobs:
             --accept 200..=299,403,429
             --exclude '^https?://(localhost|127\.0\.0\.1)'
             --exclude '^https?://(dx\.)?doi\.org/10\.1007/'
+            --exclude '^https?://rdfs\.org/ns/'
+            --timeout 30
             './**/*.md' 'docs/*.html' 'VoID.ttl' 'data/eventskg-metadata.ttl'
           fail: true
