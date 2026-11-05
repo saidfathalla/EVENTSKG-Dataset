@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="EVENTSKG 3.0 is a five-star Linked Open Dataset of 2,531 editions of 75 top-ranked computer science event series (1969-2026), with dates, places, submission and acceptance figures, published in a generated and an enriched edition.">
+<meta name="description" content="EVENTSKG 3.0 is an open knowledge graph of 2,531 editions of 75 top-ranked computer science event series (1969-2026), with dates, places, submission and acceptance figures, published in a generated and an enriched edition.">
 <meta name="keywords" content="scientific events, scholarly knowledge graph, linked open data, RDF, SSSOM, DBpedia, Wikidata, computer science conferences, FAIR">
 <meta name="author" content="Said Fathalla">
 <title>EVENTSKG Dataset</title>
@@ -28,9 +28,9 @@
   "isAccessibleForFree": true,
   "conditionsOfAccess": "http://purl.org/coar/access_right/c_abf2",
   "@id": "https://doi.org/10.5281/zenodo.23806362",
-  "name": "EVENTSKG: Reproducible and Interoperable Linked Data on Top-Ranked Computer Science Events",
+  "name": "EVENTSKG 3.0: A Reproducible Knowledge Graph of Top-Ranked Computer Science Events",
   "alternateName": "EVENTSKG 3.0",
-  "description": "EVENTSKG is a five-star Linked Open Dataset of top-ranked computer science events. Release 3.0 describes 2,531 editions of 75 event series from eight communities (1969-2026), with dates, places linked to DBpedia and Wikidata, submitted and accepted papers, acceptance rates, publishers, sponsors, homepages, attendance mode and status. It is published as a generated edition (39,480 triples) and an enriched edition (44,192 triples).",
+  "description": "EVENTSKG is an open knowledge graph of top-ranked computer science events. Release 3.0 describes 2,531 editions of 75 event series from eight communities (1969-2026), with dates, places linked to DBpedia and Wikidata, submitted and accepted papers, acceptance rates, publishers, sponsors, homepages, attendance mode and status. It is published as a generated edition (39,480 triples) and an enriched edition (44,192 triples).",
   "url": "https://saidfathalla.github.io/EVENTSKG-Dataset/docs/",
   "identifier": [
     "https://doi.org/10.5281/zenodo.23806362",
@@ -39,11 +39,10 @@
   "sameAs": "https://github.com/saidfathalla/EVENTSKG-Dataset",
   "version": "3.0",
   "datePublished": "2026-10-28",
-  "dateModified": "2026-10-28",
+  "dateModified": "2026-11-04",
   "dateCreated": "2018-04-01",
   "inLanguage": "en",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "isAccessibleForFree": true,
   "creator": [
     {
       "@type": "Person",
@@ -112,7 +111,6 @@
   ],
   "citation": "https://doi.org/10.1007/978-3-030-21348-0_28",
   "isBasedOn": "https://saidfathalla.github.io/EVENTSKG-Dataset/archive/R2.1/EVENTSKG.ttl",
-  "conditionsOfAccess": "Open access, no registration required",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -184,9 +182,6 @@
 }
 </script>
 
-<!-- Highcharts dependencies -->
-<script src="highcharts.js"></script>
-<script src="exporting.js"></script>
 
 <style>
     :root {
@@ -323,6 +318,27 @@
         .meta-table th { width: 35%; }
         .meta-table th, .meta-table td { padding: 0.6rem; }
     }
+
+    /* At a glance (live statistics from VoID.ttl) */
+    .glance { background: linear-gradient(135deg, var(--primary-dark), var(--primary)); color: #fff; border-radius: 12px; padding: 1.25rem 1.5rem 1rem; margin-bottom: 2rem; box-shadow: 0 4px 12px -4px rgba(30,64,175,0.35); }
+    .glance-head { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.25rem 1rem; margin-bottom: 0.75rem; }
+    .glance-head h2 { margin: 0; padding: 0; border: 0; font-size: 1rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: #fff; }
+    .glance-live { font-size: 0.8rem; color: rgba(255,255,255,0.85); display: inline-flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 0.4rem; }
+    .glance-live > span { white-space: nowrap; }
+    .glance-live a { color: #fff; }
+    .glance-dot { width: 8px; height: 8px; border-radius: 50%; background: #4ade80; box-shadow: 0 0 0 3px rgba(74,222,128,0.25); }
+    .glance-dot.off { background: #cbd5e1; box-shadow: none; }
+    .glance-grid { display: grid; grid-template-columns: repeat(5, 1fr); }
+    .glance-item { padding: 0.6rem 1rem; border-left: 1px solid rgba(255,255,255,0.2); }
+    .glance-item:nth-child(5n+1) { border-left: 0; padding-left: 0; }
+    .glance-item b { display: block; font-size: 1.6rem; font-weight: 700; line-height: 1.15; font-variant-numeric: tabular-nums; }
+    .glance-item span { white-space: nowrap; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: rgba(255,255,255,0.8); }
+    @media (max-width: 600px) {
+        .glance-grid { grid-template-columns: repeat(2, 1fr); }
+        .glance-item { border-left: 0; padding-left: 0; }
+        .glance-item:nth-child(even) { border-left: 1px solid rgba(255,255,255,0.2); padding-left: 1rem; }
+        .glance-item b { font-size: 1.35rem; }
+    }
 </style>
 </head>
 
@@ -334,6 +350,8 @@
                 <a href="#about">About</a>
                 <a href="#download">Download</a>
                 <a href="#statistics">Statistics</a>
+                <a href="#fair">FAIR</a>
+                <a href="#usecases">Use cases</a>
                 <a href="#reproduce">Reproduce</a>
                 <a href="#samples">Sample data</a>
             </div>
@@ -343,10 +361,30 @@
             </div>
         </nav>
 
+        <!-- At a glance: read from the dataset description (VoID) of the enriched edition when the page loads; the numbers below are the fallback -->
+        <section class="glance" aria-labelledby="glanceTitle">
+            <div class="glance-head">
+                <h2 id="glanceTitle">EVENTSKG at a glance</h2>
+                <span class="glance-live"><i class="glance-dot" id="voidDot"></i><span id="voidState">Live from the <a href="https://saidfathalla.github.io/EVENTSKG-Dataset/EVENTSKG-enriched.ttl">enriched edition</a></span><span>· updated <span data-void="modified">2026-11-04</span></span></span>
+            </div>
+            <div class="glance-grid">
+                <div class="glance-item"><b data-void="triples">44,192</b><span>Triples</span></div>
+                <div class="glance-item"><b data-void="entities">3,313</b><span>Resources</span></div>
+                <div class="glance-item"><b data-void="distinctObjects">14,323</b><span>Distinct objects</span></div>
+                <div class="glance-item"><b data-void="classes">35</b><span>Classes</span></div>
+                <div class="glance-item"><b data-void="properties">63</b><span>Properties</span></div>
+                <div class="glance-item"><b data-void="dbpedia">6,019</b><span>Links to DBpedia</span></div>
+                <div class="glance-item"><b data-void="wikidata">661</b><span>Links to Wikidata</span></div>
+                <div class="glance-item"><b data-void="editions">2,531</b><span>Event editions</span></div>
+                <div class="glance-item"><b data-void="span">1969–2026</b><span>Time span</span></div>
+                <div class="glance-item"><b data-void="version">3.0</b><span>Version</span></div>
+            </div>
+        </section>
+
         <!-- Main Dataset Info Card -->
         <div class="card" id="about">
             <h1>EVENTSKG Dataset <span class="badge">Release 3.0</span></h1>
-            <p class="subtitle">A five-star Linked Open Dataset of top-ranked computer science events: 2,531 editions of 75 event series from eight communities, 1969&ndash;2026.</p>
+            <p class="subtitle">An open knowledge graph of top-ranked computer science events: 2,531 editions of 75 event series from eight communities, 1969&ndash;2026.</p>
             <table class="meta-table">
                 <tr>
                     <th>Title</th>
@@ -382,7 +420,7 @@
                 </tr>
                 <tr>
                     <th>Editions</th>
-                    <td><strong>Generated</strong> (the curated facts only) and <strong>enriched</strong> (verified, typed and labelled places, labels for all resources, links to Wikidata). See <a href="#download">Download</a>.</td>
+                    <td><strong>Generated</strong> (the curated facts only) and <strong>enriched</strong> (verified, typed and labeled places, labels for all resources, links to Wikidata). See <a href="#download">Download</a>.</td>
                 </tr>
                 <tr>
                     <th>Size</th>
@@ -398,7 +436,7 @@
                 </tr>
                 <tr>
                     <th>Access</th>
-                    <td>Dump download in five RDF serialisations and CSV, dereferenceable IRIs, <a href="sparql.html">in-browser SPARQL explorer</a></td>
+                    <td>Dump download in five RDF serializations and CSV, dereferenceable IRIs, <a href="sparql.html">in-browser SPARQL explorer</a></td>
                 </tr>
                 <tr>
                     <th>License</th>
@@ -406,7 +444,7 @@
                 </tr>
                 <tr>
                     <th>FAIR assessment</th>
-                    <td><strong>100%</strong> with <a href="https://www.f-uji.net">F-UJI</a> 4.0.1 (metrics v0.8): Findable 7/7, Accessible 7/7, Interoperable 6/6, Reusable 6/6, all at the highest maturity level (3 November 2026). See <a href="#fair">FAIR assessment</a>.</td>
+                    <td><strong>100%</strong> with <a href="https://www.f-uji.net">F-UJI</a> 4.0.1 (metrics v0.8): Findable 7/7, Accessible 7/7, Interoperable 6/6, Reusable 6/6 (3 November 2026). See <a href="#fair">FAIR assessment</a>.</td>
                 </tr>
                 <tr>
                     <th>API</th>
@@ -417,7 +455,7 @@
                     <td>
                         <ul>
                             <li>Said Fathalla, Heba Mohamed, Sören Auer. EVENTSKG 3.0 (dataset), Zenodo, 2026. <a href="https://doi.org/10.5281/zenodo.23806362">doi:10.5281/zenodo.23806362</a>.</li>
-                            <li>Said Fathalla, Heba Mohamed, Sören Auer. EVENTSKG 3.0: Reproducible and Interoperable Linked Data on Top-Ranked Computer Science Events. Semantic Web Journal (under review), 2026.</li>
+                            <li>Said Fathalla, Heba Mohamed, Sören Auer. EVENTSKG 3.0: A Reproducible Knowledge Graph of Top-Ranked Computer Science Events. Semantic Web Journal (under review), 2026.</li>
                             <li>Said Fathalla, Christoph Lange, Sören Auer. EVENTSKG: A 5-Star Dataset of Top-ranked Events in Eight Computer Science Communities. In The Semantic Web (ESWC 2019), LNCS 11503, pp. 427&ndash;442, Springer, 2019. <a href="https://doi.org/10.1007/978-3-030-21348-0_28">doi:10.1007/978-3-030-21348-0_28</a>.</li>
                             <li>Said Fathalla, and Christoph Lange. "EVENTSKG: A Knowledge Graph Representation for Top-Prestigious Computer Science Events Metadata." International Conference on Computational Collective Intelligence. Springer, Cham, 2018.</li>
                             <li>Said Fathalla, Christoph Lange. EVENTS: A Dataset on the History of Top-Prestigious Events in Five Computer Science Communities. In Semantics, Analytics, Visualization (SAVE-SD 2017 and 2018), pp. 110&ndash;120, Springer, 2018. <a href="https://doi.org/10.1007/978-3-030-01379-0_8">doi:10.1007/978-3-030-01379-0_8</a>.</li>
@@ -431,12 +469,12 @@
         <div class="card">
             <h2>What's New in Release 3.0</h2>
             <ul>
-                <li><strong>Extended coverage.</strong> 561 editions held from 2019 to 2026 were added, including the announced editions of 2026, and 44 missing historical editions were filled in: 2,531 events instead of 1,929 in release 2.1 (+31%).</li>
+                <li><strong>Extended coverage.</strong> The editions held from 2019 to 2026 were added, including the announced editions of 2026, and missing historical editions were filled in: 2,531 editions instead of 1,951 in release 2.0 (+30%).</li>
                 <li><strong>Corrected and completed data.</strong> More than 2,500 documented corrections fix wrong series, titles, places and dates inherited from earlier releases. Titles are now complete for all events and publishers for 99.5% of them.</li>
-                <li><strong>Attendance mode and status.</strong> Events record whether they were held online, in person or in a mixed format, and whether they were cancelled or postponed, so the move to virtual events during the COVID-19 pandemic is visible in the data.</li>
+                <li><strong>Attendance mode and status.</strong> Events record whether they were held online, in person or in a mixed format, and whether they were canceled or postponed, so the move to virtual events during the COVID-19 pandemic is visible in the data.</li>
                 <li><strong>Reproducible generation.</strong> The knowledge graph is regenerated from a curated CSV record by a declarative <a href="https://mapping-commons.github.io/sssom/">SSSOM</a> mapping, with constraint checks and SHACL validation. Anyone can rebuild and verify the release from the published record and mapping.</li>
                 <li><strong>Enrichment and interoperability.</strong> An enrichment step checks every place link against DBpedia (redirects, language chapters, kind of place), types and labels almost every resource, and links the places to Wikidata.</li>
-                <li><strong>Self-describing dataset.</strong> Each edition contains a machine-readable dataset description with VoID statistics, version information and a provenance link to release 2.1.</li>
+                <li><strong>Self-describing dataset.</strong> Each edition contains a machine-readable dataset description with VoID statistics, version information and a provenance link to the previous release.</li>
                 <li><strong>Backward compatible.</strong> The properties of release 2.0 and the IRIs of its events and series are kept, except three records of editions that never took place.</li>
                 <li><strong>FAIR.</strong> An automated assessment with F-UJI gives the dataset a score of 100% (<a href="#fair">details</a>).</li>
             </ul>
@@ -445,7 +483,7 @@
         <!-- Downloads -->
         <div class="card" id="download">
             <h2>Download</h2>
-            <p>Both editions are available in five RDF serialisations. Use the <strong>enriched edition</strong> for querying and integration, and the <strong>generated edition</strong> as the reference that can be reproduced exactly from the curated record.</p>
+            <p>Both editions are available in five RDF serializations. Use the <strong>enriched edition</strong> for querying and integration, and the <strong>generated edition</strong> as the reference that can be reproduced exactly from the curated record.</p>
             <div class="editions">
                 <div class="edition">
                     <h3>Generated edition</h3>
@@ -454,7 +492,7 @@
                 </div>
                 <div class="edition recommended">
                     <h3>Enriched edition <span class="badge">recommended</span></h3>
-                    <p>The generated edition plus verified, typed and labelled places, labels for events and series, types for vocabulary values, and <code>owl:sameAs</code> links to Wikidata.</p>
+                    <p>The generated edition plus verified, typed and labeled places, labels for events and series, types for vocabulary values, and <code>owl:sameAs</code> links to Wikidata.</p>
                     <p>44,192 triples</p>
                 </div>
             </div>
@@ -488,7 +526,8 @@
         <!-- Statistics Chart Card -->
         <div class="card" id="statistics">
             <h2>Dataset Statistics</h2>
-            <p>Key figures of release 3.0 compared with release 2.1, the last version of release 2.</p>
+
+            <p>Key figures of release 3.0 compared with release 2.0 (ESWC 2019).</p>
             <div id="chartRelease" class="chart"></div>
 
             <h3>Events per year and community</h3>
@@ -516,7 +555,7 @@
                 </tbody>
             </table>
             </div>
-            <p>The external datasets of the enriched edition are DBpedia and Wikidata. Typed and labelled shares count all resources, including the files and agents named in the dataset description.</p>
+            <p>The external datasets of the enriched edition are DBpedia and Wikidata. Typed and labeled shares count all resources, including the files and agents named in the dataset description.</p>
         </div>
 
         <!-- Reproduce -->
@@ -524,7 +563,7 @@
             <h2>Reproduce the Release</h2>
             <p>Every release is generated from the curated record; nothing is edited by hand in the RDF. With Python 3 and the files of the repository, a few commands rebuild and check both editions (39,480 and 44,192 triples):</p>
 <pre>git clone https://github.com/saidfathalla/EVENTSKG-Dataset.git && cd EVENTSKG-Dataset
-python3 -m venv .venv && source .venv/bin/activate && pip install rdflib pyyaml pyshacl
+python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
 
 <span class="c"># 1. Generate: CSV + SSSOM mapping -> generated edition, VoID description, statistics</span>
 python3 scripts/csv2rdf.py data/EVENTSKG_data.csv data/eventskg.sssom.tsv --places data/dbpedia_places.csv \
@@ -545,7 +584,7 @@ python3 scripts/validate_rdf.py</pre>
                 <li><strong>Linked places.</strong> Every city, state or region and country is a DBpedia resource, and in the enriched edition also <code>owl:sameAs</code> its Wikidata item, chosen by the exact Wikipedia article.</li>
                 <li><strong>Self-describing.</strong> In the enriched edition almost every resource has a type and a label, so generic Linked Data browsers and tools show names instead of bare IRIs.</li>
                 <li><strong>Machine-readable mapping.</strong> The SSSOM mapping set states, field by field, which property of which vocabulary each column becomes.</li>
-                <li><strong>Dataset metadata.</strong> VoID statistics, DCMI Terms metadata, version, licence and a <code>prov:wasRevisionOf</code> link to the previous release are part of each edition.</li>
+                <li><strong>Dataset metadata.</strong> VoID statistics, DCMI Terms metadata, version, license and a <code>prov:wasRevisionOf</code> link to the previous release are part of each edition.</li>
             </ul>
         </div>
 
@@ -554,12 +593,12 @@ python3 scripts/validate_rdf.py</pre>
             <h2>FAIR Assessment</h2>
             <p>The release was assessed with <a href="https://www.f-uji.net">F-UJI</a> 4.0.1 (FAIRsFAIR metrics v0.8) on its persistent IRI <code>https://w3id.org/EVENTSKG-Dataset/ekg</code> on 3 November 2026. It reaches the full score on all assessed metrics.</p>
             <table class="grid-table">
-                <tr><th>Principle</th><th>Score</th><th>Maturity</th><th>What satisfies it</th></tr>
-                <tr><td>Findable</td><td class="num">7/7</td><td>advanced</td><td>w3id.org IRIs and Zenodo DOI; title, creators with ORCID, dates, keywords; schema.org <code>Dataset</code> in JSON-LD</td></tr>
-                <tr><td>Accessible</td><td class="num">7/7</td><td>advanced</td><td>IRIs resolve over HTTP(S) with content negotiation; open access and CC BY 4.0 stated in the metadata</td></tr>
-                <tr><td>Interoperable</td><td class="num">6/6</td><td>advanced</td><td>RDF in five serializations; SEO, DCAT, VoID, PROV-O, DCMI Terms; links to DBpedia, Wikidata and release 2.1</td></tr>
-                <tr><td>Reusable</td><td class="num">6/6</td><td>advanced</td><td>CC BY 4.0; type, media type and size of every download; PROV-O provenance and correction logs</td></tr>
-                <tr><th>Total</th><th class="num">26/26 (100%)</th><th></th><th></th></tr>
+                <tr><th>Principle</th><th>Score</th><th>What satisfies it</th></tr>
+                <tr><td>Findable</td><td class="num">7/7</td><td>w3id.org IRIs and Zenodo DOI; title, creators with ORCID, dates, keywords; schema.org <code>Dataset</code> in JSON-LD</td></tr>
+                <tr><td>Accessible</td><td class="num">7/7</td><td>IRIs resolve over HTTP(S) with content negotiation; open access and CC BY 4.0 stated in the metadata</td></tr>
+                <tr><td>Interoperable</td><td class="num">6/6</td><td>RDF in five serializations; SEO, DCAT, VoID, PROV-O, DCMI Terms; links to DBpedia, Wikidata and the previous release</td></tr>
+                <tr><td>Reusable</td><td class="num">6/6</td><td>CC BY 4.0; type, media type and size of every download; PROV-O provenance and correction logs</td></tr>
+                <tr><th>Total</th><th class="num">26/26 (100%)</th><th></th></tr>
             </table>
             <p>To repeat the assessment, enter the IRI above at <a href="https://www.f-uji.net">f-uji.net</a>.</p>
         </div>
@@ -567,12 +606,12 @@ python3 scripts/validate_rdf.py</pre>
         <!-- Releases and Use Cases -->
         <div class="card">
             <h2>Previous Releases</h2>
-            <p><strong>Release 2.1:</strong> the last version of release 2, based on the updated SEO ontology; 75 event series and 1,929 events in eight communities, up to 2018 (<a href="https://saidfathalla.github.io/EVENTSKG-Dataset/archive/R2.1/EVENTSKG.ttl">Turtle</a> | <a href="https://saidfathalla.github.io/EVENTSKG-Dataset/archive/R2.1/EVENTSKG.nt">N-Triples</a> | <a href="https://saidfathalla.github.io/EVENTSKG-Dataset/archive/R2.1/EVENTSKG.jsonld">JSON-LD</a> | <a href="https://github.com/saidfathalla/EVENTSKG-Dataset/tree/master/archive/R2.1">all files</a>).</p>
+            <p><strong>Release 2.1 (archive):</strong> an interim update of release 2.0 that was not described in a paper, kept as the input of release 3.0; 75 event series and 1,929 events in eight communities, up to 2018 (<a href="https://saidfathalla.github.io/EVENTSKG-Dataset/archive/R2.1/EVENTSKG.ttl">Turtle</a> | <a href="https://saidfathalla.github.io/EVENTSKG-Dataset/archive/R2.1/EVENTSKG.nt">N-Triples</a> | <a href="https://saidfathalla.github.io/EVENTSKG-Dataset/archive/R2.1/EVENTSKG.jsonld">JSON-LD</a> | <a href="https://github.com/saidfathalla/EVENTSKG-Dataset/tree/master/archive/R2.1">all files</a>).</p>
             <p><strong>Release 2.0 (2018-11, ESWC 2019):</strong> Linked Dataset based on the updated SEO ontology; 73 event series, 1,951 events and 29,255 triples in eight communities (<a href="https://doi.org/10.1007/978-3-030-21348-0_28">paper</a>).</p>
             <p><strong>Version 2018-01 (EVENTSKG-40):</strong> Specification of 40 top-prestigious event series, described in the ICCCI 2018 paper listed under Citation.</p>
             <p><strong>Version 2018-01 (EVENTS):</strong> Specification of 25 event series (<a href="https://doi.org/10.1007/978-3-030-01379-0_8">paper</a>).</p>
 
-            <h2>Use Cases</h2>
+            <h2 id="usecases">Use Cases</h2>
             <ul>
                 <li><strong>Scientometric analysis.</strong> Growth of submissions and acceptance rates per community over five decades, the geography of events, and the shift to online events in 2020&ndash;2021.</li>
                 <li><strong>Venue selection.</strong> Authors can compare venues by selectivity, community and location; steering committees can follow the progression of their series; publishers can see how their proceedings evolve.</li>
@@ -591,7 +630,7 @@ python3 scripts/validate_rdf.py</pre>
                         <th>series_acronym</th><th>research_field</th><th>year</th><th>event_type</th><th>acronym</th><th>title</th><th>start_date</th><th>end_date</th><th>submitted_papers</th><th>accepted_papers</th><th>acceptance_rate</th><th>city</th><th>state</th><th>country</th><th>publisher</th>
                     </tr>
                     <tr>
-                        <td>AAAI</td><td>Artificial Intelligence</td><td>2025</td><td>Conference</td><td>AAAI 2025</td><td>39th Annual National Conference on Artificial Intelligence</td><td>2025-02-25</td><td>2025-03-04</td><td>15000</td><td>2735</td><td>0.1823</td><td>Phoenix</td><td>Arizona</td><td>USA</td><td>AAAI</td>
+                        <td>AAAI</td><td>Artificial Intelligence</td><td>2025</td><td>Conference</td><td>AAAI 2025</td><td>39th Annual AAAI Conference on Artificial Intelligence</td><td>2025-02-25</td><td>2025-03-04</td><td>12957</td><td>3032</td><td>0.2340</td><td>Philadelphia</td><td>Pennsylvania</td><td>USA</td><td>AAAI</td>
                     </tr>
                 </table>
             </div>
@@ -610,16 +649,16 @@ python3 scripts/validate_rdf.py</pre>
     <span class="v">seo:belongsToSeries</span> <span class="r">eventskg:AAAI</span> ;
     <span class="v">seo:ResearchField</span> <span class="v">seo:ArtificialIntelligence</span> ;
     <span class="v">conference-ontology:acronym</span> <span class="s">"AAAI 2025"</span> ;
-    <span class="v">conference-ontology:title</span> <span class="s">"39th Annual National Conference on Artificial Intelligence"</span> ;
+    <span class="v">conference-ontology:title</span> <span class="s">"39th Annual AAAI Conference on Artificial Intelligence"</span> ;
     <span class="v">conference-ontology:startDate</span> <span class="s">"2025-02-25T00:00:00+00:00"</span>^^<span class="v">xsd:dateTime</span> ;
     <span class="v">conference-ontology:endDate</span> <span class="s">"2025-03-04T00:00:00+00:00"</span>^^<span class="v">xsd:dateTime</span> ;
-    <span class="v">seo:city</span> <span class="r">&lt;http://dbpedia.org/resource/Phoenix,_Arizona&gt;</span> ;
-    <span class="v">dbpedia-owl:state</span> <span class="r">dbr:Arizona</span> ;
+    <span class="v">seo:city</span> <span class="r">dbr:Philadelphia</span> ;
+    <span class="v">dbpedia-owl:state</span> <span class="r">dbr:Pennsylvania</span> ;
     <span class="v">seo:heldInCountry</span> <span class="r">dbr:United_States</span> ;
     <span class="v">seo:eventWebsite</span> <span class="s">"https://aaai.org/conference/aaai/aaai-25/"</span> ;
-    <span class="v">seo:submittedPapers</span> 15000 ;
-    <span class="v">seo:acceptedPapers</span> 2735 ;
-    <span class="v">seo:acceptanceRate</span> 0.1823 ;
+    <span class="v">seo:submittedPapers</span> 12957 ;
+    <span class="v">seo:acceptedPapers</span> 3032 ;
+    <span class="v">seo:acceptanceRate</span> 0.2340 ;
     <span class="v">seo:hasPublisher</span> <span class="s">"AAAI"</span> ;
     <span class="v">seo:hasSponsor</span> <span class="s">"Google"</span> .</pre>
 
@@ -629,13 +668,13 @@ python3 scripts/validate_rdf.py</pre>
 
 <span class="r">eventskg:AAAI2025</span> <span class="v">rdfs:label</span> <span class="s">"AAAI 2025"</span> .
 
-<span class="r">&lt;http://dbpedia.org/resource/Phoenix,_Arizona&gt;</span> <span class="k">a</span> <span class="v">dbpedia-owl:Settlement</span> ;
-    <span class="v">rdfs:label</span> <span class="s">"Phoenix, Arizona"@en</span> ;
-    <span class="v">owl:sameAs</span> <span class="r">wd:Q16556</span> .
+<span class="r">dbr:Philadelphia</span> <span class="k">a</span> <span class="v">dbpedia-owl:City</span>, <span class="v">dbpedia-owl:Settlement</span> ;
+    <span class="v">rdfs:label</span> <span class="s">"Philadelphia"@en</span> ;
+    <span class="v">owl:sameAs</span> <span class="r">wd:Q1345</span> .
 
-<span class="r">dbr:Arizona</span> <span class="k">a</span> <span class="v">dbpedia-owl:AdministrativeRegion</span>, <span class="v">dbpedia-owl:Region</span> ;
-    <span class="v">rdfs:label</span> <span class="s">"Arizona"@en</span> ;
-    <span class="v">owl:sameAs</span> <span class="r">wd:Q816</span> .
+<span class="r">dbr:Pennsylvania</span> <span class="k">a</span> <span class="v">dbpedia-owl:AdministrativeRegion</span>, <span class="v">dbpedia-owl:Region</span> ;
+    <span class="v">rdfs:label</span> <span class="s">"Pennsylvania"@en</span> ;
+    <span class="v">owl:sameAs</span> <span class="r">wd:Q1400</span> .
 
 <span class="r">dbr:United_States</span> <span class="k">a</span> <span class="v">dbpedia-owl:Country</span> ;
     <span class="v">rdfs:label</span> <span class="s">"United States"@en</span> ;
@@ -647,6 +686,9 @@ python3 scripts/validate_rdf.py</pre>
         </footer>
     </div>
 
+<!-- Chart library, loaded at the end so it does not delay the page -->
+<script src="highcharts.js"></script>
+<script src="exporting.js"></script>
 <script>
 if (window.Highcharts) {
 Highcharts.setOptions({ lang: { thousandsSep: ',' } });
@@ -654,14 +696,14 @@ Highcharts.setOptions({ lang: { thousandsSep: ',' } });
 Highcharts.chart('chartRelease', {
     chart: { type: 'bar', backgroundColor: 'transparent' },
     title: { text: '' },
-    xAxis: { categories: ['Event series', 'Events', 'Host cities', 'States / regions', 'Host countries', 'Communities'], title: { text: null } },
+    xAxis: { categories: ['Event series', 'Editions', 'Host countries', 'Communities'], title: { text: null } },
     yAxis: { min: 0, title: { text: 'Count', align: 'high' } },
     plotOptions: { bar: { dataLabels: { enabled: true } } },
     tooltip: { shared: true },
     credits: { enabled: false },
     series: [
-        { name: "Release 2.1", data: [75, 1929, 393, 60, 62, 8], color: '#94a3b8' },
-        { name: 'Release 3.0', data: [75, 2531, 517, 91, 61, 8], color: '#2563eb' }
+        { name: 'Release 2.0', data: [73, 1951, 69, 8], color: '#94a3b8' },
+        { name: 'Release 3.0', data: [75, 2531, 61, 8], color: '#2563eb' }
     ]
 });
 
@@ -692,6 +734,75 @@ Highcharts.chart('chartRelease', {
         document.getElementById(id).style.height = 'auto';
     });
 }
+</script>
+
+<script>
+/* Fill the "At a glance" banner from the VoID description inside the enriched edition
+   (same site, so no CORS issue) and count the numbers up. */
+(function () {
+    /* Absolute URL: also works when the page is opened from a local copy (GitHub Pages allows cross-origin reads). */
+    var SRC = 'https://saidfathalla.github.io/EVENTSKG-Dataset/EVENTSKG-enriched.ttl';
+    var COUNT = ['triples', 'entities', 'distinctObjects', 'classes', 'properties', 'dbpedia', 'wikidata', 'editions'];
+    var els = {}, target = {};
+    document.querySelectorAll('.glance [data-void]').forEach(function (el) { els[el.getAttribute('data-void')] = el; });
+    COUNT.forEach(function (k) {
+        if (!els[k]) return;
+        var n = Number(els[k].textContent.replace(/[^0-9]/g, ''));
+        if (n) { target[k] = n; els[k].textContent = '0'; }
+    });
+
+    function countUp() {
+        var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        var dur = 1500, t0 = null;
+        function frame(ts) {
+            if (t0 === null) t0 = ts;
+            var p = reduce ? 1 : Math.min((ts - t0) / dur, 1), ease = 1 - Math.pow(1 - p, 3);
+            COUNT.forEach(function (k) {
+                if (els[k] && target[k] !== undefined) els[k].textContent = Math.round(target[k] * ease).toLocaleString('en-US');
+            });
+            if (p < 1) requestAnimationFrame(frame);
+        }
+        requestAnimationFrame(frame);
+    }
+
+    /* Return the Turtle block of one subject, e.g. "eventskg:" up to the next blank line. */
+    function block(ttl, subject) {
+        var i = ttl.search(new RegExp('(^|\\n)' + subject.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s+a\\s'));
+        if (i < 0) return '';
+        var j = ttl.indexOf('\n\n', i + 1);
+        return ttl.slice(i, j < 0 ? undefined : j);
+    }
+
+    fetch(SRC, { cache: 'no-cache' }).then(function (r) {
+        if (!r.ok) throw new Error(r.status);
+        return r.text();
+    }).then(function (ttl) {
+        var ds = block(ttl, 'eventskg:');
+        if (!ds) throw new Error('no dataset description');
+        function n(p) { var m = ds.match(new RegExp('void:' + p + '\\s+(\\d+)')); return m ? Number(m[1]) : null; }
+        function lit(re) { var m = ds.match(re); return m ? m[1] : null; }
+        ['triples', 'entities', 'distinctObjects', 'classes', 'properties'].forEach(function (k) {
+            var x = n(k); if (x !== null) target[k] = x;
+        });
+        /* Every edition belongs to exactly one series. */
+        var ed = (ttl.match(/seo:belongsToSeries\s/g) || []).length; if (ed) target.editions = ed;
+        /* Links = objects (not subjects, which start a line) that are DBpedia or Wikidata resources. */
+        function links(re) { var c = 0, m; while ((m = re.exec(ttl)) !== null) { if (m.index > 0 && ttl[m.index - 1] !== '\n') c++; } return c; }
+        var db = links(/<http:\/\/dbpedia\.org\/resource\/|(?:^|[^\w:])dbr:/g);
+        var wd = links(/<http:\/\/www\.wikidata\.org\/entity\/|(?:^|[^\w:])wd:/g);
+        if (db) target.dbpedia = db;
+        if (wd) target.wikidata = wd;
+        var v = lit(/owl:versionInfo\s+"([^"]+)"/), mod = lit(/(?:dcterms|terms|dct):modified\s+"([^"]+)"/);
+        var s = lit(/dcat:startDate\s+"([^"]+)"/), e = lit(/dcat:endDate\s+"([^"]+)"/);
+        if (v && els.version) els.version.textContent = v;
+        if (mod && els.modified) els.modified.textContent = mod;
+        if (s && e && els.span) els.span.textContent = s + '\u2013' + e;
+    }).catch(function () {
+        var state = document.getElementById('voidState'), dot = document.getElementById('voidDot');
+        if (state) state.innerHTML = 'Generated from the <a href="https://saidfathalla.github.io/EVENTSKG-Dataset/EVENTSKG-enriched.ttl">enriched edition</a>';
+        if (dot) dot.className = 'glance-dot off';
+    }).then(countUp);
+})();
 </script>
 </body>
 </html>
